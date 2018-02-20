@@ -93,10 +93,9 @@ If on Windows it's recommended to install [MacType](http://www.mactype.net/) bec
 [Experimental@pycharm64.exe] 
 ClipBoxFix=1
 [General@pycharm64.exe]
-NormalWeight=-16
+NormalWeight=-8
 BoldWeight=-4
 ```
-I also recommend setting IDE Antialiasing to Greyscale (but not Editor Antialiasing) in PyCharm and changing font to Open Sans.
 
 See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
 
