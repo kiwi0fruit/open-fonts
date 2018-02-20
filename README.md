@@ -25,7 +25,7 @@ Contents:
 Font fallback chain: `'Open Sans', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
 
 
-## Best non-free sans serif is Segoe UI (by Steve Matteson)
+## Best non-free but accessible sans serif font is Segoe UI (by Steve Matteson)
 
 Segoe UI is available for free in Windows Vista and later.
 
@@ -60,6 +60,11 @@ Font fallback chain:
 
 * In case of **Chrome/Chromium only** `'Libertin Serif', 'Libert Serif', 'PT Astra Serif', Tinos, 'Noto Serif', 'STIX Two Math', Symbola, 'Noto Serif CJK TC', serif`,
 * In case of **PDF/Firefox**: `'Libertinus Serif', 'PT Astra Serif', Tinos, 'Noto Serif', 'STIX Two Math', Symbola, 'Noto Serif CJK TC', serif`.
+
+Worth mentioning [Libertinus Math](https://fontlibrary.org/en/font/libertinus-math) that bring Libertinus Serif to OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
+
+
+## I haven't seen non-free but accessible serif font better than Libertinus serif
 
 
 ## Build Libert Serif
@@ -135,7 +140,7 @@ This extesnion would help you to make internet less messy in style :-)
 See best fallback chain for Roboto Mono in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
 
 
-## Best non-free monospace is Consolas (by Luc(as) de Groot)
+## Best non-free but accessible monospace is Consolas (by Luc(as) de Groot)
 
 See install instructions and best fallback chain for Consolas in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
 
@@ -145,6 +150,8 @@ See install instructions and best fallback chain for Consolas in the [SugarTeX d
 ## Inconsolata S
 
 Inconsolata S is a font for [SugarTeX](https://github.com/kiwi0fruit/sugartex) that would be based on [Inconsolata LGC](https://github.com/kiwi0fruit/Inconsolata-LGC) (by Raph Levien, Dimosthenis Kaponis, MihailJP).
+
+Actually Inconsolata is prettie than Roboto Mono but Roboto Mono has better unicode support and some other better characters. So for now it's the best free monospace font.
 
 
 ## Build Inconsolata S
@@ -240,7 +247,4 @@ Aa B   y    Ee Zz Hn O0 Ii Kk    Mu Nv    Oo    Pp     Tt Yu     Xx
 
 # P.S.
 
-* [Font fallback app via FontForge Python](https://tex.stackexchange.com/a/414040/133525) may be written in order to use mentioned fallback chains in *TeX or MS Word conveniently,
-* Greek from [MathJax_Main/MathJax_Math](https://github.com/mathjax/MathJax/tree/master/fonts/HTML-CSS/TeX/otf) for small italic Greek is really good  
-  (`git clone --depth=1 https://github.com/mathjax/MathJax`),
-* Worth mentioning [Libertinus Math](https://fontlibrary.org/en/font/libertinus-math) and [Libertinus Serif](https://fontlibrary.org/en/font/libertinus-serif) that bring Linux Libertine to OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
+* [Font fallback app via FontForge Python](https://tex.stackexchange.com/a/414040/133525) may be written in order to use mentioned fallback chains in TeX or MS Word conveniently.
