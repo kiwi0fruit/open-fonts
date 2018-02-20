@@ -25,14 +25,7 @@ Contents:
 Font fallback chain: `'Open Sans', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
 
 
-## [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC, (by Steve Matteson and Google), [Download](https://www.google.com/get/noto/#sans-lgc)
-
-Font fallback chain: `'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
-
-Actually Noto Sans design is as the same as Open Sans design - but slightly thicker. So it's a matter of taste which one to use.
-
-
-## Best non-free monospace is Segoe UI (by Steve Matteson)
+## Best non-free sans serif is Segoe UI (by Steve Matteson)
 
 Segoe UI is available for free in Windows Vista and later.
 
