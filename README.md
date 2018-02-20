@@ -90,6 +90,7 @@ ClipBoxFix=1
 NormalWeight=-8
 BoldWeight=-4
 ```
+See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
 
 Actually MacType can be tuned. Here is my custom part of the config:
 ```ini
@@ -113,12 +114,10 @@ BoldWeight=-2
 NormalWeight=12
 ```
 
-See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
 
+# [Stylebot](https://github.com/ankit/stylebot)
 
-# Stylebot
-
-[Stylebot](https://github.com/ankit/stylebot) is an open source Google Chrome extension that allows users to manipulate a web page’s appearance. [Install](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha).
+Stylebot is an open source Google Chrome extension that allows users to manipulate a web page’s appearance. [Install](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha).
 
 1. Incrementally build custom stylesheets for Chrome.
 2. Save custom CSS rules for sites. The next time they visit a site, their custom CSS is already applied.
