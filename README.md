@@ -7,6 +7,7 @@ Contents:
 * [Best Sans Serif](#best-sans-serif)
 * [Best Serif](#best-serif)
 * [MacType](#mactype)
+* [Stylebot](#stylebot)
 * [Best Monospace](#best-monospace)
 * [P.S.](#ps)
 
@@ -120,6 +121,19 @@ NormalWeight=12
 ```
 
 See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
+
+
+# Stylebot
+
+[Stylebot](https://github.com/ankit/stylebot) is an open source Google Chrome extension that allows users to manipulate a web page’s appearance. [Install](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha).
+
+1. Incrementally build custom stylesheets for Chrome.
+2. Save custom CSS rules for sites. The next time they visit a site, their custom CSS is already applied.
+3. Export and import creted styles.
+ 
+I haven't checked if it's safe. But it looks safe.
+
+This extesnion would help you to make internet less messy in style :-)
 
 
 # Best Monospace
