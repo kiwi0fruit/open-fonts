@@ -96,7 +96,7 @@ ClipBoxFix=1
 NormalWeight=-16
 BoldWeight=-4
 ```
-I also recommend setting IDE Antialiasing to Greyscale (but not Editor Antialiasing) in PyCharm and changing font to Open Mono.
+I also recommend setting IDE Antialiasing to Greyscale (but not Editor Antialiasing) in PyCharm and changing font to Open Sans.
 
 See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
 
