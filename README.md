@@ -97,6 +97,28 @@ NormalWeight=-8
 BoldWeight=-4
 ```
 
+Actually MacType can be tuned. Here is my custom part of the config:
+```ini
+[Experimental@pycharm64.exe]
+;PyCharm fix
+ClipBoxFix=1
+[General@pycharm64.exe]
+;PyCharm fix + Consolas
+NormalWeight=-14
+BoldWeight=-4
+[General@notepad++.exe]
+;for Consolas
+NormalWeight=-4
+BoldWeight=-2
+[General@notepad.exe]
+;for Consolas
+NormalWeight=-4
+BoldWeight=-2
+[General@explorer.exe]
+;Explorer fix
+NormalWeight=12
+```
+
 See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
 
 
