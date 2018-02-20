@@ -140,7 +140,7 @@ This extesnion would help you to make internet less messy in style :-)
 See best fallback chain for Roboto Mono in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
 
 
-## Best non-free but accessible monospace is Consolas (by Luc(as) de Groot)
+## Best non-free but accessible monospace font is Consolas (by Luc(as) de Groot)
 
 See install instructions and best fallback chain for Consolas in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
 
