@@ -25,9 +25,14 @@ Contents:
 Font fallback chain: `'Open Sans', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
 
 
+## Open Sans is ClearType optimized!
+
+
 # Best Serif
 
-## [Libertinus Serif](https://github.com/khaledhosny/libertinus) (by Philipp H. Poll, fork by Khaled Hosny)
+## [Libertinus Serif](https://github.com/khaledhosny/libertinus) (by Philipp H. Poll, fork by Khaled Hosny), [Download](https://fontlibrary.org/en/font/libertinus-serif)
+
+Libertinus Serif is poorly supported by Windows ClearType. WS Word 2007 renders it ugly. Chrome with ClearTpe renders it nicely though. It's really beautiful on Linux, MacOS or Windows with [MacType](#mactype).
 
 The original version is unfinished so I recommend using:
 * In case of **Chrome/Chromium only**: [Libertin Serif/Libert Serif](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/libert_serif.7z) that is a fork of Libertinus Serif. [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/libert_serif.7z),
@@ -130,9 +135,9 @@ This extesnion would help you to make internet less messy in style :-)
 See best fallback chain for Roboto Mono in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
 
 
-## Best non-free but accessible monospace font is Consolas (by Luc(as) de Groot)
+## Best accessible and ClearType optimized monospace font is Consolas (by Luc(as) de Groot)
 
-See install instructions and best fallback chain for Consolas in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
+It's also good without ClearType. See install instructions and best fallback chain for Consolas in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
 
 
 ## TODO:
