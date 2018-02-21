@@ -25,13 +25,6 @@ Contents:
 Font fallback chain: `'Open Sans', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
 
 
-## Best non-free but accessible sans serif font is Segoe UI (by Steve Matteson)
-
-Segoe UI is available for free in Windows Vista and later.
-
-Font fallback chain: `'Segoe UI', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
-
-
 # Best Serif
 
 ## [Libertinus Serif](https://github.com/khaledhosny/libertinus) (by Philipp H. Poll, fork by Khaled Hosny)
@@ -62,9 +55,6 @@ Font fallback chain:
 * In case of **PDF/Firefox**: `'Libertinus Serif', 'PT Astra Serif', Tinos, 'Noto Serif', 'STIX Two Math', Symbola, 'Noto Serif CJK TC', serif`.
 
 Worth mentioning [Libertinus Math](https://fontlibrary.org/en/font/libertinus-math) that bring Libertinus Serif to OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
-
-
-## I haven't seen non-free but accessible serif font better than Libertinus serif
 
 
 ## Build Libert Serif
