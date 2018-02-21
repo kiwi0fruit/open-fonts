@@ -33,4 +33,4 @@ I also suggest to fix:
 * From PT Astra Serif adapt normal italic я, м like Libertinus я, м.
 
 
-**See [pseudo-spec](libertinus_serif_spec.docx)**.
+### See [pseudo-spec](libertinus_serif_spec.docx)
