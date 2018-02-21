@@ -15,4 +15,4 @@ I also suggest to fix:
 * [ ] [Fix Cyrillic](https://github.com/khaledhosny/libertinus/issues/74). Cyrillic doesn't have bold italic. Cyrillic semibold italic is only slanted instead of real italic. PT Astra Serif (OFL) and Noto Serif/Droid Serif (Apache License v.2) can be adapted to Libertinus Serif.
 
 
-**See [pseudo-spec](libertinus_serif_spec.docx)**.
+### See [pseudo-spec](libertinus_serif_spec.docx)
