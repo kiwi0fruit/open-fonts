@@ -32,7 +32,7 @@ I also suggest to fix:
 * Fix normal italic ж like c so it's more like bold italic from Noto Serif,
 * From PT Astra Serif adapt normal italic я, м like Libertinus я, м.
 
-* [ ] Fix some Latin characters.
+* [ ] [Fix some Latin](https://github.com/khaledhosny/libertinus/issues/133) characters.
     * Adapt @, 2, 3, 4, 5 from [Crimson](https://fontlibrary.org/en/font/crimson),
     * Change italic g to the one like in Computer modern (single-story): make g from a and ɡ. Bold and semibold make from a and 5 (check ʒ). I think single-story g is better for mathematical contexts. It would look like the 1st one:
     
