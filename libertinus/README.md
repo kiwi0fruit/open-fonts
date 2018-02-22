@@ -33,8 +33,7 @@ I also suggest to fix:
 * From PT Astra Serif adapt normal italic я, м like Libertinus я, м.
 
 * [ ] [Fix some Latin](https://github.com/khaledhosny/libertinus/issues/133) characters.
-    * Adapt @ from [Crimson](https://fontlibrary.org/en/font/crimson),
-    * Adapt 2, 3, 4, 5 from Crimson,
+    * Adapt 2, 3, 4, 5 from [Crimson](https://fontlibrary.org/en/font/crimson),
     * Change italic g to the one like in Computer modern (single-story): make g from a and ɡ. Bold and semibold make from a and 5 (check ʒ). I think single-story g is better for mathematical contexts. It would look like the 1st one:
 
 ![](https://user-images.githubusercontent.com/19735117/36479036-c6d0e8cc-1739-11e8-9e19-9ee610484c78.jpg)
