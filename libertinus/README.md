@@ -4,7 +4,7 @@ Lowercase Greek italic (regular, semibold, bold) in Libertinus Serif only slante
 
 As a solution:
 
-Adapt GFS Porson (OFL) and MathJax Computer Modern (Apache License v.2) - use Porson's "curls". CM Greek lowercase letters look ideal for math (also worth taking regular and italic Υ and Ω from CM). But I think it's better to stick closer to GFS Porson design to have a distinct look from CM (but it's a harder way).
+Adapt GFS Porson (OFL) and MathJax Computer Modern (OFL) - use Porson's "curls". CM Greek lowercase letters look ideal for math (also worth taking regular and italic Υ and Ω from CM). But I think it's better to stick closer to GFS Porson design to have a distinct look from CM (but it's a harder way).
 
 I also suggest to fix: 
 * regular μ, ν, γ - adapt from [Noto Serif](https://fonts.google.com/specimen/Noto+Serif)/Droid Serif (Apache License v.2),
@@ -40,3 +40,5 @@ I also suggest to fix:
 
 
 ### See [pseudo-spec](libertinus_serif_spec.docx)
+
+Most of the spec is there actually (it's also a newer version).
