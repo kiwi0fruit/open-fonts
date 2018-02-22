@@ -10,7 +10,7 @@ I also suggest to fix:
 * regular μ, ν, γ - adapt from [Noto Serif](https://fonts.google.com/specimen/Noto+Serif)/Droid Serif (Apache License v.2),
 * regular semibold μ - adapt from Noto Serif,
 * regular bold μ, ν - adapt from Noto Serif,
-* regular ψ (make a blend of Noto Serif - right part and Libertinus Serif - left part). So it looks more like [GFS Elpis](https://fontlibrary.org/en/font/gfs-elpis) (proprietary license).
+* regular ψ - adapt from [Gentum Basic](https://fontlibrary.org/ru/font/gentium)/[Gentum Plus](https://fontlibrary.org/ru/font/gentium-plus) (OFL).
 
 * [ ] [Fix Cyrillic](https://github.com/khaledhosny/libertinus/issues/74). Cyrillic doesn't have bold italic. Cyrillic semibold italic is only slanted instead of real italic. PT Astra Serif (OFL) and Noto Serif/Droid Serif (Apache License v.2) bold italic can be adapted to Libertinus Serif:
 
@@ -33,9 +33,10 @@ I also suggest to fix:
 * From PT Astra Serif adapt normal italic я, м like Libertinus я, м.
 
 * [ ] [Fix some Latin](https://github.com/khaledhosny/libertinus/issues/133) characters.
-    * Adapt @, 2, 3, 4, 5 from [Crimson](https://fontlibrary.org/en/font/crimson),
+    * Adapt @ from [Crimson](https://fontlibrary.org/en/font/crimson),
+    * Adapt 2, 3, 4, 5 from Crimson,
     * Change italic g to the one like in Computer modern (single-story): make g from a and ɡ. Bold and semibold make from a and 5 (check ʒ). I think single-story g is better for mathematical contexts. It would look like the 1st one:
-    
+
 ![](https://user-images.githubusercontent.com/19735117/36479036-c6d0e8cc-1739-11e8-9e19-9ee610484c78.jpg)
 
 
