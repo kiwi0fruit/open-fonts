@@ -195,7 +195,7 @@ This fallback chain would be used for generating Open Mono.
 
 Characters that should be taken from particular fonts ignoring fallback chain:
 
-* Update: **WARNING** due to license incompatibility I cannot use 'DejaVu Sans Mono' and 'TeX Gyre Schola Math' together with OFL fonts,
+* Update: **WARNING** due to license incompatibility I cannot mix glyphs from 'DejaVu Sans Mono', OFL-licensed, Apache2-licensed fonts in the single font. So they should be combined only via fallback chains with separate fonts. In order to use such chains in programs that do not support font fallback (like *TeX, MS Word, Notepad++) the [font fallback app via FontForge Python](https://tex.stackexchange.com/a/414040/133525) should be written,
 * Cousine: `ˎˏˌαχνᵦᵩₐₑₒᵤᵥₓᵅᵝᵟᵋᶿᶲᵠᵃᵇᶜᵈᵉᶠʰʲᵏˡᵐᵒᵖˢᵘᵛʷˣʸᶻᴬᴮᴰᴱᴳᴴᴶᴷᴸᶫᴹᴺᶰᴼᴾᴿᵀᵁᶸⱽᵂ`, `ₗ` - copy and move `ˡ`, `⁄` (fraction slash),
 * Symbola: `ᵨᵧᵪᵞᵡ`,
 * DejaVu Sans Mono: `˳ᴵᶦⁱⁿᵗᶥʳₕᵢⱼₖₘₙₚᵣₛₜ₀₂₃₄₅₆₇₈₉⁰²³⁴⁵⁶⁷⁸⁹`, `∕` (division slash).
@@ -205,7 +205,7 @@ Characters that should be taken from particular fonts ignoring fallback chain:
 * **either** Open Sans: `g` (adjust weight by 17 for regular and italic first),
 * **or** Droid Sans Mono: `g` (check weight and Look on Windows since Droid Sans Mono looks badly on Windows),
 * Roboto Mono: `₁` - copy and move `¹`,
-* TeX Gyre Schola Math: `⎴⎵`.
+* Make narrower like in TeX Gyre Schola Math: `⎴⎵`.
 
 Note that for now `⅒` are present in DejaVu Sans or Symbola.
 
