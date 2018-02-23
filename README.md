@@ -212,16 +212,14 @@ Note that for now `⅒` are present in DejaVu Sans or Symbola.
 ## Inconsolata S spec
 
 1. Replace:
-  * R, I, B, IB `12369` - from Roboto Mono and make them thinner (if necessary take all numbers from there),
+  * R, I, B, IB `12369` - adapt from OFL font (if necessary take all numbers from there),
   * I, IB `a` (lat/cyr) - **make** from Inconsolata `d` looking at Open Sans italic `a`,
-  * I, IB `y` (lat/cyr) - from Cousine (IB make thinner),
-  * I, IB `дл` (cyr) - from Open Sans (IB make thinner, may be change slant a bit),
+  * I, IB `y` (lat/cyr) - from Noto Mono (I, IB make via FontForge),
+  * I, IB `дл` (cyr) - from Noto Sans Mono (I, IB make via FontForge),
   * R, I, B, IB "\`" take from ...,
-  * Also see characters in "Roboto Mono fork spec" (they should be adapted anyway).
+  * Also see characters in "Roboto Mono fork spec" (they should be adapted),
 2. Inconsolata S should be of the same thickness as Inconsolata LGC For Powerline,
-3. **WARNING** due to license incompatibility I cannot mix glyphs from 'DejaVu Sans Mono', OFL-licensed, Apache2-licensed fonts in the single font. So they may be combined only via fallback chains with separate fonts. In order to use such chains in programs that do not support font fallback (like \*TeX, MS Word, Notepad++) the [font fallback app via FontForge Python](https://tex.stackexchange.com/a/414040/133525) should be written,
-4. So the best option is to use only OFL-licensed fonts,
-5. Use Noto Sans Mono (OFL), Noto Sans (OFL).
+3. Use Noto Sans Mono (OFL), Noto Sans (OFL).
 
 
 ## Test Inconsolata S
