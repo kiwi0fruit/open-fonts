@@ -84,7 +84,7 @@ If on Windows it's recommended to install [MacType](http://www.mactype.net/) bec
 * MacType changes permissions of his folder in Program Files. I'm not sure that it's a good idea. So I recommend removing non-inherited permissions from MacType folder (apply this to subfolders also). So that the folder modification is possible only with admin privilegies.
 * Some programs need special config settings. For example PyCharm:
 ```ini
-[Experimental@pycharm64.exe] 
+[Experimental@pycharm64.exe]
 ClipBoxFix=1
 [General@pycharm64.exe]
 NormalWeight=-8
@@ -122,7 +122,7 @@ Stylebot is an open source Google Chrome extension that allows users to manipula
 1. Incrementally build custom stylesheets for Chrome.
 2. Save custom CSS rules for sites. The next time they visit a site, their custom CSS is already applied.
 3. Export and import creted styles.
- 
+
 I haven't checked if it's safe. But it looks safe.
 
 This extesnion would help you to make internet less messy in style :-)
@@ -195,7 +195,6 @@ This fallback chain would be used for generating Open Mono.
 
 Characters that should be taken from particular fonts ignoring fallback chain:
 
-* Update: **WARNING** due to license incompatibility I cannot mix glyphs from 'DejaVu Sans Mono', OFL-licensed, Apache2-licensed fonts in the single font. So they should be combined only via fallback chains with separate fonts. In order to use such chains in programs that do not support font fallback (like *TeX, MS Word, Notepad++) the [font fallback app via FontForge Python](https://tex.stackexchange.com/a/414040/133525) should be written,
 * Cousine: `ˎˏˌαχνᵦᵩₐₑₒᵤᵥₓᵅᵝᵟᵋᶿᶲᵠᵃᵇᶜᵈᵉᶠʰʲᵏˡᵐᵒᵖˢᵘᵛʷˣʸᶻᴬᴮᴰᴱᴳᴴᴶᴷᴸᶫᴹᴺᶰᴼᴾᴿᵀᵁᶸⱽᵂ`, `ₗ` - copy and move `ˡ`, `⁄` (fraction slash),
 * Symbola: `ᵨᵧᵪᵞᵡ`,
 * DejaVu Sans Mono: `˳ᴵᶦⁱⁿᵗᶥʳₕᵢⱼₖₘₙₚᵣₛₜ₀₂₃₄₅₆₇₈₉⁰²³⁴⁵⁶⁷⁸⁹`, `∕` (division slash).
@@ -220,7 +219,9 @@ Note that for now `⅒` are present in DejaVu Sans or Symbola.
   * R, I, B, IB "\`" take from ...,
   * Also see characters in "Roboto Mono fork spec" (they should be adapted anyway).
 2. Inconsolata S should be of the same thickness as Inconsolata LGC For Powerline,
-3. Use Noto Sans Mono
+3. **WARNING** due to license incompatibility I cannot mix glyphs from 'DejaVu Sans Mono', OFL-licensed, Apache2-licensed fonts in the single font. So they may be combined only via fallback chains with separate fonts. In order to use such chains in programs that do not support font fallback (like \*TeX, MS Word, Notepad++) the [font fallback app via FontForge Python](https://tex.stackexchange.com/a/414040/133525) should be written,
+4. So the best option is to use only OFL-licensed fonts,
+5. Use Noto Sans Mono (OFL), Noto Sans (OFL).
 
 
 ## Test Inconsolata S
