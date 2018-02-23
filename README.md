@@ -195,6 +195,7 @@ This fallback chain would be used for generating Open Mono.
 
 Characters that should be taken from particular fonts ignoring fallback chain:
 
+* Update: **WARNING** due to license incompatibility I cannot use 'DejaVu Sans Mono' and 'TeX Gyre Schola Math' together with OFL fonts,
 * Cousine: `ˎˏˌαχνᵦᵩₐₑₒᵤᵥₓᵅᵝᵟᵋᶿᶲᵠᵃᵇᶜᵈᵉᶠʰʲᵏˡᵐᵒᵖˢᵘᵛʷˣʸᶻᴬᴮᴰᴱᴳᴴᴶᴷᴸᶫᴹᴺᶰᴼᴾᴿᵀᵁᶸⱽᵂ`, `ₗ` - copy and move `ˡ`, `⁄` (fraction slash),
 * Symbola: `ᵨᵧᵪᵞᵡ`,
 * DejaVu Sans Mono: `˳ᴵᶦⁱⁿᵗᶥʳₕᵢⱼₖₘₙₚᵣₛₜ₀₂₃₄₅₆₇₈₉⁰²³⁴⁵⁶⁷⁸⁹`, `∕` (division slash).
