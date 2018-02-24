@@ -212,14 +212,13 @@ Note that for now `⅒` are present in DejaVu Sans or Symbola.
 ## Inconsolata S spec
 
 1. Replace:
-  * R, I, B, IB `12369` - adapt from OFL font (if necessary take all numbers from there),
   * I, IB `a` (lat/cyr) - **make** from Inconsolata `d` looking at Open Sans italic `a`,
-  * I, IB `y` (lat/cyr) - from Noto Mono (I, IB make via FontForge),
-  * I, IB `дл` (cyr) - from Noto Sans Mono (I, IB make via FontForge),
-  * R, I, B, IB "\`" take from ...,
+  * I, IB `y` (lat/cyr) - from Noto Mono (I, IB make via FontForge). Or take from Noto Sans,
+  * I, IB `д` (cyr) - from Noto Sans,
+  * R, I, B, IB "\`" take from <...> (also take all modifier letter and combining accents - for style consistency),
   * Also see characters in "Roboto Mono fork spec" (they should be adapted),
 2. Inconsolata S should be of the same thickness as Inconsolata LGC For Powerline,
-3. Use Noto Sans Mono (OFL), Noto Sans (OFL).
+3. Use Noto Sans Mono (OFL), Noto Sans (OFL), Noto Mono (OFL).
 
 
 ## Test Inconsolata S
