@@ -52,13 +52,12 @@ other = u"""
 03[89A].      Ύ    Ώ    ΐ    Θ    Υ    Ω    Ϋ    ά    έ    ή    ί
 03B.     ΰ    α    β    γ    δ    ε    ζ    η    θ    ι    κ    λ    μ    ν    ξ    ο
 03C.     π    ρ    ς    σ    τ    υ    φ    χ    ψ    ω    ϊ    ϋ    ό    ύ    ώ
-03[DEF].      ϐ    ϑ    Υ    ϓ    ϔ    ϕ    ϖ    ϗ    Ϛ    ϛ    ϰ    ϱ    ϵ    ϶
+03[DEF].      ϐ    ϑ    ϒ    ϓ    ϔ    ϕ    ϖ    ϗ    Ϛ    ϛ    ϰ    ϱ    ϵ    ϶
 2202          ∂
 """
-
 cyrillic = re.sub(r'[ x0123456789ABCDEF\r\n\+\.\!\?\[\]\|\(\)]', '', cyrillic)
 other = re.sub(r'[ x0123456789ABCDEF\r\n\+\.\!\?\[\]\|\(\)]', '', other)
-print(len(cyrillic), len(other))
+print(len(set([c for c in cyrillic])), len(set([c for c in other])))
 
 # TODO: Merge fonts in fallback order: Libertinus Serif, PT Astra Serif. Then Tinos or Noto Serif (торчащие вниз лучше в Noto видны) on custom basis.
 # TODO: Check stilistic coherence in clusters.
