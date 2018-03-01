@@ -135,12 +135,14 @@ This extesnion would help you to make internet less messy in style :-)
 See best fallback chain for Roboto Mono in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
 
 
-## Best accessible and ClearType optimized monospace font is Consolas (by Luc(as) de Groot)
+## Consolas (by Luc(as) de Groot)
+
+It's the best accessible and ClearType optimized monospace font. It looks too thick on big sizes but in Chromium based Atom editor with [MacType](#mactype) default profile it looks excellent.  
 
 It's also good without ClearType. See install instructions and best fallback chain for Consolas in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
 
 
-## TODO:
+# TODO:
 
 ## Inconsolata S
 
