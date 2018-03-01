@@ -130,7 +130,9 @@ This extesnion would help you to make internet less messy in style :-)
 
 # Best Monospace
 
-## [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) (by Christian Robertson). [Download](https://github.com/google/fonts/tree/master/apache/robotomono)
+## [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) (by Christian Robertson).
+
+Italic in Roboto Mono has different width so it's recommended to use **Open Mono** fork that is simply a renamed monospacified version of Roboto Mono.
 
 See best fallback chain for Roboto Mono in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
 

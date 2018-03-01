@@ -51,9 +51,9 @@ monospacifier(fonts, refs, dir_, merge, copy_metrics)
 # ---------------------------------
 for fn, ff, style in styles:
     ofn = fn + '_monospacified_for_RobotoMono.ttf'  # Old Font Name
-    fn = fn.replace('Mono', 'Monos')  # Font Name
-    ff = ff.replace('Mono', 'Monos')  # Font Family
-    rename_font(join(dir_, ofn), join(dir_, fn +'.sfd'),
+    fn = fn.replace('Roboto', 'Open')  # Font Name
+    ff = ff.replace('Roboto', 'Open')  # Font Family
+    rename_font(join(dir_, ofn), join(dir_, fn +'.ttf'),
                 fn,  ff,  ff +' '+ style,
                 clean_up=True)
 
@@ -66,13 +66,18 @@ styles = [
 ]
 for fn, ff, style in styles:
     ofn = fn + '.ttf'
-    fn = fn.replace('Mono', 'Monos')
-    ff = ff.replace('Mono', 'Monos')
-    rename_font(join(robotomono, ofn), join(dir_, fn +'.sfd'),
+    fn = fn.replace('Roboto', 'Open')
+    ff = ff.replace('Roboto', 'Open')
+    rename_font(join(robotomono, ofn), join(dir_, fn +'.ttf'),
                 fn,  ff,  ff + (' '+ style if style != 'Regular' else ''),
                 clean_up=False)
 
 
+# Do not forget to replace BoldItalic with Bold Italic manually in Open Mono Bold Italic!
+# ---------------------------------
+
+
+"""
 # Monospacify STIX Two Math, Symbola, Noto Sans Symbols:
 # ------------------------------------------------------
 fonts = [
@@ -130,3 +135,4 @@ for fn, ff, style in styles:
     rename_font(join(dir_, ofn), join(dir_, fn +'.sfd'),
                 fn,  ff,  ff + (' '+ style if style != '' else ''),
                 clean_up=True)
+"""
