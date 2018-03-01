@@ -25,14 +25,13 @@ refs = [join(robotomono, 'RobotoMono-Regular.ttf')]
 merge = False
 copy_metrics = True  # copy metrics
 
-
-# Monospacify Roboto Mono:
-# ------------------------
 dir_ = join(repos, 'monospacified')
 if not os.path.exists(dir_):
     os.makedirs(dir_)
 
 
+# Monospacify Roboto Mono:
+# ------------------------
 def cat(string):
     return string.replace(' ', '')
 
