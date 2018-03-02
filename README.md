@@ -79,7 +79,7 @@ If on Windows it's recommended to install [MacType](http://www.mactype.net/) bec
 
 **Important**:
 
-* Use Default profile but change ini setting to `NormalWeight=0` (instead of 16) (this is needed for [Chrome support](https://github.com/snowie2000/mactype/issues/402)),
+* Use Default profile but change ini setting to `NormalWeight=8` (instead of 16) (with this the [difference between Chrome and other programs](https://github.com/snowie2000/mactype/issues/402) is not so big),
 * MacType can clash with cheap Antiviruses though. In my case the problem was solved by deleting AVG/Avast and installing Kaspersky Free (Kaspersky IS is also OK).
 * MacType changes permissions of his folder in Program Files. I'm not sure that it's a good idea. So I recommend removing non-inherited permissions from MacType folder (apply this to subfolders also). So that the folder modification is possible only with admin privilegies.
 * Some programs need special config settings. For example PyCharm:
