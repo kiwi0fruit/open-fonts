@@ -14,7 +14,7 @@ Contents:
 
 # Best Sans Serif
 
-## [Lato](https://fonts.google.com/specimen/Lato) (by Łukasz Dziedzic), [Download](http://www.latofonts.com/)
+## [Open Sans](https://fonts.google.com/specimen/Open+Sans) (by Steve Matteson), [Download](https://github.com/google/fonts/tree/master/apache/opensans)
 
 * 1st Unicode fallback: [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.7z),
 * 2nd Unicode fallback: [DejaVu Sans](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://dejavu-fonts.github.io/Download.html),
@@ -22,7 +22,7 @@ Contents:
 * Final Unicode fallback: [Symbola](https://fontlibrary.org/en/font/symbola) (by George Douros), [Download](https://fontlibrary.org/en/font/symbola),
 * CJK fallback: Noto Sans CJK TC Regular (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Sans CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
-Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
+Font fallback chain: `'Open Sans', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
 
 
 # Best Serif
