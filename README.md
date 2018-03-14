@@ -156,6 +156,22 @@ git clone https://github.com/kiwi0fruit/open-fonts
 
 # TODO:
 
+## Inconsolata S spec
+
+Inconsolata S is a font for [SugarTeX](https://github.com/kiwi0fruit/sugartex) that would be based on [Inconsolata LGC](https://github.com/kiwi0fruit/Inconsolata-LGC) (by Raph Levien, Dimosthenis Kaponis, MihailJP).
+
+Actually Inconsolata is prettie than Roboto Mono but Roboto Mono has better unicode support and some other better characters.
+
+1. Replace:
+  * I, IB `a` (lat/cyr) - **make** from Inconsolata `d` looking at Open Sans italic `a`,
+  * I, IB `y` (lat/cyr) - from Noto Mono (I, IB make via FontForge). Or take from Noto Sans,
+  * I, IB `д` (cyr) - from Noto Sans,
+  * R, I, B, IB "\`" take from <...> (also take all modifier letter and combining accents - for style consistency),
+  * Also see characters in "Roboto Mono fork spec" (they should be adapted),
+2. Inconsolata S should be of the same thickness as Inconsolata LGC For Powerline,
+3. Use Noto Sans Mono (OFL), Noto Sans (OFL).
+
+
 ## Useful FontForge python methods
 
 `copy`, `paste`, `removeGlyph`, `select`, `invert`, `italicize`, `changeWeight`, `translate`. Taken from [this manual](https://fontforge.github.io/python.html).
