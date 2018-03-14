@@ -136,33 +136,25 @@ See best fallback chain for Roboto Mono in the [SugarTeX docs](https://github.co
 
 ## Consolas (by Luc(as) de Groot)
 
-It's the best accessible and ClearType optimized monospace font. It looks too thick on big sizes but in Chromium based Atom editor with [MacType](#mactype) default profile it looks excellent.  
+It's the best ClearType optimized monospace font if on Windows. It looks too thick on big sizes but in Chromium based Atom editor with [MacType](#mactype) default profile it looks excellent.
 
 It's also good without ClearType. See install instructions and best fallback chain for Consolas in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
 
 
-# TODO:
-
-## Inconsolata S
-
-Inconsolata S is a font for [SugarTeX](https://github.com/kiwi0fruit/sugartex) that would be based on [Inconsolata LGC](https://github.com/kiwi0fruit/Inconsolata-LGC) (by Raph Levien, Dimosthenis Kaponis, MihailJP).
-
-Actually Inconsolata is prettie than Roboto Mono but Roboto Mono has better unicode support and some other better characters. So for now it's the best free monospace font.
-
-
-## Build Inconsolata S
+## Build Open Mono and DejaVu Sans Mono for Consolas
 
 1. [Install FontForge](https://fontforge.github.io/en-US/downloads/windows/)
 2. Clone Google Fonts, other fonts, Monospacifier and Open Fonts repos:
 ```sh
 git clone --depth=1 https://github.com/kiwi0fruit/fonts
-git clone --depth=1 https://github.com/kiwi0fruit/dejavu-fonts
-git clone --depth=1 https://github.com/kiwi0fruit/Inconsolata-LGC
 git clone https://github.com/kiwi0fruit/monospacifier
 git clone https://github.com/kiwi0fruit/open-fonts
+# copy `consola.ttf` to local open-fonts repo folder
 ```
 3. Run appropriate batch script
 
+
+# TODO:
 
 ## Useful FontForge python methods
 
@@ -186,7 +178,7 @@ font.generate("font.ttf")
 Useful [stackoverflow answer](https://stackoverflow.com/questions/14557944/downsizing-an-otf-font-by-removing-glyphs/34132900#34132900).
 
 
-## Roboto Mono fork spec (archive)
+## Archive Open Mono spec
 
 Font Fallback chain:
 
@@ -210,19 +202,7 @@ Characters that should be taken from particular fonts ignoring fallback chain:
 Note that for now `⅒` are present in DejaVu Sans or Symbola.
 
 
-## Inconsolata S spec
-
-1. Replace:
-  * I, IB `a` (lat/cyr) - **make** from Inconsolata `d` looking at Open Sans italic `a`,
-  * I, IB `y` (lat/cyr) - from Noto Mono (I, IB make via FontForge). Or take from Noto Sans,
-  * I, IB `д` (cyr) - from Noto Sans,
-  * R, I, B, IB "\`" take from <...> (also take all modifier letter and combining accents - for style consistency),
-  * Also see characters in "Roboto Mono fork spec" (they should be adapted),
-2. Inconsolata S should be of the same thickness as Inconsolata LGC For Powerline,
-3. Use Noto Sans Mono (OFL), Noto Sans (OFL), Noto Mono (OFL).
-
-
-## Test Inconsolata S
+## Test Monospace
 
 * test text:
 
@@ -242,4 +222,4 @@ Aa B   y    Ee Zz Hn O0 Ii Kk    Mu Nv    Oo    Pp     Tt Yu     Xx
 
 # P.S.
 
-* [Font fallback app via FontForge Python](https://tex.stackexchange.com/a/414040/133525) may be written in order to use mentioned fallback chains in TeX or MS Word conveniently.
+* [Font fallback app via FontForge Python](https://github.com/cpitclaudel/monospacifier/issues/15) may be written in order to use mentioned fallback chains in TeX or MS Word conveniently.
