@@ -6,15 +6,18 @@ Contents:
 
 * [Best Sans Serif](#best-sans-serif)
 * [Best Serif](#best-serif)
+* [Best Monospace](#best-monospace)
 * [MacType](#mactype)
 * [Stylebot](#stylebot)
-* [Best Monospace](#best-monospace)
-* [P.S.](#ps)
+* [Build](#build)
+* [TODO](#todo)
 
 
 # Best Sans Serif
 
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (by Paul D. Hunt), [Download](https://github.com/google/fonts/tree/master/ofl/sourcesanspro)
+
+Fallback fonts:
 
 * Cyrillic fallback: [PT Sans](https://fonts.google.com/specimen/PT+Sans) (by ParaType), [Download](https://github.com/google/fonts/tree/master/ofl/ptsans) (for Cyrillic italic and bold-italic),
 * 1st Unicode fallback: [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.7z),
@@ -37,18 +40,7 @@ Font fallback chain: `'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Not
 
 Libertinus Serif is poorly supported by Windows ClearType. WS Word 2007 renders it ugly. Chrome with ClearTpe renders it nicely though. It's really beautiful on Linux, MacOS or Windows with [MacType](#mactype).
 
-The original version is unfinished so I recommend using:
-* In case of **Chrome/Chromium only**: [Libertin Serif/Libert Serif](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/libert_serif.7z) that is a fork of Libertinus Serif. [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/libert_serif.7z),
-* In case of **PDF/Firefox**: [Libertinus Serif](https://github.com/khaledhosny/libertinus) that is a fork of Linux Libertine. [Download](https://fontlibrary.org/en/font/libertinus-serif).
-
-Note that:
-
-* Libertinus Serif has some bugfixes and perhaps new characters (in comparison with Linux Libertine),
-* Libertin Serif doesn't have cyrillic characters at all. In other ways it's the same as Libertinus Serif,
-* Libert Serif doesn't have bold-italic and semibold-italic styles. In other ways it's the same as Libertinus Serif. Chome/Chromium would automatically create bold style from italic on the fly,
-* The best combination in case of Chrome/Chromium CSS is `Libertin Serif, Libert Serif` fallback chain. In this case you would have original Libertinus Serif bold and semibold italics for Latin and you would have Chrome-generated bold italics for Cyrillic. [Here](https://github.com/fontforge/fontforge/issues/3255) you can see the quality of Chrome's automatic bold-italic from italic generator.
-
-Other fallback fonts:
+Fallback fonts:
 
 * Cyrillic fallback: [PT Astra Serif](https://github.com/google/fonts/issues/565) (by Alexandra Korolkova and Isabella Chaeva), [Download](http://www.paratype.ru/uni/public/PTAstraSerif.zip) (for Cyrillic bold-italic). [Here](https://github.com/khaledhosny/libertinus/issues/74) you can see how good PT Astra Serif mixes with Linux Libertine.
 * 1st Unicode fallback: [Tinos](https://fonts.google.com/specimen/Tinos) (by Steve Matteson), [Download](https://github.com/google/fonts/tree/master/apache/tinos),
@@ -57,23 +49,20 @@ Other fallback fonts:
 * Final Unicode fallback: [Symbola](https://fontlibrary.org/en/font/symbola) (by George Douros), [Download](https://fontlibrary.org/en/font/symbola),
 * CJK fallback: Noto Serif CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Serif CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
-Font fallback chain:
-
-* In case of **Chrome/Chromium only** `'Libertin Serif', 'Libert Serif', 'PT Astra Serif', Tinos, 'Noto Serif', 'STIX Two Math', Symbola, 'Noto Serif CJK TC', serif`,
-* In case of **PDF/Firefox**: `'Libertinus Serif', 'PT Astra Serif', Tinos, 'Noto Serif', 'STIX Two Math', Symbola, 'Noto Serif CJK TC', serif`.
+Font fallback chain: `'Libertinus Serif', 'PT Astra Serif', Tinos, 'Noto Serif', 'STIX Two Math', Symbola, 'Noto Serif CJK TC', serif`.
 
 Worth mentioning [Libertinus Math](https://fontlibrary.org/en/font/libertinus-math) that bring Libertinus Serif to OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
 
-## Build Libert Serif
+# Best Monospace
 
-1. [Install FontForge](https://fontforge.github.io/en-US/downloads/windows/)
-2. Clone Libertinus and Open Fonts repos:
-```sh
-git clone --depth=1 https://github.com/kiwi0fruit/libertinus
-git clone https://github.com/kiwi0fruit/open-fonts
-```
-3. Run appropriate batch script
+## [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) (by Christian Robertson).
+
+Italic in Roboto Mono has different width so it's recommended to use **Open Mono** fork that is simply a renamed monospacified version of Roboto Mono.
+
+See best fallback chain for Roboto Mono in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
+
+***Additional info:*** There are also instructions for installing fallback chain for Consolas (by Luc(as) de Groot) that is the best ClearType optimized monospace font if on Windows. It looks too thick on big sizes but in Chromium based Atom editor with [MacType](#mactype) default profile it looks excellent.
 
 
 # [MacType](https://github.com/snowie2000/mactype)
@@ -131,20 +120,17 @@ I haven't checked if it's safe. But it looks safe.
 This extesnion would help you to make internet less messy in style :-)
 
 
-# Best Monospace
+# Build
 
-## [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) (by Christian Robertson).
+## Build Libert Serif
 
-Italic in Roboto Mono has different width so it's recommended to use **Open Mono** fork that is simply a renamed monospacified version of Roboto Mono.
-
-See best fallback chain for Roboto Mono in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
-
-
-## Consolas (by Luc(as) de Groot)
-
-It's the best ClearType optimized monospace font if on Windows. It looks too thick on big sizes but in Chromium based Atom editor with [MacType](#mactype) default profile it looks excellent.
-
-It's also good without ClearType. See install instructions and best fallback chain for Consolas in the [SugarTeX docs](https://github.com/kiwi0fruit/sugartex#atom-editor-with-full-unicode-support).
+1. [Install FontForge](https://fontforge.github.io/en-US/downloads/windows/)
+2. Clone Libertinus and Open Fonts repos:
+```sh
+git clone --depth=1 https://github.com/kiwi0fruit/libertinus
+git clone https://github.com/kiwi0fruit/open-fonts
+```
+3. Run appropriate batch script
 
 
 ## Build Open Mono and DejaVu Sans Mono for Consolas
@@ -160,7 +146,7 @@ git clone https://github.com/kiwi0fruit/open-fonts
 3. Run appropriate batch script
 
 
-# TODO:
+# TODO
 
 ## Useful FontForge python methods
 
@@ -242,6 +228,6 @@ Aa B   y    Ee Zz Hn O0 Ii Kk    Mu Nv    Oo    Pp     Tt Yu     Xx
 * another [test text](https://github.com/kiwi0fruit/sugartex/blob/master/sugartex.md).
 
 
-# P.S.
+## Fallbacker
 
 * [Font fallback app via FontForge Python](https://github.com/cpitclaudel/monospacifier/issues/15) may be written in order to use mentioned fallback chains in TeX or MS Word conveniently.
