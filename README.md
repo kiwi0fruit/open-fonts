@@ -27,6 +27,11 @@ Fallback fonts:
 Font fallback chain: `'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
 
 
+## [Lato](https://fonts.google.com/specimen/Lato) (by Łukasz Dziedzic), [Download](http://www.latofonts.com/)
+
+Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
+
+
 # Best Serif
 
 ## [Libertinus Serif](https://github.com/khaledhosny/libertinus) (by Philipp H. Poll, fork by Khaled Hosny), [Download](https://fontlibrary.org/en/font/libertinus-serif)
