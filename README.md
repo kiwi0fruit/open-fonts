@@ -111,13 +111,13 @@ Stylebot is an open source Google Chrome extension that allows users to manipula
 
 1. Incrementally build custom stylesheets for Chrome.
 2. Save custom CSS rules for sites. The next time they visit a site, their custom CSS is already applied.
-3. Export and import creted styles.
+3. Export and import created styles.
 
 I haven't checked if it's safe. But it looks safe.
 
 This extesnion would help you to make internet less messy in style :-)
 
-And even more! Stylebot can fix issues that arise from thinner fonts in Chrome: swap badly looking fonts. For example:
+And even more! Stylebot can fix issues that arise from thinner fonts in Chrome with [MacType](#mactype): swap badly looking fonts. For example:
 
 ```css
 * {
