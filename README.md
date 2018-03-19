@@ -15,7 +15,7 @@ Contents:
 
 # Best Sans Serif
 
-## [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.7z)
+## [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.7z?raw=true)
 
 Fallback fonts:
 
@@ -69,7 +69,7 @@ If on Windows it's recommended to install [MacType](http://www.mactype.net/) bec
 
 **Important**:
 
-* Use Default profile but change ini setting to `NormalWeight=8` (instead of 16) (with this the [difference between Chrome and other programs](https://github.com/snowie2000/mactype/issues/402) is not so big),
+* Use Default profile but change ini setting to `NormalWeight=8` (instead of 16) (with this the [difference between Chrome and other programs](https://github.com/snowie2000/mactype/issues/402) is not so big). Also launch Chrome using the `-disable-directwrite-for-ui` command switch,
 * MacType can clash with cheap Antiviruses though. In my case the problem was solved by deleting AVG/Avast and installing Kaspersky Free (Kaspersky IS is also OK).
 * MacType changes permissions of his folder in Program Files. I'm not sure that it's a good idea. So I recommend removing non-inherited permissions from MacType folder (apply this to subfolders also). So that the folder modification is possible only with admin privilegies.
 * Some programs need special config settings. For example PyCharm:
@@ -82,7 +82,7 @@ BoldWeight=-4
 ```
 See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
 
-Actually MacType can be tuned. Here is my custom part of the config:
+Actually MacType can be tuned. Here is my custom part of the config that tunes Consolas font to look thinner and also makes fonts in Explorer look thicker:
 ```ini
 [Experimental@pycharm64.exe]
 ;PyCharm fix
@@ -116,6 +116,40 @@ Stylebot is an open source Google Chrome extension that allows users to manipula
 I haven't checked if it's safe. But it looks safe.
 
 This extesnion would help you to make internet less messy in style :-)
+
+And even more! Stylebot can fix issues that arise from thinner fonts in Chrome: swap badly looking fonts. For example:
+
+```css
+* {
+    text-rendering: geometricPrecision;
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  src: local("Libertinus Serif");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Times New Roman';
+  src: local("Libertinus Serif BBold");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Times New Roman';
+  src: local("Libertinus Serif IItalic");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Times New Roman';
+  src: local("Libertinus Serif BBoldIt");
+  font-weight: bold;
+  font-style: italic;
+}
+```
+You need to install Libertinus Serif to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this archive](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/libertinus_serif_font_swap_chrome_bugfix.7z?raw=true) that were easily renamed via FontForge. 
 
 
 # Build
