@@ -29,6 +29,8 @@ Font fallback chain: `'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Not
 
 ## [Lato](https://fonts.google.com/specimen/Lato) (by Łukasz Dziedzic), [Download](http://www.latofonts.com/)
 
+I think Lato better accompanies Libertinus Serif than Noto Sans does (but as a main font I like Noto Sans more).
+
 Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
 
 
@@ -117,7 +119,7 @@ I haven't checked if it's safe. But it looks safe.
 
 This extesnion would help you to make internet less messy in style :-)
 
-And even more! Stylebot can fix issues that arise from thinner fonts in Chrome with [MacType](#mactype): swap badly looking fonts. For example:
+And even more! Stylebot can fix issues that arise from thinner fonts in Chrome with [MacType](#mactype): swap badly looking fonts. For example add this to the Global Stylesheet:
 
 ```css
 * {
