@@ -36,6 +36,8 @@ Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola
 
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (by Paul D. Hunt), [Download](https://github.com/google/fonts/tree/master/ofl/sourcesanspro)
 
+*My favorite!*
+
 Fallback fonts:
 
 * Cyrillic fallback: [PT Sans](https://fonts.google.com/specimen/PT+Sans) (by Alexandra Korolkova), [Download](https://github.com/google/fonts/tree/master/ofl/ptsans).
@@ -47,20 +49,29 @@ Font fallback chain: `'Source Sans Pro', 'PT Sans', 'Noto Sans', 'DejaVu Sans', 
 
 ## [Libertinus Serif](https://github.com/khaledhosny/libertinus) (by Philipp H. Poll, fork by Khaled Hosny), [Download](https://fontlibrary.org/en/font/libertinus-serif)
 
-Libertinus Serif is poorly supported by Windows ClearType. WS Word 2007 renders it ugly. Chrome with ClearTpe renders it nicely though. It's really beautiful on Linux, MacOS or Windows with [MacType](#mactype).
+*My favorite!*
+
+Libertinus Serif is poorly supported by Windows ClearType. WS Word 2007 renders it ugly. Chrome with ClearType renders it nicely though. It's really beautiful on Linux, MacOS or Windows with [MacType](#mactype).
 
 Fallback fonts:
 
 * Cyrillic fallback: [PT Astra Serif](https://github.com/google/fonts/issues/565) (by Alexandra Korolkova and Isabella Chaeva) - that is a nice font too, [Download](http://www.paratype.ru/uni/public/PTAstraSerif.zip) (for Cyrillic bold-italic). [Here](https://github.com/khaledhosny/libertinus/issues/74) you can see how good PT Astra Serif mixes with Linux Libertine.
 * 1st Unicode fallback: [Tinos](https://fonts.google.com/specimen/Tinos) (by Steve Matteson), [Download](https://github.com/google/fonts/tree/master/apache/tinos),
 * 2nd Unicode fallback: [Noto Serif](https://fonts.google.com/specimen/Noto+Serif) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts),
-* Math fallback: [STIX Two Math](http://www.stixfonts.org/) (by STI Pub consortium), [Download](https://sourceforge.net/projects/stixfonts/),
+* Math fallback: [STIX Two Math](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://sourceforge.net/projects/stixfonts/),
 * Final Unicode fallback: [Symbola](https://fontlibrary.org/en/font/symbola) (by George Douros), [Download](https://fontlibrary.org/en/font/symbola),
 * CJK fallback: Noto Serif CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Serif CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
-Font fallback chain: `'Libertinus Serif', 'PT Astra Serif', Tinos, 'Noto Serif', 'STIX Two Math', Symbola, 'Noto Serif CJK TC', serif`.
+Font fallback chain: `'Libertinus Serif', 'PT Astra Serif', 'Libertinus Math', Tinos, 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
-Worth mentioning [Libertinus Math](https://fontlibrary.org/en/font/libertinus-math) that bring Libertinus Serif to OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
+Worth mentioning [Libertinus Math](https://github.com/khaledhosny/libertinus) ([Download](https://fontlibrary.org/en/font/libertinus-math)) that is a Libertinus Serif version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
+
+
+## [STIX Two Text](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://sourceforge.net/projects/stixfonts/)
+
+Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
+
+Worth mentioning [STIX Two Math](http://www.stixfonts.org/) ([Download](https://sourceforge.net/projects/stixfonts/)) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
 
 # Best Monospace
@@ -160,7 +171,7 @@ And even more! Stylebot can fix issues that arise from thinner fonts in Chrome w
   font-style: italic;
 }
 ```
-You need to install Libertinus Serif to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this archive](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/libertinus_serif_font_swap_chrome_bugfix.7z?raw=true) that were easily renamed via FontForge. 
+You need to install Libertinus Serif to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this archive](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/libertinus_serif_font_swap_chrome_bugfix.7z?raw=true) that were easily renamed via FontForge.
 
 
 # Build
