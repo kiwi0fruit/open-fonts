@@ -91,7 +91,7 @@ If on Windows it's recommended to install [MacType](http://www.mactype.net/) bec
 
 **Important**:
 
-* Use Default profile but change ini setting to `NormalWeight=8` (instead of 16) (with this the [difference between Chrome and other programs](https://github.com/snowie2000/mactype/issues/402) is not so big). Also launch Chrome using the `--disable-directwrite-for-ui` command switch,
+* Use Default profile but change ini setting to `NormalWeight=8` (or even `NormalWeight=0` instead of 16) (with this the [difference between Chrome and other programs](https://github.com/snowie2000/mactype/issues/402) is not so big). Also launch Chrome using the `--disable-directwrite-for-ui` command switch,
 * In case of Firefox you should fix some settings: open `about:config` then:
     * change `gfx.content.azure.backends` from `direct2d1.1,skia,cairo` to `direct2d1.1,cairo`,
     * change `gfx.canvas.azure.backends` from `direct2d1.1,skia,cairo` to `direct2d1.1,cairo`,
@@ -110,6 +110,14 @@ See details about other programs in [this repo](https://github.com/wspl/mactype-
 
 Actually MacType can be tuned. Here is my custom part of the config that tunes Consolas font to look thinner and also makes fonts in Explorer look thicker:
 ```ini
+[General]
+;...
+NormalWeight=0
+;...
+[Individual]
+;...
+Times New Roman=0,,4,,,
+;...
 [Experimental@pycharm64.exe]
 ;PyCharm fix
 ClipBoxFix=1
@@ -146,10 +154,6 @@ This extesnion would help you to make internet less messy in style :-)
 And even more! Stylebot can fix issues that arise from thinner fonts in Chrome with [MacType](#mactype): swap badly looking fonts. For example add this to the Global Stylesheet:
 
 ```css
-* {
-    text-rendering: geometricPrecision;
-}
-
 @font-face {
   font-family: 'Times New Roman';
   src: local("Libertinus Serif");
