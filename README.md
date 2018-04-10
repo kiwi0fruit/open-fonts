@@ -116,6 +116,7 @@ BoldWeight=0
 [Individual]
 Times New Roman=0,,4,,,
 Segoe UI=0,,0,,,
+Tahoma=0,,0,,,
 ;...
 [Experimental@pycharm64.exe]
 ClipBoxFix=1
