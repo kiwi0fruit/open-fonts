@@ -115,9 +115,9 @@ NormalWeight=0
 BoldWeight=0
 [Individual]
 Times New Roman=0,,4,,,
+Segoe UI=0,,0,,,
 ;...
 [Experimental@pycharm64.exe]
-;PyCharm fix
 ClipBoxFix=1
 [General@pycharm64.exe]
 ;PyCharm fix + Consolas
@@ -132,8 +132,9 @@ BoldWeight=-2
 NormalWeight=-4
 BoldWeight=-2
 [General@explorer.exe]
-;Explorer fix
 NormalWeight=12
+[Individual@explorer.exe]
+Segoe UI=1,,12,,,
 ```
 
 
