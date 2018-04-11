@@ -115,8 +115,8 @@ NormalWeight=0
 BoldWeight=0
 [Individual]
 Times New Roman=0,,4,,,
-Segoe UI=0,,0,,,
-Tahoma=0,,0,,,
+Segoe UI=0,,4,,,
+Tahoma=0,,4,,,
 ;...
 [Experimental@pycharm64.exe]
 ClipBoxFix=1
@@ -133,9 +133,7 @@ BoldWeight=-2
 NormalWeight=-4
 BoldWeight=-2
 [General@explorer.exe]
-NormalWeight=12
-[Individual@explorer.exe]
-Segoe UI=1,,12,,,
+NormalWeight=16
 ```
 
 
