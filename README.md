@@ -15,7 +15,7 @@ Contents:
 
 # Best Sans Serif
 
-## [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.7z?raw=true)
+## [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download](https://fonts.google.com/specimen/Noto+Sans), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.7z?raw=true)
 
 Fallback fonts:
 
@@ -27,20 +27,20 @@ Fallback fonts:
 Font fallback chain: `'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
 
 
-## [Lato](https://fonts.google.com/specimen/Lato) (by Łukasz Dziedzic), [Download](http://www.latofonts.com/)
+## [Lato](https://fonts.google.com/specimen/Lato) (by Łukasz Dziedzic), [Download](http://www.latofonts.com/) (latest version here)
 
 I think Lato better accompanies Libertinus Serif than Noto Sans does.
 
 Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
 
 
-## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (by Paul D. Hunt), [Download](https://github.com/google/fonts/tree/master/ofl/sourcesanspro)
+## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (by Paul D. Hunt), [Download](https://fonts.google.com/specimen/Source+Sans+Pro), [Download](https://github.com/google/fonts/tree/master/ofl/sourcesanspro)
 
 *My favorite!*
 
 Fallback fonts:
 
-* Cyrillic fallback: [PT Sans](https://fonts.google.com/specimen/PT+Sans) (by Alexandra Korolkova), [Download](https://github.com/google/fonts/tree/master/ofl/ptsans).
+* Cyrillic fallback: [PT Sans](https://fonts.google.com/specimen/PT+Sans) (by Alexandra Korolkova), [Download](https://fonts.google.com/specimen/PT+Sans), [Download](https://github.com/google/fonts/tree/master/ofl/ptsans).
 
 Font fallback chain: `'Source Sans Pro', 'PT Sans', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans`.
 
@@ -56,8 +56,8 @@ Libertinus Serif is poorly supported by Windows ClearType. WS Word 2007 renders 
 Fallback fonts:
 
 * Cyrillic fallback: [PT Astra Serif](https://github.com/google/fonts/issues/565) (by Alexandra Korolkova and Isabella Chaeva) - that is a nice font too, [Download](http://www.paratype.ru/uni/public/PTAstraSerif.zip) (for Cyrillic bold-italic). [Here](https://github.com/khaledhosny/libertinus/issues/74) you can see how good PT Astra Serif mixes with Linux Libertine.
-* 1st Unicode fallback: [Tinos](https://fonts.google.com/specimen/Tinos) (by Steve Matteson), [Download](https://github.com/google/fonts/tree/master/apache/tinos),
-* 2nd Unicode fallback: [Noto Serif](https://fonts.google.com/specimen/Noto+Serif) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts),
+* 1st Unicode fallback: [Tinos](https://fonts.google.com/specimen/Tinos) (by Steve Matteson), [Download](https://fonts.google.com/specimen/Tinos), [Download](https://github.com/google/fonts/tree/master/apache/tinos),
+* 2nd Unicode fallback: [Noto Serif](https://fonts.google.com/specimen/Noto+Serif) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerif-hinted.7z?raw=true), [Download](https://www.google.com/get/noto/),
 * Math fallback: [STIX Two Math](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://sourceforge.net/projects/stixfonts/),
 * Final Unicode fallback: [Symbola](https://fontlibrary.org/en/font/symbola) (by George Douros), [Download](https://fontlibrary.org/en/font/symbola),
 * CJK fallback: Noto Serif CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Serif CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
