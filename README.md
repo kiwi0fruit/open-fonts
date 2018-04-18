@@ -15,7 +15,7 @@ Contents:
 
 # Best Sans Serif
 
-## [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download](https://fonts.google.com/specimen/Noto+Sans), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.7z?raw=true)
+## [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.7z?raw=true), [Download](https://www.google.com/get/noto/)
 
 Fallback fonts:
 
