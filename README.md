@@ -1,6 +1,6 @@
 # Open Fonts
 
-Open Fonts is a collection of fonts and instructions for installing beautiful free and open source fonts.
+A collection of beautiful free and open source fonts: instructions for installing, Unicode fallback chains.
 
 Contents:
 
