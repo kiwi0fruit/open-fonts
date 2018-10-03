@@ -47,7 +47,7 @@ Font fallback chain: `'Source Sans Pro', 'PT Sans', 'Noto Sans', 'DejaVu Sans', 
 
 # Best Serif
 
-## [Libertinus Serif](https://github.com/khaledhosny/libertinus) (by Philipp H. Poll, fork by Khaled Hosny), [Download](https://fontlibrary.org/en/font/libertinus-serif)
+## [Libertinus Serif](https://github.com/khaledhosny/libertinus) (by Philipp H. Poll, fork by Khaled Hosny), [Download](https://github.com/libertinus-fonts/libertinus/releases), [Preview](https://fontlibrary.org/en/font/libertinus-serif)
 
 *My favorite!*
 
@@ -64,7 +64,7 @@ Fallback fonts:
 
 Font fallback chain: `'Libertinus Serif', 'PT Astra Serif', 'Libertinus Math', Tinos, 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
-Worth mentioning [Libertinus Math](https://github.com/khaledhosny/libertinus) ([Download](https://fontlibrary.org/en/font/libertinus-math)) that is a Libertinus Serif version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
+Worth mentioning [Libertinus Math](https://github.com/khaledhosny/libertinus) ([Download](https://github.com/libertinus-fonts/libertinus/releases), [Preview](https://fontlibrary.org/en/font/libertinus-math)) that is a Libertinus Serif version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
 
 ## [STIX Two Text](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://sourceforge.net/projects/stixfonts/)
