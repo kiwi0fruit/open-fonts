@@ -1,6 +1,6 @@
 # Open Fonts
 
-A collection of beautiful free and open source fonts: instructions for installing, Unicode fallback chains.
+A collection of beautiful free and open source fonts: instructions for installing, Unicode fallback chains, instructions to replace Windows ClearType and fix browser fonts.
 
 Contents:
 
