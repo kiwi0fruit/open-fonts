@@ -189,7 +189,7 @@ You need to install Libertinus Serif to make it work. And in order to fix [Chrom
 1. [Install FontForge](https://fontforge.github.io/en-US/downloads/windows/)
 2. Clone Google Fonts, other fonts, Monospacifier and Open Fonts repos:
 ```sh
-git clone --depth=1 https://github.com/kiwi0fruit/fonts
+git clone --depth=1 https://github.com/google/fonts
 git clone https://github.com/kiwi0fruit/monospacifier
 git clone https://github.com/kiwi0fruit/open-fonts
 # copy `consola.ttf` to local open-fonts repo folder
