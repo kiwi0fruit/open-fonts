@@ -47,6 +47,13 @@ Font fallback chain: `'Source Sans Pro', 'PT Sans', 'Noto Sans', 'DejaVu Sans', 
 
 ## [STIX Two Text](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
+Fallback fonts:
+
+* 1st Unicode fallback: [Noto Serif](https://fonts.google.com/specimen/Noto+Serif) LGC (by Steve Matteson and Google), [Download latest version](https://www.google.com/get/noto/#serif-lgc), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerif-hinted.zip?raw=true)
+* Math fallback: [STIX Two Math](http://www.stixfonts.org/) (by STI Pub consortium), [Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)
+* Final Unicode fallback: [Symbola](https://fontlibrary.org/en/font/symbola) (by George Douros), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true),
+* CJK fallback: Noto Serif CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Serif CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
+
 Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 Worth mentioning [STIX Two Math](http://www.stixfonts.org/) ([Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
