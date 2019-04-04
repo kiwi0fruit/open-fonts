@@ -10,7 +10,7 @@ Contents:
 * [MacType](#mactype)
 * [Stylebot](#stylebot)
 * [Build](#build)
-* [TODO](#todo)
+* [TO DO](#to-do)
 
 
 # Best Sans Serif
