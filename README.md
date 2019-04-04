@@ -82,7 +82,7 @@ Fallback fonts:
 * [Symbola monospacified for DejaVu Sans Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola_monospacified_for_DejaVuSansMono.ttf?raw=true),
 * CJK fallback: Noto Sans CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Sans CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
-I used monospacified fonts obtained with the help of [monospacifier.py](https://github.com/cpitclaudel/monospacifier).
+I used monospacified fonts obtained with the help of [monospacifier.py](https://github.com/cpitclaudel/monospacifier) ([Backup](https://github.com/kiwi0fruit/monospacifier)).
 
 
 # [MacType](https://github.com/snowie2000/mactype)
