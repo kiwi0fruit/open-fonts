@@ -38,7 +38,7 @@ Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola
 
 Fallback fonts:
 
-* Cyrillic fallback: [PT Sans](https://fonts.google.com/specimen/PT+Sans) (by Alexandra Korolkova), [Download](https://fonts.google.com/specimen/PT+Sans), [Download](https://github.com/google/fonts/tree/master/ofl/ptsans).
+* Cyrillic fallback: [PT Sans](https://fonts.google.com/specimen/PT+Sans) (by Alexandra Korolkova), [Download](https://fonts.google.com/specimen/PT+Sans), [Download](https://github.com/google/fonts/tree/master/ofl/ptsans), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/ptsans)
 
 Font fallback chain: `'Source Sans Pro', 'PT Sans', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
