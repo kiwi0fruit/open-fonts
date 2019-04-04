@@ -47,31 +47,17 @@ Font fallback chain: `'Source Sans Pro', 'PT Sans', 'Noto Sans', 'DejaVu Sans', 
 
 # Best Serif
 
-## [Libertinus Serif](https://github.com/khaledhosny/libertinus) (by Philipp H. Poll, fork by Khaled Hosny), [Download](https://github.com/libertinus-fonts/libertinus/releases), [Preview](https://fontlibrary.org/en/font/libertinus-serif)
-
-*My favorite!*
-
-Libertinus Serif is poorly supported by Windows ClearType. WS Word 2007 renders it ugly. Chrome with ClearType renders it nicely though. It's really beautiful on Linux, MacOS or Windows with [MacType](#mactype).
-
-Fallback fonts:
-
-* Cyrillic fallback: [PT Astra Serif](https://github.com/google/fonts/issues/565) (by Alexandra Korolkova and Isabella Chaeva) - that is a nice font too, [Download](http://www.paratype.ru/uni/public/PTAstraSerif.zip).
-* 1st Unicode fallback: [Tinos](https://fonts.google.com/specimen/Tinos) (by Steve Matteson), [Download](https://fonts.google.com/specimen/Tinos), [Download](https://github.com/google/fonts/tree/master/apache/tinos),
-* 2nd Unicode fallback: [Noto Serif](https://fonts.google.com/specimen/Noto+Serif) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerif-hinted.7z?raw=true), [Download](https://www.google.com/get/noto/),
-* Math fallback: [STIX Two Math](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://sourceforge.net/projects/stixfonts/),
-* Final Unicode fallback: [Symbola](https://fontlibrary.org/en/font/symbola) (by George Douros), [Download](https://fontlibrary.org/en/font/symbola),
-* CJK fallback: Noto Serif CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Serif CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
-
-Font fallback chain: `'Libertinus Serif', 'PT Astra Serif', 'Libertinus Math', Tinos, 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
-
-Worth mentioning [Libertinus Math](https://github.com/khaledhosny/libertinus) ([Download](https://github.com/libertinus-fonts/libertinus/releases), [Preview](https://fontlibrary.org/en/font/libertinus-math)) that is a Libertinus Serif version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
-
-
 ## [STIX Two Text](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://sourceforge.net/projects/stixfonts/)
 
 Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 Worth mentioning [STIX Two Math](http://www.stixfonts.org/) ([Download](https://sourceforge.net/projects/stixfonts/)) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
+
+## [Source Serif Pro](https://fonts.google.com/specimen/Source+Serif+Pro) (by Frank Grießhammer), [Download latest version](https://github.com/adobe-fonts/source-serif-pro/releases)
+
+It's not finished yet. But it is very promising. Latin italic [**was released**](https://blog.typekit.com/2018/08/16/source-serif-italics/) and
+
+> The Italics have Adobe Latin-3 support today, just like the first release of the Roman did. Naturally, the plan is to align the character support across all styles, so that there are Greek and Cyrillic italics as well as AL-4 support for it. With Google’s support, we’ve been able to enlist the help of Irene Vlachou and Emilios Theofanous to help draw the Greek Italic.
 
 
 # Best Monospace
