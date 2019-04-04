@@ -15,12 +15,12 @@ Contents:
 
 # Best Sans Serif
 
-## [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.7z?raw=true), [Download](https://www.google.com/get/noto/)
+## [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.7z?raw=true), [Download](https://www.google.com/get/noto/), [Backup](https://github.com/kiwi0fruit/font)
 
 Fallback fonts:
 
 * 1st Unicode fallback: [DejaVu Sans](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://dejavu-fonts.github.io/Download.html),
-* Math fallback: [STIX Two Math](http://www.stixfonts.org/) (by STI Pub consortium), [Download](https://sourceforge.net/projects/stixfonts/),
+* Math fallback: [STIX Two Math](http://www.stixfonts.org/) (by STI Pub consortium), [Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)
 * Final Unicode fallback: [Symbola](https://fontlibrary.org/en/font/symbola) (by George Douros), [Download](https://fontlibrary.org/en/font/symbola),
 * CJK fallback: Noto Sans CJK TC Regular (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Sans CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
@@ -32,7 +32,7 @@ Font fallback chain: `'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Not
 Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 
-## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (by Paul D. Hunt), [Download latest version](https://github.com/adobe-fonts/source-sans-pro/releases)
+## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (by Paul D. Hunt), [Download latest version](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
 
 *My favorite!*
 
@@ -45,7 +45,7 @@ Font fallback chain: `'Source Sans Pro', 'PT Sans', 'Noto Sans', 'DejaVu Sans', 
 
 # Best Serif
 
-## [STIX Two Text](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://github.com/stipub/stixfonts/releases)
+## [STIX Two Text](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
 Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
@@ -60,7 +60,7 @@ It's not finished yet. But it is very promising. Latin italic [**was released**]
 
 # Best Monospace
 
-## [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) (by Christian Robertson).
+## [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) (by Christian Robertson), [Backup](https://github.com/kiwi0fruit/fonts)
 
 Italic in Roboto Mono has different width so it's recommended to use **Open Mono** fork that is simply a renamed monospacified version of Roboto Mono.
 
