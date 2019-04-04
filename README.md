@@ -200,3 +200,15 @@ git clone https://github.com/kiwi0fruit/open-fonts
 # TO DO
 
 [TO DO list](to-do.md) of ideas that I have or had about font development.
+
+Backup repos:
+
+* [DejaVu](https://github.com/kiwi0fruit/dejavu-fonts),
+* [STIX](https://github.com/kiwi0fruit/stixfonts),
+* [Lato](https://github.com/kiwi0fruit/lato-source),
+* [Source Sans Pro](https://github.com/kiwi0fruit/source-sans-pro),
+* [Roboto Mono, PT Sans](https://github.com/kiwi0fruit/fonts),
+* [Source Serif Pro](https://github.com/kiwi0fruit/source-serif-pro),
+* [IBM Plex Mono](https://github.com/kiwi0fruit/plex),
+* [Monospacifier](https://github.com/kiwi0fruit/monospacifier)
+
