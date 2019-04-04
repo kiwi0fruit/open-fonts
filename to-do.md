@@ -1,14 +1,3 @@
-# Build
-
-## Build Libert Serif
-
-1. [Install FontForge](https://fontforge.github.io/en-US/downloads/windows/)
-2. Clone Libertinus and Open Fonts repos:
-```sh
-git clone --depth=1 https://github.com/kiwi0fruit/libertinus
-git clone https://github.com/kiwi0fruit/open-fonts
-```
-3. Run appropriate batch script
 
 
 # TODO
