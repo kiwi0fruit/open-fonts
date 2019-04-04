@@ -27,14 +27,12 @@ Fallback fonts:
 Font fallback chain: `'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 
-## [Lato](https://fonts.google.com/specimen/Lato) (by Łukasz Dziedzic), [Download](http://www.latofonts.com/) (latest version here)
-
-I think Lato better accompanies Libertinus Serif than Noto Sans does.
+## [Lato](https://fonts.google.com/specimen/Lato) (by Łukasz Dziedzic), [Download latest version](http://www.latofonts.com/)
 
 Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 
-## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (by Paul D. Hunt), [Download](https://fonts.google.com/specimen/Source+Sans+Pro), [Download](https://github.com/google/fonts/tree/master/ofl/sourcesanspro)
+## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (by Paul D. Hunt), [Download latest version](https://github.com/adobe-fonts/source-sans-pro/releases)
 
 *My favorite!*
 
@@ -47,11 +45,11 @@ Font fallback chain: `'Source Sans Pro', 'PT Sans', 'Noto Sans', 'DejaVu Sans', 
 
 # Best Serif
 
-## [STIX Two Text](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://sourceforge.net/projects/stixfonts/)
+## [STIX Two Text](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://github.com/stipub/stixfonts/releases)
 
 Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
-Worth mentioning [STIX Two Math](http://www.stixfonts.org/) ([Download](https://sourceforge.net/projects/stixfonts/)) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
+Worth mentioning [STIX Two Math](http://www.stixfonts.org/) ([Download](https://github.com/stipub/stixfonts/releases)) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
 ## [Source Serif Pro](https://fonts.google.com/specimen/Source+Serif+Pro) (by Frank Grießhammer), [Download latest version](https://github.com/adobe-fonts/source-serif-pro/releases)
 
