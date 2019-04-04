@@ -49,7 +49,7 @@ Font fallback chain: `'Source Sans Pro', 'PT Sans', 'Noto Sans', 'DejaVu Sans', 
 
 Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
-Worth mentioning [STIX Two Math](http://www.stixfonts.org/) ([Download](https://github.com/stipub/stixfonts/releases)) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
+Worth mentioning [STIX Two Math](http://www.stixfonts.org/) ([Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
 ## [Source Serif Pro](https://fonts.google.com/specimen/Source+Serif+Pro) (by Frank Grießhammer), [Download latest version](https://github.com/adobe-fonts/source-serif-pro/releases), [Backup](https://github.com/kiwi0fruit/source-serif-pro)
 
@@ -68,12 +68,12 @@ See best fallback chain for Roboto Mono: `'Open Mono', 'Noto Sans Mono', 'IBM Pl
 
 Download:
 
-    * [Open Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.7z?raw=true) that is simply a renamed monospacified version of Roboto Mono (italic in Roboto Mono has different width than regular),
-    * [Noto Sans Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansMono-hinted.7z?raw=true),
-    * [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono). [Download](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download](https://github.com/google/fonts/tree/master/ofl/ibmplexmono),
-    * [STI0 Two Mat0 monospacified for Robot0 Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Robot0Mono.ttf?raw=true) (STIX Two Math for Roboto Mono),
-    * [DejaVu Sans Mono](https://dejavu-fonts.github.io/Download.html),
-    * [Symbola monospacified for DejaVu Sans Mono](https://github.com/cpitclaudel/monospacifier/blob/master/fonts/Symbola_monospacified_for_DejaVuSansMono.ttf?raw=true),
+* [Open Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.7z?raw=true) that is simply a renamed monospacified version of Roboto Mono (italic in Roboto Mono has different width than regular),
+* [Noto Sans Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansMono-hinted.7z?raw=true),
+* [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono). [Download](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download](https://github.com/google/fonts/tree/master/ofl/ibmplexmono),
+* [STI0 Two Mat0 monospacified for Robot0 Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Robot0Mono.ttf?raw=true) (STIX Two Math for Roboto Mono),
+* [DejaVu Sans Mono](https://dejavu-fonts.github.io/Download.html),
+* [Symbola monospacified for DejaVu Sans Mono](https://github.com/cpitclaudel/monospacifier/blob/master/fonts/Symbola_monospacified_for_DejaVuSansMono.ttf?raw=true),
 
 [Noto fonts](https://www.google.com/get/noto/) can also be freely downloaded (if you need CJK support). TC is Traditional Chinese but it can also be SC, JP, KR. I used monospacified fonts with the help of [monospacifier.py](https://github.com/cpitclaudel/monospacifier).
 
