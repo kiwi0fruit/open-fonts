@@ -67,7 +67,7 @@ It's not finished yet. But it is very promising. Latin italic [**was released**]
 
 # Best Monospace
 
-## [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) (by Christian Robertson), [Download Open Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.7z?raw=true), [Backup](https://github.com/kiwi0fruit/fonts)
+## [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) (by Christian Robertson), [Download Open Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.7z?raw=true), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/robotomono)
 
 Italic in Roboto Mono has different width so it's recommended to use **Open Mono** fork that is simply a renamed monospacified version of Roboto Mono.
 
