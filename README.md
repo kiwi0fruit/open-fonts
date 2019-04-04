@@ -79,9 +79,10 @@ Fallback fonts:
 * [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download latest version](https://github.com/IBM/plex/releases), [Backup](https://github.com/kiwi0fruit/plex/tree/master/IBM-Plex-Mono/fonts/complete/otf),
 * [STI0 Two Mat0 monospacified for Robot0 Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Robot0Mono.ttf?raw=true) (STIX Two Math for Roboto Mono),
 * [DejaVu Sans Mono](https://fontlibrary.org/ru/font/dejavu-sans-mono), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/dejavu-fonts-ttf-2.37.zip?raw=true), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
-* [Symbola monospacified for DejaVu Sans Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola_monospacified_for_DejaVuSansMono.ttf?raw=true).
+* [Symbola monospacified for DejaVu Sans Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola_monospacified_for_DejaVuSansMono.ttf?raw=true),
+* CJK fallback: Noto Sans CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Sans CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
-[Noto fonts](https://www.google.com/get/noto/) can also be freely downloaded (if you need CJK support). TC is Traditional Chinese but it can also be SC, JP, KR. I used monospacified fonts with the help of [monospacifier.py](https://github.com/cpitclaudel/monospacifier).
+I used monospacified fonts obtained with the help of [monospacifier.py](https://github.com/cpitclaudel/monospacifier).
 
 
 # [MacType](https://github.com/snowie2000/mactype)
