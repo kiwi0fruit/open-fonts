@@ -71,7 +71,7 @@ It's not finished yet. But it is very promising. Latin italic [**was released**]
 
 Italic in Roboto Mono has different width so it's recommended to use **Open Mono** fork that is simply a renamed monospacified version of Roboto Mono.
 
-See best fallback chain for Roboto Mono: `'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'STI0 Two Mat0 monospacified for Robot0 Mono', 'Symbola monospacified for DejaVu Sans Mono', 'Noto Sans CJK TC', monospace`.
+Best fallback chain for Roboto Mono: `'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'STI0 Two Mat0 monospacified for Robot0 Mono', 'Symbola monospacified for DejaVu Sans Mono', 'Noto Sans CJK TC', monospace`.
 
 Download:
 
