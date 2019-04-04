@@ -73,14 +73,14 @@ Italic in Roboto Mono has different width so it's recommended to use **Open Mono
 
 Best fallback chain for Roboto Mono: `'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'STI0 Two Mat0 monospacified for Robot0 Mono', 'Symbola monospacified for DejaVu Sans Mono', 'Noto Sans CJK TC', monospace`.
 
-Download:
+Fallback fonts:
 
 * [Open Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.7z?raw=true) that is simply a renamed monospacified version of Roboto Mono (italic in Roboto Mono has different width than regular),
-* [Noto Sans Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansMono-hinted.7z?raw=true),
-* [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono). [Download](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download](https://github.com/google/fonts/tree/master/ofl/ibmplexmono),
+* [Noto Sans Mono](https://www.google.com/get/noto/#sans-mono). [Download](https://www.google.com/get/noto/#sans-mono), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansMono-hinted.zip?raw=true),
+* [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download latest version](https://github.com/IBM/plex/releases), [Backup](https://github.com/kiwi0fruit/plex/tree/master/IBM-Plex-Mono/fonts/complete/otf),
 * [STI0 Two Mat0 monospacified for Robot0 Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Robot0Mono.ttf?raw=true) (STIX Two Math for Roboto Mono),
-* [DejaVu Sans Mono](https://dejavu-fonts.github.io/Download.html),
-* [Symbola monospacified for DejaVu Sans Mono](https://github.com/cpitclaudel/monospacifier/blob/master/fonts/Symbola_monospacified_for_DejaVuSansMono.ttf?raw=true),
+* [DejaVu Sans Mono](https://fontlibrary.org/ru/font/dejavu-sans-mono), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/dejavu-fonts-ttf-2.37.zip?raw=true), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
+* [Symbola monospacified for DejaVu Sans Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola_monospacified_for_DejaVuSansMono.ttf?raw=true).
 
 [Noto fonts](https://www.google.com/get/noto/) can also be freely downloaded (if you need CJK support). TC is Traditional Chinese but it can also be SC, JP, KR. I used monospacified fonts with the help of [monospacifier.py](https://github.com/cpitclaudel/monospacifier).
 
