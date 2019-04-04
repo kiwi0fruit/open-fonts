@@ -55,7 +55,7 @@ Libertinus Serif is poorly supported by Windows ClearType. WS Word 2007 renders 
 
 Fallback fonts:
 
-* Cyrillic fallback: [PT Astra Serif](https://github.com/google/fonts/issues/565) (by Alexandra Korolkova and Isabella Chaeva) - that is a nice font too, [Download](http://www.paratype.ru/uni/public/PTAstraSerif.zip) (for Cyrillic bold-italic). [Here](https://github.com/khaledhosny/libertinus/issues/74) you can see how good PT Astra Serif mixes with Linux Libertine.
+* Cyrillic fallback: [PT Astra Serif](https://github.com/google/fonts/issues/565) (by Alexandra Korolkova and Isabella Chaeva) - that is a nice font too, [Download](http://www.paratype.ru/uni/public/PTAstraSerif.zip).
 * 1st Unicode fallback: [Tinos](https://fonts.google.com/specimen/Tinos) (by Steve Matteson), [Download](https://fonts.google.com/specimen/Tinos), [Download](https://github.com/google/fonts/tree/master/apache/tinos),
 * 2nd Unicode fallback: [Noto Serif](https://fonts.google.com/specimen/Noto+Serif) LGC (by Steve Matteson and Google), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerif-hinted.7z?raw=true), [Download](https://www.google.com/get/noto/),
 * Math fallback: [STIX Two Math](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://sourceforge.net/projects/stixfonts/),
