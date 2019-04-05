@@ -15,11 +15,11 @@ Contents:
 
 # Best Sans Serif
 
-## [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download latest version](https://www.google.com/get/noto/#sans-lgc), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans/NotoSans-hinted.zip?raw=true)
+## [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download latest version](https://www.google.com/get/noto/#sans-lgc), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.zip?raw=true)
 
 Fallback fonts:
 
-* 1st Unicode fallback: [DejaVu Sans](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/dejavu-fonts-ttf-2.37.zip?raw=true), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
+* 1st Unicode fallback: [DejaVu Sans](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Math fallback: [STIX Two Math](http://www.stixfonts.org/) (by STI Pub consortium), [Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)
 * Final Unicode fallback: [Symbola](https://fontlibrary.org/en/font/symbola) (by George Douros), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true)
 * CJK fallback: Noto Sans CJK TC Regular (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Sans CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
@@ -65,6 +65,11 @@ It's not finished yet. But it is very promising. Latin italic [**was released**]
 > The Italics have Adobe Latin-3 support today, just like the first release of the Roman did. Naturally, the plan is to align the character support across all styles, so that there are Greek and Cyrillic italics as well as AL-4 support for it. With Google’s support, we’ve been able to enlist the help of Irene Vlachou and Emilios Theofanous to help draw the Greek Italic.
 
 
+## [Vollkorn](https://fonts.google.com/specimen/Vollkorn) (by Friedrich Althausen), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Vollkorn), [Backup2](https://github.com/kiwi0fruit/Vollkorn-Typeface)
+
+Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
+
+
 # Best Monospace
 
 ## [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) (by Christian Robertson), [Download Open Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.7z?raw=true), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/robotomono)
@@ -78,7 +83,7 @@ Fallback fonts:
 * [Noto Sans Mono](https://www.google.com/get/noto/#sans-mono). [Download](https://www.google.com/get/noto/#sans-mono), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansMono-hinted.zip?raw=true),
 * [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download latest version](https://github.com/IBM/plex/releases), [Backup](https://github.com/kiwi0fruit/plex/tree/master/IBM-Plex-Mono/fonts/complete/otf),
 * [STI0 Two Mat0 monospacified for Robot0 Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Robot0Mono.ttf?raw=true) (STIX Two Math for Roboto Mono),
-* [DejaVu Sans Mono](https://fontlibrary.org/ru/font/dejavu-sans-mono), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/dejavu-fonts-ttf-2.37.zip?raw=true), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
+* [DejaVu Sans Mono](https://fontlibrary.org/ru/font/dejavu-sans-mono), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * [Symbola monospacified for DejaVu Sans Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola_monospacified_for_DejaVuSansMono.ttf?raw=true),
 * CJK fallback: Noto Sans CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Sans CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
@@ -210,5 +215,5 @@ Backup repos:
 * [Roboto Mono, PT Sans](https://github.com/kiwi0fruit/fonts),
 * [Source Serif Pro](https://github.com/kiwi0fruit/source-serif-pro),
 * [IBM Plex Mono](https://github.com/kiwi0fruit/plex),
-* [Monospacifier](https://github.com/kiwi0fruit/monospacifier)
-
+* [Vollkorn](https://github.com/kiwi0fruit/Vollkorn-Typeface),
+* [Monospacifier](https://github.com/kiwi0fruit/monospacifier).
