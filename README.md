@@ -45,7 +45,7 @@ Font fallback chain: `'Source Sans Pro', 'PT Sans', 'Noto Sans', 'DejaVu Sans', 
 
 # Best Serif
 
-## [STIX Two Text](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/) (by Ross Mills and John Hudson), [Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)
+## [STIX Two Text](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/) (by Ross Mills and John Hudson), [Download](https://github.com/stipub/stixfonts), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
 Fallback fonts:
 
