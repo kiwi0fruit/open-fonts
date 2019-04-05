@@ -57,7 +57,7 @@ Fallback fonts:
 Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 
-# [STIX Two Math](http://www.stixfonts.org/), [Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)
+## [STIX Two Math](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
 Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
