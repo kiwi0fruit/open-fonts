@@ -65,7 +65,7 @@ It's not finished yet. But it is very promising. Latin italic [**was released**]
 > The Italics have Adobe Latin-3 support today, just like the first release of the Roman did. Naturally, the plan is to align the character support across all styles, so that there are Greek and Cyrillic italics as well as AL-4 support for it. With Google’s support, we’ve been able to enlist the help of Irene Vlachou and Emilios Theofanous to help draw the Greek Italic.
 
 
-## [Vollkorn](https://fonts.google.com/specimen/Vollkorn) (by Friedrich Althausen), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Vollkorn), [Backup2](https://github.com/kiwi0fruit/Vollkorn-Typeface)
+## [Vollkorn](https://fonts.google.com/specimen/Vollkorn) (by Friedrich Althausen), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
 
 Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
