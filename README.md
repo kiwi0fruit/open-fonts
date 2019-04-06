@@ -15,7 +15,9 @@ Contents:
 
 # Best Sans Serif
 
-## [Noto Sans](https://fonts.google.com/specimen/Noto+Sans) LGC (by Steve Matteson and Google), [Download latest version](https://www.google.com/get/noto/#sans-lgc), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.zip?raw=true)
+## [Noto Sans](https://en.wikipedia.org/wiki/Noto_fonts) LGC
+
+### (by Steve Matteson and Google), [Preview](https://fonts.google.com/specimen/Noto+Sans), [Download latest version](https://www.google.com/get/noto/#sans-lgc), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.zip?raw=true)
 
 Fallback fonts:
 
@@ -27,12 +29,16 @@ Fallback fonts:
 Font fallback chain: `'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 
-## [Lato](https://fonts.google.com/specimen/Lato) (by Łukasz Dziedzic), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/lato/), [Download latest version](http://www.latofonts.com/lato-free-fonts/#download), [Backup](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts/Lato), [Backup2](https://github.com/kiwi0fruit/lato-source)
+## [Lato](http://www.latofonts.com)
+
+### (by Łukasz Dziedzic), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/lato/), [Download latest version](http://www.latofonts.com/lato-free-fonts/#download), [Backup](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts/Lato), [Backup2](https://github.com/kiwi0fruit/lato-source)
 
 Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 
-## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (by Paul D. Hunt), [Download latest version](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
+## [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro)
+
+### (by Paul D. Hunt), [Preview](https://fonts.google.com/specimen/Source+Sans+Pro), [Download latest version](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
 
 *My favorite!*
 
@@ -45,7 +51,9 @@ Font fallback chain: `'Source Sans Pro', 'PT Sans', 'Noto Sans', 'DejaVu Sans', 
 
 # Best Serif
 
-## [STIX Two Text](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/) (by Ross Mills and John Hudson), [Download](https://github.com/stipub/stixfonts), [Backup](https://github.com/kiwi0fruit/stixfonts)
+## [STIX Two Text](http://www.stixfonts.org/)
+
+### (by Ross Mills and John Hudson), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/), [Download](https://github.com/stipub/stixfonts), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
 Fallback fonts:
 
@@ -57,23 +65,32 @@ Fallback fonts:
 Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 
-## [STIX Two Math](http://www.stixfonts.org/) (by Ross Mills and John Hudson), [Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)
+## [STIX Two Math](http://www.stixfonts.org/)
+
+### (by Ross Mills and John Hudson), [Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
 Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
-## [Source Serif Pro](https://fonts.google.com/specimen/Source+Serif+Pro) (by Frank Grießhammer), [Download latest version](https://github.com/adobe-fonts/source-serif-pro/releases), [Backup](https://github.com/kiwi0fruit/source-serif-pro)
+
+## [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro)
+
+### (by Frank Grießhammer), [Preview](https://fonts.google.com/specimen/Source+Serif+Pro), [Download latest version](https://github.com/adobe-fonts/source-serif-pro/releases), [Backup](https://github.com/kiwi0fruit/source-serif-pro)
 
 It's not finished yet. But it is very promising. Latin italic [**was released**](https://blog.typekit.com/2018/08/16/source-serif-italics/) and
 
 > The Italics have Adobe Latin-3 support today, just like the first release of the Roman did. Naturally, the plan is to align the character support across all styles, so that there are Greek and Cyrillic italics as well as AL-4 support for it. With Google’s support, we’ve been able to enlist the help of Irene Vlachou and Emilios Theofanous to help draw the Greek Italic.
 
 
-## [Vollkorn](https://fonts.google.com/specimen/Vollkorn) (by Friedrich Althausen), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
+## [Vollkorn](http://vollkorn-typeface.com)
+
+### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
 
 Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 
-## [Linux Libertine](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/) (by Philipp H. Poll and others), [Download Linus Libertini](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true), [Backup](https://github.com/back0up/libertinus)
+## [Linux Libertine](http://libertine-fonts.org/)
+
+### (by Philipp H. Poll and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertini](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true), [Backup](https://github.com/kiwi0fruit/libertinus)
 
 Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertini**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine).
 
@@ -84,7 +101,9 @@ There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) 
 
 # Best Monospace
 
-## [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) (by Christian Robertson), [Download Open Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.zip?raw=true), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/robotomono)
+## [Roboto Mono](https://en.wikipedia.org/wiki/Roboto#Roboto_Mono)
+
+## (by Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto+Mono), [Download Open Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.zip?raw=true), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/robotomono)
 
 Italic in Roboto Mono has different width so it's recommended to use [**Open Mono**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.zip?raw=true) fork that is simply a renamed monospacified version of Roboto Mono.
 
