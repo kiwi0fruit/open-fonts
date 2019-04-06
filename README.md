@@ -129,7 +129,12 @@ I used monospacified fonts obtained with the help of [monospacifier.py](https://
 
 ## DejaVu Sans Mono
 
-ToDo
+ToDo: test if it's beautiful.
+
+
+## [Inconsolata](https://github.com/google/fonts/tree/master/ofl/inconsolata)
+
+ToDo: Base on version from Google fonts. Make slanted version in FontForge. Get monospacified fallback chain for SugarTeX.
 
 
 # [MacType](https://github.com/snowie2000/mactype)
