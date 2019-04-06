@@ -47,9 +47,11 @@ Font fallback chain: `'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Not
 Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 
-## Roboto
+## [Roboto](https://en.wikipedia.org/wiki/Roboto)
 
-ToDo: description.
+### (by Christian Robertson and legacy of Max Miedinger), [Preview](https://fonts.google.com/specimen/Roboto), [Download](https://fonts.google.com/specimen/Roboto), [Download2](https://github.com/google/fonts/tree/master/apache/roboto), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/roboto)
+
+Font fallback chain: `Roboto, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 
 # Best Serif
@@ -128,11 +130,6 @@ Fallback fonts:
 * CJK fallback: Noto Sans CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Sans CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
 I used monospacified fonts obtained with the help of [monospacifier.py](https://github.com/cpitclaudel/monospacifier) ([Backup](https://github.com/kiwi0fruit/monospacifier)).
-
-
-## DejaVu Sans Mono
-
-ToDo: test if it's beautiful.
 
 
 ## Inconsolata S
