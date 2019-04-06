@@ -121,6 +121,11 @@ Fallback fonts:
 I used monospacified fonts obtained with the help of [monospacifier.py](https://github.com/cpitclaudel/monospacifier) ([Backup](https://github.com/kiwi0fruit/monospacifier)).
 
 
+## DejaVu Sans Mono
+
+ToDo
+
+
 # [MacType](https://github.com/snowie2000/mactype)
 
 If on Windows it's recommended to install [MacType](http://www.mactype.net/) because Windows original ClearType is capable of rendering only fonts that were pre-optimized for ClearType - it cannot display arbitrary font in a beautiful way. MacType can do it. Now that Full HD is everywhere it's a shame for ClearType.
