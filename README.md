@@ -132,9 +132,11 @@ Fallback fonts:
 I used monospacified fonts obtained with the help of [monospacifier.py](https://github.com/cpitclaudel/monospacifier) ([Backup](https://github.com/kiwi0fruit/monospacifier)).
 
 
-## Inconsolata S
+## [Inconsolata](https://fonts.google.com/specimen/Inconsolata)
 
-ToDo: Base on [version from Google fonts](https://github.com/google/fonts/tree/master/ofl/inconsolata). Make slanted version in FontForge. Get monospacified fallback chain for SugarTeX.
+### (by Raph Levien), [Preview](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata S](https://github.com/kiwi0fruit/open-fonts/issues/2), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/inconsolata)
+
+ToDo: [Under construction](https://github.com/kiwi0fruit/open-fonts/issues/2): Base on [version from Google fonts](https://github.com/google/fonts/tree/master/ofl/inconsolata). Make slanted version in FontForge. Get monospacified fallback chain for SugarTeX. This would give as good experience as with Roboto Mono.
 
 
 # [MacType](https://github.com/snowie2000/mactype)
@@ -259,7 +261,7 @@ Backup repos:
 * [STIX](https://github.com/kiwi0fruit/stixfonts),
 * [Lato](https://github.com/kiwi0fruit/lato-source),
 * [Source Sans Pro](https://github.com/kiwi0fruit/source-sans-pro),
-* [Roboto, Roboto Mono, PT Sans](https://github.com/kiwi0fruit/fonts),
+* [Roboto, Roboto Mono, PT Sans, Inconsolata](https://github.com/kiwi0fruit/fonts),
 * [Source Serif Pro](https://github.com/kiwi0fruit/source-serif-pro),
 * [IBM Plex Mono](https://github.com/kiwi0fruit/plex),
 * [Vollkorn](https://github.com/kiwi0fruit/Vollkorn-Typeface),
