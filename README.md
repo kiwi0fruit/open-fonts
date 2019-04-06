@@ -73,7 +73,7 @@ It's not finished yet. But it is very promising. Latin italic [**was released**]
 Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 
-## [Linux Libertine](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/) (by Philipp H. Poll and others), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.7z?raw=true), [Backup](https://github.com/kiwi0fruit/libertinus)
+## [Linux Libertine](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/) (by Philipp H. Poll and others), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.7z?raw=true), [Backup](https://github.com/back0up/libertinus)
 
 Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertini**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.7z?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine).
 
@@ -228,5 +228,5 @@ Backup repos:
 * [Source Serif Pro](https://github.com/kiwi0fruit/source-serif-pro),
 * [IBM Plex Mono](https://github.com/kiwi0fruit/plex),
 * [Vollkorn](https://github.com/kiwi0fruit/Vollkorn-Typeface),
-* [Libertinus](https://github.com/kiwi0fruit/libertinus),
+* [Libertinus](https://github.com/libertinus-fonts/libertinus),
 * [Monospacifier](https://github.com/kiwi0fruit/monospacifier).
