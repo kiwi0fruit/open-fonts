@@ -69,6 +69,8 @@ Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, '
 
 ### (by Ross Mills and John Hudson), [Download](https://github.com/stipub/stixfonts/releases), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
+*My favorite math font!*
+
 Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
 
