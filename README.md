@@ -247,5 +247,5 @@ Backup repos:
 * [Source Serif Pro](https://github.com/kiwi0fruit/source-serif-pro),
 * [IBM Plex Mono](https://github.com/kiwi0fruit/plex),
 * [Vollkorn](https://github.com/kiwi0fruit/Vollkorn-Typeface),
-* [Libertinus](https://github.com/libertinus-fonts/libertinus),
+* [Libertinus](https://github.com/kiwi0fruit/libertinus),
 * [Monospacifier](https://github.com/kiwi0fruit/monospacifier).
