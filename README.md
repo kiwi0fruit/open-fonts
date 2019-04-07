@@ -148,7 +148,7 @@ Fallback fonts:
 
 * [DejaVu Sans Mono for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVuSansMono_monospacified_for_Consolas.ttf?raw=true),
 * [STIX Two Math for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Consola0.ttf?raw=true),
-* [Symbola for Consolas](https://github.com/kiwi0fruit/monospacifier/blob/d8beda67289bab66244ab0bd64f69bd4933e992c/fonts/Symbola_monospacified_for_Consolas.ttf?raw=true).
+* [Symbola for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola_monospacified_for_Consolas.ttf?raw=true).
 
 
 ## Other fonts
