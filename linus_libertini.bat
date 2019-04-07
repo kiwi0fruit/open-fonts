@@ -1,7 +1,7 @@
-@echo First clone libertinus repo to the ../
-@echo First install FontForge to default location in %%ProgramFiles(x86)%%
-@echo Don't forget to pull the latest commit from libertinus repo
-@echo Don't forget to update FontForge
+@echo First clone libertinus and monospacifier repos to the ../
+@echo and install FontForge to default location in %%ProgramFiles(x86)%%
+@echo Don't forget to pull the latest commit from libertinus and monospacifier repos
+@echo and don't forget to update FontForge
 @pause
 @chcp 65001 > NUL
 @set PYTHONIOENCODING=utf-8
