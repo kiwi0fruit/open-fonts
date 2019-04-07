@@ -80,11 +80,11 @@ Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two v
 
 *My favorite text body font!*
 
-Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertini**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine with Cyrillic bold itallics by Stefan Peev).
+Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertini**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
 
 Font fallback chain: `'Linus Libertini', 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
-There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) font by Khaled Hosny but I find it to be of lower quality than STIX Two Math (Libertinus Math has MS Word issues. Greek italics are of suboptimal quality. Italic g is double story. I never tested for LaTeX issues).
+There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) font but I find it to be of lower quality than STIX Two Math (Libertinus Math has MS Word issues. Greek italics are of suboptimal quality. Italic g is double story. I never tested for LaTeX issues).
 
 
 ## [Vollkorn](http://vollkorn-typeface.com)
