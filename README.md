@@ -74,11 +74,22 @@ Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, '
 Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
 
+## [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro)
+
+### (by Frank Grießhammer), [Preview](https://fonts.google.com/specimen/Source+Serif+Pro), [Download latest version](https://github.com/adobe-fonts/source-serif-pro/releases), [Backup](https://github.com/kiwi0fruit/source-serif-pro)
+
+*My favorite text body font!*
+
+Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
+
+Fallback fonts:
+
+* Cyrillic fallback: STIX Two Text (see above).
+
+
 ## [Linux Libertine](http://libertine-fonts.org/)
 
 ### (by Philipp H. Poll and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertini](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true), [Backup](https://github.com/kiwi0fruit/libertinus)
-
-*My favorite text body font!*
 
 Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertini**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
 
@@ -92,15 +103,6 @@ There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) 
 ### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
 
 Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
-
-
-## [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro)
-
-### (by Frank Grießhammer), [Preview](https://fonts.google.com/specimen/Source+Serif+Pro), [Download latest version](https://github.com/adobe-fonts/source-serif-pro/releases), [Backup](https://github.com/kiwi0fruit/source-serif-pro)
-
-It's not finished yet. But it is very promising. Latin italic [**was released**](https://blog.typekit.com/2018/08/16/source-serif-italics/) and
-
-> The Italics have Adobe Latin-3 support today, just like the first release of the Roman did. Naturally, the plan is to align the character support across all styles, so that there are Greek and Cyrillic italics as well as AL-4 support for it. With Google’s support, we’ve been able to enlist the help of Irene Vlachou and Emilios Theofanous to help draw the Greek Italic.
 
 
 # Best Monospace
