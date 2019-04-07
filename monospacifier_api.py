@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.join(os.path.normpath(os.path.join(os.getcwd(), '../'
 from monospacifier import *
 
 
-def monospacifier(inputs, references, save_to=".", merge=False, copy_metrics=False):
+def monospacifier(inputs, references, save_to=".", merge=False, copy_metrics=False, renames=(('STIX', 'STYX'),)):
     """
     Parameters
     ----------
@@ -35,7 +35,7 @@ def monospacifier(inputs, references, save_to=".", merge=False, copy_metrics=Fal
 
     # del inputs[1:]
     # del references[1:]
-    results = list(process_fonts(references, inputs, save_to, merge, copy_metrics))
+    results = list(process_fonts(references, inputs, save_to, merge, copy_metrics, renames))
 
     tabdata = {}
     for ref, fnt, ttf in results:

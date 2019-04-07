@@ -1,6 +1,4 @@
 *.pyc
-libertinus/__temp__/
-libertinus/__pycache__/
 __temp__/
 __pycache__/
 chrome-win32.zip
