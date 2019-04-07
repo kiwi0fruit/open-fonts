@@ -35,7 +35,7 @@ Fallback fonts:
 
 ## [Noto Sans](https://en.wikipedia.org/wiki/Noto_fonts) LGC
 
-### (by Steve Matteson and Google), [Preview](https://fonts.google.com/specimen/Noto+Sans), [Download latest version](https://www.google.com/get/noto/#sans-lgc), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.zip?raw=true)
+### (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-lgc), [Download latest version](https://www.google.com/get/noto/#sans-lgc), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.zip?raw=true)
 
 Font fallback chain: `'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
