@@ -122,8 +122,8 @@ Fallback fonts:
 * [Noto Sans Mono](https://en.wikipedia.org/wiki/Noto_fonts) (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-mono), [Download](https://www.google.com/get/noto/#sans-mono), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansMono-hinted.zip?raw=true),
 * [IBM Plex Mono](https://github.com/IBM/plex) (by Mike Abbink), [Preview](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download latest version](https://github.com/IBM/plex/releases), [Backup](https://github.com/kiwi0fruit/plex/tree/master/IBM-Plex-Mono/fonts/complete/otf),
 * [DejaVu Sans Mono](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/ru/font/dejavu-sans-mono), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
-* [STIX Two Math monospacified for Roboto Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Robot0Mono.ttf?raw=true),
-* [Symbola monospacified for DejaVu Sans Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola_monospacified_for_DejaVuSansMono.ttf?raw=true),
+* [STIX Two Math for Roboto Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Robot0Mono.ttf?raw=true),
+* [Symbola for DejaVu Sans Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola_monospacified_for_DejaVuSansMono.ttf?raw=true),
 * CJK fallback: Noto Sans CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Sans CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
 
@@ -146,9 +146,9 @@ Best fallback chain for Consolas: `Consolas, 'DejaVu Sans Mono monospacified for
 
 Fallback fonts:
 
-* [STIX Two Math monospacified for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Consola0.ttf?raw=true),
-* [DejaVu Sans Mono monospacified for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVuSansMono_monospacified_for_Consolas.ttf?raw=true),
-* [Symbola monospacified for Consolas](https://github.com/kiwi0fruit/monospacifier/blob/d8beda67289bab66244ab0bd64f69bd4933e992c/fonts/Symbola_monospacified_for_Consolas.ttf?raw=true).
+* [DejaVu Sans Mono for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVuSansMono_monospacified_for_Consolas.ttf?raw=true),
+* [STIX Two Math for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Consola0.ttf?raw=true),
+* [Symbola for Consolas](https://github.com/kiwi0fruit/monospacifier/blob/d8beda67289bab66244ab0bd64f69bd4933e992c/fonts/Symbola_monospacified_for_Consolas.ttf?raw=true).
 
 
 ## Other fonts
@@ -250,7 +250,7 @@ And even more! Stylebot can fix issues that arise from thinner fonts in Chrome w
   font-style: italic;
 }
 ```
-You need to install Libertinus Serif to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this archive](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/libertinus_serif_font_swap_chrome_bugfix.7z?raw=true) that were easily renamed via FontForge.
+You need to install Libertinus Serif to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this archive](https://github.com/kiwi0fruit/open-fonts/raw/107879f75e9c82d7306271bb452e7fd036ee2cc3/Fonts/libertinus_serif_font_swap_chrome_bugfix.7z) that were easily renamed via FontForge.
 
 
 # Build
