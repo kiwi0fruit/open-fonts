@@ -17,7 +17,7 @@ Contents:
 
 ## [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro)
 
-### (by Paul D. Hunt), [Preview](https://fonts.google.com/specimen/Source+Sans+Pro), [Download latest version](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
+### (by Paul D. Hunt), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download latest version](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
 
 *My favorite!*
 
