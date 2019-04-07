@@ -126,14 +126,34 @@ Fallback fonts:
 * [Symbola monospacified for DejaVu Sans Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola_monospacified_for_DejaVuSansMono.ttf?raw=true),
 * CJK fallback: Noto Sans CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Sans CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
-I used monospacified fonts obtained with the help of [monospacifier.py](https://github.com/cpitclaudel/monospacifier) ([Backup](https://github.com/kiwi0fruit/monospacifier)).
-
 
 ## [Inconsolata](https://fonts.google.com/specimen/Inconsolata)
 
 ### (by Raph Levien), [Preview](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata S](https://github.com/kiwi0fruit/open-fonts/issues/2), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/inconsolata)
 
-ToDo: [Under construction](https://github.com/kiwi0fruit/open-fonts/issues/2): Base on [version from Google fonts](https://github.com/google/fonts/tree/master/ofl/inconsolata). Make slanted version in FontForge. Get monospacified fallback chain for SugarTeX. This would give as good experience as with Roboto Mono.
+TODO: [Under construction](https://github.com/kiwi0fruit/open-fonts/issues/2): Base on [version from Google fonts](https://github.com/google/fonts/tree/master/ofl/inconsolata). Make slanted version in FontForge. Get monospacified fallback chain for SugarTeX. This would give as good experience as with Roboto Mono.
+
+
+## [Consolas](https://en.wikipedia.org/wiki/Consolas)
+
+### (by Lucas de Groot)
+
+This is a **proprietary** font but included here for [SugarTeX](https://github.com/kiwi0fruit/sugartex) installation instruction.
+
+It's preinstalled with Windows. Consolas can also be installed together with [Microsoft PowerPoint Viewer](https://www.microsoft.com/en-us/download/details.aspx?id=13) till April, 2018. SHA256: 249473568EBA7A1E4F95498ACBA594E0F42E6581ADD4DEAD70C1DFB908A09423. But note that it's license says that "You may use the software only to view and print files created with Microsoft Office software. You may not use the software for any other purpose." so you might not be even allowed to print Consolas font text via Chrome browser.
+
+Best fallback chain for Consolas: `Consolas, 'DejaVu Sans Mono monospacified for Consolas', 'STI0 Two Mat0 monospacified for Consola0', 'Symbola monospacified for Consolas', 'Noto Sans CJK TC', monospace`
+
+Fallback fonts:
+
+* [STIX Two Math monospacified for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Consola0.ttf?raw=true),
+* [DejaVu Sans Mono monospacified for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVuSansMono_monospacified_for_Consolas.ttf?raw=true),
+* [Symbola monospacified for Consolas](https://github.com/kiwi0fruit/monospacifier/blob/d8beda67289bab66244ab0bd64f69bd4933e992c/fonts/Symbola_monospacified_for_Consolas.ttf?raw=true).
+
+
+## Other fonts
+
+For fallback chains I used monospacified fonts obtained with the help of [monospacifier.py](https://github.com/cpitclaudel/monospacifier) ([Backup](https://github.com/kiwi0fruit/monospacifier)). If you do not like Consolas, Roboto Mono or Inconsolata you can pick there monospacified versions for other monospace fonts.
 
 
 # [MacType](https://github.com/snowie2000/mactype)
