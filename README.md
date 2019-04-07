@@ -76,7 +76,7 @@ Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two v
 
 ## [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro)
 
-### (by Frank Grießhammer), [Preview](https://fonts.google.com/specimen/Source+Serif+Pro), [Download latest version](https://github.com/adobe-fonts/source-serif-pro/releases), [Backup](https://github.com/kiwi0fruit/source-serif-pro)
+### (by Frank Grießhammer), [Preview](https://adobe-fonts.github.io/source-serif-pro/), [Download latest version](https://github.com/adobe-fonts/source-serif-pro/releases), [Backup](https://github.com/kiwi0fruit/source-serif-pro)
 
 *My favorite text body font!*
 
