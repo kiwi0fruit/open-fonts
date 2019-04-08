@@ -128,7 +128,7 @@ Fallback fonts:
 
 ## [Inconsolata](https://fonts.google.com/specimen/Inconsolata)
 
-### (by Raph Levien), [Preview](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata S](https://github.com/kiwi0fruit/open-fonts/issues/2), [Backup](https://github.com/kiwi0fruit/Inconsolata-LGC)
+### (by Raph Levien), [Preview](https://fontlibrary.org/en/font/inconsolata-lgc), [Preview2](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata S](https://github.com/kiwi0fruit/open-fonts/issues/2), [Backup](https://github.com/kiwi0fruit/Inconsolata-LGC)
 
 TODO: [Under construction](https://github.com/kiwi0fruit/open-fonts/issues/2). 
 
