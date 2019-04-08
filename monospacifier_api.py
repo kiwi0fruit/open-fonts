@@ -36,7 +36,7 @@ def needs_scaling(self, glyph):
 m.GlyphScaler.needs_scaling = needs_scaling
 
 
-def monospacifier(inputs, references, save_to=".", merge=False, copy_metrics=False, renames=(('STIX', 'ST1X'),)):
+def monospacifier(inputs, references, save_to=".", merge=False, copy_metrics=False, renames=()):
     """
     Parameters
     ----------
@@ -51,6 +51,7 @@ def monospacifier(inputs, references, save_to=".", merge=False, copy_metrics=Fal
     copy_metrics : bool
         Whether to apply the metrics of the reference font to the new font.
     renames : Tuple[Tuple[str, str]]
+        Like: (('STIX', 'ST1X'),)
     """
     def parse_arguments():
         return Args(inputs, references, save_to, merge, copy_metrics, renames)

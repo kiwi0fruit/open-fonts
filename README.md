@@ -58,7 +58,7 @@ Font fallback chain: `Roboto, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbo
 
 ## [STIX Two Text and STIX Two Math](http://www.stixfonts.org/)
 
-### (by Ross Mills and John Hudson), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/), [Download](https://github.com/stipub/stixfonts), [Backup](https://github.com/kiwi0fruit/stixfonts)
+### (by Ross Mills and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/), [Download](https://github.com/stipub/stixfonts), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
 *My favorite math font!*
 
@@ -115,15 +115,15 @@ Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', 
 
 Italic in Roboto Mono has different width so it's recommended to use [**Open Mono**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.zip?raw=true) fork that is simply a renamed monospacified version of Roboto Mono.
 
-Best fallback chain for Roboto Mono: `'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'STI0 Two Mat0 monospacified for Robot0 Mono', 'Symbola monospacified for DejaVu Sans Mono', 'Noto Sans CJK TC', monospace`.
+Best fallback chain for Roboto Mono: `'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two MathForRob0toMono', 'SymbolaForRob0toMono', 'Noto Sans CJK TC', monospace`.
 
 Fallback fonts:
 
 * [Noto Sans Mono](https://en.wikipedia.org/wiki/Noto_fonts) (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-mono), [Download](https://www.google.com/get/noto/#sans-mono), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansMono-hinted.zip?raw=true),
 * [IBM Plex Mono](https://github.com/IBM/plex) (by Mike Abbink), [Preview](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download latest version](https://github.com/IBM/plex/releases), [Backup](https://github.com/kiwi0fruit/plex/tree/master/IBM-Plex-Mono/fonts/complete/otf),
 * [DejaVu Sans Mono](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/ru/font/dejavu-sans-mono), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
-* [STIX Two Math for Roboto Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Robot0Mono.ttf?raw=true),
-* [Symbola for DejaVu Sans Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola_monospacified_for_DejaVuSansMono.ttf?raw=true),
+* [STIX Two Math for Roboto Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/ST1XTwoMathForRob0toMono.ttf?raw=true),
+* [Symbola for Roboto Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SymbolaForRob0toMono.ttf?raw=true),
 * CJK fallback: Noto Sans CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Sans CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
 
@@ -142,13 +142,13 @@ This is a **proprietary** font but included here for [SugarTeX](https://github.c
 
 It's preinstalled with Windows. Consolas can also be installed together with [Microsoft PowerPoint Viewer](https://www.microsoft.com/en-us/download/details.aspx?id=13) till April, 2018. SHA256: 249473568EBA7A1E4F95498ACBA594E0F42E6581ADD4DEAD70C1DFB908A09423. But note that it's license says that "You may use the software only to view and print files created with Microsoft Office software. You may not use the software for any other purpose." so you might not be even allowed to print Consolas font text via Chrome browser.
 
-Best fallback chain for Consolas: `Consolas, 'DejaVu Sans MonoForConso1as', 'STI0 Two Mat0 monospacified for Consola0', 'Symbola monospacified for Consolas', 'Noto Sans CJK TC', monospace`
+Best fallback chain for Consolas: `Consolas, 'DejaVu Sans MonoForConso1as', 'ST1X Two MathForConso1as', 'SymbolaForConso1as', 'Noto Sans CJK TC', monospace`
 
 Fallback fonts:
 
 * [DejaVu Sans Mono for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVuSansMonoForConso1as.zip?raw=true),
-* [STIX Two Math for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Consola0.ttf?raw=true),
-* [Symbola for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola_monospacified_for_Consolas.ttf?raw=true).
+* [STIX Two Math for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/ST1XTwoMathForConso1as.ttf?raw=true),
+* [Symbola for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SymbolaForConso1as.ttf?raw=true).
 
 
 ## Other fonts
