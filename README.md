@@ -254,7 +254,7 @@ You need to install Libertinus Serif to make it work. And in order to fix [Chrom
 
 # Build
 
-## Build Open Mono and DejaVu Sans Mono for Consolas
+## Build Open Mono, Linus Libertini and monospacified Unicode fallback fonts
 
 1. [Install FontForge](https://fontforge.github.io/en-US/downloads/windows/)
 2. Clone Google Fonts, other fonts, Monospacifier and Open Fonts repos:
@@ -277,9 +277,10 @@ Backup repos:
 * [STIX](https://github.com/kiwi0fruit/stixfonts),
 * [Lato](https://github.com/kiwi0fruit/lato-source),
 * [Source Sans Pro](https://github.com/kiwi0fruit/source-sans-pro),
-* [Roboto, Roboto Mono, PT Sans, Inconsolata](https://github.com/kiwi0fruit/fonts),
+* [Roboto, Roboto Mono, PT Sans](https://github.com/kiwi0fruit/fonts),
 * [Source Serif Pro](https://github.com/kiwi0fruit/source-serif-pro),
 * [IBM Plex Mono](https://github.com/kiwi0fruit/plex),
 * [Vollkorn](https://github.com/kiwi0fruit/Vollkorn-Typeface),
 * [Libertinus](https://github.com/kiwi0fruit/libertinus),
+* [Inconsolata LGC](https://github.com/kiwi0fruit/Inconsolata-LGC),
 * [Monospacifier](https://github.com/kiwi0fruit/monospacifier).
