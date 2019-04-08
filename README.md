@@ -128,11 +128,11 @@ Fallback fonts:
 
 ## [Inconsolata](https://fonts.google.com/specimen/Inconsolata)
 
-### (by Raph Levien), [Preview](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata S](https://github.com/kiwi0fruit/open-fonts/issues/2), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/inconsolata)
+### (by Raph Levien), [Preview](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata S](https://github.com/kiwi0fruit/open-fonts/issues/2), [Backup](https://github.com/kiwi0fruit/Inconsolata-LGC)
 
-TODO: [Under construction](https://github.com/kiwi0fruit/open-fonts/issues/2): Base on [version from Google fonts](https://github.com/google/fonts/tree/master/ofl/inconsolata). Make slanted version in FontForge. Get monospacified fallback chain for SugarTeX. This would give as good experience as with Roboto Mono.
+TODO: [Under construction](https://github.com/kiwi0fruit/open-fonts/issues/2). 
 
-Font fallback chain: `'Inconsolata S', 'Open MonoForInconsolata', 'Noto Sans MonoForInconsolata', 'IBM Plex MonoForInconsolata', 'DejaVu Sans MonoForInconsolata', 'ST1X Two MathForInconsolata', 'SymbolaForInconsolata', 'Noto Sans CJK TC', monospace`.
+Font fallback chain: `'Inconsolata S', 'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two MathForRob0toMono', 'SymbolaForRob0toMono', 'Noto Sans CJK TC', monospace`.
 
 
 ## [Consolas](https://en.wikipedia.org/wiki/Consolas)
