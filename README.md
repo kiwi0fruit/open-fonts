@@ -126,7 +126,7 @@ Fallback fonts:
 * CJK fallback: Noto Sans CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Sans CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
 
-## [Inconsolata](https://fonts.google.com/specimen/Inconsolata)
+## [Inconsolata](https://en.wikipedia.org/wiki/Inconsolata)
 
 ### (by Raph Levien), [Preview](https://fontlibrary.org/en/font/inconsolata-lgc), [Preview2](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata S](https://github.com/kiwi0fruit/open-fonts/issues/2), [Backup](https://github.com/kiwi0fruit/Inconsolata-LGC)
 
