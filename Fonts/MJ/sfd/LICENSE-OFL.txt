@@ -1,0 +1,6 @@
+Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),
+with Reserved Font Names: MathJax_Math, MathJax_Main, MathJax_Caligraphic
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license available with a FAQ at:
+http://scripts.sil.org/OFL

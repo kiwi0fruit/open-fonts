@@ -64,6 +64,10 @@ robotomono_refs = [p.join(repos, 'fonts', 'apache', 'robotomono', 'RobotoMono-Re
 symbola = p.join(here, 'Fonts', 'hintedSymbola.ttf')
 stix = p.join(repos, 'stixfonts', 'OTF', 'STIX2Math.otf')
 
+shutil.copy(p.join(here, 'Fonts', 'Symbola-PublicDomain.odt'), p.join(dir_, 'Symbola-PublicDomain.odt'))
+shutil.copy(p.join(here, 'Fonts', 'STIXTwo-OFL.txt'), p.join(dir_, 'STIXTwo-OFL.txt'))
+shutil.copy(p.join(repos, 'stixfonts', 'docs', 'STIX_2.0.0_release_notes.txt'), p.join(dir_, 'STIX_2.0.0_release_notes.txt'))
+
 monospacifier([symbola, stix], consolas_refs, save_to=dir_, merge=merge, copy_metrics=copy_metrics)
 monospacifier([symbola, stix], robotomono_refs, save_to=dir_, merge=merge, copy_metrics=copy_metrics)
 
