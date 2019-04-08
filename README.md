@@ -109,7 +109,7 @@ Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', 
 
 ## [Roboto Mono](https://en.wikipedia.org/wiki/Roboto#Roboto_Mono)
 
-### (by Steve Matteson and Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto+Mono), [Download Open Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.zip?raw=true), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/robotomono)
+### (Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto+Mono), [Download Open Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.zip?raw=true), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/robotomono)
 
 *My favorite!*
 
