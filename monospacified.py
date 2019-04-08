@@ -13,17 +13,19 @@
 
 from monospacifier_api import monospacifier
 import os
-from os.path import join
+from os import path as p
 
-repos = os.path.normpath(join(os.getcwd(), '../'))
+repos = os.path.normpath(p.join(os.getcwd(), '../'))
 merge = False
 copy_metrics = True
 
-dir_ = join(repos, 'monospacified')
+dir_ = p.join(repos, 'monospacified')
 if not os.path.exists(dir_):
     os.makedirs(dir_)
 
 
 # Monospacify DejaVu Sans Mono:
 # ---------------------------------
-monospacifier([join('Fonts', 'DejaVuSansMono.ttf')], ['consola.ttf'], dir_, merge, copy_metrics)
+monospacifier([p.join('Fonts', 'DejaVuSansMono.ttf')],
+              [p.expandvars("%WINDIR%\Fonts\consola.ttf") if (os.name == "nt") else "consola.ttf"],
+              dir_, merge, copy_metrics)
