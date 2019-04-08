@@ -257,14 +257,8 @@ You need to install Libertinus Serif to make it work. And in order to fix [Chrom
 ## Build Open Mono, Linus Libertini and monospacified Unicode fallback fonts
 
 1. [Install FontForge](https://fontforge.github.io/en-US/downloads/windows/)
-2. Clone Google Fonts, other fonts, Monospacifier and Open Fonts repos:
-```sh
-git clone --depth=1 https://github.com/google/fonts
-git clone https://github.com/kiwi0fruit/monospacifier
-git clone https://github.com/kiwi0fruit/open-fonts
-# copy `consola.ttf` to local open-fonts repo folder
-```
-3. Run appropriate batch script
+2. Run `update_deps.bat` from repo's directory,
+3. Run appropriate batch script from repo's directly.
 
 
 # TO DO
