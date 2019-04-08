@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 import os
-from os.path import join
+from os import path as p
 import fontforge
 import shutil
 
-
-repos = os.path.normpath(join(os.getcwd(), '../'))
-libertinus = join(repos, 'libertinus')
-pt = join(os.getcwd(), 'Fonts')
-dir_ = join(repos, '_linus_libertini')
-if not os.path.exists(dir_):
+here = p.dirname(p.abspath(__file__))
+repos = p.dirname(here)
+libertinus = p.join(repos, 'libertinus')
+pt = p.join(here, 'Fonts')
+dir_ = p.join(repos, '_linus_libertini')
+if not p.exists(dir_):
     os.makedirs(dir_)
 
 
@@ -38,8 +38,8 @@ def rep(string):
 
 
 for file_ in libert_all:
-    f = join(dir_, file_)
-    shutil.copy(join(libertinus, file_), f)
+    f = p.join(dir_, file_)
+    shutil.copy(p.join(libertinus, file_), f)
     font = fontforge.open(f)
     font.fontname = rep(font.fontname)
     font.familyname = rep(font.familyname)
@@ -52,4 +52,4 @@ for file_ in libert_all:
 # Copy License
 # ----------------------------------------------
 for file_ in ['OFL.txt', 'FONTLOG.txt']:
-    shutil.copy(join(libertinus, file_), join(dir_, file_))
+    shutil.copy(p.join(libertinus, file_), p.join(dir_, file_))

@@ -15,28 +15,25 @@ from monospacifier_api import monospacifier
 from helper import rename_font
 import os
 import shutil
-from os.path import join
+from os import path as p
 
-repos = os.path.normpath(join(os.getcwd(), '../'))
-googlefonts = join(repos, 'fonts')
+repos = p.dirname(p.dirname(p.abspath(__file__)))
+googlefonts = p.join(repos, 'fonts')
 
-robotomono = join(googlefonts, 'apache', 'robotomono')
+robotomono = p.join(googlefonts, 'apache', 'robotomono')
 merge = False
-copy_metrics = True  # copy metrics
+copy_metrics = True
 
-dir_ = join(repos, '_open_mono')
-if not os.path.exists(dir_):
+dir_ = p.join(repos, '_open_mono')
+if not p.exists(dir_):
     os.makedirs(dir_)
 
-refs = [join(robotomono, 'RobotoMono-Regular.ttf')]
-shutil.copy(join(robotomono, 'LICENSE.txt'), join(dir_, 'LICENSE.txt'))
+refs = [p.join(robotomono, 'RobotoMono-Regular.ttf')]
+shutil.copy(p.join(robotomono, 'LICENSE.txt'), p.join(dir_, 'LICENSE.txt'))
 
 
 # Monospacify Roboto Mono:
 # ------------------------
-def cat(string):
-    return string.replace(' ', '')
-
 styles = [
     ('RobotoMono-Italic', 'Roboto Mono', 'Italic'),
     ('RobotoMono-MediumItalic', 'Roboto Mono Medium', 'Italic'),
@@ -44,7 +41,7 @@ styles = [
     # ('RobotoMono-LightItalic', 'Roboto Mono Light', 'Italic'),
     # ('RobotoMono-ThinItalic', 'Roboto Mono Thin', 'Italic'),
 ]
-fonts = [join(robotomono, fn +'.ttf') for fn, ff, st in styles]
+fonts = [p.join(robotomono, fn +'.ttf') for fn, ff, st in styles]
 monospacifier(fonts, refs, dir_, merge, copy_metrics)
 
 
@@ -55,10 +52,10 @@ def rep(s): return s.replace('Roboto', 'Open')
 
 for fn, ff, style in styles:
     clean_up = True
-    ref = join(robotomono, fn + '.ttf')
-    of = join(dir_, fn + '_monospacified_for_RobotoMono.ttf')  # Old Font
+    ref = p.join(robotomono, fn + '.ttf')
+    of = p.join(dir_, fn + '_monospacified_for_RobotoMono.ttf')  # Old Font
 
-    rename_font(input=of, save_as=join(dir_, rep(fn) +'.ttf'),
+    rename_font(input=of, save_as=p.join(dir_, rep(fn) +'.ttf'),
                 fontname=rep(fn),  # Font Name
                 familyname=rep(ff),  # Font Family
                 fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),
@@ -73,10 +70,10 @@ styles = [
 ]
 for fn, ff, style in styles:
     clean_up=False
-    ref = join(robotomono, fn + '.ttf')
+    ref = p.join(robotomono, fn + '.ttf')
     of = ref  # Old Font
 
-    rename_font(input=of, save_as=join(dir_, rep(fn) +'.ttf'),
+    rename_font(input=of, save_as=p.join(dir_, rep(fn) +'.ttf'),
                 fontname=rep(fn),  # Font Name
                 familyname=rep(ff),  # Font Family
                 fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),

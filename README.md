@@ -142,11 +142,11 @@ This is a **proprietary** font but included here for [SugarTeX](https://github.c
 
 It's preinstalled with Windows. Consolas can also be installed together with [Microsoft PowerPoint Viewer](https://www.microsoft.com/en-us/download/details.aspx?id=13) till April, 2018. SHA256: 249473568EBA7A1E4F95498ACBA594E0F42E6581ADD4DEAD70C1DFB908A09423. But note that it's license says that "You may use the software only to view and print files created with Microsoft Office software. You may not use the software for any other purpose." so you might not be even allowed to print Consolas font text via Chrome browser.
 
-Best fallback chain for Consolas: `Consolas, 'DejaVu Sans Mono monospacified for Consolas', 'STI0 Two Mat0 monospacified for Consola0', 'Symbola monospacified for Consolas', 'Noto Sans CJK TC', monospace`
+Best fallback chain for Consolas: `Consolas, 'DejaVu Sans MonoForConso1as', 'STI0 Two Mat0 monospacified for Consola0', 'Symbola monospacified for Consolas', 'Noto Sans CJK TC', monospace`
 
 Fallback fonts:
 
-* [DejaVu Sans Mono for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVuSansMono_monospacified_for_Consolas.ttf?raw=true),
+* [DejaVu Sans Mono for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVuSansMonoForConso1as.zip?raw=true),
 * [STIX Two Math for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/STI0TwoMat0_monospacified_for_Consola0.ttf?raw=true),
 * [Symbola for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola_monospacified_for_Consolas.ttf?raw=true).
 

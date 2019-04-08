@@ -12,19 +12,28 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import sys
-import os
-sys.path.insert(0, os.path.join(os.path.normpath(os.path.join(os.getcwd(), '../')), 'monospacifier'))
+import os.path as p
+sys.path.insert(0, p.join(p.dirname(p.dirname(p.abspath(__file__))), 'monospacifier'))
 import monospacifier as m
+import unicodedata
 
 
 class Args:
-    def __init__(self, references, inputs, save_to, merge, copy_metrics, renames):
-        self.references = references
+    def __init__(self, inputs, references, save_to, merge, copy_metrics, renames):
         self.inputs = inputs
+        self.references = references
         self.save_to = save_to
         self.merge = merge
         self.copy_metrics = copy_metrics
         self.rename = renames
+
+
+def needs_scaling(self, glyph):
+    uni = glyph.unicode
+    category = unicodedata.category(unichr(uni)) if (uni >= 0) and (uni <= sys.maxunicode) else None
+    return glyph.width > 0 and category not in ['Mn', 'Mc', 'Me']
+
+m.GlyphScaler.needs_scaling = needs_scaling
 
 
 def monospacifier(inputs, references, save_to=".", merge=False, copy_metrics=False, renames=(('STIX', 'ST1X'),)):
@@ -44,7 +53,7 @@ def monospacifier(inputs, references, save_to=".", merge=False, copy_metrics=Fal
     renames : Tuple[Tuple[str, str]]
     """
     def parse_arguments():
-        return Args(references, inputs, save_to, merge, copy_metrics, renames)
+        return Args(inputs, references, save_to, merge, copy_metrics, renames)
 
     m.parse_arguments = parse_arguments
     m.main()
