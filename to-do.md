@@ -49,6 +49,14 @@ Aa B   y    Ee Zz Hn O0 Ii Kk    Mu Nv    Oo    Pp     Tt Yu     Xx
 * `⎴⎵`
 * another [test text](https://github.com/kiwi0fruit/sugartex/blob/master/sugartex.md).
 
+```
+cyr_pt = u"ЁЂЃЄЅІЇЈЉЊЋЌЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяёђѓєѕіїјљњћќўџѢѣѲѳѴѵҊҋҌҍҎҏҐґҒғҔҕҖҗҘҙҚқҜҝҞҟҠҡҢңҤҥҦҧҨҩҪҫҬҭҮүҰұҲҳҴҵҶҷҸҹҺһҼҽҾҿӀӃӄӅӆӇӈӉӊӋӌӍӎӏӐӑӒӓӔӕӖӗӘәӚӛӜӝӞӟӠӡӢӣӤӥӦӧӨөӪӫӬӭӮӯӰӱӲӳӴӵӶӷӸӹӼӽ" + u"ԐԑԒԓԜԝԤԥԦԧԮԯ"  # Cyrillic in PT Astra Serif
+cyr_tinos = u"ЀЍѐѝѠѡѤѥѦѧѨѩѪѫѬѭѮѯѰѱѶѷѸѹѺѻѼѽѾѿҀҁ҂҃҄҅҆҇҈҉ӁӂӺӻӾӿ" + u"ԀԁԂԃԄԅԆԇԈԉԊԋԌԍԎԏԚԛ"  # Cyrillic in Tinos (Noto Serif also has them)
+cyr_noto = u"" + u"ԔԕԖԗԘԙԞԟԠԡԢԣ"  # Cyrillic in Noto Serif
+cyr_other = u"" + u"ԨԩԪԫԬԭ"  # Cyrillic in Symbola that has only regular style
+
+```
+
 
 ## Fallbacker
 
