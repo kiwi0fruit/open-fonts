@@ -14,36 +14,37 @@
 import sys
 import os
 sys.path.insert(0, os.path.join(os.path.normpath(os.path.join(os.getcwd(), '../')), 'monospacifier'))
-from monospacifier import *
+import monospacifier as m
 
 
-def monospacifier(inputs, references, save_to=".", merge=False, copy_metrics=False, renames=(('STIX', 'STYX'),)):
+class Args:
+    def __init__(self, references, inputs, save_to, merge, copy_metrics, renames):
+        self.references = references
+        self.inputs = inputs
+        self.save_to = save_to
+        self.merge = merge
+        self.copy_metrics = copy_metrics
+        self.rename = renames
+
+
+def monospacifier(inputs, references, save_to=".", merge=False, copy_metrics=False, renames=(('STIX', 'ST1X'),)):
     """
     Parameters
     ----------
-    inputs: list of str
+    inputs : Union[list, str]
         Variable-width fonts to monospacify.
-    references: list of str
+    references : Union[list, str]
         Reference monospace fonts. The metrics (character width, ...) of the newly created monospace fonts are inherited from these.
-    save_to: str, default "."
+    save_to : str
         Where to save the newly generated monospace fonts. Defaults to current directory.
-    merge: bool, default False
+    merge : bool
         Whether to create copies of the reference font, extended with monospacified glyphs of the inputs.
-    copy_metrics: bool, default False
+    copy_metrics : bool
         Whether to apply the metrics of the reference font to the new font.
+    renames : Tuple[Tuple[str, str]]
     """
+    def parse_arguments():
+        return Args(references, inputs, save_to, merge, copy_metrics, renames)
 
-    # del inputs[1:]
-    # del references[1:]
-    results = list(process_fonts(references, inputs, save_to, merge, copy_metrics, renames))
-
-    tabdata = {}
-    for ref, fnt, ttf in results:
-        tabdata.setdefault(u"**{}**".format(ref), []).append(u"[{}]({}?raw=true)".format(fnt, ttf))
-    table = [(header, u", ".join(items)) for header, items in sorted(tabdata.items())]
-
-    try:
-        from tabulate import tabulate
-        print(tabulate(table, headers=[u'Programming font', u'Monospacified fallback fonts'], tablefmt='pipe'))
-    except ImportError:
-        print("!!! tabulate package not available")
+    m.parse_arguments = parse_arguments
+    m.main()
