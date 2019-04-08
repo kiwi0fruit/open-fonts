@@ -24,30 +24,6 @@ font.generate("font.ttf")
 Useful [stackoverflow answer](https://stackoverflow.com/questions/14557944/downsizing-an-otf-font-by-removing-glyphs/34132900#34132900).
 
 
-## Archive Open Mono spec
-
-Font Fallback chain:
-
-Roboto Mono, Fira Mono, Cousine, DejaVu Sans Mono, STIX Two Math, Symbola, Noto Sans Symbols
-
-This fallback chain would be used for generating Open Mono.
-
-Characters that should be taken from particular fonts ignoring fallback chain:
-
-* Cousine: `ˎˏˌαχνᵦᵩₐₑₒᵤᵥₓᵅᵝᵟᵋᶿᶲᵠᵃᵇᶜᵈᵉᶠʰʲᵏˡᵐᵒᵖˢᵘᵛʷˣʸᶻᴬᴮᴰᴱᴳᴴᴶᴷᴸᶫᴹᴺᶰᴼᴾᴿᵀᵁᶸⱽᵂ`, `ₗ` - copy and move `ˡ`, `⁄` (fraction slash),
-* Symbola: `ᵨᵧᵪᵞᵡ`,
-* DejaVu Sans Mono: `˳ᴵᶦⁱⁿᵗᶥʳₕᵢⱼₖₘₙₚᵣₛₜ₀₂₃₄₅₆₇₈₉⁰²³⁴⁵⁶⁷⁸⁹`, `∕` (division slash).
-* Source Code Pro: `ᵍ`,
-* Fira Mono: `γ@®<>[]%^‘’“”"',;.:‚„!?`, (add Fira Mono italic via FontForge),
-* DejaVu Sans Mono: `⅟ ½ ⅓ ¼ ⅕ ⅙ ⅛ ⅔ ⅖ ¾ ⅗ ⅜ ⅘ ⅚ ⅝ ⅞ ↉ ⅐ ⅑ ⅒ ↉ ⅐ ⅑ `
-* **either** Open Sans: `g` (adjust weight by 17 for regular and italic first),
-* **or** Droid Sans Mono: `g` (check weight and Look on Windows since Droid Sans Mono looks badly on Windows),
-* Roboto Mono: `₁` - copy and move `¹`,
-* Make narrower like in TeX Gyre Schola Math: `⎴⎵`.
-
-Note that for now `⅒` are present in DejaVu Sans or Symbola.
-
-
 ## Archive Inconsolata S spec
 
 Inconsolata S is a font for [SugarTeX](https://github.com/kiwi0fruit/sugartex) that would be based on [Inconsolata LGC](https://github.com/kiwi0fruit/Inconsolata-LGC) (by Raph Levien, Dimosthenis Kaponis, MihailJP).
@@ -80,6 +56,14 @@ Aa B   y    Ee Zz Hn O0 Ii Kk    Mu Nv    Oo    Pp     Tt Yu     Xx
 ↕→←↑↓⇩⇧
 ```
 
+* `ˎˏˌαχνᵦᵩₐₑₒᵤᵥₓᵅᵝᵟᵋᶿᶲᵠᵃᵇᶜᵈᵉᶠʰʲᵏˡᵐᵒᵖˢᵘᵛʷˣʸᶻᴬᴮᴰᴱᴳᴴᴶᴷᴸᶫᴹᴺᶰᴼᴾᴿᵀᵁᶸⱽᵂ` `ₗ` `ˡ` `⁄` (fraction slash)
+* `ᵨᵧᵪᵞᵡ`
+* `˳ᴵᶦⁱⁿᵗᶥʳₕᵢⱼₖₘₙₚᵣₛₜ₀₂₃₄₅₆₇₈₉⁰²³⁴⁵⁶⁷⁸⁹` `∕` (division slash).
+* `ᵍ`
+* `γ@®<>[]%^‘’“”"',;.:‚„!?`
+* `⅟ ½ ⅓ ¼ ⅕ ⅙ ⅛ ⅔ ⅖ ¾ ⅗ ⅜ ⅘ ⅚ ⅝ ⅞ ↉ ⅐ ⅑ ⅒ ↉ ⅐ ⅑`
+* `₁` `¹`
+* `⎴⎵`
 * another [test text](https://github.com/kiwi0fruit/sugartex/blob/master/sugartex.md).
 
 
