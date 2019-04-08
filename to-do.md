@@ -62,6 +62,7 @@ Actually Inconsolata is prettie than Roboto Mono but Roboto Mono has better unic
   * Also see characters in "Roboto Mono fork spec" (they should be adapted),
 2. Inconsolata S should be of the same thickness as Inconsolata LGC For Powerline,
 3. Use Noto Sans Mono (OFL), Noto Sans (OFL).
+4. Monospacify Inconsolata LGC as it's has wrong spaces.
 
 
 ## Test Monospace
