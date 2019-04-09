@@ -260,7 +260,7 @@ And even more! Stylebot can fix issues that arise from thinner fonts in Chrome w
   font-style: italic;
 }
 ```
-You need to install Libertinus Serif to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this archive](https://github.com/kiwi0fruit/open-fonts/raw/Fonts/linus_libertini_font_swap_chrome_bugfix.zip) that were easily renamed via FontForge.
+You need to install Libertinus Serif to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this archive](https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/linus_libertini_font_swap_chrome_bugfix.zip) that were easily renamed via FontForge.
 
 
 # Build
