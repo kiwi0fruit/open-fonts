@@ -141,7 +141,7 @@ Font fallback chain: `'Inconsolata Open', 'Open Mono', 'Noto Sans Mono', 'IBM Pl
 
 TODO: Under construction: [Open Code Pro: adapt Source Code Pro for SugarTeX and tune fallback fonts](https://github.com/kiwi0fruit/open-fonts/issues/7).
 
-Font fallback chain: `'Open Code Pro', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two MathForRob0toMono', 'SymbolaForRob0toMono', 'Noto Sans CJK TC', monospace`.
+Font fallback chain: `'Open Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two MathForRob0toMono', 'SymbolaForRob0toMono', 'Noto Sans CJK TC', monospace`.
 
 
 ## [Consolas](https://en.wikipedia.org/wiki/Consolas)
