@@ -40,6 +40,11 @@ styles = [
     ('RobotoMono-BoldItalic', 'Roboto Mono', 'Bold Italic'),
     # ('RobotoMono-LightItalic', 'Roboto Mono Light', 'Italic'),
     # ('RobotoMono-ThinItalic', 'Roboto Mono Thin', 'Italic'),
+    # ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
+    # ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
+    # ('RobotoMono-Bold', 'Roboto Mono', 'Bold'),
+    # ('RobotoMono-Light', 'Roboto Mono Light', 'Regular'),
+    # ('RobotoMono-Thin', 'Roboto Mono Thin', 'Regular'),
 ]
 fonts = [p.join(robotomono, fn +'.ttf') for fn, ff, st in styles]
 monospacifier(fonts, refs, dir_, merge, copy_metrics)
@@ -53,7 +58,7 @@ def rep(s): return s.replace('Roboto', 'Open')
 for fn, ff, style in styles:
     clean_up = True
     ref = p.join(robotomono, fn + '.ttf')
-    of = p.join(dir_, fn + '_monospacified_for_RobotoMono.ttf')  # Old Font
+    of = p.join(dir_, (fn if fn != 'RobotoMono-Regular' else 'RobotoMono') + '_monospacified_for_RobotoMono.ttf')  # Old Font
 
     rename_font(input=of, save_as=p.join(dir_, rep(fn) +'.ttf'),
                 fontname=rep(fn),  # Font Name
