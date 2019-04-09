@@ -137,9 +137,9 @@ Font fallback chain: `'Inconsolata S', 'Open Mono', 'Noto Sans Mono', 'IBM Plex 
 
 ## [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
-### (by Paul D. Hunt and Teo Tuominen), [Preview](https://adobe-fonts.github.io/source-code-pro/), [Download latest version](https://github.com/adobe-fonts/source-code-pro/releases), [Backup](https://github.com/kiwi0fruit/source-code-pro)
+### (by Paul D. Hunt and Teo Tuominen), [Preview](https://adobe-fonts.github.io/source-code-pro/), [Download Open Code Pro](https://github.com/kiwi0fruit/open-fonts/issues/7), [Backup](https://github.com/kiwi0fruit/source-code-pro)
 
-TODO: Under construction: [Source Code Pro: adapt for SugarTeX and tune fallback fonts](https://github.com/kiwi0fruit/open-fonts/issues/7).
+TODO: Under construction: [Open Code Pro: adapt Source Code Pro for SugarTeX and tune fallback fonts](https://github.com/kiwi0fruit/open-fonts/issues/7).
 
 
 ## [Consolas](https://en.wikipedia.org/wiki/Consolas)
