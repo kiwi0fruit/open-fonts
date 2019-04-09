@@ -273,6 +273,8 @@ Backup repos:
 * [Source Sans Pro](https://github.com/kiwi0fruit/source-sans-pro),
 * [Roboto, Roboto Mono, PT Sans](https://github.com/kiwi0fruit/fonts),
 * [Source Serif Pro](https://github.com/kiwi0fruit/source-serif-pro),
+* [Source Code Pro](https://github.com/kiwi0fruit/source-code-pro),
+
 * [IBM Plex Mono](https://github.com/kiwi0fruit/plex),
 * [Vollkorn](https://github.com/kiwi0fruit/Vollkorn-Typeface),
 * [Libertinus](https://github.com/kiwi0fruit/libertinus),
