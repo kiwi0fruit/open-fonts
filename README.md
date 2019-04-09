@@ -235,30 +235,30 @@ And even more! Stylebot can fix issues that arise from thinner fonts in Chrome w
 ```css
 @font-face {
   font-family: 'Times New Roman';
-  src: local("Libertinus Serif");
+  src: local("Linus Libertini RRegular");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: local("Libertinus Serif BBold");
+  src: local("Linus Libertini BBold");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: local("Libertinus Serif IItalic");
+  src: local("Linus Libertini IItalic");
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: local("Libertinus Serif BBoldIt");
+  src: local("Linus Libertini BBoldIItalic");
   font-weight: bold;
   font-style: italic;
 }
 ```
-You need to install Libertinus Serif to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this archive](https://github.com/kiwi0fruit/open-fonts/raw/107879f75e9c82d7306271bb452e7fd036ee2cc3/Fonts/libertinus_serif_font_swap_chrome_bugfix.7z) that were easily renamed via FontForge.
+You need to install Libertinus Serif to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this archive](https://github.com/kiwi0fruit/open-fonts/raw/Fonts/linus_libertini_font_swap_chrome_bugfix.zip) that were easily renamed via FontForge.
 
 
 # Build

@@ -24,7 +24,7 @@ robotomono = p.join(googlefonts, 'apache', 'robotomono')
 merge = False
 copy_metrics = True
 
-dir_ = p.join(repos, '_open_mono')
+dir_ = p.join(repos, '_OpenMono')
 if not p.exists(dir_):
     os.makedirs(dir_)
 

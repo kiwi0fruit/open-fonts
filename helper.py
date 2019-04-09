@@ -56,3 +56,4 @@ def rename_font(input, save_as, fontname=None, familyname=None, fullname=None, s
             os.remove(input)
         except:
             pass
+    renamed.close()
