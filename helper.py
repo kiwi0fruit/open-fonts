@@ -3,7 +3,7 @@ import shutil
 import fontforge
 
 
-def rename_font(input, save_as, fontname=None, familyname=None, fullname=None, sfnt_ref=None, reps=(), clean_up=False):
+def rename_font(input, save_as, fontname=None, familyname=None, fullname=None, sfnt_ref=None, reps=(), clean_up=False, mono=False):
     """
     Parameters
     ----------
@@ -45,6 +45,10 @@ def rename_font(input, save_as, fontname=None, familyname=None, fullname=None, s
         renamed.familyname = familyname
     if fullname is not None:
         renamed.fullname = fullname
+    if mono:
+        lst = list(renamed.os2_panose)
+        lst[3] = 9
+        renamed.os2_panose = tuple(lst)
 
     if save_as[-4:] == '.sfd':
         renamed.save(save_as)

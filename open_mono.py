@@ -20,8 +20,9 @@ from os import path as p
 
 here = p.dirname(p.abspath(__file__))
 repos = p.dirname(here)
+robotomono = p.join(repos, 'fonts', 'apache', 'robotomono')
+# robotomono = p.join(here, 'Fonts', 'RobotoMono')
 
-robotomono = p.join(here, 'Fonts', 'RobotoMono')
 merge = False
 copy_metrics = True
 
@@ -64,7 +65,7 @@ for fn, ff, style in styles:
                 fontname=rep(fn),  # Font Name
                 familyname=rep(ff),  # Font Family
                 fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),
-                reps=reps, sfnt_ref=ref, clean_up=clean_up)
+                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True)
 
 styles2 = [
     # ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
@@ -82,7 +83,7 @@ for fn, ff, style in styles2:
                 fontname=rep(fn),  # Font Name
                 familyname=rep(ff),  # Font Family
                 fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),
-                reps=reps, sfnt_ref=ref, clean_up=clean_up)
+                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True)
 
 
 # Set isFixedPitch flag:
