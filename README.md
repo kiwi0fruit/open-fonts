@@ -95,7 +95,7 @@ Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended t
 
 Font fallback chain: `'Linus Libertini', 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
-There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) font but I find it to be of lower quality than STIX Two Math (Libertinus Math has MS Word issues. Greek italics are of suboptimal quality. Italic g is double story. I never tested for LaTeX issues).
+There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) font but I find it to be of [lower quality](https://github.com/kiwi0fruit/open-fonts/issues/5#issuecomment-480476163) than STIX Two Math (Libertinus Math has MS Word issues. Greek italics are of suboptimal quality. Italic g is double story. I never tested for LaTeX issues).
 
 
 ## [Vollkorn](http://vollkorn-typeface.com)
