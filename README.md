@@ -166,7 +166,7 @@ For fallback chains I used monospacified fonts obtained with the help of [monosp
 
 # [MacType](https://github.com/snowie2000/mactype)
 
-If on Windows it's recommended to install [MacType](http://www.mactype.net/) because Windows original ClearType is capable of rendering only fonts that were pre-optimized for ClearType - it cannot display arbitrary font in a beautiful way. MacType can do it. Now that Full HD is everywhere it's a shame for ClearType.
+If on Windows it's recommended to install [MacType](http://www.mactype.net/) because Windows original ClearType is capable of rendering only fonts that were pre-optimized for ClearType - it cannot display arbitrary font in a beautiful way (or capable but for some reason doesn't do that on default settings!). MacType can do it (and does with default settings). Now that Full HD is everywhere it's a shame for ClearType.
 
 **Important**:
 
@@ -182,13 +182,14 @@ If on Windows it's recommended to install [MacType](http://www.mactype.net/) bec
 [Experimental@pycharm64.exe]
 ClipBoxFix=1
 [General@pycharm64.exe]
-NormalWeight=-8
-BoldWeight=-4
+NormalWeight=-4
+BoldWeight=-2
 ```
 See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
 
 Actually MacType can be tuned. Here is my custom part of the config that tunes Consolas font to look thinner and also makes fonts in Explorer look thicker:
 ```ini
+;Update appropriate sections:
 [General]
 NormalWeight=0
 BoldWeight=0
@@ -196,7 +197,8 @@ BoldWeight=0
 Times New Roman=0,,4,,,
 Segoe UI=0,,4,,,
 Tahoma=0,,4,,,
-;...
+
+;Paste to the end:
 [Experimental@pycharm64.exe]
 ClipBoxFix=1
 [General@pycharm64.exe]
