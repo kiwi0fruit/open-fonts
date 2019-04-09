@@ -113,7 +113,7 @@ Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', 
 
 *My favorite!*
 
-Italic in Roboto Mono has different width so it's recommended to use [**Open Mono**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.zip?raw=true) fork that is simply a renamed monospacified version of Roboto Mono.
+Italic in Roboto Mono has different width so it's recommended to use [**Open Mono**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.zip?raw=true) fork that is simply a renamed monospacified version of Roboto Mono (but without light and thin styles).
 
 Font fallback chain: `'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two MathForRob0toMono', 'SymbolaForRob0toMono', 'Noto Sans CJK TC', monospace`.
 
