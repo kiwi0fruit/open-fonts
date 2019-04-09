@@ -135,6 +135,17 @@ TODO: [Under construction](https://github.com/kiwi0fruit/open-fonts/issues/2).
 Font fallback chain: `'Inconsolata S', 'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two MathForRob0toMono', 'SymbolaForRob0toMono', 'Noto Sans CJK TC', monospace`.
 
 
+## [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+
+### (by Paul D. Hunt and Teo Tuominen), [Preview](https://adobe-fonts.github.io/source-code-pro/), [Download latest version](https://github.com/adobe-fonts/source-code-pro/releases), [Backup](https://github.com/kiwi0fruit/source-code-pro)
+
+Font fallback chain: TO DO
+
+Fallback fonts:
+
+* TO DO
+
+
 ## [Consolas](https://en.wikipedia.org/wiki/Consolas)
 
 ### (by Lucas de Groot)
