@@ -17,10 +17,10 @@ import os
 import shutil
 from os import path as p
 
-repos = p.dirname(p.dirname(p.abspath(__file__)))
-googlefonts = p.join(repos, 'fonts')
+here = p.dirname(p.abspath(__file__))
+repos = p.dirname(here)
 
-robotomono = p.join(googlefonts, 'apache', 'robotomono')
+robotomono = p.join(here, 'Fonts', 'RobotoMono')
 merge = False
 copy_metrics = True
 
@@ -40,9 +40,9 @@ styles = [
     ('RobotoMono-BoldItalic', 'Roboto Mono', 'Bold Italic'),
     # ('RobotoMono-LightItalic', 'Roboto Mono Light', 'Italic'),
     # ('RobotoMono-ThinItalic', 'Roboto Mono Thin', 'Italic'),
-    # ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
-    # ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
-    # ('RobotoMono-Bold', 'Roboto Mono', 'Bold'),
+    ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
+    ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
+    ('RobotoMono-Bold', 'Roboto Mono', 'Bold'),
     # ('RobotoMono-Light', 'Roboto Mono Light', 'Regular'),
     # ('RobotoMono-Thin', 'Roboto Mono Thin', 'Regular'),
 ]
@@ -67,9 +67,9 @@ for fn, ff, style in styles:
                 reps=reps, sfnt_ref=ref, clean_up=clean_up)
 
 styles = [
-    ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
-    ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
-    ('RobotoMono-Bold', 'Roboto Mono', 'Bold'),
+    # ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
+    # ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
+    # ('RobotoMono-Bold', 'Roboto Mono', 'Bold'),
     # ('RobotoMono-Light', 'Roboto Mono Light', 'Regular'),
     # ('RobotoMono-Thin', 'Roboto Mono Thin', 'Regular'),
 ]
