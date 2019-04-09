@@ -11,6 +11,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+import subprocess
 from monospacifier_api import monospacifier
 from helper import rename_font
 import os
@@ -29,7 +30,6 @@ if not p.exists(dir_):
     os.makedirs(dir_)
 
 refs = [p.join(robotomono, 'RobotoMono-Regular.ttf')]
-shutil.copy(p.join(robotomono, 'LICENSE.txt'), p.join(dir_, 'LICENSE.txt'))
 
 
 # Monospacify Roboto Mono:
@@ -66,14 +66,14 @@ for fn, ff, style in styles:
                 fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),
                 reps=reps, sfnt_ref=ref, clean_up=clean_up)
 
-styles = [
+styles2 = [
     # ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
     # ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
     # ('RobotoMono-Bold', 'Roboto Mono', 'Bold'),
     # ('RobotoMono-Light', 'Roboto Mono Light', 'Regular'),
     # ('RobotoMono-Thin', 'Roboto Mono Thin', 'Regular'),
 ]
-for fn, ff, style in styles:
+for fn, ff, style in styles2:
     clean_up=False
     ref = p.join(robotomono, fn + '.ttf')
     of = ref  # Old Font
@@ -83,3 +83,14 @@ for fn, ff, style in styles:
                 familyname=rep(ff),  # Font Family
                 fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),
                 reps=reps, sfnt_ref=ref, clean_up=clean_up)
+
+
+# Set isFixedPitch flag:
+# ---------------------------------
+for fn, ff, style in styles:
+    print(subprocess.check_output([os.environ['python3'], './setisFixedPitch-fonttools.py', p.join(dir_, rep(fn) +'.ttf')]))
+
+
+# Other:
+# ---------------------------------
+shutil.copy(p.join(robotomono, 'LICENSE.txt'), p.join(dir_, 'fixed', 'LICENSE.txt'))
