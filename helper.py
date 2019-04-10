@@ -1,6 +1,13 @@
 import os
+import os.path as p
 import shutil
 import fontforge
+import subprocess
+import os
+import sys
+here = p.dirname(p.abspath(__file__))
+sys.path.insert(0, p.join(p.dirname(here), 'shutilwhich-cwdpatch'))
+from shutilwhich_cwdpatch import which
 
 
 def rename_font(input, save_as, fontname=None, familyname=None, fullname=None, sfnt_ref=None, reps=(), clean_up=False, mono=False):
@@ -24,7 +31,10 @@ def rename_font(input, save_as, fontname=None, familyname=None, fullname=None, s
                 obj = obj.replace(pair[0], pair[1])
             return obj
         elif isinstance(obj, tuple):
-            return tuple(_rep(o) for o in obj)
+            t = tuple(_rep(o) for o in obj)
+            if t[1] == 'PostScriptName':
+                t = tuple([t[0], t[1], t[2].replace(' ', '')] + list(t[3:]))
+            return t
         else:
             raise RuntimeError('Tried to replace something that is not tuple/str superposition.')
 
@@ -61,3 +71,14 @@ def rename_font(input, save_as, fontname=None, familyname=None, fullname=None, s
         except:
             pass
     renamed.close()
+
+    if mono:
+        if os.name != 'nt':
+            pyexe = which('python3')
+            if not pyexe:
+                pyexe = which('python')
+        else:
+            pyexe = which('python')
+        if not pyexe:
+            raise RuntimeError("python executable wasn't found")
+        print(subprocess.check_output([pyexe, p.join(here, 'setisFixedPitch-fonttools.py'), save_as]))

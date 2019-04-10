@@ -25,7 +25,7 @@ libert_all = [
 
 
 def rep0(s):
-    return s.replace('ibertinus', 'inus').replace('serif', 'libertini').replace('Serif', 'Libertini')
+    return s.replace('Libertinus Serif', 'Linus Libertini').replace('LibertinusSerif', 'LinusLibertini')
 
 
 def rep1(obj, _rep):

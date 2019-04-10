@@ -43,8 +43,8 @@ styles = [
 fonts = [p.join(dejavu, fn +'.ttf') for fn, ff, st in styles]
 monospacifier(fonts, consolas_refs, save_to=dir_, merge=merge, copy_metrics=copy_metrics)
 
-reps = (('Mono', 'MonoForConso1as'),)
-def rep(s): return s.replace('Mono', 'MonoForConso1as')
+reps = (('DejaVu Sans Mono', 'DejaVu Sans Mono For Conso1as'), ('DejaVuSansMono', 'DejaVuSansMonoForConso1as'))
+def rep(s): return s.replace('DejaVu Sans Mono', 'DejaVu Sans Mono For Conso1as').replace('DejaVuSansMono', 'DejaVuSansMonoForConso1as')
 
 for fn, ff, style in styles:
     clean_up = True
@@ -55,7 +55,7 @@ for fn, ff, style in styles:
                 fontname=rep(fn),  # Font Name
                 familyname=rep(ff),  # Font Family
                 fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),
-                reps=reps, sfnt_ref=ref, clean_up=clean_up)
+                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True)
 
 
 # Monospacify Symbola and STIX Two Math for Consolas and Roboto Mono:
@@ -73,7 +73,7 @@ monospacifier([symbola, stix], robotomono_refs, save_to=dir_, merge=merge, copy_
 
 
 def rep(s):
-    return s.replace('Roboto', 'Rob0to').replace('Consolas', 'Conso1as').replace('STIX', 'ST1X')
+    return s.replace('Roboto', 'Robot0').replace('Consolas', 'Conso1as').replace('STIX', 'ST1X')
 
 
 def rep2(s, _reps):
@@ -83,17 +83,22 @@ def rep2(s, _reps):
 
 
 for mono_ref in ('Consolas', 'Roboto Mono'):
-    mono_ref = mono_ref.replace(' ', '')
-    reps = (('Math', 'MathFor' + rep(mono_ref)),
-            ('Symbola', 'SymbolaFor' + rep(mono_ref)),
-            ('STIX', 'ST1X'),
-            ('STIPub:', 'ST1Pub:'),
-            ('(TM)', '(TM)__this_statement_is_void_but_still_may_be_true__'),)
+    monoRef = mono_ref.replace(' ', '')
+
+    reps = (
+        ('STIX Two Math', 'ST1X Two Math For ' + rep(mono_ref)),
+        ('STIXTwoMath', 'ST1XTwoMathFor' + rep(monoRef)),
+        ('Symbola', 'Symbola For ' + rep(mono_ref)),
+        # ('STIX Two ', 'ST1X Two'),
+        # ('STIXTwo', 'ST1XTwo'),
+        # ('STIPub:', 'ST1Pub:'),
+        # ('(TM)', '(TM)__this_statement_is_void_but_still_may_be_true__'),
+    )
 
     for ofn, ref in (('STIX Two Math', stix), ('Symbola', symbola)):  # Original Font Name
         clean_up = True
 
-        of = p.join(dir_, ofn.replace(' ', '') + '_monospacified_for_' + mono_ref + '.ttf')  # Old Font
+        of = p.join(dir_, ofn.replace(' ', '') + '_monospacified_for_' + monoRef + '.ttf')  # Old Font
         ff = rep2(ofn, reps)
         fn = ff.replace(' ', '')
 
@@ -101,4 +106,4 @@ for mono_ref in ('Consolas', 'Roboto Mono'):
                     fontname=rep(fn),  # Font Name
                     familyname=rep(ff),  # Font Family
                     fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),
-                    reps=reps, sfnt_ref=ref, clean_up=clean_up)
+                    reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True)

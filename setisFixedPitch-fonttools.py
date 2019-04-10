@@ -24,7 +24,7 @@
 # Usage:
 #
 # $ ./setisFixedPitch-fonttools.py FontIn.ttf
-# "fontname"-fixed.ttf will be created with fixed isFixedPitch bit.
+# fontname.ttf will be OVERWRITTEN with fixed isFixedPitch bit.
 
 # Import our system library and fontTools ttLib
 import os
@@ -32,6 +32,7 @@ import os.path as p
 import sys
 from fontTools import ttLib
 from fontTools.ttLib.tables import ttProgram
+import shutil
 
 
 for i in range(1, len(sys.argv)):
@@ -52,6 +53,8 @@ for i in range(1, len(sys.argv)):
     newfont = p.join(p.dirname(fontfile), 'fixed', p.basename(fontfile)) 
     if not p.isdir(p.dirname(newfont)):
         os.makedirs(p.dirname(newfont))
-    # newfont = fontfile[0:-4] + '-fixed' + fontfile[-4:]
     font.save(newfont)
-    print("{} saved.".format(newfont))
+    font.close()
+    shutil.move(newfont, fontfile)
+    shutil.rmtree(p.dirname(newfont))
+    print("{} was overwritten.".format(fontfile))

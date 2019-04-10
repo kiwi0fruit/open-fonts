@@ -8,4 +8,6 @@
 @cd ..
 @git clone https://github.com/cpitclaudel/monospacifier && cd monospacifier || cd monospacifier && git pull
 @cd ..
+@git clone https://github.com/kiwi0fruit/shutilwhich-cwdpatch && cd shutilwhich-cwdpatch || cd shutilwhich-cwdpatch && git pull
+@cd ..
 @pause

@@ -50,11 +50,13 @@ styles = [
 ]
 fonts = [p.join(robotomono, fn +'.ttf') for fn, ff, st in styles]
 monospacifier(fonts, refs, dir_, merge, copy_metrics)
+os.remove(refs[0])
+shutil.copy(p.join(robotomono, 'LICENSE.txt'), p.join(dir_, 'LICENSE.txt'))
 
 
 # Rename monospacified Roboto Mono:
 # ---------------------------------
-reps = (('Roboto', 'Open'), ('Google', 'Google__this_statement_is_void_but_still_may_be_true__'))
+reps = (('Roboto Mono is a trademark', 'xxyyzz'), ('Roboto Mono', 'Open Mono'), ('RobotoMono', 'OpenMono'), ('xxyyzz', 'Roboto Mono is a trademark'))
 def rep(s): return s.replace('Roboto', 'Open')
 
 for fn, ff, style in styles:
@@ -85,14 +87,3 @@ for fn, ff, style in styles2:
                 familyname=rep(ff),  # Font Family
                 fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),
                 reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True)
-
-
-# Set isFixedPitch flag:
-# ---------------------------------
-for fn, ff, style in styles:
-    print(subprocess.check_output([os.environ['python3'], './setisFixedPitch-fonttools.py', p.join(dir_, rep(fn) +'.ttf')]))
-
-
-# Other:
-# ---------------------------------
-shutil.copy(p.join(robotomono, 'LICENSE.txt'), p.join(dir_, 'fixed', 'LICENSE.txt'))

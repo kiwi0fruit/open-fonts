@@ -118,7 +118,7 @@ Main fonts and fallback chains were optimized for [SugarTeX](https://github.com/
 
 Italic in Roboto Mono has different width so it's recommended to use [**Open Mono**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.zip?raw=true) fork that is simply a renamed monospacified version of Roboto Mono (but without light and thin styles).
 
-Font fallback chain: `'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two MathForRob0toMono', 'SymbolaForRob0toMono', 'Noto Sans CJK TC', monospace`.
+Font fallback chain: `'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
 
 Fallback fonts:
 
@@ -135,7 +135,7 @@ Fallback fonts:
 
 TODO: Under construction: [Inconsolata Open: adapt Inconsolata LGC for SugarTex](https://github.com/kiwi0fruit/open-fonts/issues/2). 
 
-Font fallback chain: `'Inconsolata Open', 'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two MathForRob0toMono', 'SymbolaForRob0toMono', 'Noto Sans CJK TC', monospace`.
+Font fallback chain: `'Inconsolata Open', 'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
 
 
 ## [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
@@ -144,7 +144,7 @@ Font fallback chain: `'Inconsolata Open', 'Open Mono', 'Noto Sans Mono', 'IBM Pl
 
 TODO: Under construction: [Open Code Pro: adapt Source Code Pro for SugarTeX and tune fallback fonts](https://github.com/kiwi0fruit/open-fonts/issues/7).
 
-Font fallback chain: `'Open Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two MathForRob0toMono', 'SymbolaForRob0toMono', 'Noto Sans CJK TC', monospace`.
+Font fallback chain: `'Open Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
 
 
 ## [Consolas](https://en.wikipedia.org/wiki/Consolas)
@@ -155,7 +155,7 @@ This is a **proprietary** font but included here for [SugarTeX](https://github.c
 
 It's preinstalled with Windows. Consolas can also be installed together with [Microsoft PowerPoint Viewer](https://www.microsoft.com/en-us/download/details.aspx?id=13) till April, 2018. SHA256: 249473568EBA7A1E4F95498ACBA594E0F42E6581ADD4DEAD70C1DFB908A09423. But note that it's license says that "You may use the software only to view and print files created with Microsoft Office software. You may not use the software for any other purpose." so you might not be even allowed to print Consolas font text via Chrome browser.
 
-Font fallback chain: `Consolas, 'DejaVu Sans MonoForConso1as', 'ST1X Two MathForConso1as', 'SymbolaForConso1as', 'Noto Sans CJK TC', monospace`
+Font fallback chain: `Consolas, 'DejaVu Sans Mono For Conso1as', 'ST1X Two Math For Conso1as', 'Symbola For Conso1as', 'Noto Sans CJK TC', monospace`
 
 Fallback fonts:
 
