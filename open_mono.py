@@ -30,7 +30,8 @@ dir_ = p.join(repos, '_OpenMono')
 if not p.exists(dir_):
     os.makedirs(dir_)
 
-refs = [p.join(robotomono, 'RobotoMono-Regular.ttf')]
+refs = [p.join(dir_, 'RobotoMono-Regular.ttf')]
+shutil.copy(p.join(robotomono, 'RobotoMono-Regular.ttf'), refs[0])
 
 
 # Monospacify Roboto Mono:
