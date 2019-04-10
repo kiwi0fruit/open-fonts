@@ -36,7 +36,7 @@ remove = (
     # u'⸺', u'⸻',  # dashes that are OK: u'\u2E3A', u'\u2E3B'
 )
 
-dir_ = p.join(repos, '_OpenMono')
+dir_ = p.join(repos, '_RobotizationMono')
 if not p.exists(dir_):
     os.makedirs(dir_)
 
@@ -67,8 +67,8 @@ shutil.copy(p.join(robotomono, 'LICENSE.txt'), p.join(dir_, 'LICENSE.txt'))
 
 # Rename monospacified Roboto Mono:
 # ---------------------------------
-reps = (('Roboto Mono is a trademark', 'xxyyzz'), ('Roboto Mono', 'Open Mono'), ('RobotoMono', 'OpenMono'), ('xxyyzz', 'Roboto Mono is a trademark'))
-def rep(s): return s.replace('Roboto', 'Open')
+reps = (('Roboto Mono is a trademark', 'xxyyzz'), ('Roboto Mono', 'Robotization Mono'), ('RobotoMono', 'RobotizationMono'), ('xxyyzz', 'Roboto Mono is a trademark'))
+def rep(s): return s.replace('Roboto', 'Robotization')
 
 for fn, ff, style in styles:
     clean_up = True
