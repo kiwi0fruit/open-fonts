@@ -135,7 +135,7 @@ Fallback fonts:
 
 TODO: Under construction: [Inconsolata Sugar: adapt Inconsolata LGC for SugarTex](https://github.com/kiwi0fruit/open-fonts/issues/2). 
 
-Font fallback chain: `'Inconsolata Sugar', 'Open Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
+Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
 
 
 ## [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
