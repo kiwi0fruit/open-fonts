@@ -163,8 +163,7 @@ Fallback fonts:
 
 
 ## Other fonts
-
-For fallback chains I used monospacified fonts obtained with the help of [monospacifier.py](https://github.com/cpitclaudel/monospacifier) ([Backup](https://github.com/kiwi0fruit/monospacifier)). If you do not like Consolas, Roboto Mono or Inconsolata you can pick there monospacified versions for other monospace fonts.
+Font fallback chains contain fonts monospacified via [monospacifier.py](https://github.com/cpitclaudel/monospacifier) ([Backup](https://github.com/kiwi0fruit/monospacifier)). If you don't like Consolas, Roboto Mono,  Source Code Pro or Inconsolata that much you can pick [there](https://github.com/cpitclaudel/monospacifier) monospacified fallbacks for other monospace fonts.
 
 
 # [MacType](https://github.com/snowie2000/mactype)
