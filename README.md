@@ -107,6 +107,9 @@ Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', 
 
 # Best Monospace
 
+Main fonts and fallback chains were optimized for [SugarTeX](https://github.com/kiwi0fruit/sugartex).
+
+
 ## [Roboto Mono](https://en.wikipedia.org/wiki/Roboto#Roboto_Mono)
 
 ### (by Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto+Mono), [Download Open Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/OpenMono.zip?raw=true), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/robotomono)
