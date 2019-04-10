@@ -11,7 +11,7 @@ from shutilwhich_cwdpatch import which
 
 
 def rename_font(input, save_as, fontname=None, familyname=None, fullname=None,
-                sfnt_ref=None, reps=(), clean_up=False, mono=False, remove=()):
+                sfnt_ref=None, reps=(), clean_up=False, mono=False, remove=(), spaces=()):
     """
     Parameters
     ----------
@@ -29,6 +29,8 @@ def rename_font(input, save_as, fontname=None, familyname=None, fullname=None,
         set isFixedPitch flag to 1 and OS/2 PANOSE Proportion to Monospaced
     remove : iterable
         list of characters to delete form a font
+    spaces : iterable
+        list of characters to copy whitespace (U+0020) into
     """
     def _rep(obj):
         if isinstance(obj, str):
@@ -70,6 +72,15 @@ def rename_font(input, save_as, fontname=None, familyname=None, fullname=None,
             renamed.selection[ord(c)] = True
         for i in renamed.selection.byGlyphs:
             renamed.removeGlyph(i)
+
+    if spaces:
+        renamed.selection.select(ord(' '))
+        renamed.copy()
+        renamed.selection.none()
+        for c in spaces:
+            renamed.selection.select(ord(c))
+            renamed.paste()
+            renamed.selection.none()
 
     if save_as[-4:] == '.sfd':
         renamed.save(save_as)

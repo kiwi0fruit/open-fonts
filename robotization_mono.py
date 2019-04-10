@@ -26,14 +26,17 @@ robotomono = p.join(repos, 'fonts', 'apache', 'robotomono')
 merge = False
 copy_metrics = True
 remove = (
-    # bad controls:
-    u'\u000B', u'\u000C', u'\u001C', u'\u001D', u'\u001E', u'\u001F', u'\u0085',
-    # u' ', u' ',  # controls that are OK
-    # bad whitespaces u'\u1680', u'\u202F', u'\u205F', u'\u3000':
+    # ---- Bad dashes: ----
+    # [\u00AD \u1806 \uFE63 \uFF0D]
+    u'­', u'᠆',  u'﹣', u'－',
+    # ---- OK dashes: ----
+    # [u2E3A \u2E3B] (multiple of character width)
+    # u'⸺', u'⸻',
+)
+spaces = (
+    # ---- Bad whitespaces: ----
+    # [\u1680 \u202F \u205F \u3000]
     u' ', u' ', u' ', u'　',
-    # bas dashes u'\u00AD', u'\u1806', u'\uFE63', u'\uFF0D':
-    u'­', u'᠆', u'﹣', u'－',
-    # u'⸺', u'⸻',  # dashes that are OK: u'\u2E3A', u'\u2E3B'
 )
 
 dir_ = p.join(repos, '_RobotizationMono')
@@ -79,7 +82,7 @@ for fn, ff, style in styles:
                 fontname=rep(fn),  # Font Name
                 familyname=rep(ff),  # Font Family
                 fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),
-                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True, remove=remove)
+                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True, remove=remove, spaces=spaces)
 
 styles2 = [
     ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
@@ -97,4 +100,4 @@ for fn, ff, style in styles2:
                 fontname=rep(fn),  # Font Name
                 familyname=rep(ff),  # Font Family
                 fullname=rep(ff) + ((' ' + style) if (style != 'Regular') else ''),
-                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True, remove=remove)
+                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True, remove=remove, spaces=spaces)

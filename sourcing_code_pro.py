@@ -27,17 +27,23 @@ merge = False
 copy_metrics = True
 remove = (
     u'∕',
-    # bad controls:
-    u'\u000B', u'\u000C', u'\u001C', u'\u001D', u'\u001E', u'\u001F', u'\u0085',
-    # u' ', u' ',  # controls that are OK
-    # bad whitespaces u'\u1680', u'\u205F', u'\u3000':
+    # ---- Bad dashes: ----
+    # [\u00AD \u1806 \uFE63 \uFF0D]
+    u'­', u'᠆',  u'﹣', u'－',
+    # ---- OK dashes: ----
+    # [u2E3A \u2E3B] (multiple of character width)
+    # u'⸺', u'⸻',
+)
+spaces = (
+    # ---- OK whitespaces: ----
+    # [\u202F]
+    # u' ',
+    # ---- Bad whitespaces: ----
+    # [\u1680 \u205F \u3000]
     u' ', u' ', u'　',
-    # bad whitespaces:
-    # u'\u2000', u'\u2001', u'\u2002', u'2003', u'\u2004', u'\u2005', u'\u2006', u'\u2009', u'\u200A':
+    # ---- Bad whitespaces: ----
+    # [\u2000 \u2001 \u2002 \u2003 \u2004 \u2005 \u2006 \u2009 \u200A]
     u' ', u' ', u' ', u' ', u' ', u' ', u' ', u' ', u' ',
-    # bas dashes u'\u00AD', u'\u1806', u'\uFE63', u'\uFF0D':
-    u'­', u'᠆', u'﹣', u'－',
-    # u'⸺', u'⸻',  # dashes that are OK: u'\u2E3A', u'\u2E3B'
 )
 
 dir_ = p.join(repos, '_SourcingCodePro')
@@ -78,4 +84,4 @@ for fn, ff, style in styles:
                 fontname=rep(fn),  # Font Name
                 familyname=rep(ff),  # Font Family
                 fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),
-                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True, remove=remove)
+                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True, remove=remove, spaces=spaces)

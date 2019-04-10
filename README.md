@@ -116,7 +116,7 @@ Main fonts and fallback chains were optimized for [SugarTeX](https://github.com/
 
 *My favorite!*
 
-Italic in Roboto Mono has different width so it's recommended to use [**Robotization Mono**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/RobotizationMono.zip?raw=true) fork that is simply a renamed monospacified version of Roboto Mono (but without light and thin styles).
+Italic in Roboto Mono has different width so it's recommended to use [**Robotization Mono**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/RobotizationMono.zip?raw=true) fork that is simply a renamed monospacified version of Roboto Mono (but also without light and thin styles).
 
 Font fallback chain: `'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
 
@@ -140,9 +140,9 @@ Font fallback chain: `'Inconsolata Sugar', 'Open Mono', 'Noto Sans Mono', 'IBM P
 
 ## [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
-### (by Paul D. Hunt and Teo Tuominen), [Preview](https://adobe-fonts.github.io/source-code-pro/), [Download Sourcing Code Pro](https://github.com/kiwi0fruit/open-fonts/issues/7), [Backup](https://github.com/kiwi0fruit/source-code-pro)
+### (by Paul D. Hunt and Teo Tuominen), [Preview](https://adobe-fonts.github.io/source-code-pro/), [Download Sourcing Code Pro](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true), [Backup](https://github.com/kiwi0fruit/source-code-pro)
 
-TODO: Under construction: [Sourcing Code Pro: adapt Source Code Pro for SugarTeX and tune fallback fonts](https://github.com/kiwi0fruit/open-fonts/issues/7).
+Source Code Pro lacks some whitespace characters and has broken division slash. For SugarTeX it's recommended to use [**Sourcing Code Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true) fork that is simply a renamed Source Code Pro with this issues fixed (but also without light and extra light styles).
 
 Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
 
