@@ -140,11 +140,11 @@ Font fallback chain: `'Inconsolata Open', 'Open Mono', 'Noto Sans Mono', 'IBM Pl
 
 ## [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
-### (by Paul D. Hunt and Teo Tuominen), [Preview](https://adobe-fonts.github.io/source-code-pro/), [Download Open Code Pro](https://github.com/kiwi0fruit/open-fonts/issues/7), [Backup](https://github.com/kiwi0fruit/source-code-pro)
+### (by Paul D. Hunt and Teo Tuominen), [Preview](https://adobe-fonts.github.io/source-code-pro/), [Download Sourcing Code Pro](https://github.com/kiwi0fruit/open-fonts/issues/7), [Backup](https://github.com/kiwi0fruit/source-code-pro)
 
-TODO: Under construction: [Open Code Pro: adapt Source Code Pro for SugarTeX and tune fallback fonts](https://github.com/kiwi0fruit/open-fonts/issues/7).
+TODO: Under construction: [Sourcing Code Pro: adapt Source Code Pro for SugarTeX and tune fallback fonts](https://github.com/kiwi0fruit/open-fonts/issues/7).
 
-Font fallback chain: `'Open Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
+Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
 
 
 ## [Consolas](https://en.wikipedia.org/wiki/Consolas)

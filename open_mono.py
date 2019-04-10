@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -11,7 +12,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import subprocess
 from monospacifier_api import monospacifier
 from helper import rename_font
 import os
@@ -25,13 +25,24 @@ robotomono = p.join(repos, 'fonts', 'apache', 'robotomono')
 
 merge = False
 copy_metrics = True
+remove = (
+    # bad controls:
+    u'\u000B', u'\u000C', u'\u001C', u'\u001D', u'\u001E', u'\u001F', u'\u0085',
+    # u' ', u' ',  # controls that are OK
+    # bad whitespaces u'\u1680', u'\u202F', u'\u205F', u'\u3000':
+    u' ', u' ', u' ', u'　',
+    # bas dashes u'\u00AD', u'\u1806', u'\uFE63', u'\uFF0D':
+    u'­', u'᠆', u'﹣', u'－',
+    # u'⸺', u'⸻',  # dashes that are OK: u'\u2E3A', u'\u2E3B'
+)
 
 dir_ = p.join(repos, '_OpenMono')
 if not p.exists(dir_):
     os.makedirs(dir_)
 
-refs = [p.join(dir_, 'RobotoMono-Regular.ttf')]
-shutil.copy(p.join(robotomono, 'RobotoMono-Regular.ttf'), refs[0])
+refs = [p.join(robotomono, 'RobotoMono-Regular.ttf')]
+# refs = [p.join(dir_, 'RobotoMono-Regular.ttf')]
+# shutil.copy(p.join(robotomono, 'RobotoMono-Regular.ttf'), refs[0])
 
 
 # Monospacify Roboto Mono:
@@ -42,15 +53,15 @@ styles = [
     ('RobotoMono-BoldItalic', 'Roboto Mono', 'Bold Italic'),
     # ('RobotoMono-LightItalic', 'Roboto Mono Light', 'Italic'),
     # ('RobotoMono-ThinItalic', 'Roboto Mono Thin', 'Italic'),
-    ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
-    ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
-    ('RobotoMono-Bold', 'Roboto Mono', 'Bold'),
+    # ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
+    # ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
+    # ('RobotoMono-Bold', 'Roboto Mono', 'Bold'),
     # ('RobotoMono-Light', 'Roboto Mono Light', 'Regular'),
     # ('RobotoMono-Thin', 'Roboto Mono Thin', 'Regular'),
 ]
 fonts = [p.join(robotomono, fn +'.ttf') for fn, ff, st in styles]
 monospacifier(fonts, refs, dir_, merge, copy_metrics)
-os.remove(refs[0])
+# os.remove(refs[0])
 shutil.copy(p.join(robotomono, 'LICENSE.txt'), p.join(dir_, 'LICENSE.txt'))
 
 
@@ -68,12 +79,12 @@ for fn, ff, style in styles:
                 fontname=rep(fn),  # Font Name
                 familyname=rep(ff),  # Font Family
                 fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),
-                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True)
+                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True, remove=remove)
 
 styles2 = [
-    # ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
-    # ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
-    # ('RobotoMono-Bold', 'Roboto Mono', 'Bold'),
+    ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
+    ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
+    ('RobotoMono-Bold', 'Roboto Mono', 'Bold'),
     # ('RobotoMono-Light', 'Roboto Mono Light', 'Regular'),
     # ('RobotoMono-Thin', 'Roboto Mono Thin', 'Regular'),
 ]
@@ -85,5 +96,5 @@ for fn, ff, style in styles2:
     rename_font(input=of, save_as=p.join(dir_, rep(fn) +'.ttf'),
                 fontname=rep(fn),  # Font Name
                 familyname=rep(ff),  # Font Family
-                fullname=rep(ff) + ((' ' + style) if style != 'Regular' else ''),
-                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True)
+                fullname=rep(ff) + ((' ' + style) if (style != 'Regular') else ''),
+                reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True, remove=remove)

@@ -10,7 +10,8 @@ sys.path.insert(0, p.join(p.dirname(here), 'shutilwhich-cwdpatch'))
 from shutilwhich_cwdpatch import which
 
 
-def rename_font(input, save_as, fontname=None, familyname=None, fullname=None, sfnt_ref=None, reps=(), clean_up=False, mono=False):
+def rename_font(input, save_as, fontname=None, familyname=None, fullname=None,
+                sfnt_ref=None, reps=(), clean_up=False, mono=False, remove=()):
     """
     Parameters
     ----------
@@ -24,6 +25,10 @@ def rename_font(input, save_as, fontname=None, familyname=None, fullname=None, s
         path to reference font with right SFNT section
     reps : tuple(tuple)
         replacements for SFNT section like: (('Roboto', 'Open'), ('STIX', 'STYX'))
+    mono : bool
+        set isFixedPitch flag to 1 and OS/2 PANOSE Proportion to Monospaced
+    remove : iterable
+        list of characters to delete form a font
     """
     def _rep(obj):
         if isinstance(obj, str):
@@ -59,6 +64,12 @@ def rename_font(input, save_as, fontname=None, familyname=None, fullname=None, s
         lst = list(renamed.os2_panose)
         lst[3] = 9
         renamed.os2_panose = tuple(lst)
+
+    if remove:
+        for c in remove:
+            renamed.selection[ord(c)] = True
+        for i in renamed.selection.byGlyphs:
+            renamed.removeGlyph(i)
 
     if save_as[-4:] == '.sfd':
         renamed.save(save_as)
