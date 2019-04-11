@@ -95,7 +95,7 @@ styles2 = [
     # ('RobotoMono-Thin', 'Roboto Mono Thin', 'Regular'),
 ]
 for fn, ff, style in styles2:
-    clean_up=False
+    clean_up = False
     ref = p.join(robotomono, fn + '.ttf')
     of = ref  # Old Font
 

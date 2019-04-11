@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1554973799
+ModificationTime: 1554976281
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 16 4
+WinInfo: 25 25 9
 BeginPrivate: 6
 BlueValues 31 [-14 0 542 555 739 748 767 796]
 OtherBlues 11 [-206 -198]
@@ -8057,10 +8057,25 @@ EndChar
 StartChar: afii10069
 Encoding: 1076 1076 403
 Width: 613
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 13 103 N 1 0 0 1 0 0 2
+SplineSet
+397 481 m 0
+ 317 481 222 416 197 276 c 0
+ 173 138 239 59 324 59 c 0
+ 391 59 490 110 519 275 c 0
+ 548 440 459 481 397 481 c 0
+312 778 m 1
+ 412 798 l 1
+ 576 695 648 523 609 300 c 0
+ 598 236 578 161 528 97 c 0
+ 472 25 391 -14 312 -14 c 0
+ 175 -14 76 101 105 264 c 0
+ 134 427 271 554 403 554 c 0
+ 458 554 505 532 534 493 c 1
+ 506 625 423 723 312 778 c 1
+EndSplineSet
 Substitution2: "Macedonian-Serbian Italic subtable" afii10069.mkd
 EndChar
 
@@ -9362,7 +9377,7 @@ EndChar
 StartChar: afii10069.mkd
 Encoding: 1114122 -1 463
 Width: 613
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 403 1076 N 1 0 0 1 0 0 2

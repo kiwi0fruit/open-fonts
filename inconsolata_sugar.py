@@ -69,7 +69,7 @@ reps = (('Inconsolata LGC', 'Inconsolata Sugar'), ('InconsolataLGC', 'Inconsolat
 def rep(s): return s.replace('-LGC', 'Sugar').replace('LGC', 'Sugar')
 
 for fn, ff, style in styles:
-    clean_up=False
+    clean_up = False
     ref = p.join(inconsolata, fn + '.sfd')
     of = ref  # Old Font
 

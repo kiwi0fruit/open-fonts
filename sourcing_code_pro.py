@@ -79,7 +79,7 @@ reps = (('Source is a trademark', 'xxyyzz'), ('Source Code Pro', 'Sourcing Code 
 def rep(s): return s.replace('Source', 'Sourcing')
 
 for fn, ff, style in styles:
-    clean_up=False
+    clean_up = False
     ref = p.join(sourcecodepro, fn + '.ttf')
     of = ref  # Old Font
 
