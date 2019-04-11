@@ -131,9 +131,9 @@ Fallback fonts:
 
 ## [Inconsolata](https://en.wikipedia.org/wiki/Inconsolata)
 
-### (by Raph Levien and others), [Preview](https://fontlibrary.org/en/font/inconsolata-lgc), [Preview2](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata Sugar](https://github.com/kiwi0fruit/open-fonts/issues/2), [Backup](https://github.com/kiwi0fruit/Inconsolata-LGC)
+### (by Raph Levien and others), [Preview](https://fontlibrary.org/en/font/inconsolata-lgc), [Preview2](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata Sugar](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true), [Backup](https://github.com/kiwi0fruit/Inconsolata-LGC)
 
-TODO: Under construction: [Inconsolata Sugar: adapt Inconsolata LGC for SugarTex](https://github.com/kiwi0fruit/open-fonts/issues/2). 
+Inconsolata lacks italics, Cyrillic and Greek. Inconsolata LGC lacks some whitespace characters, has off-style backtick, italic Latin a and Cyrillic д are controversial design decisions. For SugarTeX it's recommended to use [**Inconsolata Sugar**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true) fork that is simply a renamed Inconsolata LGC with these issues fixed (backtick was simply removed so one from fallback would be used). 
 
 Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
 
