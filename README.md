@@ -319,7 +319,7 @@ Backup repos:
 * [STIX](https://github.com/kiwi0fruit/stixfonts),
 * [Lato](https://github.com/kiwi0fruit/lato-source),
 * [Source Sans Pro](https://github.com/kiwi0fruit/source-sans-pro),
-* [Roboto, Roboto Mono, PT Sans](https://github.com/kiwi0fruit/fonts),
+* [Roboto, Roboto Mono, PT Sans, Open Sans](https://github.com/kiwi0fruit/fonts),
 * [Source Serif Pro](https://github.com/kiwi0fruit/source-serif-pro),
 * [Source Code Pro](https://github.com/kiwi0fruit/source-code-pro),
 * [IBM Plex Mono](https://github.com/kiwi0fruit/plex),
