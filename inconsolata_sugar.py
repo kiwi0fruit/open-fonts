@@ -46,9 +46,6 @@ spaces = (
     u' ', u' ', u' ', u' ', u' ', u' ', u' ', u' ', u' ',
 )
 
-# TODO: Check if there's a replacement mode that replaces references.
-# TODO: Check for other "a"-like and "д"-like characters.
-
 dir_ = p.join(repos, '_InconsolataSugar')
 if not p.exists(dir_):
     os.makedirs(dir_)
