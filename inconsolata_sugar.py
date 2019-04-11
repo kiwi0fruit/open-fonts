@@ -65,7 +65,7 @@ shutil.copy(p.join(inconsolata, 'LICENSE'), p.join(dir_, 'LICENSE.txt'))
 
 
 reps = (('Inconsolata LGC', 'Inconsolata Sugar'), ('InconsolataLGC', 'InconsolataSugar'))
-def rep(s): return s.replace('LGC', 'Sugar')
+def rep(s): return s.replace('-LGC', 'Sugar').replace('LGC', 'Sugar')
 
 for fn, ff, style in styles:
     clean_up=False
