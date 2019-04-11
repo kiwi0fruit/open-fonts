@@ -26,6 +26,7 @@ inconsolata = p.join(here, 'Fonts', 'Inconsolata')
 merge = False
 copy_metrics = True
 remove = (
+    u'`',
     # ---- Bad dashes: ----
     # [\u00AD \u1806 \uFE63 \uFF0D]
     u'­', u'᠆',  u'﹣', u'－',
@@ -34,7 +35,7 @@ remove = (
     # u'⸺', u'⸻',
 )
 spaces = (
-    # ---- OK whitespaces: ----
+    # ---- Bad whitespaces (dont't touch): ----
     # [\u1680]
     # u' ',
     # ---- Bad whitespaces: ----
@@ -58,7 +59,7 @@ if not p.exists(dir_):
 styles = [
     ('Inconsolata-LGC-Italic', 'Inconsolata LGC', 'Italic'),
     ('Inconsolata-LGC-BoldItalic', 'Inconsolata LGC', 'Bold Italic'),
-    ('Inconsolata-LGC', 'Inconsolata LGC', 'Regular'),
+    ('Inconsolata-LGC-Regular', 'Inconsolata LGC', 'Regular'),
     ('Inconsolata-LGC-Bold', 'Inconsolata LGC', 'Bold'),
 ]
 shutil.copy(p.join(inconsolata, 'LICENSE'), p.join(dir_, 'LICENSE.txt'))

@@ -34,9 +34,12 @@ remove = (
     # u'⸺', u'⸻',
 )
 spaces = (
+    # ---- Bad whitespaces (dont't touch): ----
+    # [\u1680]
+    # u' ',
     # ---- Bad whitespaces: ----
-    # [\u1680 \u202F \u205F \u3000]
-    u' ', u' ', u' ', u'　',
+    # [\u202F \u205F \u3000]
+    u' ', u' ', u'　',
 )
 
 dir_ = p.join(repos, '_RobotizationMono')

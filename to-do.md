@@ -45,6 +45,7 @@ Aa B   y    Ee Zz Hn O0 Ii Kk    Mu Nv    Oo    Pp     Tt Yu     Xx
 * `⅟ ½ ⅓ ¼ ⅕ ⅙ ⅛ ⅔ ⅖ ¾ ⅗ ⅜ ⅘ ⅚ ⅝ ⅞ ↉ ⅐ ⅑ ⅒ ↉ ⅐ ⅑`
 * `₁` `¹`
 * `⎴⎵`
+* `` ` ˋ ˎ ˏ a̖ à a̗ á ``
 * another [test text](https://github.com/kiwi0fruit/sugartex/blob/master/sugartex.md).
 
 ```

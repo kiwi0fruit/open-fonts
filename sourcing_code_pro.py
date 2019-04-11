@@ -38,9 +38,12 @@ spaces = (
     # ---- OK whitespaces: ----
     # [\u202F]
     # u' ',
+    # ---- Bad whitespaces (dont't touch): ----
+    # [\u1680]
+    # u' ',
     # ---- Bad whitespaces: ----
-    # [\u1680 \u205F \u3000]
-    u' ', u' ', u'　',
+    # [\u205F \u3000]
+    u' ', u'　',
     # ---- Bad whitespaces: ----
     # [\u2000 \u2001 \u2002 \u2003 \u2004 \u2005 \u2006 \u2009 \u200A]
     u' ', u' ', u' ', u' ', u' ', u' ', u' ', u' ', u' ',
