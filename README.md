@@ -2,6 +2,8 @@
 
 A collection of beautiful free and open source fonts: instructions for installing, Unicode fallback chains, instructions to replace Windows ClearType and fix browser fonts.
 
+*Only 4 in eash category*.
+
 Contents:
 
 * [Best Sans Serif](#best-sans-serif)
