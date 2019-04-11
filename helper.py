@@ -69,7 +69,7 @@ def rename_font(input, save_as, fontname=None, familyname=None, fullname=None,
 
     if remove:
         for c in remove:
-            renamed.selection[ord(c)] = True
+            renamed.selection.select(ord(c))
         for i in renamed.selection.byGlyphs:
             renamed.removeGlyph(i)
 

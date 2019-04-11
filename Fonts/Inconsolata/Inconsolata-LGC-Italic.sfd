@@ -4,16 +4,17 @@ FullName: Inconsolata LGC Italic
 FamilyName: Inconsolata LGC
 Weight: Regular
 Copyright: Original Roman version created by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien. Hellenisation of the Roman font, by Dimosthenis Kaponis, using FontForge. Hellenic glyphs Copyright 2010-2012 Dimosthenis Kaponis. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nCyrillic glyphs added by MihailJP, using FontForge. Cyrillic glyphs Copyright 2012 MihailJP. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nItalic changes by MihailJP.\n\nSome glyphs modified by Greg Omelaenko, using FontForge.
-UComments: "2005-8-26: Created." 
+UComments: "2005-8-26: Created."
 Version: 1.2
 ItalicAngle: -10
 UnderlinePosition: -102
 UnderlineWidth: 51
 Ascent: 840
 Descent: 184
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 0 "Back"  1
-Layer: 1 0 "Fore"  0
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
 XUID: [1021 77 1780377399 11264577]
 FSType: 8
 OS2Version: 0
@@ -41,14 +42,13 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "Polish kreska forms"  {"Polish kreska forms-1" ("pl" ) } ['loca' ('latn' <'PLK ' > ) ]
-Lookup: 1 0 0 "Romanian comma accent"  {"Romanian comma accent-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
-Lookup: 1 0 0 "Macedonian-Serbian Italic"  {"Macedonian-Serbian Italic subtable" ("mkd" ) } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
+Lookup: 1 0 0 "Polish kreska forms" { "Polish kreska forms-1" ("pl") } ['loca' ('latn' <'PLK ' > ) ]
+Lookup: 1 0 0 "Romanian comma accent" { "Romanian comma accent-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
+Lookup: 1 0 0 "Macedonian-Serbian Italic" { "Macedonian-Serbian Italic subtable" ("mkd") } ['locl' ('cyrl' <'MKD ' 'SRB ' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 
-Encoding: UnicodeBmp
-Compacted: 1
+LangName: 1033
+Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -72
@@ -65,25 +65,25 @@ StdVW 4 [86]
 EndPrivate
 Grid
 -1024 315.392 m 0
- 2048 315.392 l 0
+ 2048 315.392 l 1024
 -1024 1079.3 m 0
- 2048 1079.3 l 0
+ 2048 1079.3 l 1024
 -1024 740.352 m 0
- 2048 740.352 l 0
-  Named: "capitals" 
+ 2048 740.352 l 1024
+  Named: "capitals"
 -1024 768 m 0
- 2048 768 l 0
+ 2048 768 l 1024
 -1024 553.984 m 0
- 2048 553.984 l 0
+ 2048 553.984 l 1024
 159.744 1351.68 m 0
- 159.744 -696.32 l 0
+ 159.744 -696.32 l 1024
 271.36 1351.68 m 0
- 271.36 -696.32 l 0
+ 271.36 -696.32 l 1024
 172.032 939.008 m 25
- 416.256 939.008 l 25
+ 416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65562 885
+BeginChars: 1114138 885
 
 StartChar: a
 Encoding: 97 97 0
@@ -4123,7 +4123,7 @@ Refer: 139 168 S 1 0 0 1 20.9201 147 2
 EndChar
 
 StartChar: circumflex.cap
-Encoding: 65536 -1 190
+Encoding: 1114112 -1 190
 Width: 613
 Flags: MW
 TeX: 80 0
@@ -4142,7 +4142,7 @@ EndSplineSet
 EndChar
 
 StartChar: caron.cap
-Encoding: 65537 -1 191
+Encoding: 1114113 -1 191
 Width: 613
 Flags: MW
 TeX: 80 0
@@ -4251,7 +4251,7 @@ EndSplineSet
 EndChar
 
 StartChar: acute.cap
-Encoding: 65538 -1 194
+Encoding: 1114114 -1 194
 Width: 613
 Flags: MW
 TeX: 80 0
@@ -4267,7 +4267,7 @@ EndSplineSet
 EndChar
 
 StartChar: grave.cap
-Encoding: 65539 -1 195
+Encoding: 1114115 -1 195
 Width: 613
 Flags: MW
 TeX: 80 0
@@ -5436,7 +5436,7 @@ EndSplineSet
 EndChar
 
 StartChar: r.serif
-Encoding: 65540 -1 269
+Encoding: 1114116 -1 269
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -5465,7 +5465,7 @@ EndSplineSet
 EndChar
 
 StartChar: hungarumlaut.cap
-Encoding: 65541 -1 270
+Encoding: 1114117 -1 270
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -5906,7 +5906,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero.noslash
-Encoding: 65542 -1 292
+Encoding: 1114118 -1 292
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -5930,7 +5930,7 @@ EndSplineSet
 EndChar
 
 StartChar: .notdef
-Encoding: 65543 -1 293
+Encoding: 1114119 -1 293
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -9341,7 +9341,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10066.mkd
-Encoding: 65544 -1 461
+Encoding: 1114120 -1 461
 Width: 613
 Flags: W
 LayerCount: 2
@@ -9350,7 +9350,7 @@ Refer: 297 948 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: afii10068.mkd
-Encoding: 65545 -1 462
+Encoding: 1114121 -1 462
 Width: 613
 Flags: W
 LayerCount: 2
@@ -9360,7 +9360,7 @@ Refer: 136 305 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: afii10069.mkd
-Encoding: 65546 -1 463
+Encoding: 1114122 -1 463
 Width: 613
 Flags: W
 LayerCount: 2
@@ -9369,7 +9369,7 @@ Refer: 403 1076 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: afii10081.mkd
-Encoding: 65547 -1 464
+Encoding: 1114123 -1 464
 Width: 613
 Flags: W
 LayerCount: 2
@@ -9379,7 +9379,7 @@ Refer: 15 117 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: afii10084.mkd
-Encoding: 65548 -1 465
+Encoding: 1114124 -1 465
 Width: 614
 Flags: W
 LayerCount: 2
@@ -9395,7 +9395,7 @@ Refer: 423 1096 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: afii10100.mkd
-Encoding: 65549 -1 466
+Encoding: 1114125 -1 466
 Width: 613
 Flags: W
 LayerCount: 2
@@ -13778,7 +13778,7 @@ Refer: 19 118 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: acute.cap.pl
-Encoding: 65550 -1 668
+Encoding: 1114126 -1 668
 Width: 613
 Flags: W
 HStem: 642 159
@@ -13795,7 +13795,7 @@ EndSplineSet
 EndChar
 
 StartChar: acute.pl
-Encoding: 65551 -1 669
+Encoding: 1114127 -1 669
 Width: 613
 Flags: W
 HStem: 634 212
@@ -13812,7 +13812,7 @@ EndSplineSet
 EndChar
 
 StartChar: Cacute.pl
-Encoding: 65552 -1 670
+Encoding: 1114128 -1 670
 Width: 613
 VWidth: 1046
 Flags: W
@@ -13825,7 +13825,7 @@ Refer: 668 -1 S 1 0 0 1 25 141 2
 EndChar
 
 StartChar: cacute.pl
-Encoding: 65553 -1 671
+Encoding: 1114129 -1 671
 Width: 613
 VWidth: 1046
 Flags: W
@@ -13838,7 +13838,7 @@ Refer: 669 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Nacute.pl
-Encoding: 65554 -1 672
+Encoding: 1114130 -1 672
 Width: 613
 VWidth: 1046
 Flags: W
@@ -13851,7 +13851,7 @@ Refer: 668 -1 N 1 0 0 1 25 141 2
 EndChar
 
 StartChar: nacute.pl
-Encoding: 65555 -1 673
+Encoding: 1114131 -1 673
 Width: 613
 VWidth: 1046
 Flags: W
@@ -13864,7 +13864,7 @@ Refer: 669 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Oacute.pl
-Encoding: 65556 -1 674
+Encoding: 1114132 -1 674
 Width: 613
 VWidth: 1046
 Flags: W
@@ -13877,7 +13877,7 @@ Refer: 668 -1 N 1 0 0 1 25 141 2
 EndChar
 
 StartChar: oacute.pl
-Encoding: 65557 -1 675
+Encoding: 1114133 -1 675
 Width: 613
 VWidth: 1046
 Flags: W
@@ -13890,7 +13890,7 @@ Refer: 669 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Sacute.pl
-Encoding: 65558 -1 676
+Encoding: 1114134 -1 676
 Width: 613
 VWidth: 1046
 Flags: W
@@ -13903,7 +13903,7 @@ Refer: 668 -1 N 1 0 0 1 25 141 2
 EndChar
 
 StartChar: sacute.pl
-Encoding: 65559 -1 677
+Encoding: 1114135 -1 677
 Width: 613
 VWidth: 1046
 Flags: W
@@ -13916,7 +13916,7 @@ Refer: 669 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Zacute.pl
-Encoding: 65560 -1 678
+Encoding: 1114136 -1 678
 Width: 613
 VWidth: 1046
 Flags: W
@@ -13929,7 +13929,7 @@ Refer: 668 -1 N 1 0 0 1 25 141 2
 EndChar
 
 StartChar: zacute.pl
-Encoding: 65561 -1 679
+Encoding: 1114137 -1 679
 Width: 613
 VWidth: 1046
 Flags: W
