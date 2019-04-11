@@ -21,7 +21,7 @@ from os import path as p
 
 here = p.dirname(p.abspath(__file__))
 repos = p.dirname(here)
-inconsolata = p.join(repos, 'Inconsolata-LGC')
+inconsolata = p.join(here, 'Fonts', 'Inconsolata')
 
 merge = False
 copy_metrics = True
@@ -35,19 +35,18 @@ remove = (
 )
 spaces = (
     # ---- OK whitespaces: ----
-    # [\u202F]
-    # u' ',
+    # [\u1680]
+    # u' ',
     # ---- Bad whitespaces: ----
-    # [\u1680 \u205F \u3000]
-    u' ', u' ', u'　',
+    # [\u202F \u205F \u3000]
+    u' ', u' ', u'　',
     # ---- Bad whitespaces: ----
     # [\u2000 \u2001 \u2002 \u2003 \u2004 \u2005 \u2006 \u2009 \u200A]
     u' ', u' ', u' ', u' ', u' ', u' ', u' ', u' ', u' ',
 )
 
-# TODO: test which whitespaces are good.
-# Check if there's a replacement mode that replaces references.
-# Check for other "a"-like and "д"-like characters.
+# TODO: Check if there's a replacement mode that replaces references.
+# TODO: Check for other "a"-like and "д"-like characters.
 
 dir_ = p.join(repos, '_InconsolataSugar')
 if not p.exists(dir_):

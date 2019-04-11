@@ -10,6 +10,4 @@
 @cd ..
 @git clone https://github.com/kiwi0fruit/shutilwhich-cwdpatch && cd shutilwhich-cwdpatch || cd shutilwhich-cwdpatch && git pull
 @cd ..
-@git clone https://github.com/MihailJP/Inconsolata-LGC && cd Inconsolata-LGC || cd Inconsolata-LGC && git pull
-@cd ..
 @pause
