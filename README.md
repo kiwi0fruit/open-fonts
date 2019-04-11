@@ -17,7 +17,7 @@ Contents:
 
 ## [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro)
 
-### (by Paul D. Hunt), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download latest version](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
+#### (by Paul D. Hunt), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download latest version](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
 
 *My favorite!*
 
@@ -35,21 +35,21 @@ Fallback fonts:
 
 ## [Noto Sans](https://en.wikipedia.org/wiki/Noto_fonts) LGC
 
-### (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-lgc), [Download latest version](https://www.google.com/get/noto/#sans-lgc), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.zip?raw=true)
+#### (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-lgc), [Download latest version](https://www.google.com/get/noto/#sans-lgc), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.zip?raw=true)
 
 Font fallback chain: `'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 
 ## [Lato](http://www.latofonts.com)
 
-### (by Łukasz Dziedzic), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/lato/), [Download latest version](http://www.latofonts.com/lato-free-fonts/#download), [Backup](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts/Lato), [Backup2](https://github.com/kiwi0fruit/lato-source)
+#### (by Łukasz Dziedzic), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/lato/), [Download latest version](http://www.latofonts.com/lato-free-fonts/#download), [Backup](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts/Lato), [Backup2](https://github.com/kiwi0fruit/lato-source)
 
 Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 
 ## [Roboto](https://en.wikipedia.org/wiki/Roboto)
 
-### (by Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto), [Download](https://fonts.google.com/specimen/Roboto), [Download2](https://github.com/google/fonts/tree/master/apache/roboto), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/roboto)
+#### (by Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto), [Download](https://fonts.google.com/specimen/Roboto), [Download2](https://github.com/google/fonts/tree/master/apache/roboto), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/roboto)
 
 Font fallback chain: `Roboto, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
@@ -58,7 +58,7 @@ Font fallback chain: `Roboto, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbo
 
 ## [STIX Two Text and STIX Two Math](http://www.stixfonts.org/)
 
-### (by Ross Mills and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/), [Download](https://github.com/stipub/stixfonts), [Backup](https://github.com/kiwi0fruit/stixfonts)
+#### (by Ross Mills and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/), [Download](https://github.com/stipub/stixfonts), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
 *My favorite math font!*
 
@@ -76,7 +76,7 @@ Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two v
 
 ## [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro)
 
-### (by Frank Grießhammer), [Preview](https://adobe-fonts.github.io/source-serif-pro/), [Download latest version](https://github.com/adobe-fonts/source-serif-pro/releases), [Backup](https://github.com/kiwi0fruit/source-serif-pro)
+#### (by Frank Grießhammer), [Preview](https://adobe-fonts.github.io/source-serif-pro/), [Download latest version](https://github.com/adobe-fonts/source-serif-pro/releases), [Backup](https://github.com/kiwi0fruit/source-serif-pro)
 
 *My favorite text body font!*
 
@@ -89,7 +89,7 @@ Fallback fonts:
 
 ## [Linux Libertine](http://libertine-fonts.org/)
 
-### (by Philipp H. Poll and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertini](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true), [Backup](https://github.com/kiwi0fruit/libertinus)
+#### (by Philipp H. Poll and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertini](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true), [Backup](https://github.com/kiwi0fruit/libertinus)
 
 Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertini**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
 
@@ -100,7 +100,7 @@ There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) 
 
 ## [Vollkorn](http://vollkorn-typeface.com)
 
-### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
+#### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
 
 Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
@@ -112,7 +112,7 @@ Main fonts and fallback chains were optimized for [SugarTeX](https://github.com/
 
 ## [Roboto Mono](https://en.wikipedia.org/wiki/Roboto#Roboto_Mono)
 
-### (by Steve Matteson and Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto+Mono), [Download Robotization Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/RobotizationMono.zip?raw=true), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/robotomono)
+#### (by Steve Matteson and Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto+Mono), [Download Robotization Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/RobotizationMono.zip?raw=true), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/robotomono)
 
 *My favorite!*
 
@@ -131,7 +131,7 @@ Fallback fonts:
 
 ## [Inconsolata](https://en.wikipedia.org/wiki/Inconsolata)
 
-### (by Raph Levien and others), [Preview](https://fontlibrary.org/en/font/inconsolata-lgc), [Preview2](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata Sugar](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true), [Backup](https://github.com/kiwi0fruit/Inconsolata-LGC)
+#### (by Raph Levien and others), [Preview](https://fontlibrary.org/en/font/inconsolata-lgc), [Preview2](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata Sugar](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true), [Backup](https://github.com/kiwi0fruit/Inconsolata-LGC)
 
 Inconsolata lacks italics, Cyrillic and Greek. Inconsolata LGC lacks some whitespace characters, has off-style backtick, italic Latin a and Cyrillic д are controversial design decisions. For SugarTeX it's recommended to use [**Inconsolata Sugar**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true) fork that is simply a renamed Inconsolata LGC with these issues fixed (backtick was simply removed so one from fallback would be used). 
 
@@ -140,7 +140,7 @@ Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono'
 
 ## [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
-### (by Paul D. Hunt and Teo Tuominen), [Preview](https://adobe-fonts.github.io/source-code-pro/), [Download Sourcing Code Pro](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true), [Backup](https://github.com/kiwi0fruit/source-code-pro)
+#### (by Paul D. Hunt and Teo Tuominen), [Preview](https://adobe-fonts.github.io/source-code-pro/), [Download Sourcing Code Pro](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true), [Backup](https://github.com/kiwi0fruit/source-code-pro)
 
 Source Code Pro lacks some whitespace characters and has broken division slash. For SugarTeX it's recommended to use [**Sourcing Code Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true) fork that is simply a renamed Source Code Pro with these issues fixed (but also without light and extra light styles).
 
@@ -149,7 +149,7 @@ Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'D
 
 ## [Consolas](https://en.wikipedia.org/wiki/Consolas)
 
-### (by Lucas de Groot)
+#### (by Lucas de Groot)
 
 This is a **proprietary** font but included here for [SugarTeX](https://github.com/kiwi0fruit/sugartex) installation instruction.
 
