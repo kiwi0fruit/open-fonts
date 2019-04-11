@@ -296,9 +296,7 @@ Or you can use online fonts:
 
 # Build
 
-## Build Open Mono, Linus Libertini and monospacified Unicode fallback fonts
-
-1. [Install FontForge](https://fontforge.github.io/en-US/downloads/windows/)
+1. [Install FontForge](https://fontforge.github.io/en-US/downloads/)
 2. Run `update_deps.bat` from repo's directory,
 3. Run appropriate batch script from repo's directly.
 
