@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1554976345
+ModificationTime: 1554977853
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 9475 25 9
+WinInfo: 0 25 9
 BeginPrivate: 6
 BlueValues 31 [-14 0 542 555 739 748 767 796]
 OtherBlues 11 [-206 -198]
@@ -88,34 +88,31 @@ BeginChars: 1114138 885
 StartChar: a
 Encoding: 97 97 0
 Width: 613
-Flags: W
+Flags: HWO
 TeX: 99 0
 LayerCount: 2
 Fore
 SplineSet
+427 452 m 0
+ 357 451 232 392 213 303 c 0
+ 208 277 206 254 206 234 c 0
+ 206 121 266 94 310 94 c 0
+ 360 94 421 128 451 188 c 0
+ 464 214 474 243 481 283 c 1
+ 506 436 l 1
+ 491 442 463 452 427 452 c 0
 588 30 m 0
  580 0 l 1
- 460 -6 l 1
- 458 7 l 0
- 458 8 449 51 454 125 c 1
- 376 -5 279 -12 208 -12 c 0
- 195 -12 181 -11 169 -9 c 0
- 95 3 55 56 74 157 c 0
- 120 404 350 543 463 543 c 0
- 616 543 584 514 634 501 c 0
- 657 495 l 1
- 642 477 l 1
- 639 473 627 449 622 423 c 0
- 600 303 597 285 575 164 c 1
+ 458 -6 l 1
+ 457 9 l 1
+ 457 10 456 37 456 73 c 1
+ 407 25 339 -12 277 -12 c 0
+ 266 -12 254 -11 243 -9 c 0
+ 141 8 64 102 97 278 c 0
+ 139 501 389 543 445 543 c 0
+ 530.343657261 543 563 519 633.191609284 486.00000477 c 5
+ 610.990935908 364.307130873 587.596460739 236.459025755 575 168 c 1
  562 95 579 48 588 30 c 0
-467 449 m 0
- 398 449 221 331 190 167 c 0
- 189 160 188 155 188 149 c 0
- 188 110 214 94 226 94 c 0
- 318 94 413 170 463 263 c 0
- 475 286 495 337 509 406 c 0
- 515 439 l 1
- 510 443 497 449 467 449 c 0
 EndSplineSet
 EndChar
 
@@ -3080,7 +3077,7 @@ EndChar
 StartChar: aacute
 Encoding: 225 225 108
 Width: 613
-Flags: W
+Flags: HW
 TeX: 99 0
 LayerCount: 2
 Fore
@@ -3091,7 +3088,7 @@ EndChar
 StartChar: agrave
 Encoding: 224 224 109
 Width: 613
-Flags: W
+Flags: HW
 TeX: 99 0
 LayerCount: 2
 Fore
@@ -3102,7 +3099,7 @@ EndChar
 StartChar: acircumflex
 Encoding: 226 226 110
 Width: 613
-Flags: W
+Flags: HW
 TeX: 99 0
 LayerCount: 2
 Fore
@@ -3113,7 +3110,7 @@ EndChar
 StartChar: atilde
 Encoding: 227 227 111
 Width: 613
-Flags: W
+Flags: HW
 TeX: 99 0
 LayerCount: 2
 Fore
@@ -3124,7 +3121,7 @@ EndChar
 StartChar: adieresis
 Encoding: 228 228 112
 Width: 613
-Flags: W
+Flags: HW
 TeX: 99 0
 LayerCount: 2
 Fore
@@ -3135,7 +3132,7 @@ EndChar
 StartChar: aring
 Encoding: 229 229 113
 Width: 613
-Flags: W
+Flags: HW
 TeX: 99 0
 LayerCount: 2
 Fore
@@ -5249,7 +5246,7 @@ EndChar
 StartChar: aogonek
 Encoding: 261 261 239
 Width: 613
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 214 731 N 1 0 0 1 14 0 2
@@ -5328,7 +5325,7 @@ EndChar
 StartChar: abreve
 Encoding: 259 259 243
 Width: 613
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 241 728 S 1 0 0 1 10 0 2
@@ -8337,7 +8334,7 @@ StartChar: afii10065
 Encoding: 1072 1072 399
 Width: 613
 VWidth: 1046
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
@@ -10507,7 +10504,7 @@ StartChar: amacron
 Encoding: 257 257 508
 Width: 613
 VWidth: 1046
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 198 713 S 1 0 0 1 0 0 2
@@ -10898,7 +10895,7 @@ StartChar: aringacute
 Encoding: 507 507 534
 Width: 613
 VWidth: 1046
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 194 -1 N 1 0 0 1 4 141 2
