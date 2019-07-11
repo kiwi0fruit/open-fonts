@@ -193,8 +193,9 @@ If on Windows it's recommended to install [MacType](http://www.mactype.net/) bec
 [Experimental@pycharm64.exe]
 ClipBoxFix=1
 [General@pycharm64.exe]
-NormalWeight=-4
-BoldWeight=-2
+;PyCharm fix + Consolas
+NormalWeight=-14
+BoldWeight=-4
 ```
 See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
 
