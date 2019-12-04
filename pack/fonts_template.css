@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url("<...>/DejaVuSans.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url("<...>/DejaVuSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url("<...>/DejaVuSans-BoldOblique.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url("<...>/DejaVuSans-Oblique.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url("<...>/DejaVuSans-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: url("<...>/DejaVuSansMono.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: url("<...>/DejaVuSansMono-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: url("<...>/DejaVuSansMono-BoldOblique.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: url("<...>/DejaVuSansMono-Oblique.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'DejaVu Sans Mono For Conso1as';
+    src: url("<...>/DejaVuSansMonoForConso1as.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans Mono For Conso1as';
+    src: url("<...>/DejaVuSansMonoForConso1as-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans Mono For Conso1as';
+    src: url("<...>/DejaVuSansMonoForConso1as-BoldOblique.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVu Sans Mono For Conso1as';
+    src: url("<...>/DejaVuSansMonoForConso1as-Oblique.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
