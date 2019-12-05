@@ -15,6 +15,11 @@ Contents:
 * [TO DO](#to-do)
 
 
+# NEW!
+
+[All fonts in one zip archive](https://github.com/kiwi0fruit/open-fonts/releases).
+
+
 # Best Sans Serif
 
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
