@@ -23,11 +23,12 @@ Contents:
 
 *My favorite!*
 
-Font fallback chain: `'Source Sans Pro', 'PT Sans', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
+It the latest version regular style thickness was changes so I recommend to use [**Sourcing Sans Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro.zip?raw=true) fork that is simply a renamed Source Sans Pro v2.021 from Google Fonts. But also use the latest Source Sans Pro as a fallback as it has a much wider Unicode coverage.
+
+Font fallback chain: `'Sourcing Sans Pro', 'Source Sans Pro', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 Fallback fonts:
 
-* Cyrillic fallback: [PT Sans](https://en.wikipedia.org/wiki/PT_Fonts) (by Alexandra Korolkova), [Preview](https://fonts.google.com/specimen/PT+Sans), [Download](https://fonts.google.com/specimen/PT+Sans), [Download2](https://github.com/google/fonts/tree/master/ofl/ptsans), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/ptsans),
 * 1st Unicode fallback: Noto Sans (see below),
 * 2nd Unicode fallback: [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Math fallback: STIX Two Math (see below),

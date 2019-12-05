@@ -22,8 +22,6 @@ here = p.dirname(p.abspath(__file__))
 repos = p.dirname(here)
 sourcecodepro = p.join(here, 'Fonts', 'SourceCodePro')
 
-merge = False
-copy_metrics = True
 remove = (
     u'∕',
     # ---- Bad dashes: ----
