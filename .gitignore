@@ -1,4 +1,5 @@
 *.pyc
 __temp__/
 __pycache__/
+.mypy_cache/
 consola.ttf
