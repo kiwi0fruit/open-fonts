@@ -13,7 +13,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import subprocess
-from monospacifier_api import monospacifier
 from helper import rename_font
 import os
 import shutil
