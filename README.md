@@ -17,18 +17,19 @@ Contents:
 
 # Best Sans Serif
 
-## [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro)
+## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
 
-#### (by Paul D. Hunt), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download latest version](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
+#### (by Paul D. Hunt), [Preview](https://fonts.google.com/specimen/Source+Sans+Pro), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro.zip?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts/SourceSansPro)
 
 *My favorite!*
 
-It the latest version regular style thickness was changes so I recommend to use [**Sourcing Sans Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro.zip?raw=true) fork that is simply a renamed Source Sans Pro v2.021 from Google Fonts. But also use the latest Source Sans Pro as a fallback as it has a much wider Unicode coverage.
+In the latest version of the Source Sans Pro regular style thickness was changed. So now there are two different fonts of the same name so I recommend to use [**Sourcing Sans Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro.zip?raw=true) fork that is simply a renamed Source Sans Pro v2.021 from Google Fonts. But also use the latest Source Sans Pro as a fallback as it has a much wider Unicode coverage (see below).
 
-Font fallback chain: `'Sourcing Sans Pro', 'Source Sans Pro', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
+Font fallback chain: `'Sourcing Sans Pro', 'Sourcing Sans Pro3', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 Fallback fonts:
 
+* Renamed latest Source Sans Pro v3.006 as a fallback: [**Sourcing Sans Pro3**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro3.zip?raw=true) (by Paul D. Hunt and others), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro3.zip?raw=true), [Site](https://github.com/adobe-fonts/source-sans-pro), [Backup](https://github.com/kiwi0fruit/source-sans-pro),
 * 1st Unicode fallback: Noto Sans (see below),
 * 2nd Unicode fallback: [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Math fallback: STIX Two Math (see below),

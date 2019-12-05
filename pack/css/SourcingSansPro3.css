@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Sourcing Sans Pro3';
+    src: url("<...>/SourcingSansPro3-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sourcing Sans Pro3';
+    src: url("<...>/SourcingSansPro3-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Sourcing Sans Pro3';
+    src: url("<...>/SourcingSansPro3-ExtraLight.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sourcing Sans Pro3';
+    src: url("<...>/SourcingSansPro3-ExtraLightItalic.otf") format("opentype");
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Sourcing Sans Pro3';
+    src: url("<...>/SourcingSansPro3-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sourcing Sans Pro3';
+    src: url("<...>/SourcingSansPro3-LightItalic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Sourcing Sans Pro3';
+    src: url("<...>/SourcingSansPro3-Semibold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sourcing Sans Pro3';
+    src: url("<...>/SourcingSansPro3-SemiboldItalic.otf") format("opentype");
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Sourcing Sans Pro3';
+    src: url("<...>/SourcingSansPro3-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sourcing Sans Pro3';
+    src: url("<...>/SourcingSansPro3-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Sourcing Sans Pro3';
+    src: url("<...>/SourcingSansPro3-Black.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sourcing Sans Pro3';
+    src: url("<...>/SourcingSansPro3-BlackItalic.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+}
