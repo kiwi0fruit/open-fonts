@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Robotization Mono';
+    src: url("<...>/RobotizationMono.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Robotization Mono';
+    src: url("<...>/RobotizationMono-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Robotization Mono';
+    src: url("<...>/RobotizationMono-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Robotization Mono';
+    src: url("<...>/RobotizationMono-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Robotization Mono';
+    src: url("<...>/RobotizationMono-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Robotization Mono';
+    src: url("<...>/RobotizationMono-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}

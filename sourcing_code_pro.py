@@ -59,15 +59,15 @@ styles = [
     ('SourceCodePro-SemiboldIt', 'Source Code Pro Semibold', 'Italic'),
     ('SourceCodePro-BoldIt', 'Source Code Pro', 'Bold Italic'),
     ('SourceCodePro-BlackIt', 'Source Code Pro Black', 'Italic'),
-    # ('SourceCodePro-LightIt', 'Source Code Pro Light', 'Italic'),
-    # ('SourceCodePro-ExtraLightIt', 'Source Code Pro ExtraLight', 'Italic'),
+    ('SourceCodePro-LightIt', 'Source Code Pro Light', 'Italic'),
+    ('SourceCodePro-ExtraLightIt', 'Source Code Pro ExtraLight', 'Italic'),
     ('SourceCodePro-Regular', 'Source Code Pro', 'Regular'),
     ('SourceCodePro-Medium', 'Source Code Pro Medium', 'Regular'),
     ('SourceCodePro-Semibold', 'Source Code Pro Semibold', 'Regular'),
     ('SourceCodePro-Bold', 'Source Code Pro', 'Bold'),
     ('SourceCodePro-Black', 'Source Code Pro Black', 'Regular'),
-    # ('SourceCodePro-Light', 'Source Code Pro Light', 'Regular'),
-    # ('SourceCodePro-ExtraLight', 'Source Code Pro ExtraLight', 'Regular'),
+    ('SourceCodePro-Light', 'Source Code Pro Light', 'Regular'),
+    ('SourceCodePro-ExtraLight', 'Source Code Pro ExtraLight', 'Regular'),
 ]
 shutil.copy(p.join(sourcecodepro, 'LICENSE.txt'), p.join(dir_, 'LICENSE.txt'))
 

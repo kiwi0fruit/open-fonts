@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'DejaVu Sans Mono For Conso1as';
+    src: url("<...>/DejaVuSansMonoForConso1as.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans Mono For Conso1as';
+    src: url("<...>/DejaVuSansMonoForConso1as-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans Mono For Conso1as';
+    src: url("<...>/DejaVuSansMonoForConso1as-BoldOblique.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVu Sans Mono For Conso1as';
+    src: url("<...>/DejaVuSansMonoForConso1as-Oblique.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}

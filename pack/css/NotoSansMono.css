@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Noto Sans Mono';
+    src: url("<...>/NotoSansMono-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Mono';
+    src: url("<...>/NotoSansMono-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Mono';
+    src: url("<...>/NotoSansMono-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Mono';
+    src: url("<...>/NotoSansMono-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Mono';
+    src: url("<...>/NotoSansMono-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Mono';
+    src: url("<...>/NotoSansMono-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Mono';
+    src: url("<...>/NotoSansMono-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Mono';
+    src: url("<...>/NotoSansMono-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Mono';
+    src: url("<...>/NotoSansMono-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}

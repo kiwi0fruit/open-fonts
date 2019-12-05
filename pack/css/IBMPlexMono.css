@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-Thin.otf") format("opentype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-ThinItalic.otf") format("opentype");
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-ExtraLight.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-ExtraLightItalic.otf") format("opentype");
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-LightItalic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-Text.otf") format("opentype");
+    font-weight: 450;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-TextItalic.otf") format("opentype");
+    font-weight: 450;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-MediumItalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-SemiBold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-SemiBoldItalic.otf") format("opentype");
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url("<...>/IBMPlexMono-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
