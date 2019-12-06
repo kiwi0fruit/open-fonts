@@ -1,84 +1,84 @@
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-Regular.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-Italic.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-Italic.ttf") format("truetype");
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-ExtraLight.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-ExtraLight.ttf") format("truetype");
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-ExtraLightItalic.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-ExtraLightItalic.ttf") format("truetype");
     font-weight: 200;
     font-style: italic;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-Light.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-Light.ttf") format("truetype");
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-LightItalic.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-LightItalic.ttf") format("truetype");
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-Medium.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-MediumItalic.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-MediumItalic.ttf") format("truetype");
     font-weight: 500;
     font-style: italic;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-Semibold.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-Semibold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-SemiboldItalic.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-SemiboldItalic.ttf") format("truetype");
     font-weight: 600;
     font-style: italic;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-Bold.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-BoldItalic.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-BoldItalic.ttf") format("truetype");
     font-weight: 700;
     font-style: italic;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-Black.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-Black.ttf") format("truetype");
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: 'Sourcing Code Pro';
-    src: url("<...>/SourcingCodePro-BlackItalic.ttf") format("truetype");
+    src: url("<...>SourcingCodePro-BlackItalic.ttf") format("truetype");
     font-weight: 900;
     font-style: italic;
 }

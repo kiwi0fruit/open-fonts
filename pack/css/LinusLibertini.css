@@ -1,24 +1,24 @@
 @font-face {
     font-family: 'Linus Libertini';
-    src: url("<...>/LinusLibertini-Regular.otf") format("opentype");
+    src: url("<...>LinusLibertini-Regular.otf") format("opentype");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Linus Libertini';
-    src: url("<...>/LinusLibertini-Italic.otf") format("opentype");
+    src: url("<...>LinusLibertini-Italic.otf") format("opentype");
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: 'Linus Libertini';
-    src: url("<...>/LinusLibertini-Bold.otf") format("opentype");
+    src: url("<...>LinusLibertini-Bold.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'Linus Libertini';
-    src: url("<...>/LinusLibertini-BoldItalic.otf") format("opentype");
+    src: url("<...>LinusLibertini-BoldItalic.otf") format("opentype");
     font-weight: 700;
     font-style: italic;
 }

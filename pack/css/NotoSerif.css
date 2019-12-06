@@ -1,108 +1,108 @@
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-Regular.ttf") format("truetype");
+    src: url("<...>NotoSerif-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-Italic.ttf") format("truetype");
+    src: url("<...>NotoSerif-Italic.ttf") format("truetype");
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-Thin.ttf") format("truetype");
+    src: url("<...>NotoSerif-Thin.ttf") format("truetype");
     font-weight: 100;
     font-style: normal;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-ThinItalic.ttf") format("truetype");
+    src: url("<...>NotoSerif-ThinItalic.ttf") format("truetype");
     font-weight: 100;
     font-style: italic;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-ExtraLight.ttf") format("truetype");
+    src: url("<...>NotoSerif-ExtraLight.ttf") format("truetype");
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-ExtraLightItalic.ttf") format("truetype");
+    src: url("<...>NotoSerif-ExtraLightItalic.ttf") format("truetype");
     font-weight: 200;
     font-style: italic;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-Light.ttf") format("truetype");
+    src: url("<...>NotoSerif-Light.ttf") format("truetype");
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-LightItalic.ttf") format("truetype");
+    src: url("<...>NotoSerif-LightItalic.ttf") format("truetype");
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-Medium.ttf") format("truetype");
+    src: url("<...>NotoSerif-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-MediumItalic.ttf") format("truetype");
+    src: url("<...>NotoSerif-MediumItalic.ttf") format("truetype");
     font-weight: 500;
     font-style: italic;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-SemiBold.ttf") format("truetype");
+    src: url("<...>NotoSerif-SemiBold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-SemiBoldItalic.ttf") format("truetype");
+    src: url("<...>NotoSerif-SemiBoldItalic.ttf") format("truetype");
     font-weight: 600;
     font-style: italic;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-Bold.ttf") format("truetype");
+    src: url("<...>NotoSerif-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-BoldItalic.ttf") format("truetype");
+    src: url("<...>NotoSerif-BoldItalic.ttf") format("truetype");
     font-weight: 700;
     font-style: italic;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-ExtraBold.ttf") format("truetype");
+    src: url("<...>NotoSerif-ExtraBold.ttf") format("truetype");
     font-weight: 800;
     font-style: normal;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-ExtraBoldItalic.ttf") format("truetype");
+    src: url("<...>NotoSerif-ExtraBoldItalic.ttf") format("truetype");
     font-weight: 800;
     font-style: italic;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-Black.ttf") format("truetype");
+    src: url("<...>NotoSerif-Black.ttf") format("truetype");
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: 'Noto Serif';
-    src: url("<...>/NotoSerif-BlackItalic.ttf") format("truetype");
+    src: url("<...>NotoSerif-BlackItalic.ttf") format("truetype");
     font-weight: 900;
     font-style: italic;
 }

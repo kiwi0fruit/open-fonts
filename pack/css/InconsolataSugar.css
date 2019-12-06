@@ -1,24 +1,24 @@
 @font-face {
     font-family: 'Inconsolata Sugar';
-    src: url("<...>/InconsolataSugar-Regular.ttf") format("truetype");
+    src: url("<...>InconsolataSugar-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Inconsolata Sugar';
-    src: url("<...>/InconsolataSugar-Italic.ttf") format("truetype");
+    src: url("<...>InconsolataSugar-Italic.ttf") format("truetype");
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: 'Inconsolata Sugar';
-    src: url("<...>/InconsolataSugar-Bold.ttf") format("truetype");
+    src: url("<...>InconsolataSugar-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'Inconsolata Sugar';
-    src: url("<...>/InconsolataSugar-BoldItalic.ttf") format("truetype");
+    src: url("<...>InconsolataSugar-BoldItalic.ttf") format("truetype");
     font-weight: 700;
     font-style: italic;
 }
