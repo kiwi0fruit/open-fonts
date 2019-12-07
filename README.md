@@ -15,9 +15,10 @@ Contents:
 * [TO DO](#to-do)
 
 
-# NEW!
+# Install
 
-[All fonts in one zip archive](https://github.com/kiwi0fruit/open-fonts/releases).
+* [All fonts in one zip archive](https://github.com/kiwi0fruit/open-fonts/releases).
+* [Install Open Fonts in pip and conda](https://github.com/kiwi0fruit/py-open-fonts)
 
 
 # Best Sans Serif
