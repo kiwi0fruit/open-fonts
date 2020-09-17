@@ -69,7 +69,7 @@ Fallback fonts:
 
 Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
-I haven't found matching Hebrew fallback.
+I haven't found matching Hebrew fallback.  But I guess fallbacks from other sans serif fonts would still be OK.
 
 
 ## [Roboto](https://en.wikipedia.org/wiki/Roboto)
@@ -112,10 +112,6 @@ Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two v
 
 Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
-Fallback fonts:
-
-* Cyrillic fallback: STIX Two Text (see above).
-
 
 ## [Linux Libertine](http://libertine-fonts.org/)
 
@@ -127,7 +123,7 @@ Font fallback chain: `'Linus Libertini', 'STIX Two Text', 'STIX Two Math', 'Noto
 
 There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) font but I find it to be of [lower quality](https://github.com/kiwi0fruit/open-fonts/issues/5#issuecomment-480476163) than STIX Two Math (Libertinus Math has MS Word issues and Greek italics are of suboptimal quality. I never tested for LaTeX issues).
 
-I haven't found matching Hebrew fallback.
+I haven't found matching Hebrew fallback. But I guess fallbacks from other serif fonts would still be OK.
 
 
 ## [Vollkorn](http://vollkorn-typeface.com)
@@ -193,7 +189,7 @@ Fallback fonts:
 
 * [DejaVu Sans Mono, STIX Two Math and Symbola for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/fallback_consolas.zip?raw=true).
 
-I haven't found matching Hebrew fallback.
+I haven't found matching Hebrew fallback. But fallbacks from other monospace fonts could be monospacified via [monospacifier.py](https://github.com/cpitclaudel/monospacifier).
 
 
 ## Other fonts
