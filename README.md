@@ -2,7 +2,7 @@
 
 A collection of beautiful free and open source fonts: instructions for installing, Unicode fallback chains, instructions to replace Windows ClearType and fix browser fonts.
 
-*Only 4 in eash category*.
+*Only 3 in eash category (actually 4: 3 maintained and 1 semideprecated but left for backward compatibility)*.
 
 Contents:
 
@@ -63,15 +63,6 @@ Fallback fonts:
 * Hebrew fallback: [Noto Sans Hebrew](https://www.google.com/get/noto/#sans-hebr) (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-hebr), [Download](https://www.google.com/get/noto/#sans-hebr).
 
 
-## [Lato](http://www.latofonts.com)
-
-#### (by Łukasz Dziedzic), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/lato/), [Download latest version](http://www.latofonts.com/lato-free-fonts/#download), [Backup](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts/Lato), [Backup2](https://github.com/kiwi0fruit/lato-source)
-
-Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
-
-I haven't found matching Hebrew fallback.  But I guess fallbacks from other sans serif fonts would still be OK.
-
-
 ## [Roboto](https://en.wikipedia.org/wiki/Roboto)
 
 #### (by Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto), [Download](https://fonts.google.com/specimen/Roboto), [Download2](https://github.com/google/fonts/tree/master/apache/roboto), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/roboto)
@@ -81,6 +72,17 @@ Font fallback chain: `Roboto, Heebo, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math'
 Fallback fonts:
 
 * Hebrew fallback: [Heebo](https://fonts.google.com/specimen/Heebo) (by Christian Robertson, Oded Ezer, Meir Sadan), [Preview](https://fonts.google.com/specimen/Heebo), [Download](https://fonts.google.com/specimen/Heebo).
+
+
+## [Lato](http://www.latofonts.com)
+
+#### (by Łukasz Dziedzic), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/lato/), [Download latest version](http://www.latofonts.com/lato-free-fonts/#download), [Backup](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts/Lato), [Backup2](https://github.com/kiwi0fruit/lato-source)
+
+_**Semideprecated but left for backward compatibility!**_
+
+Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
+
+I haven't found matching Hebrew fallback.  But I guess fallbacks from other sans serif fonts would still be OK.
 
 
 # Best Serif
@@ -113,9 +115,18 @@ Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two v
 Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 
+## [Vollkorn](http://vollkorn-typeface.com)
+
+#### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
+
+Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
+
+
 ## [Linux Libertine](http://libertine-fonts.org/)
 
 #### (by Philipp H. Poll and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertini](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true), [Backup](https://github.com/kiwi0fruit/libertinus)
+
+_**Semideprecated but left for backward compatibility!**_
 
 Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertini**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
 
@@ -124,13 +135,6 @@ Font fallback chain: `'Linus Libertini', 'STIX Two Text', 'STIX Two Math', 'Noto
 There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) font but I find it to be of [lower quality](https://github.com/kiwi0fruit/open-fonts/issues/5#issuecomment-480476163) than STIX Two Math (Libertinus Math has MS Word issues and Greek italics are of suboptimal quality. I never tested for LaTeX issues).
 
 Linus Libertini has it's own Hebrew glyphs but I bet David Libre is superior to them. So I guess Linus Libertini isn't the best choise for Hebrew.
-
-
-## [Vollkorn](http://vollkorn-typeface.com)
-
-#### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
-
-Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 
 # Best Monospace
@@ -179,6 +183,8 @@ Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'D
 ## [Consolas](https://en.wikipedia.org/wiki/Consolas)
 
 #### (by Lucas de Groot)
+
+_**Semideprecated but left for backward compatibility!**_
 
 This is a **proprietary** font but included here for [SugarTeX](https://github.com/kiwi0fruit/sugartex) installation instruction.
 
