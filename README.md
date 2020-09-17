@@ -192,6 +192,8 @@ Fallback fonts:
 
 * [DejaVu Sans Mono, STIX Two Math and Symbola for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/fallback_consolas.zip?raw=true).
 
+I haven't found matching Hebrew fallback.
+
 
 ## Other fonts
 Font fallback chains contain fonts monospacified via [monospacifier.py](https://github.com/cpitclaudel/monospacifier) ([Backup](https://github.com/kiwi0fruit/monospacifier)). If you don't like Consolas, Roboto Mono,  Source Code Pro or Inconsolata that much you can pick [there](https://github.com/cpitclaudel/monospacifier) monospacified fallbacks for other monospace fonts.
