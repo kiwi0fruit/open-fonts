@@ -123,7 +123,7 @@ Font fallback chain: `'Linus Libertini', 'STIX Two Text', 'STIX Two Math', 'Noto
 
 There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) font but I find it to be of [lower quality](https://github.com/kiwi0fruit/open-fonts/issues/5#issuecomment-480476163) than STIX Two Math (Libertinus Math has MS Word issues and Greek italics are of suboptimal quality. I never tested for LaTeX issues).
 
-I haven't found matching Hebrew fallback. But I guess fallbacks from other serif fonts would still be OK.
+Linus Libertini has it's own Hebrew glyphs but I bet David Libre is superior to them. So I guess Linus Libertini isn't the best choise for Hebrew.
 
 
 ## [Vollkorn](http://vollkorn-typeface.com)
