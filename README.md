@@ -95,10 +95,11 @@ Fallback fonts:
 
 * 1st Unicode fallback: [Noto Serif](https://en.wikipedia.org/wiki/Noto_fonts) LGC (by Steve Matteson and Google), [Preview](https://fonts.google.com/specimen/Noto+Serif), [Download latest version](https://www.google.com/get/noto/#serif-lgc), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerif-hinted.zip?raw=true)
 * Math fallback: STIX Two Math,
+* Hebrew fallback: [David Libre](https://fonts.google.com/specimen/David+Libre) (by Ismar David, Monotype Corporation, Google, Meir Sadan), [Preview](https://fonts.google.com/specimen/David+Libre), [Download](https://fonts.google.com/specimen/David+Libre),
 * Final Unicode fallback: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true),
 * CJK fallback: Noto Serif CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Serif CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
-Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
+Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
@@ -109,7 +110,7 @@ Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two v
 
 *My favorite text body font!*
 
-Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
+Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 Fallback fonts:
 
@@ -133,7 +134,7 @@ I haven't found matching Hebrew fallback.
 
 #### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
 
-Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
+Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 
 # Best Monospace
