@@ -2,7 +2,7 @@
 
 A collection of beautiful free and open source fonts: instructions for installing, Unicode fallback chains, instructions to replace Windows ClearType and fix browser fonts.
 
-*Only 3 in eash category (actually 4 - 3 maintained and 1 semideprecated but left for backward compatibility)*.
+*Only 3 in eash category (actually 4: three maintained and one semideprecated but left for backward compatibility)*.
 
 Contents:
 
