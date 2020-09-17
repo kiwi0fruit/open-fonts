@@ -2,7 +2,7 @@
 
 A collection of beautiful free and open source fonts: instructions for installing, Unicode fallback chains, instructions to replace Windows ClearType and fix browser fonts.
 
-*Only 3 in eash category (actually 4: 3 maintained and 1 semideprecated but left for backward compatibility)*.
+*Only 3 in eash category (actually 4 - 3 maintained and 1 semideprecated but left for backward compatibility)*.
 
 Contents:
 
@@ -74,7 +74,9 @@ Fallback fonts:
 * Hebrew fallback: [Heebo](https://fonts.google.com/specimen/Heebo) (by Christian Robertson, Oded Ezer, Meir Sadan), [Preview](https://fonts.google.com/specimen/Heebo), [Download](https://fonts.google.com/specimen/Heebo).
 
 
-## [Lato](http://www.latofonts.com)
+## Semideprecated Sans Serif
+
+### [Lato](http://www.latofonts.com)
 
 #### (by Łukasz Dziedzic), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/lato/), [Download latest version](http://www.latofonts.com/lato-free-fonts/#download), [Backup](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts/Lato), [Backup2](https://github.com/kiwi0fruit/lato-source)
 
@@ -122,7 +124,9 @@ Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'Dav
 Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 
-## [Linux Libertine](http://libertine-fonts.org/)
+## Semideprecated Serif
+
+### [Linux Libertine](http://libertine-fonts.org/)
 
 #### (by Philipp H. Poll and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertini](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true), [Backup](https://github.com/kiwi0fruit/libertinus)
 
@@ -180,7 +184,9 @@ Source Code Pro lacks some whitespace characters and has broken division slash. 
 Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
 
 
-## [Consolas](https://en.wikipedia.org/wiki/Consolas)
+## Semideprecated Monospace
+
+### [Consolas](https://en.wikipedia.org/wiki/Consolas)
 
 #### (by Lucas de Groot)
 
