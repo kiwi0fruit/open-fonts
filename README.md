@@ -67,11 +67,7 @@ Fallback fonts:
 
 #### (by Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto), [Download](https://fonts.google.com/specimen/Roboto), [Download2](https://github.com/google/fonts/tree/master/apache/roboto), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/roboto)
 
-Font fallback chain: `Roboto, Heebo, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
-
-Fallback fonts:
-
-* Hebrew fallback: [Heebo](https://fonts.google.com/specimen/Heebo) (by Christian Robertson, Oded Ezer, Meir Sadan), [Preview](https://fonts.google.com/specimen/Heebo), [Download](https://fonts.google.com/specimen/Heebo).
+Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 
 ## Semideprecated Sans Serif
