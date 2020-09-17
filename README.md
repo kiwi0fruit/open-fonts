@@ -36,7 +36,7 @@ Font fallback chain: `'Sourcing Sans Pro', 'Sourcing Sans Pro3', Assistant, 'Not
 Fallback fonts:
 
 * Renamed latest Source Sans Pro v3.006 as a fallback: [**Sourcing Sans Pro3**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro3.zip?raw=true) (by Paul D. Hunt and others), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro3.zip?raw=true), [Site](https://github.com/adobe-fonts/source-sans-pro), [Backup](https://github.com/kiwi0fruit/source-sans-pro),
-* Hebrew fallback: [Assistant](https://fonts.google.com/specimen/Assistant) (by Paul D. Hunt and Ben Nathan), [Preview](https://fonts.google.com/specimen/Assistant), [Download](https://fonts.google.com/specimen/Assistant), [Download2](https://github.com/google/fonts/tree/master/ofl/assistant), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/assistant)
+* Hebrew fallback: [Assistant](https://fonts.google.com/specimen/Assistant) (by Paul D. Hunt and Ben Nathan), [Preview](https://fonts.google.com/specimen/Assistant), [Download](https://fonts.google.com/specimen/Assistant), [Download2](https://github.com/google/fonts/tree/master/ofl/assistant), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/assistant),
 * 1st Unicode fallback: Noto Sans (see below),
 * 2nd Unicode fallback: [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Math fallback: STIX Two Math (see below),
@@ -93,7 +93,7 @@ Fallback fonts:
 
 * 1st Unicode fallback: [Noto Serif](https://en.wikipedia.org/wiki/Noto_fonts) LGC (by Steve Matteson and Google), [Preview](https://fonts.google.com/specimen/Noto+Serif), [Download latest version](https://www.google.com/get/noto/#serif-lgc), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerif-hinted.zip?raw=true)
 * Math fallback: STIX Two Math,
-* Hebrew fallback: [David Libre](https://fonts.google.com/specimen/David+Libre) (by Ismar David, Monotype Corporation, Google, Meir Sadan), [Preview](https://fonts.google.com/specimen/David+Libre), [Download](https://fonts.google.com/specimen/David+Libre),
+* Hebrew fallback: [David Libre](https://fonts.google.com/specimen/David+Libre) (by Ismar David, Monotype Corporation, Google, Meir Sadan), [Preview](https://fonts.google.com/specimen/David+Libre), [Download](https://fonts.google.com/specimen/David+Libre), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/David_Libre.zip?raw=true),
 * Final Unicode fallback: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true),
 * CJK fallback: Noto Serif CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Serif CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
 
