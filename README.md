@@ -31,11 +31,12 @@ Contents:
 
 In the latest version of the Source Sans Pro regular style thickness was changed. So now there are two different fonts of the same name so I recommend to use [**Sourcing Sans Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro.zip?raw=true) fork that is simply a renamed Source Sans Pro v2.021 from Google Fonts. But also use the latest Source Sans Pro as a fallback as it has a much wider Unicode coverage (see below).
 
-Font fallback chain: `'Sourcing Sans Pro', 'Sourcing Sans Pro3', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
+Font fallback chain: `'Sourcing Sans Pro', 'Sourcing Sans Pro3', Assistant, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
 Fallback fonts:
 
 * Renamed latest Source Sans Pro v3.006 as a fallback: [**Sourcing Sans Pro3**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro3.zip?raw=true) (by Paul D. Hunt and others), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro3.zip?raw=true), [Site](https://github.com/adobe-fonts/source-sans-pro), [Backup](https://github.com/kiwi0fruit/source-sans-pro),
+* Hebrew fallback: [Assistant](https://fonts.google.com/specimen/Assistant) (by Paul D. Hunt and Ben Nathan), [Preview](https://fonts.google.com/specimen/Assistant), [Download](https://fonts.google.com/specimen/Assistant),
 * 1st Unicode fallback: Noto Sans (see below),
 * 2nd Unicode fallback: [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Math fallback: STIX Two Math (see below),
@@ -55,7 +56,11 @@ They are almost the same font.
 * Noto Sans has much wider Unicode coverage,
 * Open Sans has gouble-story g when Noto Sans has singe-story g.
 
-Font fallback chain: `'Open Sans', 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
+Font fallback chain: `'Open Sans', 'Noto Sans', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
+
+Fallback fonts:
+
+* Hebrew fallback: [Noto Sans Hebrew](https://www.google.com/get/noto/#sans-hebr) (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-hebr), [Download](https://www.google.com/get/noto/#sans-hebr).
 
 
 ## [Lato](http://www.latofonts.com)
@@ -69,7 +74,11 @@ Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola
 
 #### (by Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto), [Download](https://fonts.google.com/specimen/Roboto), [Download2](https://github.com/google/fonts/tree/master/apache/roboto), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/roboto)
 
-Font fallback chain: `Roboto, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
+Font fallback chain: `Roboto, Heebo, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
+
+Fallback fonts:
+
+* Hebrew fallback: [Heebo](https://fonts.google.com/specimen/Heebo) (by Christian Robertson, Oded Ezer, Meir Sadan), [Preview](https://fonts.google.com/specimen/Heebo), [Download](https://fonts.google.com/specimen/Heebo).
 
 
 # Best Serif
