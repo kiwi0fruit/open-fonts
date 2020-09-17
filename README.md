@@ -69,6 +69,8 @@ Fallback fonts:
 
 Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
+I haven't found matching Hebrew fallback.
+
 
 ## [Roboto](https://en.wikipedia.org/wiki/Roboto)
 
@@ -123,6 +125,8 @@ Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended t
 Font fallback chain: `'Linus Libertini', 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) font but I find it to be of [lower quality](https://github.com/kiwi0fruit/open-fonts/issues/5#issuecomment-480476163) than STIX Two Math (Libertinus Math has MS Word issues and Greek italics are of suboptimal quality. I never tested for LaTeX issues).
+
+I haven't found matching Hebrew fallback.
 
 
 ## [Vollkorn](http://vollkorn-typeface.com)
