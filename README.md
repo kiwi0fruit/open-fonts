@@ -62,6 +62,8 @@ They are almost the same font.
 * Noto Sans has much wider Unicode coverage,
 * Open Sans has gouble-story g when Noto Sans has singe-story g.
 
+**Mind that Noto Sans has more font weghts than Open Sans so if using them together as here do not use 100, 200, 500, 800 (use 900 instead).**
+
 Font fallback chain: `'Open Sans', 'Noto Sans', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
 
 Fallback fonts:
