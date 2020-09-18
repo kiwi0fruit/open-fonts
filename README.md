@@ -45,7 +45,7 @@ Font fallback chain: `'Sourcing Sans Pro', 'Sourcing Sans Pro3', 'Noto Sans', 'D
 Fallback fonts:
 
 * Renamed latest Source Sans Pro v3.006 as a fallback: [**Sourcing Sans Pro3**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro3.zip?raw=true) (by Paul D. Hunt and others), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro3.zip?raw=true), [Site](https://github.com/adobe-fonts/source-sans-pro), [Backup](https://github.com/kiwi0fruit/source-sans-pro),
-* Hebrew fallback: [Noto Sans Hebrew](https://www.google.com/get/noto/#sans-hebr) (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-hebr), [Download](https://www.google.com/get/noto/#sans-hebr), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansHebrew-hinted.zip?raw=true).
+* Hebrew fallback: [Noto Sans Hebrew](https://www.google.com/get/noto/#sans-hebr) (by Google), [Preview](https://www.google.com/get/noto/#sans-hebr), [Download](https://www.google.com/get/noto/#sans-hebr), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansHebrew-hinted.zip?raw=true).
 * 1st Unicode fallback: Noto Sans (see below),
 * 2nd Unicode fallback and Hebrew fallback: [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Math fallback: STIX Two Math (see below),
