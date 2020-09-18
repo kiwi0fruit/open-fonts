@@ -98,7 +98,7 @@ Serif fonts used for main fonts and fallbacks do support:
 
 * Latin and Cyrillic: STIX Two Text, Source Serif Pro, Vollkorn, Noto Serif.
 * CJK: Source Han Serif.
-* Hebrew: David Libre.
+* Hebrew: David Libre, DejaVu Serif.
 * Math: STIX Two Math.
 * Symbols: Symbola, Noto Serif.
 
@@ -135,11 +135,13 @@ Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'Dav
 
 #### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
 
-Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Source Han Serif JP', serif`.
+Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
 
-Recommended CSS features: `font-feature-settings: 'tnum' 1, 'lnum' 1;`
+Recommended CSS features: `font-feature-settings: 'tnum' 1, 'lnum' 1;` See all features [here](http://vollkorn-typeface.com/#features).
 
-See all features [here](http://vollkorn-typeface.com/#features).
+Fallback fonts:
+
+* 2nd Unicode fallback and Hebrew fallback: [DejaVu Serif](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts), Hebrew glyphs look like from David Libre but a bit heavier.
 
 
 ## Semideprecated Serif
