@@ -25,7 +25,7 @@ Sans serif fonts used for main fonts and fallbacks do support:
 
 * Latin and Cyrillic: Source Sans Pro, Open Sans, Roboto, Noto Sans, DejaVu Sans.
 * CJK: Source Han Sans.
-* Hebrew: Assistant, Noto Sans Hebrew.
+* Hebrew: Assistant, Noto Sans Hebrew, DejaVu Sans.
 * Symbols: Noto Sans, DejaVu Sans.
 
 
