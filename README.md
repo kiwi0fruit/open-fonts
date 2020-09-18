@@ -148,7 +148,7 @@ Main fonts and fallback chains were optimized for [SugarTeX](https://github.com/
 
 Italic in Roboto Mono has different width so it's recommended to use [**Robotization Mono**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/RobotizationMono.zip?raw=true) fork that is simply a renamed monospacified version of Roboto Mono (but also without light and thin styles).
 
-Font fallback chain: `'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
+Font fallback chain: `'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans JP', monospace`.
 
 Fallback fonts:
 
@@ -166,7 +166,7 @@ Fallback fonts:
 
 Inconsolata lacks italics, Cyrillic and Greek. Inconsolata LGC lacks some whitespace characters, has off-style backtick, italic Latin a and Cyrillic д are controversial design decisions. For SugarTeX it's recommended to use [**Inconsolata Sugar**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true) fork that is simply a renamed Inconsolata LGC with these issues fixed (backtick was simply removed so one from fallback would be used). 
 
-Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
+Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans JP', monospace`.
 
 
 ## [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
@@ -175,7 +175,7 @@ Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono'
 
 Source Code Pro lacks some whitespace characters and has broken division slash. For SugarTeX it's recommended to use [**Sourcing Code Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true) fork that is simply a renamed Source Code Pro with these issues fixed.
 
-Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Noto Sans CJK TC', monospace`.
+Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans JP', monospace`.
 
 
 ## Semideprecated Monospace
@@ -190,7 +190,7 @@ This is a **proprietary** font but included here for [SugarTeX](https://github.c
 
 It's preinstalled with Windows. Consolas can also be installed together with [Microsoft PowerPoint Viewer](https://www.microsoft.com/en-us/download/details.aspx?id=13) till April, 2018. SHA256: 249473568EBA7A1E4F95498ACBA594E0F42E6581ADD4DEAD70C1DFB908A09423. But note that it's license says that "You may use the software only to view and print files created with Microsoft Office software. You may not use the software for any other purpose." so you *might* not be even allowed to print Consolas font text from LibreOffice. But at the same time if you incorporate Microsoft Word into your pipeline (for example even if postprocessing .docx files by other software as a next step) you *might* satisfy "created with Microsoft Office software". And printing to PDF via Chrome browser *might* also be printing.
 
-Font fallback chain: `Consolas, 'DejaVu Sans Mono For Conso1as', 'ST1X Two Math For Conso1as', 'Symbola For Conso1as', 'Noto Sans CJK TC', monospace`
+Font fallback chain: `Consolas, 'DejaVu Sans Mono For Conso1as', 'ST1X Two Math For Conso1as', 'Symbola For Conso1as', 'Source Han Sans JP', monospace`
 
 Fallback fonts:
 
