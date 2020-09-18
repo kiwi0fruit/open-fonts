@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url("<...>DejaVuSerif-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url("<...>DejaVuSerif-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url("<...>DejaVuSerif-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url("<...>DejaVuSerif-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
