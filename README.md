@@ -39,6 +39,8 @@ In the latest version of the Source Sans Pro regular style thickness was changed
 
 Font fallback chain: `'Sourcing Sans Pro', 'Sourcing Sans Pro3', Assistant, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
 
+**DejaVu Sans might be a better Hebrew fallback than Assistant if you don't use semibolds (600).**
+
 Fallback fonts:
 
 * Renamed latest Source Sans Pro v3.006 as a fallback: [**Sourcing Sans Pro3**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro3.zip?raw=true) (by Paul D. Hunt and others), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro3.zip?raw=true), [Site](https://github.com/adobe-fonts/source-sans-pro), [Backup](https://github.com/kiwi0fruit/source-sans-pro),
