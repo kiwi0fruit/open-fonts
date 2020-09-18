@@ -100,7 +100,7 @@ Serif fonts used for main fonts and fallbacks do support:
 * CJK: Source Han Serif.
 * Hebrew: David Libre.
 * Math: STIX Two Math.
-* Symbols: Symbolam, Noto Serif.
+* Symbols: Symbola, Noto Serif.
 
 
 ## [STIX Two Text](http://www.stixfonts.org/) and [STIX Two Math](http://www.stixfonts.org/)
