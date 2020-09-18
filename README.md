@@ -98,7 +98,7 @@ Serif fonts used for main fonts and fallbacks do support:
 * CJK: Source Han Serif.
 * Hebrew: David Libre, DejaVu Serif.
 * Math: STIX Two Math.
-* Symbols: Symbola, Noto Serif.
+* Symbols: Symbola, Noto Serif, DejaVu Serif.
 
 
 ## [STIX Two Text](http://www.stixfonts.org/) and [STIX Two Math](http://www.stixfonts.org/)
@@ -107,13 +107,14 @@ Serif fonts used for main fonts and fallbacks do support:
 
 *My favorite math font!*
 
-Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Source Han Serif JP', serif`.
+Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
 
 Fallback fonts:
 
 * 1st Unicode fallback: [Noto Serif](https://en.wikipedia.org/wiki/Noto_fonts) LGC (by Steve Matteson and Google), [Preview](https://fonts.google.com/specimen/Noto+Serif), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerif-hinted.zip?raw=true), [Download original latest version](https://www.google.com/get/noto/#serif-lgc).
 * Math fallback: STIX Two Math,
 * Hebrew fallback: [David Libre](https://fonts.google.com/specimen/David+Libre) (by Ismar David, Monotype Corporation, Google, Meir Sadan), [Preview](https://fonts.google.com/specimen/David+Libre), [Download](https://fonts.google.com/specimen/David+Libre), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/David_Libre.zip?raw=true),
+* 2nd Unicode fallback and Hebrew fallback: [DejaVu Serif](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts), Hebrew glyphs look like from David Libre but a bit heavier.
 * Final Unicode fallback: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true),
 * CJK fallback: Source Han Serif XX (by Adobe and Google) (for example "Source Han Serif JP"). **Preview** Source Han Serif: [JP](https://fonts.adobe.com/fonts/source-han-serif-japanese), [CN](https://fonts.adobe.com/fonts/source-han-serif-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-serif-korean), [TW](https://fonts.adobe.com/fonts/source-han-serif-traditional-chinese), **Download** Source Han Serif & Source Han Sans: [part1](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceHanPart1.7z?raw=true), [part2](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceHanPart2.7z?raw=true), **Alt. download** Source Han Serif: [JP](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-serif-jp-fonts-1.001-3-any.pkg.tar.xz.html), [CN](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-serif-cn-fonts-1.001-3-any.pkg.tar.xz.html), [KR](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-serif-kr-fonts-1.001-3-any.pkg.tar.xz.html), [TW](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-serif-tw-fonts-1.001-3-any.pkg.tar.xz.html). [Source code](https://github.com/adobe-fonts/source-han-sans).
 
@@ -126,7 +127,7 @@ Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two v
 
 *My favorite text body font!*
 
-Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Source Han Serif JP', serif`.
+Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
 
 
 ## [Vollkorn](http://vollkorn-typeface.com)
@@ -136,10 +137,6 @@ Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'Dav
 Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
 
 Recommended CSS features: `font-feature-settings: 'tnum' 1, 'lnum' 1;` See all features [here](http://vollkorn-typeface.com/#features).
-
-Fallback fonts:
-
-* 2nd Unicode fallback and Hebrew fallback: [DejaVu Serif](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts), Hebrew glyphs look like from David Libre but a bit heavier.
 
 
 ## Semideprecated Serif
