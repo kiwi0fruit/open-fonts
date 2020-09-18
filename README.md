@@ -2,8 +2,6 @@
 
 A collection of beautiful free and open source fonts: instructions for installing, Unicode fallback chains, instructions to replace Windows ClearType and fix browser fonts.
 
-*Only 3 in eash category*.
-
 Contents:
 
 * [Best Sans Serif](#best-sans-serif)
@@ -68,6 +66,8 @@ Fallback fonts:
 #### (by Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto), [Download](https://fonts.google.com/specimen/Roboto), [Download2](https://github.com/google/fonts/tree/master/apache/roboto), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/roboto)
 
 Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
+
+See all features [here](http://vollkorn-typeface.com/#features).
 
 
 ## Semideprecated Sans Serif
