@@ -67,8 +67,6 @@ Fallback fonts:
 
 Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Noto Sans CJK TC Regular', sans-serif`.
 
-See all features [here](http://vollkorn-typeface.com/#features).
-
 
 ## Semideprecated Sans Serif
 
@@ -118,6 +116,8 @@ Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'Dav
 Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Noto Serif CJK TC', serif`.
 
 Recommended CSS features: `font-feature-settings: 'tnum' 1, 'lnum' 1;`
+
+See all features [here](http://vollkorn-typeface.com/#features).
 
 
 ## Semideprecated Serif
