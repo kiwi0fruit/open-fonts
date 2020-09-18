@@ -136,7 +136,8 @@ Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'Dav
 
 Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
 
-Recommended CSS features: `font-feature-settings: 'tnum' 1, 'lnum' 1;` See all features [here](http://vollkorn-typeface.com/#features).
+Recommended CSS features: `font-feature-settings: 'tnum' 1, 'lnum' 1;` See all features [here](http://vollkorn-typeface.com/#features).  
+To select right Hindi fallback weight use `font-weight: 420;`
 
 
 ## Semideprecated Serif
