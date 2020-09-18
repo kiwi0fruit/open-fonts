@@ -21,6 +21,14 @@ Contents:
 
 # Best Sans Serif
 
+Sans serif fonts used for main fonts and fallbacks do support:
+
+* Latin and Cyrillic: Source Sans Pro, Open Sans, Roboto, Noto Sans, DejaVu Sans.
+* CJK: Source Han Sans.
+* Hebrew: Assistant, Noto Sans Hebrew.
+* Symbols: Noto Sans, DejaVu Sans.
+
+
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
 
 #### (by Paul D. Hunt), [Preview](https://fonts.google.com/specimen/Source+Sans+Pro), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro.zip?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts/SourceSansPro)
@@ -81,11 +89,22 @@ Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola
 
 # Best Serif
 
+Serif fonts used for main fonts and fallbacks do support:
+
+* Latin and Cyrillic: STIX Two Text, Source Serif Pro, Vollkorn, Noto Serif.
+* CJK: Source Han Serif.
+* Hebrew: David Libre.
+* Math: STIX Two Math.
+* Symbols: Symbolam, Noto Serif.
+
+
 ## [STIX Two Text](http://www.stixfonts.org/) and [STIX Two Math](http://www.stixfonts.org/)
 
 #### (by Ross Mills and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/), [Download](https://github.com/stipub/stixfonts), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
 *My favorite math font!*
+
+Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Source Han Serif JP', serif`.
 
 Fallback fonts:
 
@@ -94,8 +113,6 @@ Fallback fonts:
 * Hebrew fallback: [David Libre](https://fonts.google.com/specimen/David+Libre) (by Ismar David, Monotype Corporation, Google, Meir Sadan), [Preview](https://fonts.google.com/specimen/David+Libre), [Download](https://fonts.google.com/specimen/David+Libre), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/David_Libre.zip?raw=true),
 * Final Unicode fallback: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true),
 * CJK fallback: Source Han Serif XX (by Adobe and Google) (for example "Source Han Serif JP"). **Preview** Source Han Serif: [JP](https://fonts.adobe.com/fonts/source-han-serif-japanese), [CN](https://fonts.adobe.com/fonts/source-han-serif-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-serif-korean), [TW](https://fonts.adobe.com/fonts/source-han-serif-traditional-chinese), **Download** Source Han Serif & Source Han Sans: [part1](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceHanPart1.7z?raw=true), [part2](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceHanPart2.7z?raw=true), **Alt. download** Source Han Serif: [JP](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-serif-jp-fonts-1.001-3-any.pkg.tar.xz.html), [CN](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-serif-cn-fonts-1.001-3-any.pkg.tar.xz.html), [KR](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-serif-kr-fonts-1.001-3-any.pkg.tar.xz.html), [TW](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-serif-tw-fonts-1.001-3-any.pkg.tar.xz.html). [Source code](https://github.com/adobe-fonts/source-han-sans).
-
-Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'David Libre', 'Noto Serif', Symbola, 'Source Han Serif JP', serif`.
 
 Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
@@ -137,6 +154,14 @@ There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) 
 
 # Best Monospace
 
+Monospace fonts used for main fonts and fallbacks do support:
+
+* Latin and Cyrillic: Roboto Mono, Inconsolata, Source Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
+* CJK: Source Han Sans (not monospace but of width == 1.5)
+* Hebrew: Cousine.
+* Math: ST1X Two Math For Robot0 Mono.
+* Symbols: Symbola For Robot0 Mono, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono.
+
 Main fonts and fallback chains were optimized for [SugarTeX](https://github.com/kiwi0fruit/sugartex).
 
 
@@ -157,7 +182,7 @@ Fallback fonts:
 * 2nd Unicode fallback: [DejaVu Sans Mono](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/ru/font/dejavu-sans-mono), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Hebrew and 3rd Unicode fallback: [Cousine](https://fonts.google.com/specimen/Cousine) (by Steve Matteson), [Preview](https://fonts.google.com/specimen/Cousine), [Download](https://fonts.google.com/specimen/Cousine), [Download2](https://github.com/google/fonts/tree/master/apache/cousine), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/cousine),
 * Math fallback, Final Unicode fallback: [STIX Two Math and Symbola for Roboto Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/fallback_roboto_mono.zip?raw=true),
-* CJK fallback: Noto Sans CJK TC (by Google), [Download](https://www.google.com/get/noto/) (search for Noto Sans CJK). TC is Traditional Chinese but it can also be SC, JP, KR.
+* CJK fallback: Source Han Sans XX (by Adobe and Google) (for example "Source Han Sans JP"), **Preview** Source Han Sans: [JP](https://fonts.adobe.com/fonts/source-han-sans-japanese), [CN](https://fonts.adobe.com/fonts/source-han-sans-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-sans-korean), [HK](https://fonts.adobe.com/fonts/source-han-sans-hong-kong), [TW](https://fonts.adobe.com/fonts/source-han-sans-traditional-chinese), **Download** Source Han Sans & Source Han Serif: [part1](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceHanPart1.7z?raw=true), [part2](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceHanPart2.7z?raw=true), **Alt. download** Source Han Sans: [JP](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-jp-fonts-2.001-2-any.pkg.tar.xz.html), [CN](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-cn-fonts-2.001-2-any.pkg.tar.xz.html), [KR](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-kr-fonts-2.001-2-any.pkg.tar.xz.html), [HK](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-hk-fonts-2.001-2-any.pkg.tar.xz.html), [TW](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-tw-fonts-2.001-2-any.pkg.tar.xz.html), [Source code](https://github.com/adobe-fonts/source-han-sans).
 
 
 ## [Inconsolata](https://en.wikipedia.org/wiki/Inconsolata)
