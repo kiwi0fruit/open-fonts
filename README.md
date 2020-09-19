@@ -24,7 +24,7 @@ Contents:
 
 Sans serif fonts used for main fonts and fallbacks do support:
 
-* Latin and Cyrillic: Source Sans Pro, Open Sans, Roboto, Noto Sans, DejaVu Sans.
+* Latin, Greek, Cyrillic: Source Sans Pro, Open Sans, Roboto, Noto Sans, DejaVu Sans, Lato.
 * CJK: Source Han Sans.
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
 * Hindi: Noto Sans Devanagari.
@@ -95,11 +95,11 @@ Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola
 
 Serif fonts used for main fonts and fallbacks do support:
 
-* Latin and Cyrillic: STIX Two Text, Source Serif Pro, Vollkorn, Noto Serif.
+* Latin, Greek, Cyrillic: STIX Two Text, Source Serif Pro, Vollkorn, Noto Serif, Linux Libertine.
 * CJK: Source Han Serif.
-* Hebrew: David Libre, DejaVu Serif.
+* Hebrew: David Libre, DejaVu Serif, Linux Libertine.
 * Hindi: Noto Serif Devanagari, Halant.
-* Math: STIX Two Math.
+* Math: STIX Two Math, Linux Libertine.
 * Symbols: Symbola, Noto Serif, DejaVu Serif.
 
 
@@ -163,7 +163,7 @@ There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) 
 
 Monospace fonts used for main fonts and fallbacks do support:
 
-* Latin and Cyrillic: Roboto Mono, Inconsolata, Source Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
+* Latin, Greek, Cyrillic: Roboto Mono, Inconsolata, Source Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
 * CJK: Noto Sans (not monospace but of width == 1.5)
 * Hebrew: Cousine.
 * Math: ST1X Two Math For Robot0 Mono.
