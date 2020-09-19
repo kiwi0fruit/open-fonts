@@ -24,7 +24,7 @@ Contents:
 
 Sans serif fonts used for main fonts and fallbacks do support:
 
-* LGC (Latin, Greek, Cyrillic): Source Sans Pro, Open Sans, Roboto, Noto Sans, DejaVu Sans, Lato.
+* LGC (Latin, Greek, Cyrillic): Source Sans Pro, Open Sans, Roboto, Noto Sans, DejaVu Sans, *semideprecated* Lato.
 * CJK (Chinese, Japanese, Korean): Source Han Sans.
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
 * Devanagari (Hindi and others): Noto Sans Devanagari.
@@ -97,12 +97,12 @@ Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola
 
 Serif fonts used for main fonts and fallbacks do support:
 
-* LGC (Latin, Greek, Cyrillic): STIX Two Text, Source Serif Pro, Vollkorn, Noto Serif, Linux Libertine.
+* LGC (Latin, Greek, Cyrillic): STIX Two Text, Source Serif Pro, Vollkorn, Noto Serif, *semideprecated* Linux Libertine.
 * CJK (Chinese, Japanese, Korean): Source Han Serif.
-* Hebrew: David Libre, DejaVu Serif, Linux Libertine.
+* Hebrew: David Libre, DejaVu Serif, *semideprecated* Linux Libertine.
 * Devanagari (Hindi and others): Noto Serif Devanagari, Halant.
 * Arabic: Amiri.
-* Math: STIX Two Math, Linux Libertine.
+* Math: STIX Two Math, *semideprecated* Linux Libertine.
 * Symbols: Symbola, Noto Serif, DejaVu Serif.
 
 
