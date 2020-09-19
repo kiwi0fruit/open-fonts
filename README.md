@@ -99,6 +99,7 @@ Serif fonts used for main fonts and fallbacks do support:
 * CJK (Chinese, Japanese, Korean): Source Han Serif.
 * Hebrew: David Libre, DejaVu Serif, Linux Libertine.
 * Devanagari (Hindi and others): Noto Serif Devanagari, Halant.
+* Arabic: Amiri.
 * Math: STIX Two Math, Linux Libertine.
 * Symbols: Symbola, Noto Serif, DejaVu Serif.
 
@@ -109,7 +110,7 @@ Serif fonts used for main fonts and fallbacks do support:
 
 *My favorite math font!*
 
-Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif Devanagari', 'David Libre', 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
+Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif Devanagari', 'David Libre', Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
 
 Fallback fonts:
 
@@ -117,6 +118,7 @@ Fallback fonts:
 * Math fallback: STIX Two Math,
 * Hebrew fallback: [David Libre](https://fonts.google.com/specimen/David+Libre?subset=hebrew) (by Ismar David, Monotype Corporation, Google, Meir Sadan), [Preview](https://fonts.google.com/specimen/David+Libre?subset=hebrew), [Download](https://fonts.google.com/specimen/David+Libre?subset=hebrew), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/David_Libre.zip?raw=true),
 * Hindi fallback: [Noto Serif Devanagari](https://www.google.com/get/noto/#serif-deva) (by Google), [Preview](https://www.google.com/get/noto/#serif-deva), [Download](https://www.google.com/get/noto/#serif-deva), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerifDevanagari-hinted.zip?raw=true),
+* Arabic fallback: [Amiri](https://fonts.google.com/specimen/Amiri?subset=arabic) (by Bulaq Press, Khaled Hosny, Sebastian Kosch), [Preview](https://fonts.google.com/specimen/Amiri?subset=arabic), [Download](https://fonts.google.com/specimen/Amiri?subset=arabic), [Download](https://github.com/google/fonts/tree/master/ofl/amiri),  [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/amiri),
 * Alt. Hindi fallback: [Halant](https://fonts.google.com/specimen/Halant?subset=devanagari) (by Vivek Sadamate, Ninad Kale, Jonny Pinhorn), [Preview](https://fonts.google.com/specimen/Halant?subset=devanagari), [Download](https://fonts.google.com/specimen/Halant?subset=devanagari), [Download2](https://github.com/google/fonts/tree/master/ofl/halant), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/halant),
 * 2nd Unicode fallback and Hebrew fallback: [DejaVu Serif](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts), Hebrew glyphs look like from David Libre but a bit heavier.
 * Final Unicode fallback: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true),
@@ -131,14 +133,14 @@ Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two v
 
 *My favorite text body font!*
 
-Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', Halant, 'David Libre', 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
+Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', Halant, 'David Libre', Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
 
 
 ## [Vollkorn](http://vollkorn-typeface.com)
 
 #### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
 
-Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', Halant, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
+Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', Halant, Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
 
 Recommended CSS features: `font-feature-settings: 'tnum' 1, 'lnum' 1;` See all features [here](http://vollkorn-typeface.com/#features).  
 To select right Hindi fallback weight use `font-weight: 420;`
