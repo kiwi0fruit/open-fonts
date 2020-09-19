@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Noto Serif Devanagari';
+    src: url("<...>NotoSerifDevanagari-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif Devanagari';
+    src: url("<...>NotoSerifDevanagari-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
