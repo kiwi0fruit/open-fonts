@@ -28,6 +28,7 @@ Sans serif fonts used for main fonts and fallbacks do support:
 * CJK (Chinese, Japanese, Korean): Source Han Sans.
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
 * Devanagari (Hindi and others): Noto Sans Devanagari.
+* Arabic: Noto Sans Arabic.
 * Symbols: Noto Sans, DejaVu Sans.
 
 
@@ -39,7 +40,7 @@ Sans serif fonts used for main fonts and fallbacks do support:
 
 In the latest version of the Source Sans Pro regular style thickness was changed. So now there are two different fonts of the same name so I recommend to use [**Sourcing Sans Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro.zip?raw=true) fork that is simply a renamed Source Sans Pro v2.021 from Google Fonts. But also use the latest Source Sans Pro as a fallback as it has a much wider Unicode coverage (see below).
 
-Font fallback chain: `'Sourcing Sans Pro', 'Sourcing Sans Pro3', 'Noto Sans', 'Noto Sans Devanagari', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
+Font fallback chain: `'Sourcing Sans Pro', 'Sourcing Sans Pro3', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
 
 **Noto Sans Hebrew might be a better Hebrew fallback than DejaVu Sans if you need to use semibolds (600):**  
 `'Sourcing Sans Pro', 'Sourcing Sans Pro3', 'Noto Sans Hebrew', ...`
@@ -49,6 +50,7 @@ Fallback fonts:
 * Renamed latest Source Sans Pro v3.006 as a fallback: [**Sourcing Sans Pro3**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro3.zip?raw=true) (by Paul D. Hunt and others), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingSansPro3.zip?raw=true), [Site](https://github.com/adobe-fonts/source-sans-pro), [Backup](https://github.com/kiwi0fruit/source-sans-pro),
 * Hebrew fallback: [Noto Sans Hebrew](https://www.google.com/get/noto/#sans-hebr) (by Google), [Preview](https://www.google.com/get/noto/#sans-hebr), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansHebrew-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#sans-hebr).
 * Hindi fallback: [Noto Sans Devanagari](https://www.google.com/get/noto/#sans-deva) (by Google), [Preview](https://www.google.com/get/noto/#sans-deva), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansDevanagari-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#sans-deva).
+* Arabic fallback: [Noto Sans Arabic](https://www.google.com/get/noto/#sans-arab) (by Google), [Preview](https://www.google.com/get/noto/#sans-arab), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansArabic-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#sans-arab).
 * 1st Unicode fallback: Noto Sans (see below),
 * 2nd Unicode fallback and Hebrew fallback: [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Math fallback: STIX Two Math (see below),
@@ -70,14 +72,14 @@ They are almost the same font.
 
 **Mind that Noto Sans has more font weghts than Open Sans so if using them together as here do not use 100, 200, 500, 800 (use 900 instead).**
 
-Font fallback chain: `'Open Sans', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
+Font fallback chain: `'Open Sans', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
 
 
 ## [Roboto](https://en.wikipedia.org/wiki/Roboto)
 
 #### (by Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto), [Download](https://fonts.google.com/specimen/Roboto), [Download2](https://github.com/google/fonts/tree/master/apache/roboto), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/roboto)
 
-Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
+Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
 
 
 ## Semideprecated Sans Serif
