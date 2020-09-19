@@ -168,7 +168,7 @@ There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) 
 Monospace fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): Roboto Mono, Inconsolata, Source Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
-* CJK (Chinese, Japanese, Korean): Source Han Sans (not monospace but of width == 1.5)
+* CJK (Chinese, Japanese, Korean): Source Han Sans (not monospace but of width 1.5: 2 of Source Han Sans == 3 of Roboto Mono)
 * Hebrew: Cousine.
 * Math: ST1X Two Math For Robot0 Mono.
 * Symbols: Symbola For Robot0 Mono, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono.
