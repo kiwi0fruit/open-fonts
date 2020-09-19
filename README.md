@@ -24,12 +24,14 @@ Contents:
 
 Sans serif fonts used for main fonts and fallbacks do support:
 
-* LGC (Latin, Greek, Cyrillic): Source Sans Pro, Open Sans, Roboto, Noto Sans, DejaVu Sans, *semideprecated* Lato.
+* LGC (Latin, Greek, Cyrillic): **Source Sans Pro, Open Sans, Roboto**, Noto Sans, DejaVu Sans, Lato.
 * CJK (Chinese, Japanese, Korean): Source Han Sans.
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
 * Devanagari (Hindi and others): Noto Sans Devanagari.
 * Arabic: Noto Sans Arabic.
 * Symbols: Noto Sans, DejaVu Sans.
+
+Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: Source Sans Pro, Open Sans, Roboto.
 
 
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
@@ -82,13 +84,11 @@ Font fallback chain: `'Open Sans', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sa
 Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
 
 
-## Semideprecated Sans Serif
+## Other (not top three)
 
 ### [Lato](http://www.latofonts.com)
 
 #### (by Łukasz Dziedzic), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/lato/), [Preview](https://fonts.google.com/specimen/Lato), [Download latest version](http://www.latofonts.com/lato-free-fonts/#download), [Backup](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts/Lato), [Backup2](https://github.com/kiwi0fruit/lato-source)
-
-_**Semideprecated but left for backward compatibility!**_
 
 Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
 
@@ -97,13 +97,15 @@ Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola
 
 Serif fonts used for main fonts and fallbacks do support:
 
-* LGC (Latin, Greek, Cyrillic): STIX Two Text, Source Serif Pro, Vollkorn, Noto Serif, *semideprecated* Linux Libertine.
+* LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, Noto Serif, Linux Libertine.
 * CJK (Chinese, Japanese, Korean): Source Han Serif.
-* Hebrew: David Libre, DejaVu Serif, *semideprecated* Linux Libertine.
+* Hebrew: David Libre, DejaVu Serif, Linux Libertine.
 * Devanagari (Hindi and others): Noto Serif Devanagari, Halant.
 * Arabic: Amiri.
-* Math: STIX Two Math, *semideprecated* Linux Libertine.
+* Math: STIX Two Math, Linux Libertine.
 * Symbols: Symbola, Noto Serif, DejaVu Serif.
+
+Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: STIX Two Text, Source Serif Pro, Vollkorn.
 
 
 ## [STIX Two Text](http://www.stixfonts.org/) and [STIX Two Math](http://www.stixfonts.org/)
@@ -148,7 +150,7 @@ Recommended CSS features: `font-feature-settings: 'tnum' 1, 'lnum' 1;` See all f
 To select right Hindi fallback weight use `font-weight: 420;`
 
 
-## Semideprecated Serif
+## Other (not top three)
 
 ### [Linux Libertine](http://libertine-fonts.org/)
 
@@ -214,13 +216,11 @@ Source Code Pro lacks some whitespace characters and has broken division slash. 
 Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans JP', monospace`.
 
 
-## Semideprecated Monospace
+## Other (not top three)
 
 ### [Consolas](https://en.wikipedia.org/wiki/Consolas)
 
 #### (by Lucas de Groot)
-
-_**Semideprecated but left for backward compatibility!**_
 
 This is a **proprietary** font but included here for [SugarTeX](https://github.com/kiwi0fruit/sugartex) installation instruction.
 
