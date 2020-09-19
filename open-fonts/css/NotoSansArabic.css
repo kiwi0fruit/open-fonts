@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url("<...>NotoSansArabic-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url("<...>NotoSansArabic-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url("<...>NotoSansArabic-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url("<...>NotoSansArabic-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url("<...>NotoSansArabic-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url("<...>NotoSansArabic-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url("<...>NotoSansArabic-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url("<...>NotoSansArabic-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url("<...>NotoSansArabic-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
