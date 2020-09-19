@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Source Han Serif CN';
+    src: url("<...>SourceHanSerifCN-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Serif CN';
+    src: url("<...>SourceHanSerifCN-ExtraLight.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Serif CN';
+    src: url("<...>SourceHanSerifCN-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Serif CN';
+    src: url("<...>SourceHanSerifCN-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Serif CN';
+    src: url("<...>SourceHanSerifCN-SemiBold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Serif CN';
+    src: url("<...>SourceHanSerifCN-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Serif CN';
+    src: url("<...>SourceHanSerifCN-Heavy.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}

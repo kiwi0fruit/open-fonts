@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Source Han Sans CN';
+    src: url("<...>SourceHanSansCN-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Sans CN';
+    src: url("<...>SourceHanSansCN-ExtraLight.otf") format("opentype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Sans CN';
+    src: url("<...>SourceHanSansCN-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Sans CN';
+    src: url("<...>SourceHanSansCN-Normal.otf") format("opentype");
+    font-weight: 350;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Sans CN';
+    src: url("<...>SourceHanSansCN-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Sans CN';
+    src: url("<...>SourceHanSansCN-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Sans CN';
+    src: url("<...>SourceHanSansCN-Heavy.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
