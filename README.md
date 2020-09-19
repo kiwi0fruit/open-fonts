@@ -24,8 +24,8 @@ Contents:
 
 Sans serif fonts used for main fonts and fallbacks do support:
 
-* Latin, Greek, Cyrillic: Source Sans Pro, Open Sans, Roboto, Noto Sans, DejaVu Sans, Lato.
-* CJK: Source Han Sans.
+* LGC (Latin, Greek, Cyrillic): Source Sans Pro, Open Sans, Roboto, Noto Sans, DejaVu Sans, Lato.
+* CJK (Chinese, Japanese, Korean): Source Han Sans.
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
 * Hindi: Noto Sans Devanagari.
 * Symbols: Noto Sans, DejaVu Sans.
@@ -60,7 +60,7 @@ Fallback fonts:
 
 #### (*Open Sans* by Steve Matteson), [Preview](https://fonts.google.com/specimen/Open+Sans), [Download](https://fonts.google.com/specimen/Open+Sans), [Download2](https://github.com/google/fonts/tree/master/apache/opensans), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/opensans)
 
-#### (*Noto Sans* by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-lgc), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.zip?raw=true), [Download original latest version](https://www.google.com/get/noto/#sans-lgc).
+#### (*Noto Sans* by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-lgc), [Preview](https://fonts.google.com/specimen/Noto+Sans), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.zip?raw=true), [Download original latest version](https://www.google.com/get/noto/#sans-lgc).
 
 They are almost the same font.
 
@@ -84,7 +84,7 @@ Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans He
 
 ### [Lato](http://www.latofonts.com)
 
-#### (by Łukasz Dziedzic), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/lato/), [Download latest version](http://www.latofonts.com/lato-free-fonts/#download), [Backup](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts/Lato), [Backup2](https://github.com/kiwi0fruit/lato-source)
+#### (by Łukasz Dziedzic), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/lato/), [Preview](https://fonts.google.com/specimen/Lato), [Download latest version](http://www.latofonts.com/lato-free-fonts/#download), [Backup](https://github.com/kiwi0fruit/open-fonts/tree/master/Fonts/Lato), [Backup2](https://github.com/kiwi0fruit/lato-source)
 
 _**Semideprecated but left for backward compatibility!**_
 
@@ -95,8 +95,8 @@ Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola
 
 Serif fonts used for main fonts and fallbacks do support:
 
-* Latin, Greek, Cyrillic: STIX Two Text, Source Serif Pro, Vollkorn, Noto Serif, Linux Libertine.
-* CJK: Source Han Serif.
+* LGC (Latin, Greek, Cyrillic): STIX Two Text, Source Serif Pro, Vollkorn, Noto Serif, Linux Libertine.
+* CJK (Chinese, Japanese, Korean): Source Han Serif.
 * Hebrew: David Libre, DejaVu Serif, Linux Libertine.
 * Hindi: Noto Serif Devanagari, Halant.
 * Math: STIX Two Math, Linux Libertine.
@@ -113,7 +113,7 @@ Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif Devanagari',
 
 Fallback fonts:
 
-* 1st Unicode fallback: [Noto Serif](https://en.wikipedia.org/wiki/Noto_fonts) LGC (by Steve Matteson and Google), [Preview](https://fonts.google.com/specimen/Noto+Serif), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerif-hinted.zip?raw=true), [Download original latest version](https://www.google.com/get/noto/#serif-lgc).
+* 1st Unicode fallback: [Noto Serif](https://en.wikipedia.org/wiki/Noto_fonts) LGC (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#serif-lgc), [Preview](https://fonts.google.com/specimen/Noto+Serif), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerif-hinted.zip?raw=true), [Download original latest version](https://www.google.com/get/noto/#serif-lgc).
 * Math fallback: STIX Two Math,
 * Hebrew fallback: [David Libre](https://fonts.google.com/specimen/David+Libre?subset=hebrew) (by Ismar David, Monotype Corporation, Google, Meir Sadan), [Preview](https://fonts.google.com/specimen/David+Libre?subset=hebrew), [Download](https://fonts.google.com/specimen/David+Libre?subset=hebrew), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/David_Libre.zip?raw=true),
 * Hindi fallback: [Noto Serif Devanagari](https://www.google.com/get/noto/#serif-deva) (by Google), [Preview](https://www.google.com/get/noto/#serif-deva), [Download](https://www.google.com/get/noto/#serif-deva), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerifDevanagari-hinted.zip?raw=true),
@@ -163,8 +163,8 @@ There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) 
 
 Monospace fonts used for main fonts and fallbacks do support:
 
-* Latin, Greek, Cyrillic: Roboto Mono, Inconsolata, Source Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
-* CJK: Noto Sans (not monospace but of width == 1.5)
+* LGC (Latin, Greek, Cyrillic): Roboto Mono, Inconsolata, Source Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
+* CJK (Chinese, Japanese, Korean): Noto Sans (not monospace but of width == 1.5)
 * Hebrew: Cousine.
 * Math: ST1X Two Math For Robot0 Mono.
 * Symbols: Symbola For Robot0 Mono, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono.
@@ -196,7 +196,7 @@ Fallback fonts:
 
 #### (by Raph Levien and others), [Preview](https://fontlibrary.org/en/font/inconsolata-lgc), [Preview2](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata Sugar](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true), [Backup](https://github.com/kiwi0fruit/Inconsolata-LGC)
 
-Inconsolata lacks italics, Cyrillic and Greek. Inconsolata LGC lacks some whitespace characters, has off-style backtick, italic Latin a and Cyrillic д are controversial design decisions. For SugarTeX it's recommended to use [**Inconsolata Sugar**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true) fork that is simply a renamed Inconsolata LGC with these issues fixed (backtick was simply removed so one from fallback would be used). 
+Inconsolata lacks italics, Cyrillic and Greek. Inconsolata LGC lacks some whitespace characters, has off-style backtick, italic Latin a and Cyrillic д are controversial design decisions. For SugarTeX it's recommended to use [**Inconsolata Sugar**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true) fork that is simply a renamed Inconsolata LGC with these issues fixed (backtick was simply removed so one from fallback would be used).
 
 Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans JP', monospace`.
 
