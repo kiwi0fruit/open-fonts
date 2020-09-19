@@ -15,7 +15,7 @@ Contents:
 
 # Install
 
-* [All fonts in one zip archive](https://github.com/kiwi0fruit/open-fonts/releases).
+* [All non CJK fonts in one zip archive](https://github.com/kiwi0fruit/open-fonts/releases).
 * [All CJK fonts in one zip archive](https://github.com/kiwi0fruit/open-fonts/releases).
 * [Install Open Fonts in pip and conda (no CJK)](https://github.com/kiwi0fruit/py-open-fonts)
 
