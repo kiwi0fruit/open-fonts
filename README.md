@@ -25,6 +25,7 @@ Contents:
 Sans serif fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): **Source Sans Pro, Open Sans, Roboto**, Noto Sans, DejaVu Sans, Lato.
+* Has Cyrillic variants: Sourcing Sans Pro3, [see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/) (switching language on preview should switch Cyrillic appearance).
 * CJK (Chinese, Japanese, Korean): Source Han Sans.
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
 * Devanagari (Hindi and others): Noto Sans Devanagari.
@@ -98,6 +99,7 @@ Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola
 Serif fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, Noto Serif, Linux Libertine.
+* Has Cyrillic variants: Source Serif Pro, Vollkorn, [see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/) (switching language on preview should switch Cyrillic appearance).
 * CJK (Chinese, Japanese, Korean): Source Han Serif.
 * Hebrew: David Libre, DejaVu Serif, Linux Libertine.
 * Devanagari (Hindi and others): Noto Serif Devanagari, Halant.
