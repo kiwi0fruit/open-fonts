@@ -25,7 +25,7 @@ Contents:
 Sans serif fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): **Source Sans Pro, Open Sans, Roboto**, Noto Sans, DejaVu Sans, Lato.
-* Has Cyrillic variants: Source Sans Pro, [see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/) (switching language on preview should switch Cyrillic appearance).
+* Has Cyrillic variants: Source Sans Pro, [see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/) (switching language on preview should switch Cyrillic appearance. Browsers support it via `lang="bg_BG"` HTML property. Maybe Chrome additionally needs `-webkit-locale: "bg_BG";` CSS property).
 * CJK (Chinese, Japanese, Korean): Source Han Sans.
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
 * Devanagari (Hindi and others): Noto Sans Devanagari.
@@ -48,7 +48,7 @@ In the latest version the "Source Sans Pro" name was changed to "Source Sans 3".
 Font fallback chain: `'Source Sans Pro', 'Source Sans 3', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
 
 **Noto Sans Hebrew might be a better Hebrew fallback than DejaVu Sans if you need to use semibolds (600):**  
-`'Sourcing Sans Pro', 'Sourcing Sans Pro3', 'Noto Sans Hebrew', ...`
+`'Source Sans Pro', 'Source Sans 3', 'Noto Sans Hebrew', ...`
 
 Fallback fonts:
 
