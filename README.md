@@ -22,6 +22,8 @@ Contents:
 
 # Best Sans Serif
 
+First of all OFT and TTF versions of **every** font have different display weight on Windows on small sizes for some reason (see [this](https://github.com/adobe-fonts/source-sans-pro/issues/170) and [that](https://github.com/adobe-fonts/source-sans-pro/issues/200)) hence use TTF version as it looks closer to original design.
+
 Sans serif fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): **Source Sans Pro, Open Sans, Roboto**, Noto Sans, DejaVu Sans, Lato.
@@ -40,8 +42,6 @@ Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: Source
 #### (by Paul D. Hunt), [Preview](https://fonts.google.com/specimen/Source+Sans+Pro), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/source-sans-pro/), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceSansPro.7z?raw=true), [Download original](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
 
 *My favorite!*
-
-First of all OFT and TTF version of Source Sans Pro have different weight for some reason (see [this](https://github.com/adobe-fonts/source-sans-pro/issues/170) and [that](https://github.com/adobe-fonts/source-sans-pro/issues/200)) hence use TTF version as it looks closer to original design.
 
 In the latest version the "Source Sans Pro" name was changed to "Source Sans 3". I hope that it would be [reverted](https://github.com/adobe-fonts/source-sans-pro/issues/192) but for now I recommend to use both fonts in the fallback chain.
 
@@ -97,6 +97,8 @@ Font fallback chain: `Lato, 'Noto Sans', 'DejaVu Sans', 'STIX Two Math', Symbola
 
 # Best Serif
 
+First of all OFT and TTF versions of **every** font have different display weight on Windows on small sizes for some reason (see [this](https://github.com/adobe-fonts/source-sans-pro/issues/170) and [that](https://github.com/adobe-fonts/source-sans-pro/issues/200)) hence use TTF version as it looks closer to original design.
+
 Serif fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, Noto Serif.
@@ -119,6 +121,8 @@ Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: STIX T
 
 Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif Devanagari', 'David Libre', Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
 
+Note that STIX Two is OTF only font. Hence it would look heavier on Windows that it's original design. But you can use "ST**1**X Two Text" and "ST**1**X Two Math" that is simply STIX Two converted to TTF. [**Download**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/ST1XTwo.zip?raw=true).
+
 Fallback fonts:
 
 * 1st Unicode fallback: [Noto Serif](https://en.wikipedia.org/wiki/Noto_fonts) LGC (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#serif-lgc), [Preview](https://fonts.google.com/specimen/Noto+Serif), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerif-hinted.zip?raw=true), [Download original latest version](https://www.google.com/get/noto/#serif-lgc).
@@ -136,16 +140,16 @@ Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two v
 
 ## [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro)
 
-#### (by Frank Grießhammer), [Preview](https://adobe-fonts.github.io/source-serif-pro/), [Preview](https://fonts.google.com/specimen/Source+Serif+Pro), [Download latest version](https://github.com/adobe-fonts/source-serif-pro/releases), [Backup](https://github.com/kiwi0fruit/source-serif-pro)
+#### (by Frank Grießhammer), [Preview](https://adobe-fonts.github.io/source-serif-pro/), [Preview](https://fonts.google.com/specimen/Source+Serif+Pro), [Download](https://github.com/adobe-fonts/source-serif-pro/releases), [Backup](https://github.com/kiwi0fruit/source-serif-pro)
 
 *My favorite text body font!*
 
 Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', Halant, 'David Libre', Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
 
 
-## [Vollkorn](http://vollkorn-typeface.com)
+## [Vollkorn](https://fonts.google.com/specimen/Vollkorn?category=Serif)
 
-#### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn), [Download latest version](http://vollkorn-typeface.com/#download), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
+#### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn?category=Serif), [Download](https://fonts.google.com/specimen/Vollkorn?category=Serif), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
 
 Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', Halant, Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
 
@@ -169,6 +173,8 @@ There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) 
 
 
 # Best Monospace
+
+First of all OFT and TTF versions of **every** font have different display weight on Windows on small sizes for some reason (see [this](https://github.com/adobe-fonts/source-sans-pro/issues/170) and [that](https://github.com/adobe-fonts/source-sans-pro/issues/200)) hence use TTF version as it looks closer to original design.
 
 Monospace fonts used for main fonts and fallbacks do support:
 
@@ -194,7 +200,7 @@ Font fallback chain: `'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'D
 Fallback fonts:
 
 * 1st Unicode fallback: [Noto Sans Mono](https://en.wikipedia.org/wiki/Noto_fonts) (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-mono), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansMono-hinted.zip?raw=true), [Download original latest version](https://www.google.com/get/noto/#sans-mono).
-* Some arrows fallback: [IBM Plex Mono](https://github.com/IBM/plex) (by Mike Abbink), [Preview](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download latest version](https://github.com/IBM/plex/releases), [Backup](https://github.com/kiwi0fruit/plex/tree/master/IBM-Plex-Mono/fonts/complete/otf),
+* Some arrows fallback: [IBM Plex Mono](https://github.com/IBM/plex) (by Mike Abbink), [Preview](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download latest version](https://github.com/IBM/plex/releases), [Backup](https://github.com/kiwi0fruit/plex/tree/master/IBM-Plex-Mono/fonts/complete/otf),
 * 2nd Unicode fallback: [DejaVu Sans Mono](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/ru/font/dejavu-sans-mono), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Hebrew and 3rd Unicode fallback: [Cousine](https://fonts.google.com/specimen/Cousine) (by Steve Matteson), [Preview](https://fonts.google.com/specimen/Cousine), [Download](https://fonts.google.com/specimen/Cousine), [Download2](https://github.com/google/fonts/tree/master/apache/cousine), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/cousine),
 * Math fallback, Final Unicode fallback: [STIX Two Math and Symbola for Roboto Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/fallback_roboto_mono.zip?raw=true),

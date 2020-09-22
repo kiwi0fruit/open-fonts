@@ -1,72 +1,72 @@
 @font-face {
     font-family: 'Vollkorn';
-    src: url("<...>Vollkorn-Regular.otf") format("opentype");
+    src: url("<...>Vollkorn-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url("<...>Vollkorn-Italic.otf") format("opentype");
+    src: url("<...>Vollkorn-Italic.ttf") format("truetype");
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url("<...>Vollkorn-Medium.otf") format("opentype");
+    src: url("<...>Vollkorn-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url("<...>Vollkorn-MediumItalic.otf") format("opentype");
+    src: url("<...>Vollkorn-MediumItalic.ttf") format("truetype");
     font-weight: 500;
     font-style: italic;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url("<...>Vollkorn-SemiBold.otf") format("opentype");
+    src: url("<...>Vollkorn-SemiBold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url("<...>Vollkorn-SemiBoldItalic.otf") format("opentype");
+    src: url("<...>Vollkorn-SemiBoldItalic.ttf") format("truetype");
     font-weight: 600;
     font-style: italic;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url("<...>Vollkorn-Bold.otf") format("opentype");
+    src: url("<...>Vollkorn-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url("<...>Vollkorn-BoldItalic.otf") format("opentype");
+    src: url("<...>Vollkorn-BoldItalic.ttf") format("truetype");
     font-weight: 700;
     font-style: italic;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url("<...>Vollkorn-ExtraBold.otf") format("opentype");
+    src: url("<...>Vollkorn-ExtraBold.ttf") format("truetype");
     font-weight: 800;
     font-style: normal;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url("<...>Vollkorn-ExtraBoldItalic.otf") format("opentype");
+    src: url("<...>Vollkorn-ExtraBoldItalic.ttf") format("truetype");
     font-weight: 800;
     font-style: italic;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url("<...>Vollkorn-Black.otf") format("opentype");
+    src: url("<...>Vollkorn-Black.ttf") format("truetype");
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url("<...>Vollkorn-BlackItalic.otf") format("opentype");
+    src: url("<...>Vollkorn-BlackItalic.ttf") format("truetype");
     font-weight: 900;
     font-style: italic;
 }

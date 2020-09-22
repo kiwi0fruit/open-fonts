@@ -1,72 +1,72 @@
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url("<...>SourceSerifPro-Regular.otf") format("opentype");
+    src: url("<...>SourceSerifPro-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url("<...>SourceSerifPro-It.otf") format("opentype");
+    src: url("<...>SourceSerifPro-It.ttf") format("truetype");
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url("<...>SourceSerifPro-ExtraLight.otf") format("opentype");
+    src: url("<...>SourceSerifPro-ExtraLight.ttf") format("truetype");
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url("<...>SourceSerifPro-ExtraLightIt.otf") format("opentype");
+    src: url("<...>SourceSerifPro-ExtraLightIt.ttf") format("truetype");
     font-weight: 200;
     font-style: italic;
 }
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url("<...>SourceSerifPro-Light.otf") format("opentype");
+    src: url("<...>SourceSerifPro-Light.ttf") format("truetype");
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url("<...>SourceSerifPro-LightIt.otf") format("opentype");
+    src: url("<...>SourceSerifPro-LightIt.ttf") format("truetype");
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url("<...>SourceSerifPro-Semibold.otf") format("opentype");
+    src: url("<...>SourceSerifPro-Semibold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url("<...>SourceSerifPro-SemiboldIt.otf") format("opentype");
+    src: url("<...>SourceSerifPro-SemiboldIt.ttf") format("truetype");
     font-weight: 600;
     font-style: italic;
 }
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url("<...>SourceSerifPro-Bold.otf") format("opentype");
+    src: url("<...>SourceSerifPro-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url("<...>SourceSerifPro-BoldIt.otf") format("opentype");
+    src: url("<...>SourceSerifPro-BoldIt.ttf") format("truetype");
     font-weight: 700;
     font-style: italic;
 }
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url("<...>SourceSerifPro-Black.otf") format("opentype");
+    src: url("<...>SourceSerifPro-Black.ttf") format("truetype");
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url("<...>SourceSerifPro-BlackIt.otf") format("opentype");
+    src: url("<...>SourceSerifPro-BlackIt.ttf") format("truetype");
     font-weight: 900;
     font-style: italic;
 }
