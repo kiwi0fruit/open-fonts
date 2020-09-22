@@ -37,7 +37,7 @@ Sans serif fonts used for main fonts and fallbacks do support:
 Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: Source Sans Pro, Open Sans, Roboto.
 
 \*\* Browsers support language variants inside single font (CJK variants or Cyrillic variants) via `lang="bg-BG"` (`"zh-CN"`, `"zh-TW"`, `"zh-HK"`, `"ja-JP"`, `"ko-KR"`) HTML property.  
-LibreOffice v.7.0.1 also supports language variants. For CJK first enable `Tools / Options / Language Settings / Languages / Default languages for documents / Asian`. See document example [here](./cjk-test).
+LibreOffice v.7.0.1 also supports language variants. For CJK first enable `Tools / Options / Language Settings / Languages / Default languages for documents / Asian`. See document example [here](./cjk-test). TexMaths extension is recommended for LibreOffice together with installing WYSIWYM editor LyX and copypasting back and forth TeX formulas for easy editing (as built-in math editor in LibreOffice is rather dissapointing). LyX [quick templates](./lyx).
 
 
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
