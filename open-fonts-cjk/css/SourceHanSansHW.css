@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Source Han Sans HW';
+    src: url("<...>SourceHanSansHW-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Sans HW';
+    src: url("<...>SourceHanSansHW-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Source Han Serif';
+    src: url("<...>SourceHanSerif-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Serif';
+    src: url("<...>SourceHanSerif-ExtraLight.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Serif';
+    src: url("<...>SourceHanSerif-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Serif';
+    src: url("<...>SourceHanSerif-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Serif';
+    src: url("<...>SourceHanSerif-SemiBold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Serif';
+    src: url("<...>SourceHanSerif-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Han Serif';
+    src: url("<...>SourceHanSerif-Heavy.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}

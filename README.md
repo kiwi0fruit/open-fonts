@@ -17,7 +17,7 @@ Contents:
 
 * [All non CJK fonts in one zip archive](https://github.com/kiwi0fruit/open-fonts/releases).
 * [All CJK fonts in one zip archive](https://github.com/kiwi0fruit/open-fonts/releases).
-* [Install Open Fonts in pip and conda (no CJK)](https://github.com/kiwi0fruit/py-open-fonts)
+* [Install Open Fonts in pip and conda (previous version)](https://github.com/kiwi0fruit/py-open-fonts)
 
 
 # Best Sans Serif
@@ -27,14 +27,17 @@ First of all OTF and TTF versions of **every** font have different display weigh
 Sans serif fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): **Source Sans Pro, Open Sans, Roboto**, Noto Sans, DejaVu Sans, Lato.
-* Has Cyrillic variants: Source Sans Pro, [see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/) (switching language on preview should switch Cyrillic appearance. Browsers support it via `lang="bg_BG"` HTML property. Maybe Chrome additionally needs `-webkit-locale: "bg_BG";` CSS property).
-* CJK (Chinese, Japanese, Korean): Source Han Sans.
+* Has Cyrillic variants\*\*: Source Sans Pro, [see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/) (switching language on preview should switch Cyrillic appearance).
+* CJK\*\* (Chinese, Japanese, Korean) variants: Source Han Sans.
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
 * Devanagari (Hindi and others): Noto Sans Devanagari.
 * Arabic: Noto Sans Arabic.
 * Symbols: Noto Sans, DejaVu Sans.
 
 Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: Source Sans Pro, Open Sans, Roboto.
+
+\*\* Browsers support language variants inside single font (CJK variants or Cyrillic variants) via `lang="bg-BG"` (`"zh-CN"`, `"zh-TW"`, `"zh-HK"`, `"ja-JP"`, `"ko-KR"`) HTML property.  
+LibreOffice v.7.0.1 also supports language variants. For CJK first enable `Tools / Options / Language Settings / Languages / Default languages for documents / Asian`. See document example [here](./cjk-test).
 
 
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
@@ -45,7 +48,9 @@ Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: Source
 
 In the latest version the "Source Sans Pro" name was changed to "Source Sans 3". I hope that it would be [reverted](https://github.com/adobe-fonts/source-sans-pro/issues/192) but for now I recommend to use both fonts in the fallback chain.
 
-Font fallback chain: `'Source Sans Pro', 'Source Sans 3', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
+Font fallback chain: `'Source Sans Pro', 'Source Sans 3', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
+
+I had a bug when `'Source Sans Pro'` did not work properly in LibreOffice with language variations. But `'Source Sans 3'` worked fine. But this might be some re-installation bug. Check yourself.
 
 **Noto Sans Hebrew might be a better Hebrew fallback than DejaVu Sans if you need to use semibolds (600):**  
 `'Source Sans Pro', 'Source Sans 3', 'Noto Sans Hebrew', ...`
@@ -59,7 +64,7 @@ Fallback fonts:
 * 2nd Unicode fallback and Hebrew fallback: [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Math fallback: STIX Two Math (see below),
 * Final Unicode fallback: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true),
-* CJK fallback: Source Han Sans XX (by Adobe and Google) (for example "Source Han Sans JP"), **Preview** Source Han Sans: [JP](https://fonts.adobe.com/fonts/source-han-sans-japanese), [CN](https://fonts.adobe.com/fonts/source-han-sans-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-sans-korean), [HK](https://fonts.adobe.com/fonts/source-han-sans-hong-kong), [TW](https://fonts.adobe.com/fonts/source-han-sans-traditional-chinese), **Download** Source Han Sans & Source Han Serif: [part1](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceHanPart1.7z?raw=true), [part2](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceHanPart2.7z?raw=true), **Alt. download** Source Han Sans: [JP](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-jp-fonts-2.001-2-any.pkg.tar.xz.html), [CN](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-cn-fonts-2.001-2-any.pkg.tar.xz.html), [KR](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-kr-fonts-2.001-2-any.pkg.tar.xz.html), [HK](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-hk-fonts-2.001-2-any.pkg.tar.xz.html), [TW](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-tw-fonts-2.001-2-any.pkg.tar.xz.html), [Source code](https://github.com/adobe-fonts/source-han-sans).
+* CJK fallback: Source Han Sans (by Adobe and Google), **Preview**: [JP](https://fonts.adobe.com/fonts/source-han-sans-japanese), [CN](https://fonts.adobe.com/fonts/source-han-sans-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-sans-korean), [HK](https://fonts.adobe.com/fonts/source-han-sans-hong-kong), [TW](https://fonts.adobe.com/fonts/source-han-sans-traditional-chinese), [Download Language-specific OTFs (Japanese is default)](https://github.com/adobe-fonts/source-han-sans/tree/release#language-specific-otfs), [Download other options](https://github.com/adobe-fonts/source-han-sans/tree/release), [Source code](https://github.com/adobe-fonts/source-han-sans), [Backup](https://github.com/kiwi0fruit/source-han-sans).
 
 
 ## [Open Sans](https://fonts.google.com/specimen/Open+Sans) and [Noto Sans](https://en.wikipedia.org/wiki/Noto_fonts)
@@ -76,14 +81,14 @@ They are almost the same font.
 
 **Mind that Noto Sans has more font weghts than Open Sans so if using them together as here do not use 100, 200, 500, 800 (use 900 instead).**
 
-Font fallback chain: `'Open Sans', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
+Font fallback chain: `'Open Sans', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
 
 
 ## [Roboto](https://en.wikipedia.org/wiki/Roboto)
 
 #### (by Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto), [Download](https://fonts.google.com/specimen/Roboto), [Download2](https://github.com/google/fonts/tree/master/apache/roboto), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/roboto)
 
-Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans JP', sans-serif`.
+Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
 
 
 ## LGC only
@@ -103,7 +108,7 @@ Serif fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, Noto Serif.
 * Has Cyrillic variants: Source Serif Pro, Vollkorn, [see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/) (switching language on preview should switch Cyrillic appearance).
-* CJK (Chinese, Japanese, Korean): Source Han Serif.
+* CJK (Chinese, Japanese, Korean) variants: Source Han Serif.
 * Hebrew: David Libre, DejaVu Serif.
 * Devanagari (Hindi and others): Noto Serif Devanagari, Halant.
 * Arabic: Amiri.
@@ -119,7 +124,7 @@ Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: STIX T
 
 *My favorite math font!*
 
-Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif Devanagari', 'David Libre', Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
+Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif Devanagari', 'David Libre', Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif', serif`.
 
 Note that STIX Two is OTF only font. Hence it would look heavier on Windows that it's original design (that's not necessary a bad thing). But you can use `'ST1X Two Text'` and `'ST1X Two Math'` that is simply STIX Two converted to TTF. [**Download**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/ST1XTwo.zip?raw=true).
 
@@ -133,7 +138,7 @@ Fallback fonts:
 * Alt. Hindi fallback: [Halant](https://fonts.google.com/specimen/Halant?subset=devanagari) (by Vivek Sadamate, Ninad Kale, Jonny Pinhorn), [Preview](https://fonts.google.com/specimen/Halant?subset=devanagari), [Download](https://fonts.google.com/specimen/Halant?subset=devanagari), [Download2](https://github.com/google/fonts/tree/master/ofl/halant), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/halant),
 * 2nd Unicode fallback and Hebrew fallback: [DejaVu Serif](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts), Hebrew glyphs look like from David Libre but a bit heavier.
 * Final Unicode fallback: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true),
-* CJK fallback: Source Han Serif XX (by Adobe and Google) (for example "Source Han Serif JP"). **Preview** Source Han Serif: [JP](https://fonts.adobe.com/fonts/source-han-serif-japanese), [CN](https://fonts.adobe.com/fonts/source-han-serif-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-serif-korean), [TW](https://fonts.adobe.com/fonts/source-han-serif-traditional-chinese), **Download** Source Han Serif & Source Han Sans: [part1](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceHanPart1.7z?raw=true), [part2](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceHanPart2.7z?raw=true), **Alt. download** Source Han Serif: [JP](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-serif-jp-fonts-1.001-3-any.pkg.tar.xz.html), [CN](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-serif-cn-fonts-1.001-3-any.pkg.tar.xz.html), [KR](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-serif-kr-fonts-1.001-3-any.pkg.tar.xz.html), [TW](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-serif-tw-fonts-1.001-3-any.pkg.tar.xz.html). [Source code](https://github.com/adobe-fonts/source-han-sans).
+* CJK fallback: Source Han Serif (by Adobe and Google). **Preview**: [JP](https://fonts.adobe.com/fonts/source-han-serif-japanese), [CN](https://fonts.adobe.com/fonts/source-han-serif-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-serif-korean), [TW](https://fonts.adobe.com/fonts/source-han-serif-traditional-chinese), [Download Language-specific OTFs (Japanese is default)](https://github.com/adobe-fonts/source-han-serif/tree/release#language-specific-otfs), [Download other options](https://github.com/adobe-fonts/source-han-serif/tree/release), [Source code](https://github.com/adobe-fonts/source-han-serif), [Backup](https://github.com/kiwi0fruit/source-han-serif).
 
 Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
@@ -144,14 +149,14 @@ Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two v
 
 *My favorite text body font!*
 
-Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', Halant, 'David Libre', Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
+Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', Halant, 'David Libre', Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif', serif`.
 
 
 ## [Vollkorn](https://fonts.google.com/specimen/Vollkorn?category=Serif)
 
 #### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn?category=Serif), [Download](https://fonts.google.com/specimen/Vollkorn?category=Serif), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
 
-Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', Halant, Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif JP', serif`.
+Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', Halant, Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif', serif`.
 
 Recommended CSS features: `font-feature-settings: 'tnum' 1, 'lnum' 1;` See all features [here](http://vollkorn-typeface.com/#features).  
 To select right Hindi fallback weight use `font-weight: 420;`
@@ -179,7 +184,7 @@ First of all OTF and TTF versions of **every** font have different display weigh
 Monospace fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): Roboto Mono, Inconsolata, Source Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
-* CJK (Chinese, Japanese, Korean): Source Han Sans (not monospace but of width 1.5: 2 of Source Han Sans == 3 of Roboto Mono)
+* CJK (Chinese, Japanese, Korean) variants: Source Han Sans (not monospace but of width 1.5: 2 of Source Han Sans == 3 of Roboto Mono)
 * Hebrew: Cousine.
 * Math: ST1X Two Math For Robot0 Mono.
 * Symbols: Symbola For Robot0 Mono, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono.
@@ -195,7 +200,7 @@ Main fonts and fallback chains were optimized for [SugarTeX](https://github.com/
 
 Italic in Roboto Mono has different width so it's recommended to use [**Robotization Mono**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/RobotizationMono.zip?raw=true) fork that is simply a renamed monospacified version of Roboto Mono (but also without light and thin styles).
 
-Font fallback chain: `'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans JP', monospace`.
+Font fallback chain: `'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans', monospace`.
 
 Fallback fonts:
 
@@ -204,7 +209,7 @@ Fallback fonts:
 * 2nd Unicode fallback: [DejaVu Sans Mono](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/ru/font/dejavu-sans-mono), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Hebrew and 3rd Unicode fallback: [Cousine](https://fonts.google.com/specimen/Cousine) (by Steve Matteson), [Preview](https://fonts.google.com/specimen/Cousine), [Download](https://fonts.google.com/specimen/Cousine), [Download2](https://github.com/google/fonts/tree/master/apache/cousine), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/cousine),
 * Math fallback, Final Unicode fallback: [STIX Two Math and Symbola for Roboto Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/fallback_roboto_mono.zip?raw=true),
-* CJK fallback: Noto Sans XX (by Adobe and Google) (for example "Source Han Sans JP"), **Preview** Noto Sans: [JP](https://fonts.adobe.com/fonts/source-han-sans-japanese), [SC (CN)](https://fonts.adobe.com/fonts/source-han-sans-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-sans-korean), [HK](https://fonts.adobe.com/fonts/source-han-sans-hong-kong), [TC (TW)](https://fonts.adobe.com/fonts/source-han-sans-traditional-chinese), **Download** Noto Sans & Noto Serif: [part1](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceHanPart1.7z?raw=true), [part2](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceHanPart2.7z?raw=true), **Alt. download** Noto Sans: [JP](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-jp-fonts-2.001-2-any.pkg.tar.xz.html), [SC (CN)](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-cn-fonts-2.001-2-any.pkg.tar.xz.html), [KR](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-kr-fonts-2.001-2-any.pkg.tar.xz.html), [HK](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-hk-fonts-2.001-2-any.pkg.tar.xz.html), [TC (TW)](https://archlinux.pkgs.org/rolling/archlinux-community-armv7h/adobe-source-han-sans-tw-fonts-2.001-2-any.pkg.tar.xz.html), [Source code](https://github.com/adobe-fonts/source-han-sans).
+* CJK fallback: Source Han Sans (by Adobe and Google), **Preview**: [JP](https://fonts.adobe.com/fonts/source-han-sans-japanese), [CN](https://fonts.adobe.com/fonts/source-han-sans-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-sans-korean), [HK](https://fonts.adobe.com/fonts/source-han-sans-hong-kong), [TW](https://fonts.adobe.com/fonts/source-han-sans-traditional-chinese), [Download Language-specific OTFs (Japanese is default)](https://github.com/adobe-fonts/source-han-sans/tree/release#language-specific-otfs), [Download other options](https://github.com/adobe-fonts/source-han-sans/tree/release), [Source code](https://github.com/adobe-fonts/source-han-sans), [Backup](https://github.com/kiwi0fruit/source-han-sans).
 
 
 ## [Inconsolata](https://en.wikipedia.org/wiki/Inconsolata)
@@ -213,7 +218,7 @@ Fallback fonts:
 
 Inconsolata lacks italics, Cyrillic and Greek. Inconsolata LGC lacks some whitespace characters, has off-style backtick, italic Latin a and Cyrillic д are controversial design decisions. For SugarTeX it's recommended to use [**Inconsolata Sugar**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true) fork that is simply a renamed Inconsolata LGC with these issues fixed (backtick was simply removed so one from fallback would be used).
 
-Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans JP', monospace`.
+Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans', monospace`.
 
 
 ## [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
@@ -222,7 +227,7 @@ Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono'
 
 Source Code Pro lacks some whitespace characters and has broken division slash. For SugarTeX it's recommended to use [**Sourcing Code Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true) fork that is simply a renamed Source Code Pro with these issues fixed.
 
-Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans JP', monospace`.
+Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans', monospace`.
 
 
 ## Proprietary
@@ -235,7 +240,7 @@ This is a **proprietary** font but included here for [SugarTeX](https://github.c
 
 It's preinstalled with Windows. Consolas can also be installed together with [Microsoft PowerPoint Viewer](https://www.microsoft.com/en-us/download/details.aspx?id=13) till April, 2018. SHA256: 249473568EBA7A1E4F95498ACBA594E0F42E6581ADD4DEAD70C1DFB908A09423. But note that it's license says that "You may use the software only to view and print files created with Microsoft Office software. You may not use the software for any other purpose." so you *might* not be even allowed to print Consolas font text from LibreOffice. But at the same time if you incorporate Microsoft Word into your pipeline (for example even if postprocessing .docx files by other software as a next step) you *might* satisfy "created with Microsoft Office software". And printing to PDF via Chrome browser *might* also be printing.
 
-Font fallback chain: `Consolas, 'DejaVu Sans Mono For Conso1as', 'ST1X Two Math For Conso1as', 'Symbola For Conso1as', 'Source Han Sans JP', monospace`
+Font fallback chain: `Consolas, 'DejaVu Sans Mono For Conso1as', 'ST1X Two Math For Conso1as', 'Symbola For Conso1as', 'Source Han Sans', monospace`
 
 Fallback fonts:
 
@@ -316,35 +321,6 @@ This extesnion would help you to make internet less messy in style :-)
 
 And even more! Stylebot can fix issues that arise from thinner fonts in Chrome with [MacType](#mactype): swap badly looking fonts. For example add this to the Global Stylesheet:
 
-```css
-@font-face {
-  font-family: 'Times New Roman';
-  src: local("Linus Libertini RRegular");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Times New Roman';
-  src: local("Linus Libertini BBold");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Times New Roman';
-  src: local("Linus Libertini IItalic");
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Times New Roman';
-  src: local("Linus Libertini BBoldIItalic");
-  font-weight: bold;
-  font-style: italic;
-}
-```
-You need to install Linus Libertini to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this archive](https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/linus_libertini_font_swap_chrome_bugfix.zip) that were easily renamed via FontForge.
-
-Or you can use online fonts:
 
 ```css
 @font-face {
