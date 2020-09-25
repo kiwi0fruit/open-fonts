@@ -178,7 +178,7 @@ To select right Hindi fallback weight use `font-weight: 420;`
 
 Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertini**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
 
-There is also OTF version of the font that is a bit heavier on Windows display. [**Download Linus Libertini OTF (thickening distortion on Windows)**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertiniO.zip?raw=true). This can be useful on small sizes. `Linus Libertini O`
+There is also OTF version of the font that is a bit heavier on Windows display. [**Download Linus Libertini OTF (thickening distortion on Windows)**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertiniO.zip?raw=true). This can be useful on small sizes. `'Linus Libertini O'`
 
 Font fallback chain: `'Linus Libertini', 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, serif`.
 
