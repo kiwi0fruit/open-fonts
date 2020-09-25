@@ -7,7 +7,7 @@ import shutil
 here = p.dirname(p.abspath(__file__))
 repos = p.dirname(here)
 libertinus = p.join(here, 'Fonts', 'LibertinusSerif')
-dir_ = p.join(repos, '_LinusLibertini')
+dir_ = p.join(repos, '_LinusLibertiniO')
 if not p.exists(dir_):
     os.makedirs(dir_)
 
@@ -24,7 +24,7 @@ libert_all = [
 
 
 def rep0(s):
-    return s.replace('Libertinus Serif', 'Linus Libertini').replace('LibertinusSerif', 'LinusLibertini')
+    return s.replace('Libertinus Serif', 'Linus Libertini O').replace('LibertinusSerif', 'LinusLibertiniO')
 
 
 def rep1(obj, _rep):
@@ -48,14 +48,14 @@ for file_ in libert_all:
     font.familyname = rep(font.familyname)
     font.fullname = rep(font.fullname)
     font.sfnt_names = [rep(item) for item in font.sfnt_names]
-    font.generate(rep(f).replace('.otf', '.ttf'))
+    font.generate(rep(f))
     font.close()
     os.remove(f)
 
 
 # Libertinus Serif RRegular, IItalic, BBold, BBoldIItalic
 # ------------------------------------------------------
-subdir = p.join(dir_, 'linus_libertini_font_swap_chrome_bugfix')
+subdir = p.join(dir_, 'linus_libertini_o_font_swap_chrome_bugfix')
 if not p.exists(subdir):
     os.makedirs(subdir)
 
@@ -66,14 +66,14 @@ def rep2(s):
 
 def rep3(s, _style):
     return s.replace(
-        'Linus Libertini ' + rep2(_style),
-        'Linus Libertini'
+        'Linus Libertini O ' + rep2(_style),
+        'Linus Libertini O'
     ).replace(
-        'Linus Libertini',
-        'Linus Libertini ' + rep2(_style)
+        'Linus Libertini O',
+        'Linus Libertini O ' + rep2(_style)
     ).replace(
-        'LinusLibertini',
-        'LinusLibertini' + rep2(_style)
+        'LinusLibertiniO',
+        'LinusLibertiniO' + rep2(_style)
     )
 
 
@@ -83,7 +83,7 @@ for style in [
     'Regular',
     'BoldItalic',
 ]:
-    file_ = 'LinusLibertini-' + style + '.ttf'
+    file_ = 'LinusLibertiniO-' + style + '.otf'
     font = fontforge.open(p.join(dir_, file_))
 
     font.fontname = rep2(font.fontname.replace('-', ''))
@@ -95,7 +95,7 @@ for style in [
         return rep1(s, lambda s: rep3(s, style))
     font.sfnt_names = [rep(item) for item in font.sfnt_names]
 
-    font.generate(p.join(subdir, font.fontname + '.ttf'))
+    font.generate(p.join(subdir, font.fontname + '.otf'))
     font.close()
 
 

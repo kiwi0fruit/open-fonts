@@ -170,15 +170,15 @@ Recommended CSS features: `font-feature-settings: 'tnum' 1, 'lnum' 1;` See all f
 To select right Hindi fallback weight use `font-weight: 420;`
 
 
-## Deprecated
+## LGC only
 
 ### [Linux Libertine](http://libertine-fonts.org/)
 
 #### (by Philipp H. Poll and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertini](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true), [Backup](https://github.com/kiwi0fruit/libertinus)
 
-_**Deprecated!**_
-
 Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertini**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
+
+There is also OTF version of the font that is a bit heavier on Windows display: [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertiniO.zip?raw=true).
 
 Font fallback chain: `'Linus Libertini', 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, serif`.
 
@@ -333,25 +333,55 @@ And even more! Stylebot can fix issues that arise from thinner fonts in Chrome w
 ```css
 @font-face {
   font-family: 'Times New Roman';
-  src: url("https://github.com/libertinus-fonts/libertinus/raw/master/LibertinusSerif-Regular.otf") format("opentype");
+  src: local("Linus Libertini RRegular");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: url("https://github.com/libertinus-fonts/libertinus/raw/master/LibertinusSerif-Bold.otf") format("opentype");
+  src: local("Linus Libertini BBold");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: url("https://github.com/libertinus-fonts/libertinus/raw/master/LibertinusSerif-Italic.otf") format("opentype");
+  src: local("Linus Libertini IItalic");
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: url("https://github.com/libertinus-fonts/libertinus/raw/master/LibertinusSerif-BoldItalic.otf") format("opentype");
+  src: local("Linus Libertini BBoldIItalic");
+  font-weight: bold;
+  font-style: italic;
+}
+```
+You need to install Linus Libertini to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this TTF archive](https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/linus_libertini_font_swap_chrome_bugfix.zip) (or [this OTF archive](https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/linus_libertini_o_font_swap_chrome_bugfix.zip)) that were easily renamed via FontForge.
+
+Or you can use online fonts:
+
+```css
+@font-face {
+  font-family: 'Times New Roman';
+  src: url("https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/LibertinusSerif/LibertinusSerif-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Times New Roman';
+  src: url("https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/LibertinusSerif/LibertinusSerif-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Times New Roman';
+  src: url("https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/LibertinusSerif/LibertinusSerif-Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Times New Roman';
+  src: url("https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/LibertinusSerif/LibertinusSerif-BoldItalic.otf") format("opentype");
   font-weight: bold;
   font-style: italic;
 }
