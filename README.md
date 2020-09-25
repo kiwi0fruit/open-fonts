@@ -178,7 +178,7 @@ To select right Hindi fallback weight use `font-weight: 420;`
 
 Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertini**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
 
-There is also OTF version of the font that is a bit heavier on Windows display: [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertiniO.zip?raw=true).
+There is also OTF version of the font that is a bit heavier on Windows display: [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertiniO.zip?raw=true) (this can be useful on small sizes).
 
 Font fallback chain: `'Linus Libertini', 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, serif`.
 
@@ -333,30 +333,30 @@ And even more! Stylebot can fix issues that arise from thinner fonts in Chrome w
 ```css
 @font-face {
   font-family: 'Times New Roman';
-  src: local("Linus Libertini RRegular");
+  src: local("Linus Libertini O RRegular");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: local("Linus Libertini BBold");
+  src: local("Linus Libertini O BBold");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: local("Linus Libertini IItalic");
+  src: local("Linus Libertini O IItalic");
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: local("Linus Libertini BBoldIItalic");
+  src: local("Linus Libertini O BBoldIItalic");
   font-weight: bold;
   font-style: italic;
 }
 ```
-You need to install Linus Libertini to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this TTF archive](https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/linus_libertini_font_swap_chrome_bugfix.zip) (or [this OTF archive](https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/linus_libertini_o_font_swap_chrome_bugfix.zip)) that were easily renamed via FontForge.
+You need to install Linus Libertini to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this OTF archive](https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/linus_libertini_o_font_swap_chrome_bugfix.zip) (or [this TTF archive](https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/linus_libertini_font_swap_chrome_bugfix.zip)) that were easily renamed via FontForge (TTF is heavier on small sizes).
 
 Or you can use online fonts:
 
