@@ -114,13 +114,13 @@ First of all OTF and TTF versions of **every** font have different display weigh
 
 Serif fonts used for main fonts and fallbacks do support:
 
-* LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, Noto Serif.
+* LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, Noto Serif, Linux Libertine.
 * Has Cyrillic variants: Source Serif Pro, Vollkorn, [see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/) (switching language on preview should switch Cyrillic appearance).
 * CJK (Chinese, Japanese, Korean) variants: Source Han Serif.
-* Hebrew: David Libre, DejaVu Serif.
+* Hebrew: David Libre, DejaVu Serif, Linux Libertine.
 * Devanagari (Hindi and others): Noto Serif Devanagari, Halant.
 * Arabic: Amiri.
-* Math: STIX Two Math.
+* Math: STIX Two Math, Linux Libertine.
 * Symbols: Symbola, Noto Serif, DejaVu Serif.
 
 Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: STIX Two Text, Source Serif Pro, Vollkorn.
@@ -128,13 +128,13 @@ Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: STIX T
 
 ## [STIX Two Text](http://www.stixfonts.org/) and [STIX Two Math](http://www.stixfonts.org/)
 
-#### (by Ross Mills and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/), [Download](https://github.com/stipub/stixfonts), [Backup](https://github.com/kiwi0fruit/stixfonts)
+#### (by Ross Mills and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/), [Download STIX Two OTF (thickening distortion on Windows)](https://github.com/stipub/stixfonts), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
 *My favorite math font!*
 
 Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif Devanagari', 'David Libre', Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif', serif`.
 
-Note that STIX Two is OTF only font. Hence it would look heavier on Windows that it's original design (that's not necessary a bad thing). But you can use `'ST1X Two Text'` and `'ST1X Two Math'` that is simply STIX Two converted to TTF. [**Download**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/ST1XTwo.zip?raw=true).
+Note that STIX Two is OTF only font. Hence it would look heavier on Windows that it's original design (that's not necessary a bad thing). But you can use `'ST1X Two Text'` and `'ST1X Two Math'` that is simply STIX Two converted to TTF. [**Download ST1X Two TTF**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/ST1XTwo.zip?raw=true).
 
 Fallback fonts:
 
@@ -174,11 +174,11 @@ To select right Hindi fallback weight use `font-weight: 420;`
 
 ### [Linux Libertine](http://libertine-fonts.org/)
 
-#### (by Philipp H. Poll and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertini](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true), [Backup](https://github.com/kiwi0fruit/libertinus)
+#### (by Philipp H. Poll and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertini TTF](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true), [Backup](https://github.com/kiwi0fruit/libertinus)
 
 Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertini**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
 
-There is also OTF version of the font that is a bit heavier on Windows display: [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertiniO.zip?raw=true) (this can be useful on small sizes).
+There is also OTF version of the font that is a bit heavier on Windows display: [**Download Linus Libertini OTF (thickening distortion on Windows)**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertiniO.zip?raw=true) (this can be useful on small sizes).
 
 Font fallback chain: `'Linus Libertini', 'STIX Two Text', 'STIX Two Math', 'Noto Serif', Symbola, serif`.
 
