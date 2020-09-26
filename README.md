@@ -50,18 +50,18 @@ Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: Source
 
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
 
-#### (by Paul D. Hunt), [Preview](https://fonts.google.com/specimen/Source+Sans+Pro), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/source-sans-pro/), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceSansPro.7z?raw=true), [Download original](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
+#### (by Paul D. Hunt), [Preview](https://fonts.google.com/specimen/Source+Sans+Pro), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/source-sans-pro/), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceSansPro.tar.xz?raw=true), [Download original](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
 
 *My favorite!*
 
-In the latest version the "Source Sans Pro" name was changed to "Source Sans 3". I hope that it would be [reverted](https://github.com/adobe-fonts/source-sans-pro/issues/192) but for now I recommend to use both fonts in the fallback chain.
+In the latest version the "Source Sans Pro" name was changed to "Source Sans 3". I hope that it would be [reverted](https://github.com/adobe-fonts/source-sans-pro/issues/192) but for now I recommend to use `'Sourcing Sans Pro'` (that is simply a renamed `'Source Sans 3'`) and use both fonts in the fallback chain:
 
-Font fallback chain: `'Source Sans Pro', 'Source Sans 3', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
+Font fallback chain: `'Source Sans Pro', 'Sourcing Sans Pro', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
 
-I had a bug when `'Source Sans Pro'` did not work properly in LibreOffice with language variations. But `'Source Sans 3'` worked fine. But this might be some re-installation bug. Check yourself.
+I had a bug when `'Source Sans Pro'` did not work properly in LibreOffice with language variations. But `'Sourcing Sans Pro'` worked fine. But this might be some re-installation bug. Check yourself.
 
 **Noto Sans Hebrew might be a better Hebrew fallback than DejaVu Sans if you need to use semibolds (600):**  
-`'Source Sans Pro', 'Source Sans 3', 'Noto Sans Hebrew', ...`
+`'Source Sans Pro', 'Sourcing Sans Pro', 'Noto Sans Hebrew', ...`
 
 Fallback fonts:
 
