@@ -15,9 +15,9 @@ Contents:
 
 # Install
 
-* [All non CJK fonts in one zip archive](https://github.com/kiwi0fruit/open-fonts/releases).
-* [All CJK fonts in one zip archive](https://github.com/kiwi0fruit/open-fonts/releases).
-* [Install Open Fonts in pip and conda (previous version)](https://github.com/kiwi0fruit/py-open-fonts)
+* [All non-CJK fonts in one zip archive](https://github.com/kiwi0fruit/open-fonts/releases) ([list of all non-CJK fonts](https://github.com/kiwi0fruit/open-fonts/tree/master/open-fonts/css)).
+* [All CJK fonts in one zip archive](https://github.com/kiwi0fruit/open-fonts/releases) ([list of all CJK fonts](https://github.com/kiwi0fruit/open-fonts/tree/master/open-fonts-cjk/css)).
+* [Install Open Fonts in pip and conda (non-CJK only)](https://github.com/kiwi0fruit/py-open-fonts)
 
 
 # Best Sans Serif
