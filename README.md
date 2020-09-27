@@ -26,13 +26,13 @@ First of all OTF and TTF versions of **every** font have different display weigh
 
 Sans serif fonts used for main fonts and fallbacks do support:
 
-* LGC (Latin, Greek, Cyrillic): **Source Sans Pro, Open Sans, Roboto**, Noto Sans, DejaVu Sans, Lato.
+* LGC (Latin, Greek, Cyrillic): **Source Sans Pro, Open Sans, Roboto**, Sourcing Sans Pro, Noto Sans, DejaVu Sans, Lato.
 * CJK variants\*\* (Chinese, Japanese, Korean): Source Han Sans.
 * Cyrillic variants\*\*: Source Sans Pro ([see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/)).
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
 * Devanagari (Hindi and others): Noto Sans Devanagari.
 * Arabic: Noto Sans Arabic.
-* Symbols: Noto Sans, DejaVu Sans.
+* Math: DejaVu Sans.
 
 Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: Source Sans Pro, Open Sans, Roboto.
 
@@ -114,14 +114,13 @@ First of all OTF and TTF versions of **every** font have different display weigh
 
 Serif fonts used for main fonts and fallbacks do support:
 
-* LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, Noto Serif, Linux Libertine.
+* LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, ST1X Two Text, Noto Serif, DejaVu Serif, Linus Libertini.
 * CJK variants (Chinese, Japanese, Korean): Source Han Serif.
 * Cyrillic variants: Source Serif Pro, Vollkorn ([see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/)).
-* Hebrew: David Libre, DejaVu Serif, Linux Libertine.
+* Hebrew: David Libre, DejaVu Serif, Linus Libertini.
 * Devanagari (Hindi and others): Noto Serif Devanagari, Halant.
 * Arabic: Amiri.
-* Math: STIX Two Math, Linux Libertine.
-* Symbols: Symbola, Noto Serif, DejaVu Serif.
+* Math: STIX Two Math, ST1X Two Math, Symbola, Linus Libertini, Amiri.
 
 Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: STIX Two Text, Source Serif Pro, Vollkorn.
 
@@ -191,11 +190,11 @@ First of all OTF and TTF versions of **every** font have different display weigh
 
 Monospace fonts used for main fonts and fallbacks do support:
 
-* LGC (Latin, Greek, Cyrillic): Roboto Mono, Inconsolata, Source Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
-* CJK variants (Chinese, Japanese, Korean): Source Han Sans (Not monospace but of width 1.5. E.g. 2 Source Han Sans == 3 Roboto Mono)
+* LGC (Latin, Greek, Cyrillic): Robotization Mono, Inconsolata Sugar, Sourcing Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
+* CJK variants (Chinese, Japanese, Korean): Source Han Sans (Not monospace but of width 1.5. E.g. 2 Source Han Sans == 3 Robotization Mono)
 * Hebrew: Cousine.
-* Math: ST1X Two Math For Robot0 Mono.
-* Symbols: Symbola For Robot0 Mono, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono.
+* Math fallbacks: ST1X Two Math For Robot0 Mono, Symbola For Robot0 Mono, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono.
+  * for Consolas: DejaVu Sans Mono For Conso1as, ST1X Two Math For Conso1as, Symbola For Conso1as
 
 Main fonts and fallback chains were optimized for [SugarTeX](https://github.com/kiwi0fruit/sugartex).
 
