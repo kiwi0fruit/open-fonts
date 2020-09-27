@@ -27,8 +27,8 @@ First of all OTF and TTF versions of **every** font have different display weigh
 Sans serif fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): **Source Sans Pro, Open Sans, Roboto**, Noto Sans, DejaVu Sans, Lato.
-* Has Cyrillic variants\*\*: Source Sans Pro, [see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/) (switching language on preview should switch Cyrillic appearance).
-* CJK\*\* (Chinese, Japanese, Korean) variants: Source Han Sans.
+* CJK variants\*\* (Chinese, Japanese, Korean): Source Han Sans.
+* Cyrillic variants\*\*: Source Sans Pro ([see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/)).
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
 * Devanagari (Hindi and others): Noto Sans Devanagari.
 * Arabic: Noto Sans Arabic.
@@ -115,8 +115,8 @@ First of all OTF and TTF versions of **every** font have different display weigh
 Serif fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, Noto Serif, Linux Libertine.
-* Has Cyrillic variants: Source Serif Pro, Vollkorn, [see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/) (switching language on preview should switch Cyrillic appearance).
-* CJK (Chinese, Japanese, Korean) variants: Source Han Serif.
+* CJK variants (Chinese, Japanese, Korean): Source Han Serif.
+* Cyrillic variants: Source Serif Pro, Vollkorn ([see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/)).
 * Hebrew: David Libre, DejaVu Serif, Linux Libertine.
 * Devanagari (Hindi and others): Noto Serif Devanagari, Halant.
 * Arabic: Amiri.
@@ -192,7 +192,7 @@ First of all OTF and TTF versions of **every** font have different display weigh
 Monospace fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): Roboto Mono, Inconsolata, Source Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
-* CJK (Chinese, Japanese, Korean) variants: Source Han Sans (not monospace but of width 1.5: 2 of Source Han Sans == 3 of Roboto Mono)
+* CJK variants (Chinese, Japanese, Korean): Source Han Sans (Not monospace but of width 1.5. E.g. 2 Source Han Sans == 3 Roboto Mono)
 * Hebrew: Cousine.
 * Math: ST1X Two Math For Robot0 Mono.
 * Symbols: Symbola For Robot0 Mono, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono.
