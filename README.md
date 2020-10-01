@@ -30,8 +30,10 @@ Sans serif fonts used for main fonts and fallbacks do support:
 * CJK variants\*\* (Chinese, Japanese, Korean): Source Han Sans.
 * Cyrillic variants\*\*: Source Sans Pro ([see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/)).
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
+* Armenian: Noto Sans Armenian, DejaVu Sans.
 * Devanagari (Hindi and others): Noto Sans Devanagari.
-* Arabic: Noto Sans Arabic.
+* Arabic: Noto Sans Arabic, DejaVu Sans.
+* Thai: Noto Sans Thai.
 * Math: DejaVu Sans.
 
 Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: Source Sans Pro, Open Sans, Roboto.
@@ -56,20 +58,28 @@ Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: Source
 
 In the latest version the "Source Sans Pro" name was changed to "Source Sans 3". I hope that it would be [reverted](https://github.com/adobe-fonts/source-sans-pro/issues/192) but for now I recommend to use `'Sourcing Sans Pro'` (that is simply a renamed `'Source Sans 3'`) and use both fonts in the fallback chain:
 
-Font fallback chain: `'Source Sans Pro', 'Sourcing Sans Pro', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
+Font fallback chain: `'Source Sans Pro', 'Sourcing Sans Pro', 'Noto Sans', 'Noto Sans Armenian', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Thai', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
+
+* Noto Sans Hebrew might be a better Hebrew fallback than DejaVu Sans if you need to use semibolds (600): `'Source Sans Pro', 'Sourcing Sans Pro', 'Noto Sans Hebrew', ...`
+* Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
 
 I had a bug when `'Source Sans Pro'` did not work properly in LibreOffice with language variations. But `'Sourcing Sans Pro'` worked fine. But this might be some re-installation bug. Check yourself.
 
-**Noto Sans Hebrew might be a better Hebrew fallback than DejaVu Sans if you need to use semibolds (600):**  
-`'Source Sans Pro', 'Sourcing Sans Pro', 'Noto Sans Hebrew', ...`
-
 Fallback fonts:
 
-* Hebrew fallback: [Noto Sans Hebrew](https://www.google.com/get/noto/#sans-hebr) (by Google), [Preview](https://www.google.com/get/noto/#sans-hebr), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansHebrew-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#sans-hebr).
+* Hebrew fallback:
+  * [Noto Sans Hebrew](https://www.google.com/get/noto/#sans-hebr) (by Google), [Preview](https://www.google.com/get/noto/#sans-hebr), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansHebrew-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#sans-hebr).
+  * [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
+* Armenian fallback:
+  * [Noto Sans Armenian](https://www.google.com/get/noto/#sans-armn) (by Google), [Preview](https://www.google.com/get/noto/#sans-armn), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansArmenian-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#sans-armn).
+  * [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Hindi fallback: [Noto Sans Devanagari](https://www.google.com/get/noto/#sans-deva) (by Google), [Preview](https://www.google.com/get/noto/#sans-deva), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansDevanagari-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#sans-deva).
+* Urdu: Noto Nastaliq Urdu (see below in serif section).
 * Arabic fallback: [Noto Sans Arabic](https://www.google.com/get/noto/#sans-arab) (by Google), [Preview](https://www.google.com/get/noto/#sans-arab), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansArabic-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#sans-arab).
-* 1st Unicode fallback: Noto Sans (see below),
-* 2nd Unicode fallback and Hebrew fallback: [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
+* Thai fallback: [Noto Sans Thai](https://www.google.com/get/noto/#sans-thai) (by Google), [Preview](https://www.google.com/get/noto/#sans-thai), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansThai-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#sans-thai).
+* Unicode fallback:
+  * Noto Sans (see below),
+  * [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
 * Math fallback: STIX Two Math (see below),
 * Final Unicode fallback: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true),
 * CJK fallback: Source Han Sans (by Adobe and Google), **Preview**: [JP](https://fonts.adobe.com/fonts/source-han-sans-japanese), [CN](https://fonts.adobe.com/fonts/source-han-sans-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-sans-korean), [HK](https://fonts.adobe.com/fonts/source-han-sans-hong-kong), [TW](https://fonts.adobe.com/fonts/source-han-sans-traditional-chinese), [Download Language-specific OTFs (Japanese is default)](https://github.com/adobe-fonts/source-han-sans/tree/release#language-specific-otfs), [Download other options](https://github.com/adobe-fonts/source-han-sans/tree/release), [Source code](https://github.com/adobe-fonts/source-han-sans), [Backup](https://github.com/kiwi0fruit/source-han-sans).
@@ -89,14 +99,18 @@ They are almost the same font.
 
 **Mind that Noto Sans has more font weghts than Open Sans so if using them together as here do not use 100, 200, 500, 800 (use 900 instead).**
 
-Font fallback chain: `'Open Sans', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
+Font fallback chain: `'Open Sans', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans Thai', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
+
+Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
 
 
 ## [Roboto](https://en.wikipedia.org/wiki/Roboto)
 
 #### (by Christian Robertson), [Preview](https://fonts.google.com/specimen/Roboto), [Download](https://fonts.google.com/specimen/Roboto), [Download2](https://github.com/google/fonts/tree/master/apache/roboto), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/roboto)
 
-Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
+Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans Thai', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
+
+Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
 
 
 ## LGC only
@@ -118,8 +132,11 @@ Serif fonts used for main fonts and fallbacks do support:
 * CJK variants (Chinese, Japanese, Korean): Source Han Serif.
 * Cyrillic variants: Source Serif Pro, Vollkorn ([see more](https://localfonts.eu/freefonts/bulgarian-cyrillic/)).
 * Hebrew: David Libre, DejaVu Serif, Linus Libertini.
+* Armenian: Noto Serif Armenian, DejaVu Serif.
 * Devanagari (Hindi and others): Noto Serif Devanagari, Halant.
-* Arabic: Amiri.
+* Urdu: Noto Nastaliq Urdu.
+* Arabic: Noto Naskh Arabic, Amiri.
+* Thai: Noto Serif Thai.
 * Math: STIX Two Math, ST1X Two Math, Symbola, Linus Libertini, Amiri.
 
 Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: STIX Two Text, Source Serif Pro, Vollkorn.
@@ -131,19 +148,31 @@ Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: STIX T
 
 *My favorite math font!*
 
-Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif Devanagari', 'David Libre', Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif', serif`.
+Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif Armenian', 'Noto Serif Devanagari', 'David Libre', 'Noto Naskh Arabic', 'Noto Serif', 'Noto Serif Thai', 'DejaVu Serif', Symbola, 'Source Han Serif', serif`.
 
-Note that STIX Two is OTF only font. Hence it would look heavier on Windows that it's original design (that's not necessary a bad thing). But you can use `'ST1X Two Text'` and `'ST1X Two Math'` that is simply STIX Two converted to TTF. [**Download ST1X Two TTF**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/ST1XTwo.zip?raw=true).
+* Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
+* Alterantive Arabic style: `Amiri`
+* Note that STIX Two is OTF only font. Hence it would look heavier on Windows that it's original design (that's not necessary a bad thing). But you can use `'ST1X Two Text'` and `'ST1X Two Math'` that is simply STIX Two converted to TTF. [**Download ST1X Two TTF**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/ST1XTwo.zip?raw=true).
 
 Fallback fonts:
 
-* 1st Unicode fallback: [Noto Serif](https://en.wikipedia.org/wiki/Noto_fonts) LGC (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#serif-lgc), [Preview](https://fonts.google.com/specimen/Noto+Serif), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerif-hinted.zip?raw=true), [Download original latest version](https://www.google.com/get/noto/#serif-lgc).
+* Hebrew fallback:
+  * [David Libre](https://fonts.google.com/specimen/David+Libre?subset=hebrew) (by Ismar David, Monotype Corporation, Google, Meir Sadan), [Preview](https://fonts.google.com/specimen/David+Libre?subset=hebrew), [Download](https://fonts.google.com/specimen/David+Libre?subset=hebrew), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/David_Libre.zip?raw=true),
+  * [DejaVu Serif](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts), Hebrew glyphs look like from David Libre but a bit heavier.
+* Armenian fallback:
+  * [Noto Serif Armenian](https://www.google.com/get/noto/#serif-armn) (by Google), [Preview](https://www.google.com/get/noto/#serif-armn), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerifArmenian-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#serif-armn).
+* Hindi fallback:
+  * [Noto Serif Devanagari](https://www.google.com/get/noto/#serif-deva) (by Google), [Preview](https://www.google.com/get/noto/#serif-deva), [Download](https://www.google.com/get/noto/#serif-deva), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerifDevanagari-hinted.zip?raw=true),
+  * [Halant](https://fonts.google.com/specimen/Halant?subset=devanagari) (by Vivek Sadamate, Ninad Kale, Jonny Pinhorn), [Preview](https://fonts.google.com/specimen/Halant?subset=devanagari), [Download](https://fonts.google.com/specimen/Halant?subset=devanagari), [Download2](https://github.com/google/fonts/tree/master/ofl/halant), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/halant),
+* Urdu fallback: [Noto Nastaliq Urdu](https://www.google.com/get/noto/#nastaliq-aran) (by Google), [Preview](https://www.google.com/get/noto/#nastaliq-aran), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoNastaliqUrdu-unhinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#nastaliq-aran).
+* Arabic fallback:
+  * [Noto Naskh Arabic](https://www.google.com/get/noto/#naskh-arab) (by Google), [Preview](https://www.google.com/get/noto/#naskh-arab), [Download](https://www.google.com/get/noto/#naskh-arab), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoNaskhArabic-hinted.zip?raw=true),
+  * [Amiri](https://fonts.google.com/specimen/Amiri?subset=arabic) (by Khaled Hosny, Sebastian Kosch), [Preview](https://fonts.google.com/specimen/Amiri?subset=arabic), [Download](https://fonts.google.com/specimen/Amiri?subset=arabic), [Download](https://github.com/google/fonts/tree/master/ofl/amiri),  [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/amiri),
+* Thai fallback: [Noto Serif Thai](https://www.google.com/get/noto/#serif-thai) (by Google), [Preview](https://www.google.com/get/noto/#serif-thai), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerifThai-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#serif-thai).
+* Unicode fallback:
+  * [Noto Serif](https://en.wikipedia.org/wiki/Noto_fonts) LGC (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#serif-lgc), [Preview](https://fonts.google.com/specimen/Noto+Serif), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerif-hinted.zip?raw=true), [Download original latest version](https://www.google.com/get/noto/#serif-lgc).
+  * [DejaVu Serif](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts).
 * Math fallback: STIX Two Math,
-* Hebrew fallback: [David Libre](https://fonts.google.com/specimen/David+Libre?subset=hebrew) (by Ismar David, Monotype Corporation, Google, Meir Sadan), [Preview](https://fonts.google.com/specimen/David+Libre?subset=hebrew), [Download](https://fonts.google.com/specimen/David+Libre?subset=hebrew), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/David_Libre.zip?raw=true),
-* Hindi fallback: [Noto Serif Devanagari](https://www.google.com/get/noto/#serif-deva) (by Google), [Preview](https://www.google.com/get/noto/#serif-deva), [Download](https://www.google.com/get/noto/#serif-deva), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerifDevanagari-hinted.zip?raw=true),
-* Arabic fallback: [Amiri](https://fonts.google.com/specimen/Amiri?subset=arabic) (by Khaled Hosny, Sebastian Kosch), [Preview](https://fonts.google.com/specimen/Amiri?subset=arabic), [Download](https://fonts.google.com/specimen/Amiri?subset=arabic), [Download](https://github.com/google/fonts/tree/master/ofl/amiri),  [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/amiri),
-* Alt. Hindi fallback: [Halant](https://fonts.google.com/specimen/Halant?subset=devanagari) (by Vivek Sadamate, Ninad Kale, Jonny Pinhorn), [Preview](https://fonts.google.com/specimen/Halant?subset=devanagari), [Download](https://fonts.google.com/specimen/Halant?subset=devanagari), [Download2](https://github.com/google/fonts/tree/master/ofl/halant), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/halant),
-* 2nd Unicode fallback and Hebrew fallback: [DejaVu Serif](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts), Hebrew glyphs look like from David Libre but a bit heavier.
 * Final Unicode fallback: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true), [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/hintedSymbola.ttf?raw=true),
 * CJK fallback: Source Han Serif (by Adobe and Google). **Preview**: [JP](https://fonts.adobe.com/fonts/source-han-serif-japanese), [CN](https://fonts.adobe.com/fonts/source-han-serif-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-serif-korean), [TW](https://fonts.adobe.com/fonts/source-han-serif-traditional-chinese), [Download Language-specific OTFs (Japanese is default)](https://github.com/adobe-fonts/source-han-serif/tree/release#language-specific-otfs), [Download other options](https://github.com/adobe-fonts/source-han-serif/tree/release), [Source code](https://github.com/adobe-fonts/source-han-serif), [Backup](https://github.com/kiwi0fruit/source-han-serif).
 
@@ -156,17 +185,22 @@ Worth mentioning [STIX Two Math](http://www.stixfonts.org/) that is a STIX Two v
 
 *My favorite text body font!*
 
-Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', Halant, 'David Libre', Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif', serif`.
+Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'Noto Serif Armenian', Halant, 'David Libre', 'Noto Naskh Arabic', 'Noto Serif', 'Noto Serif Thai', 'DejaVu Serif', Symbola, 'Source Han Serif', serif`.
+
+* Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
+* Alterantive Arabic style: `Amiri`
 
 
 ## [Vollkorn](https://fonts.google.com/specimen/Vollkorn?category=Serif)
 
 #### (by Friedrich Althausen), [Preview](https://fonts.google.com/specimen/Vollkorn?category=Serif), [Download](https://fonts.google.com/specimen/Vollkorn?category=Serif), [Backup](https://github.com/kiwi0fruit/Vollkorn-Typeface)
 
-Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', Halant, Amiri, 'Noto Serif', 'DejaVu Serif', Symbola, 'Source Han Serif', serif`.
+Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif Armenian', Halant, 'Noto Naskh Arabic', 'Noto Serif', 'Noto Serif Thai', 'DejaVu Serif', Symbola, 'Source Han Serif', serif`.
 
-Recommended CSS features: `font-feature-settings: 'tnum' 1, 'lnum' 1;` See all features [here](http://vollkorn-typeface.com/#features).  
-To select right Hindi fallback weight use `font-weight: 420;`
+* Recommended CSS features: `font-feature-settings: 'tnum' 1, 'lnum' 1;` See all features [here](http://vollkorn-typeface.com/#features).  
+  To select right Hindi fallback weight use `font-weight: 420;`
+* Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
+* Alterantive Arabic style: `Amiri`
 
 
 ## LGC only
@@ -193,6 +227,8 @@ Monospace fonts used for main fonts and fallbacks do support:
 * LGC (Latin, Greek, Cyrillic): Robotization Mono, Inconsolata Sugar, Sourcing Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
 * CJK variants (Chinese, Japanese, Korean): Source Han Sans (Not monospace but of width 1.5. E.g. 2 Source Han Sans == 3 Robotization Mono)
 * Hebrew: Cousine.
+* Armenian: DejaVu Sans Mono.
+* Arabic: Kawkab Mono, DejaVu Sans Mono.
 * Math fallbacks: ST1X Two Math For Robot0 Mono, Symbola For Robot0 Mono, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono.
   * for Consolas: DejaVu Sans Mono For Conso1as, ST1X Two Math For Conso1as, Symbola For Conso1as
 
@@ -207,14 +243,19 @@ Main fonts and fallback chains were optimized for [SugarTeX](https://github.com/
 
 Italic in Roboto Mono has different width so it's recommended to use [**Robotization Mono**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/RobotizationMono.zip?raw=true) fork that is simply a renamed monospacified version of Roboto Mono (but also without light and thin styles).
 
-Font fallback chain: `'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans', monospace`.
+Font fallback chain: `'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'Kawkab Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans', monospace`.
 
 Fallback fonts:
 
-* 1st Unicode fallback: [Noto Sans Mono](https://en.wikipedia.org/wiki/Noto_fonts) (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-mono), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansMono-hinted.zip?raw=true), [Download original latest version](https://www.google.com/get/noto/#sans-mono).
-* Some arrows fallback: [IBM Plex Mono](https://github.com/IBM/plex) (by Mike Abbink), [Preview](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download latest version](https://github.com/IBM/plex/releases), [Backup](https://github.com/kiwi0fruit/plex/tree/master/IBM-Plex-Mono/fonts/complete/otf),
-* 2nd Unicode fallback: [DejaVu Sans Mono](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/ru/font/dejavu-sans-mono), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
-* Hebrew and 3rd Unicode fallback: [Cousine](https://fonts.google.com/specimen/Cousine) (by Steve Matteson), [Preview](https://fonts.google.com/specimen/Cousine), [Download](https://fonts.google.com/specimen/Cousine), [Download2](https://github.com/google/fonts/tree/master/apache/cousine), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/cousine),
+* Hebrew fallback: [Cousine](https://fonts.google.com/specimen/Cousine) (by Steve Matteson), [Preview](https://fonts.google.com/specimen/Cousine), [Download](https://fonts.google.com/specimen/Cousine), [Download2](https://github.com/google/fonts/tree/master/apache/cousine), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/cousine),
+* Armenian fallback:
+  * [DejaVu Sans Mono](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/ru/font/dejavu-sans-mono), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
+* Arabic fallback: [Kawkab Mono](https://makkuk.com/kawkab-mono/) (by Abdullah Arif), [Preview](https://makkuk.com/kawkab-mono/), [Preview](https://fontlibrary.org/en/font/kawkab-mono), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/kawkab-mono.zip?raw=true),  [Download original latest version](https://makkuk.com/kawkab-mono/), [Backup2](https://github.com/kiwi0fruit/kawkab-mono),
+* Unicode fallback:
+  * [Noto Sans Mono](https://en.wikipedia.org/wiki/Noto_fonts) (by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-mono), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansMono-hinted.zip?raw=true), [Download original latest version](https://www.google.com/get/noto/#sans-mono).
+  * Arrows fallback: [IBM Plex Mono](https://github.com/IBM/plex) (by Mike Abbink), [Preview](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download](https://fonts.google.com/specimen/IBM+Plex+Mono), [Download latest version](https://github.com/IBM/plex/releases), [Backup](https://github.com/kiwi0fruit/plex/tree/master/IBM-Plex-Mono/fonts/complete/otf),
+  * [DejaVu Sans Mono](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/ru/font/dejavu-sans-mono), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
+  * [Cousine](https://fonts.google.com/specimen/Cousine) (by Steve Matteson), [Preview](https://fonts.google.com/specimen/Cousine), [Download](https://fonts.google.com/specimen/Cousine), [Download2](https://github.com/google/fonts/tree/master/apache/cousine), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/cousine),
 * Math fallback, Final Unicode fallback: [STIX Two Math and Symbola for Roboto Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/fallback_roboto_mono.zip?raw=true),
 * CJK fallback: Source Han Sans (by Adobe and Google), **Preview**: [JP](https://fonts.adobe.com/fonts/source-han-sans-japanese), [CN](https://fonts.adobe.com/fonts/source-han-sans-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-sans-korean), [HK](https://fonts.adobe.com/fonts/source-han-sans-hong-kong), [TW](https://fonts.adobe.com/fonts/source-han-sans-traditional-chinese), [Download Language-specific OTFs (Japanese is default)](https://github.com/adobe-fonts/source-han-sans/tree/release#language-specific-otfs), [Download other options](https://github.com/adobe-fonts/source-han-sans/tree/release), [Source code](https://github.com/adobe-fonts/source-han-sans), [Backup](https://github.com/kiwi0fruit/source-han-sans).
 
@@ -225,7 +266,7 @@ Fallback fonts:
 
 Inconsolata lacks italics, Cyrillic and Greek. Inconsolata LGC lacks some whitespace characters, has off-style backtick, italic Latin a and Cyrillic д are controversial design decisions. For SugarTeX it's recommended to use [**Inconsolata Sugar**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true) fork that is simply a renamed Inconsolata LGC with these issues fixed (backtick was simply removed so one from fallback would be used).
 
-Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans', monospace`.
+Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'Kawkab Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans', monospace`.
 
 
 ## [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
@@ -234,7 +275,7 @@ Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono'
 
 Source Code Pro lacks some whitespace characters and has broken division slash. For SugarTeX it's recommended to use [**Sourcing Code Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true) fork that is simply a renamed Source Code Pro with these issues fixed.
 
-Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans', monospace`.
+Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'Kawkab Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans', monospace`.
 
 
 ## Proprietary

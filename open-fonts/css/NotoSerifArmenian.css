@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Noto Serif Armenian';
+    src: url("<...>NotoSerifArmenian-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif Armenian';
+    src: url("<...>NotoSerifArmenian-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif Armenian';
+    src: url("<...>NotoSerifArmenian-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif Armenian';
+    src: url("<...>NotoSerifArmenian-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif Armenian';
+    src: url("<...>NotoSerifArmenian-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif Armenian';
+    src: url("<...>NotoSerifArmenian-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif Armenian';
+    src: url("<...>NotoSerifArmenian-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif Armenian';
+    src: url("<...>NotoSerifArmenian-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif Armenian';
+    src: url("<...>NotoSerifArmenian-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}

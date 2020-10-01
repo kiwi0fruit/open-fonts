@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Noto Naskh Arabic';
+    src: url("<...>NotoNaskhArabic-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Naskh Arabic';
+    src: url("<...>NotoNaskhArabic-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
