@@ -32,9 +32,10 @@ Sans serif fonts used for main fonts and fallbacks do support:
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
 * Armenian: Noto Sans Armenian, DejaVu Sans.
 * Devanagari (Hindi and others): Noto Sans Devanagari.
+* Urdu: fonts from serif section.
 * Arabic: Noto Sans Arabic, DejaVu Sans.
 * Thai: Noto Sans Thai.
-* Math: DejaVu Sans.
+* Math: DejaVu Sans, fonts from serif section.
 
 Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: Source Sans Pro, Open Sans, Roboto.
 
