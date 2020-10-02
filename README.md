@@ -37,7 +37,7 @@ Sans serif fonts used for main fonts and fallbacks do support:
 * Thai: Noto Sans Thai.
 * Math: DejaVu Sans, fonts from serif section.
 
-Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: Source Sans Pro, Open Sans, Roboto.
+Only 3 fonts are maintained for multilingual stylistic fit: Source Sans Pro, Open Sans, Roboto.
 
 \*\* Browsers, Pandoc and LibreOffice support language variants inside single font:
 
@@ -140,7 +140,7 @@ Serif fonts used for main fonts and fallbacks do support:
 * Thai: Noto Serif Thai.
 * Math: STIX Two Math, ST1X Two Math, Symbola, Linus Libertini, Amiri.
 
-Only 3 fonts are maintained for Hebrew, Arabic, Devanagari stylistic fit: STIX Two Text, Source Serif Pro, Vollkorn.
+Only 3 fonts are maintained for multilingual stylistic fit: STIX Two Text, Source Serif Pro, Vollkorn.
 
 
 ## [STIX Two Text](http://www.stixfonts.org/) and [STIX Two Math](http://www.stixfonts.org/)
