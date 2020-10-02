@@ -114,7 +114,7 @@ Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Ar
 Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
 
 
-## LGC only
+## LGC without fallbacks
 
 ### [Lato](http://www.latofonts.com)
 
@@ -204,7 +204,7 @@ Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif Ar
 * Alterantive Arabic style: `Amiri`
 
 
-## LGC only
+## LGC without fallbacks
 
 ### [Linux Libertine](http://libertine-fonts.org/)
 
