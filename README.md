@@ -306,7 +306,8 @@ If on Windows it's recommended to install [MacType](http://www.mactype.net/) bec
 
 **Important**:
 
-* Use Default profile but change ini setting to `NormalWeight=8` (or even `NormalWeight=0` instead of 16) (with this the [difference between Chrome and other programs](https://github.com/snowie2000/mactype/issues/402) is not so big). Also launch Chrome using the `--disable-directwrite-for-ui` command switch,
+* Use Default profile but change ini setting to `NormalWeight=0` instead of 16 (with this the [difference between Chrome and other programs](https://github.com/snowie2000/mactype/issues/402) is not so big).
+* Optionally launch Chrome using the `--disable-directwrite-for-ui` command switch,
 * In case of Firefox you should fix some settings: open `about:config` then:
     * change `gfx.content.azure.backends` from `direct2d1.1,skia,cairo` to `direct2d1.1,cairo`,
     * change `gfx.canvas.azure.backends` from `direct2d1.1,skia,cairo` to `direct2d1.1,cairo`,
@@ -323,24 +324,34 @@ BoldWeight=-4
 ```
 See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
 
-Actually MacType can be tuned. Here is my custom part of the config that tunes Consolas font to look thinner and also makes fonts in Explorer look thicker:
+Actually MacType can be tuned. Here is my custom part of the config that tunes Consolas font to look thinner and also makes fonts in Explorer look thicker. Update appropriate sections: 
 ```ini
-;Update appropriate sections:
 [General]
 NormalWeight=0
 BoldWeight=0
+RenderWeight=1.3
+
 [Individual]
 Times New Roman=0,,4,,,
 Segoe UI=0,,4,,,
 Tahoma=0,,4,,,
 
-;Paste to the end:
+[UnloadDll]
+inkscape.exe
+PaintDotNet.exe
+VBoxSvc.exe
+VirtualBox.exe
+```
+
+Paste to the end:
+```ini
 [Experimental@pycharm64.exe]
 ClipBoxFix=1
 [General@pycharm64.exe]
 ;PyCharm fix + Consolas
-NormalWeight=-14
+NormalWeight=-10
 BoldWeight=-4
+
 [General@notepad++.exe]
 ;for Consolas
 NormalWeight=-4
@@ -349,6 +360,7 @@ BoldWeight=-2
 ;for Consolas
 NormalWeight=-4
 BoldWeight=-2
+
 [General@explorer.exe]
 NormalWeight=16
 ```
