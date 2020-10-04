@@ -307,7 +307,6 @@ If on Windows it's recommended to install [MacType](http://www.mactype.net/) bec
 **Important**:
 
 * Use Default profile but change ini setting to `NormalWeight=0` instead of 16 (with this the [difference between Chrome and other programs](https://github.com/snowie2000/mactype/issues/402) is not so big).
-* Optionally launch Chrome using the `--disable-directwrite-for-ui` command switch,
 * In case of Firefox you should fix [some settings](https://github.com/snowie2000/mactype/wiki/Mozilla-Firefox),
 * MacType can clash with cheap Antiviruses though. In my case the problem was solved by deleting AVG/Avast and installing Kaspersky Free (Kaspersky IS is also OK).
 * Some programs need special config settings. For example PyCharm (see below). See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
