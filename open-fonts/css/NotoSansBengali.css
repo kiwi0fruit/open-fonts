@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url("<...>NotoSansBengali-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url("<...>NotoSansBengali-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url("<...>NotoSansBengali-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url("<...>NotoSansBengali-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url("<...>NotoSansBengali-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url("<...>NotoSansBengali-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url("<...>NotoSansBengali-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url("<...>NotoSansBengali-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url("<...>NotoSansBengali-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
