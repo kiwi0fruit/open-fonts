@@ -27,8 +27,8 @@ First of all OTF and TTF versions of **every** font have different display weigh
 Sans serif fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): **Source Sans Pro, Open Sans, Roboto**, Sourcing Sans Pro, Noto Sans, DejaVu Sans, Lato.
+  * Cyrillic variants\*: Source Sans Pro.
 * CJK variants\* (Chinese, Japanese, Korean): Source Han Sans.
-* Cyrillic variants\*: Source Sans Pro.
 * Math: DejaVu Sans, fonts from serif section.
 * Arabic: Noto Sans Arabic, DejaVu Sans.
 * [Armenian](https://stats.wikimedia.org/#/hy.wikipedia.org)\*\*: Noto Sans Armenian, DejaVu Sans.
@@ -42,7 +42,7 @@ Sans serif fonts used for main fonts and fallbacks do support:
 
 Only 3 fonts are maintained for multilingual stylistic fit: Source Sans Pro, Open Sans, Roboto.
 
-\* Browsers, Pandoc and LibreOffice support language variants inside single font:
+__\*__ Browsers, Pandoc and LibreOffice support language variants inside single font:
 
 * Browsers support language variants via `lang="bg-BG"` (`"zh-CN"`, `"zh-TW"`, `"zh-HK"`, `"ja-JP"`, `"ko-KR"`) HTML property.
 * LibreOffice v.7.0.1 supports language variants. For CJK first enable `Tools / Options / Language Settings / Languages / Default languages for documents / Asian`. See document example [here](./cjk-test). TexMaths extension is recommended for LibreOffice together with installing WYSIWYM editor LyX and copypasting back and forth TeX formulas for easy editing (as built-in math editor in LibreOffice is rather dissapointing). LyX [quick templates](./lyx).
@@ -54,7 +54,7 @@ Only 3 fonts are maintained for multilingual stylistic fit: Source Sans Pro, Ope
   ```
 * See example of Cyrillic variants in Source Sans Pro [preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/source-sans-pro/).
 
-\*\* Threshold to include languages was via [Wikipedia statistics](https://stats.wikimedia.org/) of Total page views over Last 12 Months: it should be more than 115M (10.2020).  
+__\*\*__ **Top [writing systems](https://en.wikipedia.org/wiki/Writing_system) of the internet**: Threshold to include languages was via [Wikipedia statistics](https://stats.wikimedia.org/) of Total page views over Last 12 Months: it should be more than 115M (10.2020). And a language should either be in [fontlibrary list](https://fontlibrary.org/en/orthographies) or [Google fonts list](https://fonts.google.com/).
 
 
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
@@ -142,8 +142,8 @@ First of all OTF and TTF versions of **every** font have different display weigh
 Serif fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, ST1X Two Text, Noto Serif, DejaVu Serif, Linus Libertini.
+  * Cyrillic variants: Source Serif Pro, Vollkorn.
 * CJK variants (Chinese, Japanese, Korean): Source Han Serif.
-* Cyrillic variants: Source Serif Pro, Vollkorn.
 * Math: STIX Two Math, ST1X Two Math, Symbola, Linus Libertini, Amiri.
 * Arabic: Noto Naskh Arabic, Amiri.
 * Armenian: Noto Serif Armenian, DejaVu Serif.
@@ -244,8 +244,8 @@ Monospace fonts used for main fonts and fallbacks do support:
 
 * LGC (Latin, Greek, Cyrillic): Robotization Mono, Inconsolata Sugar, Sourcing Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
 * CJK variants (Chinese, Japanese, Korean): Source Han Sans (Not monospace but of width 1.5. E.g. 2 Source Han Sans == 3 Robotization Mono)
-* Math fallbacks: ST1X Two Math For Robot0 Mono, Symbola For Robot0 Mono, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono.
-  * for Consolas: DejaVu Sans Mono For Conso1as, ST1X Two Math For Conso1as, Symbola For Conso1as
+* Math: ST1X Two Math For Robot0 Mono, Symbola For Robot0 Mono, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono.
+  * Consolas: DejaVu Sans Mono For Conso1as, ST1X Two Math For Conso1as, Symbola For Conso1as
 * Arabic: Kawkab Mono, DejaVu Sans Mono.
 * Armenian: DejaVu Sans Mono.
 * Hebrew: Cousine.
