@@ -341,15 +341,10 @@ BoldWeight=-4
 
 [General@notepad++.exe]
 ;for Consolas
-NormalWeight=-4
 BoldWeight=-2
 [General@notepad.exe]
 ;for Consolas
-NormalWeight=-4
 BoldWeight=-2
-
-[General@explorer.exe]
-NormalWeight=16
 ```
 
 
