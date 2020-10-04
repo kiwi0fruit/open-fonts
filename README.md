@@ -54,7 +54,7 @@ __\*__ Browsers, Pandoc and LibreOffice support language variants inside single 
   ```
 * See example of Cyrillic variants in Source Sans Pro [preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/source-sans-pro/).
 
-__\*\*__ **Top [writing systems](https://en.wikipedia.org/wiki/Writing_system) of the internet**: Threshold to include languages was via [Wikipedia statistics](https://stats.wikimedia.org/) of Total page views over Last 12 Months: it should be more than 115M (10.2020). And a language should either be in [Font Library list](https://fontlibrary.org/en/orthographies) or in [Google Fonts list](https://fonts.google.com/).
+__\*\*__ **Top 16 [writing systems](https://en.wikipedia.org/wiki/Writing_system) of the internet**: Threshold to include languages was via [Wikipedia statistics](https://stats.wikimedia.org/) of Total page views over Last 12 Months: it should be more than 115M (10.2020). And a language should either be in [Font Library list](https://fontlibrary.org/en/orthographies) or in [Google Fonts list](https://fonts.google.com/).
 
 
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
