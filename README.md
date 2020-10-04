@@ -92,7 +92,7 @@ Fallback fonts:
 
 #### (*Noto Sans* by Steve Matteson and Google), [Preview](https://www.google.com/get/noto/#sans-lgc), [Preview](https://fonts.google.com/specimen/Noto+Sans), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSans-hinted.zip?raw=true), [Download original latest version](https://www.google.com/get/noto/#sans-lgc).
 
-They are almost the same font.
+They are almost the same font. But still not the same font!
 
 * Noto Sans is a bit heavier than Open Sans,
 * Noto Sans has much wider Unicode coverage,
@@ -102,7 +102,8 @@ They are almost the same font.
 
 Font fallback chain: `'Open Sans', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans Thai', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
 
-Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
+* Noto Sans fallback is the same but without `'Open Sans'`.
+* Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
 
 
 ## [Roboto](https://en.wikipedia.org/wiki/Roboto)
