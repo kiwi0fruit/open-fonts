@@ -308,23 +308,11 @@ If on Windows it's recommended to install [MacType](http://www.mactype.net/) bec
 
 * Use Default profile but change ini setting to `NormalWeight=0` instead of 16 (with this the [difference between Chrome and other programs](https://github.com/snowie2000/mactype/issues/402) is not so big).
 * Optionally launch Chrome using the `--disable-directwrite-for-ui` command switch,
-* In case of Firefox you should fix some settings: open `about:config` then:
-    * change `gfx.content.azure.backends` from `direct2d1.1,skia,cairo` to `direct2d1.1,cairo`,
-    * change `gfx.canvas.azure.backends` from `direct2d1.1,skia,cairo` to `direct2d1.1,cairo`,
-    * change `gfx.direct2d.disabled` to `true` (unfortunately FF can't use non-standard font weights with this setting...),
+* In case of Firefox you should fix [some settings](https://github.com/snowie2000/mactype/wiki/Mozilla-Firefox),
 * MacType can clash with cheap Antiviruses though. In my case the problem was solved by deleting AVG/Avast and installing Kaspersky Free (Kaspersky IS is also OK).
-* Some programs need special config settings. For example PyCharm:
-```ini
-[Experimental@pycharm64.exe]
-ClipBoxFix=1
-[General@pycharm64.exe]
-;PyCharm fix + Consolas
-NormalWeight=-14
-BoldWeight=-4
-```
-See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
+* Some programs need special config settings. For example PyCharm (see below). See details about other programs in [this repo](https://github.com/wspl/mactype-hack).
 
-Actually MacType can be tuned. Here is my custom part of the config that tunes Consolas font to look thinner and also makes fonts in Explorer look thicker. Update appropriate sections: 
+Here is my custom part of the config that tunes Consolas font to look thinner and also makes fonts in Explorer look thicker. Update appropriate sections: 
 ```ini
 [General]
 NormalWeight=0
