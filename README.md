@@ -24,20 +24,20 @@ Contents:
 
 First of all OTF and TTF versions of **every** font have different display weight on Windows on small sizes for some reason (see [this](https://github.com/adobe-fonts/source-sans-pro/issues/170) and [that](https://github.com/adobe-fonts/source-sans-pro/issues/200)) hence use TTF version as it looks closer to original design.
 
-Sans serif fonts used for main fonts and fallbacks do support:
+Sans serif fonts used for main fonts and fallbacks have the following support of the top writing systems\*\* of the internet:
 
 * LGC (Latin, Greek, Cyrillic): **Source Sans Pro, Open Sans, Roboto**, Sourcing Sans Pro, Noto Sans, DejaVu Sans, Lato.
   * Cyrillic variants\*: Source Sans Pro.
 * CJK variants\* (Chinese, Japanese, Korean): Source Han Sans.
 * Math: DejaVu Sans, fonts from serif section.
 * Arabic: Noto Sans Arabic, DejaVu Sans.
-* [Armenian](https://stats.wikimedia.org/#/hy.wikipedia.org)\*\*: Noto Sans Armenian, DejaVu Sans.
+* Armenian: Noto Sans Armenian, DejaVu Sans.
 * Bengali: Noto Sans Bengali.
 * Georgian: Noto Sans Georgian, DejaVu Sans.
 * Hebrew: Noto Sans Hebrew, DejaVu Sans.
 * Hindi-Devanagari: Noto Sans Devanagari.
-* [Hindi-Urdu](https://stats.wikimedia.org/#/ur.wikipedia.org)\*\*: fonts from serif section.
-* [Tamil](https://stats.wikimedia.org/#/ta.wikipedia.org)\*\*: Catamaran, Noto Sans Tamil. 
+* Hindi-Urdu: fonts from serif section.
+* Tamil: Catamaran, Noto Sans Tamil. 
 * Thai: Noto Sans Thai.
 
 Only 3 fonts are maintained for multilingual stylistic fit: Source Sans Pro, Open Sans, Roboto.
@@ -54,7 +54,8 @@ __\*__ Browsers, Pandoc and LibreOffice support language variants inside single 
   ```
 * See example of Cyrillic variants in Source Sans Pro [preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/source-sans-pro/).
 
-__\*\*__ **Top 16 [writing systems](https://en.wikipedia.org/wiki/Writing_system) of the internet**: Threshold to include languages was via [Wikipedia statistics](https://stats.wikimedia.org/) of Total page views over Last 12 Months: it should be more than 115M (10.2020). And a language should either be in [Font Library list](https://fontlibrary.org/en/orthographies) or in [Google Fonts list](https://fonts.google.com/).
+__\*\*__ **Top 16 [writing systems](https://en.wikipedia.org/wiki/Writing_system) of the internet**: Threshold to include languages was via [Wikipedia statistics](https://stats.wikimedia.org/) of Total page views over Last 12 Months: it should be more than 115M (10.2020). And a language should either be in the [Font Library list](https://fontlibrary.org/en/orthographies) or in the [Google Fonts list](https://fonts.google.com/). Top:  
+*Math, Latin, Greek, Cyrillic, Chinese, Japanese, Korean, Arabic, [Armenian](https://stats.wikimedia.org/#/hy.wikipedia.org), Bengali, Georgian, Hebrew, Hindi-Devanagari, [Hindi-Urdu](https://stats.wikimedia.org/#/ur.wikipedia.org), [Tamil](https://stats.wikimedia.org/#/ta.wikipedia.org), Thai.*
 
 
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
@@ -139,7 +140,7 @@ Font fallback chain: `Lato, sans-serif`.
 
 First of all OTF and TTF versions of **every** font have different display weight on Windows on small sizes for some reason (see [this](https://github.com/adobe-fonts/source-sans-pro/issues/170) and [that](https://github.com/adobe-fonts/source-sans-pro/issues/200)) hence use TTF version as it looks closer to original design.
 
-Serif fonts used for main fonts and fallbacks do support:
+Serif fonts used for main fonts and fallbacks have the following support of the top writing systems of the internet:
 
 * LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, ST1X Two Text, Noto Serif, DejaVu Serif, Linus Libertini.
   * Cyrillic variants: Source Serif Pro, Vollkorn.
@@ -240,7 +241,7 @@ There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) 
 
 First of all OTF and TTF versions of **every** font have different display weight on Windows on small sizes for some reason (see [this](https://github.com/adobe-fonts/source-sans-pro/issues/170) and [that](https://github.com/adobe-fonts/source-sans-pro/issues/200)) hence use TTF version as it looks closer to original design.
 
-Monospace fonts used for main fonts and fallbacks do support:
+Monospace fonts used for main fonts and fallbacks have the following support of the top writing systems of the internet:
 
 * LGC (Latin, Greek, Cyrillic): Robotization Mono, Inconsolata Sugar, Sourcing Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
 * CJK variants (Chinese, Japanese, Korean): Source Han Sans (Not monospace but of width 1.5. E.g. 2 Source Han Sans == 3 Robotization Mono)
