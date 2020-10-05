@@ -54,8 +54,8 @@ __\*__ Browsers, Pandoc and LibreOffice support language variants inside single 
   ```
 * See example of Cyrillic variants in Source Sans Pro [preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/source-sans-pro/).
 
-__\*\*__ **Top 15 [writing systems](https://en.wikipedia.org/wiki/Writing_system) of the internet**: Threshold to include languages was via [Wikipedia statistics](https://stats.wikimedia.org/) of Total page views over Last 12 Months: it should be more than 115M (10.2020). And a language should either be in the [Font Library list](https://fontlibrary.org/en/orthographies) or in the [Google Fonts list](https://fonts.google.com/). Top:  
-Honorable mention 2: *Math, Emoji*. Top 15: *Latin, Greek, Cyrillic, Chinese, Japanese, Korean, Arabic, [Armenian](https://stats.wikimedia.org/#/hy.wikipedia.org), Bengali, Georgian, Hebrew, Hindi-Devanagari, [Hindi-Urdu](https://stats.wikimedia.org/#/ur.wikipedia.org), [Tamil](https://stats.wikimedia.org/#/ta.wikipedia.org), Thai.*
+__\*\*__ **Top 15 [writing systems](https://en.wikipedia.org/wiki/Writing_system) of the internet**: Threshold to include languages was via [Wikipedia statistics](https://stats.wikimedia.org/) of Total page views over Last 12 Months: it should be more than 115M (10.2020). And a language should either be in the [Font Library list](https://fontlibrary.org/en/orthographies) or in the [Google Fonts list](https://fonts.google.com/).  
+Honorable 2: *Math, Emoji*. Top 15: *Latin, Greek, Cyrillic, Chinese, Japanese, Korean, Arabic, [Armenian](https://stats.wikimedia.org/#/hy.wikipedia.org), Bengali, Georgian, Hebrew, Hindi-Devanagari, [Hindi-Urdu](https://stats.wikimedia.org/#/ur.wikipedia.org), [Tamil](https://stats.wikimedia.org/#/ta.wikipedia.org), Thai.*
 
 
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
