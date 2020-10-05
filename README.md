@@ -411,30 +411,30 @@ And even more! Stylebot can fix issues that arise from thinner fonts in Chrome w
 ```
 You need to install Linus Libertini to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this OTF archive](https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/linus_libertini_o_font_swap_chrome_bugfix.zip) (or [this TTF archive](https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/linus_libertini_font_swap_chrome_bugfix.zip)) that were easily renamed via FontForge (TTF is heavier on small sizes).
 
-Or you can use online fonts:
+**Or you can use standard Linus Libertini font via local URLs**:
 
 ```css
 @font-face {
   font-family: 'Times New Roman';
-  src: url("https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/LibertinusSerif/LibertinusSerif-Regular.otf") format("opentype");
+  src: url("file:///C:/Windows/Fonts/LinusLibertiniO-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: url("https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/LibertinusSerif/LibertinusSerif-Bold.otf") format("opentype");
+  src: url("file:///C:/Windows/Fonts/LinusLibertiniO-Bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: url("https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/LibertinusSerif/LibertinusSerif-Italic.otf") format("opentype");
+  src: url("file:///C:/Windows/Fonts/LinusLibertiniO-Italic.otf") format("opentype");
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: url("https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/LibertinusSerif/LibertinusSerif-BoldItalic.otf") format("opentype");
+  src: url("file:///C:/Windows/Fonts/LinusLibertiniO-BoldItalic.otf") format("opentype");
   font-weight: bold;
   font-style: italic;
 }
