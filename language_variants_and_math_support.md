@@ -17,7 +17,7 @@ Worth mentioning that LibreOffice math support is not ideal. See LibreOffice sec
   lang: bg
   ---
   ```
-* Paid Microsoft Word since some version supports language variants (MS Word 2007 version does **not** support it). Free [Microsoft 365](https://www.office.com) online supports it too but doesn't support math formulas editing.
+* Paid Microsoft Word since some version supports language variants (MS Word 2007 version does **not** support it). Free [Microsoft 365](https://www.office.com) online supports it too but doesn't support math formulas editing (only previewing).
 * LibreOffice since some version supports language variants (v.7.0.1 does support it). For CJK first enable `Tools / Options / Language Settings / Languages / Default languages for documents / Asian`. See [CJK document example](./cjk-test). But the built-in LO math renderer is very bad (not the math editor that is somewhat OK). Hence you have options:
   * Use `.otd` format only and try TexMaths extension for LaTeX support. And optionally install WYSIWYM editor LyX and copypaste back and forth TeX formulas for easy WYSIWYM editing. But mind that TexMaths is buggy (I wasn't able to get it working on Windows 7 at all). See LyX quick templates [in this dir](./math_formulas) (`*.lyx` files) to speed up copypasting a bit.
   * Use `.docx` format only and write math in LibreOffice built-in math editor. It's not great but OK. Math would be saved in Microsoft Word compatible format. But to preview the document as it **should** be rendered you would need use some version of Microsoft Word. If you purchaised modern MS Word it's better to use it instead of LibreOffice. But in addition to paid options you can use:
