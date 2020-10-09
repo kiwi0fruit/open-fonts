@@ -1,4 +1,4 @@
-# Language variants support
+# Language variants and Math support
 
 See example of Cyrillic variants in Source Sans Pro [preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/source-sans-pro/).
 
