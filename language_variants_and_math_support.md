@@ -25,4 +25,5 @@ Worth mentioning that LibreOffice math support is not ideal. See LibreOffice sec
   ```
   I only tested that this would work when exporting to HTML. It should work for docx too. As about math support:
   * Math would work when exporting to HTML just like it would work in browsers.
-  * When exporting to LaTeX/LaTeX+PDF math would surely work.
+  * Math would surely work when exporting to LaTeX/LaTeX+PDF.
+  * Math would work with caveats when exporting to docx/docx+PDF.
