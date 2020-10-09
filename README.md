@@ -27,8 +27,8 @@ First of all OTF and TTF versions of **every** font have different display weigh
 Sans serif fonts used for main fonts and fallbacks have the following support of the top writing systems\*\* of the internet:
 
 * LGC (Latin, Greek, Cyrillic): **Source Sans Pro, Open Sans, Roboto**, Sourcing Sans Pro, Noto Sans, DejaVu Sans, Lato.
-  * Cyrillic variants: Source Sans Pro (see [language variants support](language_variants_support.md)).
-* CJK variants (Chinese, Japanese, Korean): Source Han Sans  (see [language variants support](language_variants_support.md)).
+  * Cyrillic variants: Source Sans Pro (see [language variants and math support](language_variants_and_math_support.md)).
+* CJK variants (Chinese, Japanese, Korean): Source Han Sans  (see [language variants and math support](language_variants_and_math_support.md)).
 * Math: DejaVu Sans, fonts from serif section.
 * Arabic: Noto Sans Arabic, DejaVu Sans.
 * Armenian: Noto Sans Armenian, DejaVu Sans.
