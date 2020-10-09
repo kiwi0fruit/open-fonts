@@ -26,4 +26,4 @@ Worth mentioning that LibreOffice math support is not ideal. See LibreOffice sec
   I only tested that this would work when exporting to HTML. It should work for docx too. As about math support:
   * Math would work when exporting to HTML just like it would work in browsers. Though on Linux HTML+PDF export may have kerning issues (that might be related to using TrueType ttf fonts). See [pandoctools](https://github.com/kiwi0fruit/pandoctools) and [pyppdf](https://github.com/kiwi0fruit/pyppdf) for more about HTML+PDF export.
   * Math would surely work when exporting to LaTeX/LaTeX+PDF.
-  * Math would work with caveats when exporting to docx/docx+PDF.
+  * Math would work with caveats when exporting to docx/docx+PDF. First problems arise from the fact that Pandoc stores math in LaTeX when MS Word and LibreOffice use their own formats that don't match perfectly. Second problem arise 
