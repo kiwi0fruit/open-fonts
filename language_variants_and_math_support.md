@@ -2,7 +2,7 @@
 
 Browsers, Pandoc, MS Word and LibreOffice support language variants inside single font and math formulas. For details on language variants see example of Cyrillic variants in Source Sans Pro [preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/source-sans-pro/).
 
-Worth mentioning that LibreOffice math support is not ideal. See LibreOffice section below for details.
+Worth mentioning that LibreOffice math support is not ideal. See LibreOffice section below for details. Only paid version of MS Word supports math formulas.
 
 * Browsers support language variants via `lang="bg-BG"` (`"zh-CN"`, `"zh-TW"`, `"zh-HK"`, `"ja-JP"`, `"ko-KR"`) HTML property.
 * Pandoc supports language variants for inline text via `[inline text]{lang="ru-RU"}` (span). And for paragraphs (div):
