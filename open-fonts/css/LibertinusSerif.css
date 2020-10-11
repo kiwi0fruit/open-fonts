@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Libertinus Serif';
+    src: url("<...>LibertinusSerif-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Libertinus Serif';
+    src: url("<...>LibertinusSerif-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Libertinus Serif';
+    src: url("<...>LibertinusSerif-Semibold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Libertinus Serif';
+    src: url("<...>LibertinusSerif-SemiboldIt.otf") format("opentype");
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Libertinus Serif';
+    src: url("<...>LibertinusSerif-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Libertinus Serif';
+    src: url("<...>LibertinusSerif-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}

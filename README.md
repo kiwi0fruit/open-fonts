@@ -220,7 +220,7 @@ Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended t
 
 There is also OTF version of the font that is a bit heavier on Windows display. [**Download Linus Libertini OTF (thickening distortion on Windows)**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertiniO.zip?raw=true). This can be useful on small sizes. `'Linus Libertini O'`
 
-Font fallback chain: `'Linus Libertini', Symbola, serif`.
+Font fallback chain: `'Linus Libertini', serif`.
 
 There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) font but I find it to be of [lower quality](https://github.com/kiwi0fruit/open-fonts/issues/5#issuecomment-480476163) than STIX Two Math (Libertinus Math has MS Word issues and Greek italics are of suboptimal quality. I never tested for LaTeX issues).
 
@@ -374,59 +374,30 @@ And even more! Stylebot can fix issues that arise from thinner fonts in Chrome w
 ```css
 @font-face {
   font-family: 'Times New Roman';
-  src: local("Linus Libertini O RRegular");
+  src: url("file:///C:/Windows/Fonts/LibertinusSerif-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: local("Linus Libertini O BBold");
+  src: url("file:///C:/Windows/Fonts/LibertinusSerif-Bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: local("Linus Libertini O IItalic");
+  src: url("file:///C:/Windows/Fonts/LibertinusSerif-Italic.otf") format("opentype");
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'Times New Roman';
-  src: local("Linus Libertini O BBoldIItalic");
-  font-weight: bold;
-  font-style: italic;
-}
-```
-You need to install Linus Libertini to make it work. And in order to fix [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=627143) you need to install special font families from [this OTF archive](https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/linus_libertini_o_font_swap_chrome_bugfix.zip) (or [this TTF archive](https://github.com/kiwi0fruit/open-fonts/raw/master/Fonts/linus_libertini_font_swap_chrome_bugfix.zip)) that were easily renamed via FontForge (TTF is heavier on small sizes).
-
-**Or you can use standard Linus Libertini font via local URLs**:
-
-```css
-@font-face {
-  font-family: 'Times New Roman';
-  src: url("file:///C:/Windows/Fonts/LinusLibertiniO-Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Times New Roman';
-  src: url("file:///C:/Windows/Fonts/LinusLibertiniO-Bold.otf") format("opentype");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Times New Roman';
-  src: url("file:///C:/Windows/Fonts/LinusLibertiniO-Italic.otf") format("opentype");
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Times New Roman';
-  src: url("file:///C:/Windows/Fonts/LinusLibertiniO-BoldItalic.otf") format("opentype");
+  src: url("file:///C:/Windows/Fonts/LibertinusSerif-BoldItalic.otf") format("opentype");
   font-weight: bold;
   font-style: italic;
 }
 ```
+**You can use standard `Libertinus Serif` (otf, "opentype") or `Linus Libertinus` (ttf, "truetype") font via local URLs** (OTF is heavier on small sizes).
 
 
 # Build
