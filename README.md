@@ -157,7 +157,7 @@ Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif Armenian', '
 
 * Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
 * Alterantive Arabic style: `Amiri`
-* Note that STIX Two is OTF only font. Hence it would look heavier on Windows that it's original design (that's not necessary a bad thing). But you can use `'ST1X Two Text'` and `'ST1X Two Math'` that is simply STIX Two converted to TTF. [**Download ST1X Two TTF**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/ST1XTwo.zip?raw=true).
+* Note that STIX Two is OTF only font. Hence it would look heavier on Windows that it's original design (that's not necessary a bad thing). But you can use `'XITS Two Text'` and `'XITS Two Math'` that is simply STIX Two converted to TTF. [**Download XITS Two TTF**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSTwo.zip?raw=true).
 
 Fallback fonts:
 

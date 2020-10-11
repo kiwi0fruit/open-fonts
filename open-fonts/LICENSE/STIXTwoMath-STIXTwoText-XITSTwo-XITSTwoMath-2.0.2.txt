@@ -1,18 +1,22 @@
 STIX Font License
-12/1/2016
 
-Copyright (c) 2001-2016 by the STI Pub Companies, consisting of the AIP Publishing, the American
-Chemical Society, the American Mathematical Society, the American Physical Society, Elsevier, Inc., and
-The Institute of Electrical and Electronic Engineers, Inc. (www.stixfonts.org), with Reserved Font Name
-STIX Fonts, STIX Fonts™ is a trademark of The Institute of Electrical and Electronics Engineers, Inc.
+15 April 2019
 
-Portions copyright (c) 1998-2003 by MicroPress, Inc. (www.micropress-inc.com), with Reserved Font
-Name TM Math. To obtain additional mathematical fonts, please contact MicroPress, Inc., 68-30 Harrow
-Street, Forest Hills, NY 11375, USA – Phone: (718) 575-1816.
-Portions copyright (c) 1990 by Elsevier, Inc.
+Copyright © 2001–2019 by the STIPub Companies, consisting of AIP Publishing, the American Chemical Society,
+the American Mathematical Society, the American Physical Society, Elsevier, Inc., and The Institute of Electrical
+and Electronic Engineers, Inc. (www.stixfonts.org), with Reserved Font Name STIX Fonts. STIX Fonts™ is a
+trademark of The Institute of Electrical and Electronics Engineers, Inc.
 
-This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below,
-and is also available with a FAQ at: http://scripts.sil.org/OFL
+Portions copyright © 1998–2003 by MicroPress, Inc. (www.micropress-inc.com), with Reserved Font Name TM
+Math. To obtain additional mathematical fonts, please contact MicroPress, Inc., 68-30 Harrow Street, Forest Hills,
+NY 11375, USA – Phone: (718) 575-1816.
+
+Portions copyright © 1990 by Elsevier, Inc.
+
+Portions copyright © 2010, 2012, 2014 Adobe Systems Incorporated.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is
+also available with a FAQ at http://scripts.sil.org/OFL.
 
 ---------------------------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
