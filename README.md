@@ -218,7 +218,7 @@ Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif Ar
 
 Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertinus**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
 
-Libertinus Serif is OTF-only font and is a bit heavier on Windows display. [**Download Libertinus Serif**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LibertinusSerif.zip?raw=true) (OTF format, thickening distortion on Windows). This can be useful on small sizes: `'Libertinus Serif'`. Mind that **Cyrillic semibold italics (600) of Libertinus Serif look terrible**.
+Libertinus Serif is OTF-only font and is a bit heavier on Windows display. [**Download Libertinus Serif**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LibertinusSerif.zip?raw=true) (OTF format, thickening distortion on Windows). This can be useful on small sizes: `'Libertinus Serif'`. Mind that **Cyrillic semibold italics (600) of Libertinus Serif look terrible**. On Windows first install all styles then only install 4 main styles.
 
 Font fallback chain: `'Linus Libertinus', serif`.
 
