@@ -20,15 +20,15 @@ from os import path as p
 
 here = p.dirname(p.abspath(__file__))
 repos = p.dirname(here)
-robotomono = p.join(repos, 'fonts', 'apache', 'robotomono')
+robotomono = p.join(repos, 'fonts', 'apache', 'robotomono', 'static')
 # robotomono = p.join(here, 'Fonts', 'RobotoMono')
 
 merge = False
 copy_metrics = True
 remove = (
     # ---- Bad dashes: ----
-    # [\u00AD \u1806 \uFE63 \uFF0D]
-    u'­', u'᠆',  u'﹣', u'－',
+    # [\u1806 \uFE63 \uFF0D \u00AD]
+    u'᠆',  u'﹣', u'－', u'­',
     # ---- OK dashes: ----
     # [u2E3A \u2E3B] (multiple of character width)
     # u'⸺', u'⸻',
@@ -36,7 +36,7 @@ remove = (
 spaces = (
     # ---- Bad whitespaces (dont't touch): ----
     # [\u1680]
-    # u' ',
+    u' ',
     # ---- Bad whitespaces: ----
     # [\u202F \u205F \u3000]
     u' ', u' ', u'　',
@@ -54,21 +54,18 @@ refs = [p.join(robotomono, 'RobotoMono-Regular.ttf')]
 # Monospacify Roboto Mono:
 # ------------------------
 styles = [
-    ('RobotoMono-Italic', 'Roboto Mono', 'Italic'),
-    ('RobotoMono-MediumItalic', 'Roboto Mono Medium', 'Italic'),
     ('RobotoMono-BoldItalic', 'Roboto Mono', 'Bold Italic'),
-    # ('RobotoMono-LightItalic', 'Roboto Mono Light', 'Italic'),
-    # ('RobotoMono-ThinItalic', 'Roboto Mono Thin', 'Italic'),
-    # ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
-    # ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
-    # ('RobotoMono-Bold', 'Roboto Mono', 'Bold'),
-    # ('RobotoMono-Light', 'Roboto Mono Light', 'Regular'),
-    # ('RobotoMono-Thin', 'Roboto Mono Thin', 'Regular'),
+    # ('RobotoMono-ExtraLightItalic', 'Roboto Mono ExtraLight', 'Italic'),
+    ('RobotoMono-Italic', 'Roboto Mono', 'Italic'),
+    ('RobotoMono-LightItalic', 'Roboto Mono Light', 'Italic'),
+    ('RobotoMono-MediumItalic', 'Roboto Mono Medium', 'Italic'),
+    # ('RobotoMono-SemiBoldItalic', 'Roboto Mono SemiBold', 'Italic'),
+    ('RobotoMono-ThinItalic', 'Roboto Mono Thin', 'Italic'),
 ]
 fonts = [p.join(robotomono, fn +'.ttf') for fn, ff, st in styles]
 monospacifier(fonts, refs, dir_, merge, copy_metrics)
 # os.remove(refs[0])
-shutil.copy(p.join(robotomono, 'LICENSE.txt'), p.join(dir_, 'LICENSE.txt'))
+shutil.copy(p.join(p.dirname(robotomono), 'LICENSE.txt'), p.join(dir_, 'LICENSE.txt'))
 
 
 # Rename monospacified Roboto Mono:
@@ -88,11 +85,13 @@ for fn, ff, style in styles:
                 reps=reps, sfnt_ref=ref, clean_up=clean_up, mono=True, remove=remove, spaces=spaces)
 
 styles2 = [
-    ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
-    ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
     ('RobotoMono-Bold', 'Roboto Mono', 'Bold'),
-    # ('RobotoMono-Light', 'Roboto Mono Light', 'Regular'),
-    # ('RobotoMono-Thin', 'Roboto Mono Thin', 'Regular'),
+    # ('RobotoMono-ExtraLight', 'Roboto Mono ExtraLight', 'Regular'),
+    ('RobotoMono-Light', 'Roboto Mono Light', 'Regular'),
+    ('RobotoMono-Medium', 'Roboto Mono Medium', 'Regular'),
+    ('RobotoMono-Regular', 'Roboto Mono', 'Regular'),
+    # ('RobotoMono-SemiBold', 'Roboto Mono SemiBold', 'Regular'),
+    ('RobotoMono-Thin', 'Roboto Mono Thin', 'Regular'),
 ]
 for fn, ff, style in styles2:
     clean_up = False

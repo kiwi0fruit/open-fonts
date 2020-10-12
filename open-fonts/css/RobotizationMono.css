@@ -12,6 +12,30 @@
 }
 @font-face {
     font-family: 'Robotization Mono';
+    src: url("<...>RobotizationMono-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Robotization Mono';
+    src: url("<...>RobotizationMono-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Robotization Mono';
+    src: url("<...>RobotizationMono-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Robotization Mono';
+    src: url("<...>RobotizationMono-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Robotization Mono';
     src: url("<...>RobotizationMono-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;

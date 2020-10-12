@@ -24,4 +24,6 @@
 @cd ..
 @git clone https://github.com/cpitclaudel/monospacifier && cd monospacifier || cd monospacifier && git pull
 @cd ..
+@git clone https://github.com/googlefonts/RobotoMono && cd RobotoMono || cd RobotoMono && git pull
+@cd ..
 @pause
