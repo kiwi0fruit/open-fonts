@@ -48,7 +48,7 @@ Honorable 2: *Math, Emoji*. Top 15: *Latin, Greek, Cyrillic, Chinese, Japanese, 
 
 ## [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
 
-#### (by Paul D. Hunt), [Preview old ver.](https://fonts.google.com/specimen/Source+Sans+Pro), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/source-sans-pro/), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceSansPro.tar.xz?raw=true), [Download original](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
+#### (designed by Paul D. Hunt), [Preview old ver.](https://fonts.google.com/specimen/Source+Sans+Pro), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/source-sans-pro/), [Preview](https://adobe-fonts.github.io/source-sans-pro/), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourceSansPro.tar.xz?raw=true), [Download original](https://github.com/adobe-fonts/source-sans-pro/releases), [Backup](https://github.com/kiwi0fruit/source-sans-pro)
 
 *My favorite!*
 
@@ -214,15 +214,15 @@ Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif Ar
 
 ### [Linux Libertine](http://libertine-fonts.org/)
 
-#### (by Philipp H. Poll and others), [Preview old ver.](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertini TTF](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true), [Backup](https://github.com/kiwi0fruit/libertinus)
+#### (designed by Philipp H. Poll and others), [Preview old ver.](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertinus TTF](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true), [Backup](https://github.com/kiwi0fruit/libertinus)
 
-Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertini**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertini.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
+Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertinus**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
 
-There is also OTF version of the font that is a bit heavier on Windows display. [**Download Linus Libertini OTF (thickening distortion on Windows)**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertiniO.zip?raw=true). This can be useful on small sizes. `'Linus Libertini O'`
+Libertinus Serif is OTF-only font and is a bit heavier on Windows display. [**Download Libertinus Serif OTF (thickening distortion on Windows)**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LibertinusSerif.zip?raw=true). This can be useful on small sizes: `'Libertinus Serif'`. Mind that **Cyrillic semibold italics (600) of Libertinus Serif look terrible**.
 
-Font fallback chain: `'Linus Libertini', serif`.
+Font fallback chain: `'Linus Libertinus', serif`.
 
-There is also [Libertinus Math](https://github.com/libertinus-fonts/libertinus) font but I find it to be of [lower quality](https://github.com/kiwi0fruit/open-fonts/issues/5#issuecomment-480476163) than STIX Two Math (Libertinus Math has MS Word issues and Greek italics are of suboptimal quality. I never tested for LaTeX issues).
+Archives also contain [**Linus Libertinus Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true) (TTF version) and [**Libertinus Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LibertinusSerif.zip?raw=true) (OTF version) font families but I find it to be of [lower quality](https://github.com/kiwi0fruit/open-fonts/issues/5#issuecomment-480476163) than STIX Two Math (Libertinus Math has MS Word issues and **Greek italics are of suboptimal quality**. I never tested for LaTeX issues).
 
 
 # Best Monospace
@@ -244,7 +244,7 @@ Main fonts and fallback chains were optimized for [SugarTeX](https://github.com/
 
 ## [Roboto Mono](https://en.wikipedia.org/wiki/Roboto#Roboto_Mono)
 
-#### (by Steve Matteson and Christian Robertson), [Preview old ver.](https://fonts.google.com/specimen/Roboto+Mono), [Download Robotization Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/RobotizationMono.zip?raw=true), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/robotomono)
+#### (designed by Steve Matteson and Christian Robertson), [Preview old ver.](https://fonts.google.com/specimen/Roboto+Mono), [Download Robotization Mono](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/RobotizationMono.zip?raw=true), [Backup](https://github.com/kiwi0fruit/fonts/tree/master/apache/robotomono)
 
 *My favorite!*
 
@@ -269,7 +269,7 @@ Fallback fonts:
 
 ## [Inconsolata](https://en.wikipedia.org/wiki/Inconsolata)
 
-#### (by Raph Levien and others), [Preview old ver.](https://fontlibrary.org/en/font/inconsolata-lgc), [Preview old ver. 2](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata Sugar](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true), [Backup](https://github.com/kiwi0fruit/Inconsolata-LGC)
+#### (designed by Raph Levien and others), [Preview old ver.](https://fontlibrary.org/en/font/inconsolata-lgc), [Preview old ver. 2](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata Sugar](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true), [Backup](https://github.com/kiwi0fruit/Inconsolata-LGC)
 
 Inconsolata lacks italics, Cyrillic and Greek. Inconsolata LGC lacks some whitespace characters, has off-style backtick, italic Latin a and Cyrillic д are controversial design decisions. For SugarTeX it's recommended to use [**Inconsolata Sugar**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true) fork that is simply a renamed Inconsolata LGC with these issues fixed (backtick was simply removed so one from fallback would be used).
 
@@ -278,7 +278,7 @@ Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono'
 
 ## [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
-#### (by Paul D. Hunt and Teo Tuominen), [Preview unpatched](https://adobe-fonts.github.io/source-code-pro/), [Download Sourcing Code Pro](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true), [Backup](https://github.com/kiwi0fruit/source-code-pro)
+#### (designed by Paul D. Hunt and Teo Tuominen), [Preview unpatched](https://adobe-fonts.github.io/source-code-pro/), [Download Sourcing Code Pro](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true), [Backup](https://github.com/kiwi0fruit/source-code-pro)
 
 Source Code Pro lacks some whitespace characters and has broken division slash. For SugarTeX it's recommended to use [**Sourcing Code Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true) fork that is simply a renamed Source Code Pro with these issues fixed (slash was simply removed).
 
