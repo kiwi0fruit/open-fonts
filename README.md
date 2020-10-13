@@ -149,7 +149,7 @@ Only 3 fonts are maintained for multilingual stylistic fit: STIX Two Text, Sourc
 
 ## [STIX Two Text and STIX Two Math](http://www.stixfonts.org/)
 
-#### (by Ross Mills and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/), [Download STIX Two](https://github.com/stipub/stixfonts) (OTF format, thickening distortion on Windows), [Backup](https://github.com/kiwi0fruit/stixfonts)
+#### (by Ross Mills and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/), [Download STIX Two](https://github.com/stipub/stixfonts) (OTF format, thickening distortion on Windows), [**Download XITS Two**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSTwo.zip?raw=true) (TTF format), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
 *My favorite math font!*
 
@@ -214,7 +214,7 @@ Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif Ar
 
 ### [Linus Libertinus and Linus Libertinus Math](https://github.com/alerque/libertinus)
 
-#### (designed by Philipp H. Poll and others), [Preview old ver.](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertinus](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true) (TTF format), [Backup](https://github.com/kiwi0fruit/libertinus)
+#### (designed by Philipp H. Poll and others), [Preview old ver.](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertinus](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true) (TTF format), [**Download Libertinus Serif**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LibertinusSerif.zip?raw=true) (OTF format, thickening distortion on Windows), [Backup](https://github.com/kiwi0fruit/libertinus)
 
 Semibold italic Cyrillics are terrible in the original Linux Libertine. So it's recommended to use [**Linus Libertinus**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
 
@@ -227,7 +227,7 @@ Archives above also contain [**Linus Libertinus Math**](https://github.com/kiwi0
 
 ### [XITS and XITS Math](https://github.com/alif-type/xits/releases)
 
-#### (disigned by MicroPress, Khaled Hosny and others), [Preview](https://fontlibrary.org/en/font/xits-math), [Download XITS](https://github.com/alif-type/xits/releases) (OTF format, thickening distortion on Windows), [Backup](https://github.com/kiwi0fruit/xits)
+#### (disigned by MicroPress, Khaled Hosny and others), [Preview](https://fontlibrary.org/en/font/xits-math), [Download XITS](https://github.com/alif-type/xits/releases) (OTF format, thickening distortion on Windows), [**Download XITS One**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSOne.zip?raw=true) (TTF format), [Backup](https://github.com/kiwi0fruit/xits)
 
 Font fallback chain: `'XITS', 'XITS Math', serif`.
 
