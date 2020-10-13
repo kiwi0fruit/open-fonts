@@ -225,7 +225,7 @@ Font fallback chain: `'Linus Libertinus', serif`.
 Archives above also contain [**Linus Libertinus Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true) (TTF format) and [**Libertinus Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LibertinusSerif.zip?raw=true) (OTF format) font families for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+. But I find it to be of [lower quality](https://github.com/kiwi0fruit/open-fonts/issues/5#issuecomment-480476163) than STIX Two Math (Libertinus Math has MS Word issues and **Greek italics are of suboptimal quality**. I never tested for LaTeX issues).
 
 
-## [XITS and XITS Math](https://github.com/alif-type/xits/releases)
+### [XITS and XITS Math](https://github.com/alif-type/xits/releases)
 
 #### (disigned by MicroPress, Khaled Hosny and others), [Preview](https://fontlibrary.org/en/font/xits-math), [Download XITS](https://github.com/alif-type/xits/releases) (OTF format, thickening distortion on Windows), [Backup](https://github.com/kiwi0fruit/xits)
 
