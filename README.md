@@ -52,7 +52,7 @@ Honorable 2: *Math, Emoji*. Top 15: *Latin, Greek, Cyrillic, Chinese, Japanese, 
 
 *My favorite!*
 
-In the latest version the "Source Sans Pro" name was changed to "Source Sans 3". I hope that it would be [reverted](https://github.com/adobe-fonts/source-sans-pro/issues/192) but for now I recommend to use `'Sourcing Sans Pro'` (that is simply a renamed `'Source Sans 3'`) and use both fonts in the fallback chain:
+In the latest version the "Source Sans Pro" name was changed to "Source Sans 3". I hope that it would be [reverted](https://github.com/adobe-fonts/source-sans-pro/issues/192) but for now I recommend to use both latest version stll named `'Source Sans Pro'` and `'Sourcing Sans Pro'` (that is simply a renamed `'Source Sans 3'`) in the fallback chain:
 
 Font fallback chain: `'Source Sans Pro', 'Sourcing Sans Pro', 'Noto Sans', 'Noto Sans Armenian', 'Noto Sans Devanagari', 'Noto Sans Bengali', 'Noto Sans Georgian', 'Noto Sans Arabic', Catamaran, 'Noto Sans Thai', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
 
