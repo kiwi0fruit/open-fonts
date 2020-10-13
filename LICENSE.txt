@@ -1,3 +1,5 @@
+This license can be overriden by licenses of subdirrectories and induvidual files.
+
 The MIT License (MIT)
 
 Copyright (c) 2018 Peter Zagubisalo

@@ -13,7 +13,7 @@
 
 import sys
 import os.path as p
-sys.path.insert(0, p.join(p.dirname(p.dirname(p.abspath(__file__))), 'monospacifier'))
+sys.path.insert(0, p.join(p.dirname(p.abspath(__file__)), 'monospacifier'))
 import monospacifier as m
 import unicodedata
 
