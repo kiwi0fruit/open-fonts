@@ -133,7 +133,7 @@ Serif fonts used for main fonts and fallbacks have the following support of the 
 * LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, ST1X Two Text, Noto Serif, DejaVu Serif, Linus Libertini.
   * Cyrillic variants: Source Serif Pro, Vollkorn.
 * CJK variants (Chinese, Japanese, Korean): Source Han Serif.
-* Math: STIX Two Math, ST1X Two Math, Symbola, Linus Libertini, Amiri.
+* Math: STIX Two Math (XITS Two Math), XITS Math (XITS One Math), Linus Libertinus Math (Libertinus Math), STIX Two Text (XITS Two Text), XITS (XITS One Text), Linus Libertinus (Libertinus Serif), Symbola, Amiri.
 * Arabic: Noto Naskh Arabic, Amiri.
 * Armenian: Noto Serif Armenian, DejaVu Serif.
 * Bengali: Noto Serif Bengali.
@@ -147,7 +147,7 @@ Serif fonts used for main fonts and fallbacks have the following support of the 
 Only 3 fonts are maintained for multilingual stylistic fit: STIX Two Text, Source Serif Pro, Vollkorn.
 
 
-## [STIX Two Text](http://www.stixfonts.org/) and [STIX Two Math](http://www.stixfonts.org/)
+## [STIX Two Text and STIX Two Math](http://www.stixfonts.org/)
 
 #### (by Ross Mills and others), [Preview](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/stix/), [Download STIX Two](https://github.com/stipub/stixfonts) (OTF format, thickening distortion on Windows), [Backup](https://github.com/kiwi0fruit/stixfonts)
 
@@ -157,7 +157,7 @@ Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif Armenian', '
 
 * Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
 * Alterantive Arabic style: `Amiri`
-* Note that STIX Two is OTF only font. Hence it would look heavier on Windows that it's original design (that's not necessary a bad thing). But you can use `'XITS Two Text'` and `'XITS Two Math'` that is simply STIX Two converted to TTF. [**Download XITS Two**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSTwo.zip?raw=true) (TTF format).
+* Note that STIX Two is OTF only font. Hence it would look heavier on Windows than it's original design (that's not necessary a bad thing). But you can use `'XITS Two Text'` and `'XITS Two Math'` that is simply STIX Two converted to TTF. [**Download XITS Two**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSTwo.zip?raw=true) (TTF format).
 
 Fallback fonts:
 
@@ -183,7 +183,7 @@ Fallback fonts:
 * Tamil fallback: [Noto Serif Tamil](https://www.google.com/get/noto/#serif-taml) (by Google), [Preview](https://www.google.com/get/noto/#serif-taml), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerifTamil-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#serif-taml).
 * Thai fallback: [Noto Serif Thai](https://www.google.com/get/noto/#serif-thai) (by Google), [Preview](https://www.google.com/get/noto/#serif-thai), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerifThai-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#serif-thai).
 
-Archives above also contain [**XITS Two Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSTwo.zip?raw=true) (TTF format) and [**STIX Two Math**](https://github.com/stipub/stixfonts) (OTF format) that is a STIX Two version for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
+Archives above also contain [**XITS Two Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSTwo.zip?raw=true) (TTF format) and [**STIX Two Math**](https://github.com/stipub/stixfonts) (OTF format) font families for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
 
 ## [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro)
@@ -212,17 +212,28 @@ Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif Ar
 
 ## LGC without fallbacks
 
-### [Linux Libertine](http://libertine-fonts.org/)
+### [Linus Libertinus and Linus Libertinus Math](https://github.com/alerque/libertinus)
 
 #### (designed by Philipp H. Poll and others), [Preview old ver.](https://localfonts.eu/freefonts/traditional-cyrillic-free-fonts/linux-libertine/), [Download Linus Libertinus](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true) (TTF format), [Backup](https://github.com/kiwi0fruit/libertinus)
 
-Semibold italic Cyrillics are terrible in Linux Libertine. So it's recommended to use [**Linus Libertinus**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
+Semibold italic Cyrillics are terrible in the original Linux Libertine. So it's recommended to use [**Linus Libertinus**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true) fork that is simply a renamed Libertinus Serif without semibolds (Libertinus Serif is a bugfixed fork of Linux Libertine by Khaled Hosny with Cyrillic bold itallics by Stefan Peev).
 
 Libertinus Serif is OTF-only font and is a bit heavier on Windows display. [**Download Libertinus Serif**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LibertinusSerif.zip?raw=true) (OTF format, thickening distortion on Windows). This can be useful on small sizes: `'Libertinus Serif'`. Mind that **Cyrillic semibold italics (600) of Libertinus Serif look terrible**. On Windows first install all styles then only install 4 main styles.
 
 Font fallback chain: `'Linus Libertinus', serif`.
 
-Archives above also contain [**Linus Libertinus Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true) (TTF format) and [**Libertinus Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LibertinusSerif.zip?raw=true) (OTF format) font families but I find it to be of [lower quality](https://github.com/kiwi0fruit/open-fonts/issues/5#issuecomment-480476163) than STIX Two Math (Libertinus Math has MS Word issues and **Greek italics are of suboptimal quality**. I never tested for LaTeX issues).
+Archives above also contain [**Linus Libertinus Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LinusLibertinus.zip?raw=true) (TTF format) and [**Libertinus Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/LibertinusSerif.zip?raw=true) (OTF format) font families for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+. But I find it to be of [lower quality](https://github.com/kiwi0fruit/open-fonts/issues/5#issuecomment-480476163) than STIX Two Math (Libertinus Math has MS Word issues and **Greek italics are of suboptimal quality**. I never tested for LaTeX issues).
+
+
+## [XITS and XITS Math](https://github.com/alif-type/xits/releases)
+
+#### (disigned by MicroPress, Khaled Hosny and others), [Preview](https://fontlibrary.org/en/font/xits-math), [Download XITS](https://github.com/alif-type/xits/releases) (OTF format, thickening distortion on Windows), [Backup](https://github.com/kiwi0fruit/xits)
+
+Font fallback chain: `'XITS', 'XITS Math', serif`.
+
+Note that XITS is OTF only font. Hence it would look heavier on Windows than it's original design (that's not necessary a bad thing). But you can use `'XITS One Text'` and `'XITS One Math'` that is simply XITS converted to TTF. [**Download XITS One**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSOne.zip?raw=true) (TTF format).
+
+Archives above also contain [**XITS One Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSOne.zip?raw=true) (TTF format) and [**XITS Math**](https://github.com/stipub/stixfonts) (OTF format) font families for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
 
 # Best Monospace
