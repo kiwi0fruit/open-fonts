@@ -68,17 +68,6 @@ Fallback fonts:
 
 * CJK fallback: Source Han Sans (by Adobe and Google), **Preview**: [JP](https://fonts.adobe.com/fonts/source-han-sans-japanese), [CN](https://fonts.adobe.com/fonts/source-han-sans-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-sans-korean), [HK](https://fonts.adobe.com/fonts/source-han-sans-hong-kong), [TW](https://fonts.adobe.com/fonts/source-han-sans-traditional-chinese), [Download Language-specific OTFs (Japanese is default)](https://github.com/adobe-fonts/source-han-sans/tree/release#language-specific-otfs), [Download other options](https://github.com/adobe-fonts/source-han-sans/tree/release), [Source code](https://github.com/adobe-fonts/source-han-sans), [Backup](https://github.com/kiwi0fruit/source-han-sans).
 * Math fallback: [STIX Two Math](#stix-two-text-and-stix-two-math) (see below),
-* Emoji fallback:
-  * balck and white: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest free version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola/hintedSymbola.ttf?raw=true), [Latest but not free version](http://users.teilar.gr/~g1951d/)
-  * color: [Twemoji Mozilla](https://github.com/mozilla/twemoji-colr/releases) (by Twitter), [Preview](https://github.com/eosrei/twemoji-color-font#examples), [Download](https://github.com/mozilla/twemoji-colr/releases), [Backup](https://github.com/kiwi0fruit/twemoji-colr). You can install Twemoji Mozilla on Windows 7 but it won't work out of the box in Chromium so you should use it with font-face (otherwise you would get empty space instead of emoji). For example [Stylebot](https://github.com/kiwi0fruit/open-fonts/blob/master/README.md#stylebot) can set font-face:  
-  ```css
-  @font-face {
-    font-family: 'Twemoji Mozilla';
-    src: url("file:///C:/Windows/Fonts/TwemojiMozilla.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-  }
-  ```
 * Unicode fallback:
   * [Noto Sans](#open-sans-and-noto-sans) (see below),
   * [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
@@ -98,6 +87,17 @@ Fallback fonts:
   * [Noto Sans Tamil](https://www.google.com/get/noto/#sans-taml) (by Google), [Preview](https://www.google.com/get/noto/#sans-taml), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansTamil-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#sans-taml).
   * [Catamaran](https://fonts.google.com/specimen/Catamaran?subset=tamil) (by Pria Ravichandran), [Preview](https://fonts.google.com/specimen/Catamaran?subset=tamil), [Download](https://fonts.google.com/specimen/Catamaran?subset=tamil), [Download](https://github.com/google/fonts/tree/master/ofl/catamaran),  [Backup](https://github.com/kiwi0fruit/fonts/tree/master/ofl/catamaran),
 * Thai fallback: [Noto Sans Thai](https://www.google.com/get/noto/#sans-thai) (by Google), [Preview](https://www.google.com/get/noto/#sans-thai), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansThai-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#sans-thai).
+* Emoji fallback:
+  * balck and white: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest free version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola/hintedSymbola.ttf?raw=true), [Latest but not free version](http://users.teilar.gr/~g1951d/)
+  * color: [Twemoji Mozilla](https://github.com/mozilla/twemoji-colr/releases) (by Twitter), [Preview](https://github.com/eosrei/twemoji-color-font#examples), [Download](https://github.com/mozilla/twemoji-colr/releases), [Backup](https://github.com/kiwi0fruit/twemoji-colr). You can install Twemoji Mozilla on Windows 7 but it won't work out of the box in Chromium so you should use it with font-face (otherwise you would get empty space instead of emoji). For example [Stylebot](https://github.com/kiwi0fruit/open-fonts/blob/master/README.md#stylebot) can set font-face:  
+    ```css
+    @font-face {
+      font-family: 'Twemoji Mozilla';
+      src: url("file:///C:/Windows/Fonts/TwemojiMozilla.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+    ```
 
 
 ## [Open Sans](https://fonts.google.com/specimen/Open+Sans) and [Noto Sans](https://en.wikipedia.org/wiki/Noto_fonts)
@@ -201,6 +201,17 @@ Fallback fonts:
 * Hindi-Urdu fallback: [Noto Nastaliq Urdu](https://www.google.com/get/noto/#nastaliq-aran) (by Google), [Preview](https://www.google.com/get/noto/#nastaliq-aran), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoNastaliqUrdu-unhinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#nastaliq-aran).
 * Tamil fallback: [Noto Serif Tamil](https://www.google.com/get/noto/#serif-taml) (by Google), [Preview](https://www.google.com/get/noto/#serif-taml), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerifTamil-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#serif-taml).
 * Thai fallback: [Noto Serif Thai](https://www.google.com/get/noto/#serif-thai) (by Google), [Preview](https://www.google.com/get/noto/#serif-thai), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerifThai-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#serif-thai).
+* Emoji fallback:
+  * balck and white: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest free version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola/hintedSymbola.ttf?raw=true), [Latest but not free version](http://users.teilar.gr/~g1951d/)
+  * color: [Twemoji Mozilla](https://github.com/mozilla/twemoji-colr/releases) (by Twitter), [Preview](https://github.com/eosrei/twemoji-color-font#examples), [Download](https://github.com/mozilla/twemoji-colr/releases), [Backup](https://github.com/kiwi0fruit/twemoji-colr). You can install Twemoji Mozilla on Windows 7 but it won't work out of the box in Chromium so you should use it with font-face (otherwise you would get empty space instead of emoji). For example [Stylebot](https://github.com/kiwi0fruit/open-fonts/blob/master/README.md#stylebot) can set font-face:  
+    ```css
+    @font-face {
+      font-family: 'Twemoji Mozilla';
+      src: url("file:///C:/Windows/Fonts/TwemojiMozilla.ttf") format("truetype");
+      font-weight: 400;
+      font-style: normal;
+    }
+    ```
 
 
 ## [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro)
