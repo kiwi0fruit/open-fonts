@@ -31,6 +31,7 @@ Sans serif fonts used for main fonts and fallbacks have the following support of
   * Cyrillic variants: Source Sans Pro (see [language variants and math support](language_variants_and_math_support.md)).
 * CJK variants (Chinese, Japanese, Korean): Source Han Sans  (see [language variants and math support](language_variants_and_math_support.md)).
 * Math: DejaVu Sans, fonts from serif section.
+* Emoji: Symbola (black and white), Twemoji Mozilla (color).
 * Arabic: Noto Sans Arabic, DejaVu Sans.
 * Armenian: Noto Sans Armenian, DejaVu Sans.
 * Bengali: Noto Sans Bengali.
@@ -59,15 +60,27 @@ Font fallback chain: `'Source Sans Pro', 'Sourcing Sans Pro', 'Noto Sans', 'Noto
 
 * Noto Sans Hebrew might be a better Hebrew fallback than DejaVu Sans if you need to use semibolds (600): `'Source Sans Pro', 'Sourcing Sans Pro', 'Noto Sans Hebrew', ...`
 * Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
+* Color Emoji: `'Twemoji Mozilla'`
 
 I had a bug when `'Source Sans Pro'` did not work properly in LibreOffice with language variations. But `'Sourcing Sans Pro'` worked fine. But this might be some re-installation bug. Check yourself.
 
 Fallback fonts:
 
 * CJK fallback: Source Han Sans (by Adobe and Google), **Preview**: [JP](https://fonts.adobe.com/fonts/source-han-sans-japanese), [CN](https://fonts.adobe.com/fonts/source-han-sans-simplified-chinese), [KR](https://fonts.adobe.com/fonts/source-han-sans-korean), [HK](https://fonts.adobe.com/fonts/source-han-sans-hong-kong), [TW](https://fonts.adobe.com/fonts/source-han-sans-traditional-chinese), [Download Language-specific OTFs (Japanese is default)](https://github.com/adobe-fonts/source-han-sans/tree/release#language-specific-otfs), [Download other options](https://github.com/adobe-fonts/source-han-sans/tree/release), [Source code](https://github.com/adobe-fonts/source-han-sans), [Backup](https://github.com/kiwi0fruit/source-han-sans).
-* Math fallback: STIX Two Math (see below),
+* Math fallback: [STIX Two Math](#stix-two-text-and-stix-two-math) (see below),
+* Emoji fallback:
+  * balck and white: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest free version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola/hintedSymbola.ttf?raw=true), [Latest but not free version](http://users.teilar.gr/~g1951d/)
+  * color: [Twemoji Mozilla](https://github.com/mozilla/twemoji-colr/releases) (by Twitter), [Preview](https://github.com/eosrei/twemoji-color-font#examples), [Download](https://github.com/mozilla/twemoji-colr/releases), [Backup](https://github.com/kiwi0fruit/twemoji-colr). You can install Twemoji Mozilla on Windows 7 but it won't work out of the box in Chromium so you should use it with font-face (otherwise you would get empty space instead of emoji). For example [Stylebot](https://github.com/kiwi0fruit/open-fonts/blob/master/README.md#stylebot) can set font-face:  
+  ```css
+  @font-face {
+    font-family: 'Twemoji Mozilla';
+    src: url("file:///C:/Windows/Fonts/TwemojiMozilla.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  ```
 * Unicode fallback:
-  * Noto Sans (see below),
+  * [Noto Sans](#open-sans-and-noto-sans) (see below),
   * [DejaVu Sans](https://dejavu-fonts.github.io/) (by Jim Lyles and others), [Preview](https://fontlibrary.org/en/font/dejavu-sans), [Download](https://github.com/dejavu-fonts/dejavu-fonts/releases),  [Backup](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/DejaVu), [Backup2](https://github.com/kiwi0fruit/dejavu-fonts),
   * Final: [Symbola](http://users.teilar.gr/~g1951d/) (by George Douros), [Preview](https://fontlibrary.org/en/font/symbola), [Download latest free version](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/Symbola/hintedSymbola.ttf?raw=true), [Latest but not free version](http://users.teilar.gr/~g1951d/)
 * Arabic fallback: [Noto Sans Arabic](https://www.google.com/get/noto/#sans-arab) (by Google), [Preview](https://www.google.com/get/noto/#sans-arab), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSansArabic-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#sans-arab).
@@ -103,8 +116,9 @@ They are almost the same font. But still not the same font!
 
 Font fallback chain: `'Open Sans', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Bengali', 'Noto Sans Georgian', 'Noto Sans Arabic', 'Noto Sans Hebrew', Catamaran, 'Noto Sans Thai', 'DejaVu Sans', 'STIX Two Math', Symbola, 'Source Han Sans', sans-serif`.
 
-* Noto Sans fallback is the same but without `'Open Sans'`.
+* Noto Sans fallback is the same but without `'Open Sans'`
 * Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
+* Color Emoji: `'Twemoji Mozilla'`
 
 
 ## [Roboto](https://en.wikipedia.org/wiki/Roboto)
@@ -135,6 +149,7 @@ Serif fonts used for main fonts and fallbacks have the following support of the 
   * Cyrillic variants: Source Serif Pro, Vollkorn.
 * CJK variants (Chinese, Japanese, Korean): Source Han Serif.
 * Math: STIX Two Math (XITS Two Math), XITS Math (XITS One Math), Linus Libertinus Math (Libertinus Math), STIX Two Text (XITS Two Text), XITS (XITS One Text), Linus Libertinus (Libertinus Serif), Symbola, Amiri, MathJax version of Computer Modern.
+* Emoji: Symbola (black and white), Twemoji Mozilla (color).
 * Arabic: Noto Naskh Arabic, Amiri.
 * Armenian: Noto Serif Armenian, DejaVu Serif.
 * Bengali: Noto Serif Bengali.
@@ -158,7 +173,10 @@ Font fallback chain: `'STIX Two Text', 'STIX Two Math', 'Noto Serif Armenian', '
 
 * Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
 * Alterantive Arabic style: `Amiri`
+* Color Emoji: `'Twemoji Mozilla'`
 * Note that STIX Two is OTF only font. Hence it would look heavier on Windows than it's original design (that's not necessary a bad thing). But you can use `'XITS Two Text'` and `'XITS Two Math'` that is simply STIX Two converted to TTF. [**Download XITS Two**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSTwo.zip?raw=true) (TTF format).
+
+Archives above also contain [**XITS Two Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSTwo.zip?raw=true) (TTF format) and [**STIX Two Math**](https://github.com/stipub/stixfonts) (OTF format) font families for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
 
 Fallback fonts:
 
@@ -184,8 +202,6 @@ Fallback fonts:
 * Tamil fallback: [Noto Serif Tamil](https://www.google.com/get/noto/#serif-taml) (by Google), [Preview](https://www.google.com/get/noto/#serif-taml), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerifTamil-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#serif-taml).
 * Thai fallback: [Noto Serif Thai](https://www.google.com/get/noto/#serif-thai) (by Google), [Preview](https://www.google.com/get/noto/#serif-thai), [Download](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/NotoSerifThai-hinted.zip?raw=true), [Download original](https://www.google.com/get/noto/#serif-thai).
 
-Archives above also contain [**XITS Two Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSTwo.zip?raw=true) (TTF format) and [**STIX Two Math**](https://github.com/stipub/stixfonts) (OTF format) font families for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
-
 
 ## [Source Serif Pro](https://github.com/adobe-fonts/source-serif-pro)
 
@@ -197,6 +213,7 @@ Font fallback chain: `'Source Serif Pro', 'STIX Two Text', 'STIX Two Math', 'Not
 
 * Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
 * Alterantive Arabic style: `Amiri`
+* Color Emoji: `'Twemoji Mozilla'`
 
 
 ## [Vollkorn](https://fonts.google.com/specimen/Vollkorn?category=Serif)
@@ -209,6 +226,7 @@ Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif Ar
   To select right Hindi fallback weight use `font-weight: 420;`
 * Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
 * Alterantive Arabic style: `Amiri`
+* Color Emoji: `'Twemoji Mozilla'`
 
 
 ## LGC without fallbacks
