@@ -7,6 +7,7 @@ Contents:
 * [Best Sans Serif](#best-sans-serif)
 * [Best Serif](#best-serif)
 * [Best Monospace](#best-monospace)
+* [Math fonts](#math-fonts)
 * [MacType](#mactype)
 * [Stylebot](#stylebot)
 * [Build](#build)
@@ -133,7 +134,7 @@ Serif fonts used for main fonts and fallbacks have the following support of the 
 * LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, ST1X Two Text, Noto Serif, DejaVu Serif, Linus Libertini.
   * Cyrillic variants: Source Serif Pro, Vollkorn.
 * CJK variants (Chinese, Japanese, Korean): Source Han Serif.
-* Math: STIX Two Math (XITS Two Math), XITS Math (XITS One Math), Linus Libertinus Math (Libertinus Math), STIX Two Text (XITS Two Text), XITS (XITS One Text), Linus Libertinus (Libertinus Serif), Symbola, Amiri.
+* Math: STIX Two Math (XITS Two Math), XITS Math (XITS One Math), Linus Libertinus Math (Libertinus Math), STIX Two Text (XITS Two Text), XITS (XITS One Text), Linus Libertinus (Libertinus Serif), Symbola, Amiri, MathJax version of Computer Modern.
 * Arabic: Noto Naskh Arabic, Amiri.
 * Armenian: Noto Serif Armenian, DejaVu Serif.
 * Bengali: Noto Serif Bengali.
@@ -315,8 +316,24 @@ Fallback fonts:
 * [DejaVu Sans Mono, STIX Two Math and Symbola for Consolas](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/fallback_consolas.zip?raw=true).
 
 
-## Other fonts
+## Other monospace fonts
 Font fallback chains contain fonts monospacified via [monospacifier.py](https://github.com/cpitclaudel/monospacifier) ([Backup](https://github.com/kiwi0fruit/monospacifier)). If you don't like Consolas, Roboto Mono,  Source Code Pro or Inconsolata that much you can pick [there](https://github.com/cpitclaudel/monospacifier) monospacified fallbacks for other monospace fonts.
+
+
+# Math fonts
+
+## [MathJax version of Computer Modern](https://www.mathjax.org/#samples)
+
+#### (by Donald Knuth and MathJax), [Preview](https://www.mathjax.org/#samples)
+
+MathJax uses emboldened version of Computer Modern (by Donald Knuth). It looks nice both in browser and in PDF. It can only be used with MathJax. [Latin Modern Math](http://www.gust.org.pl/projects/e-foundry/lm-math) is it's closest alternative for OpenType math but it has original hairline serif design that doesn't look very good in browsers. But I guess it can [be ported to OpenType math](https://github.com/kiwi0fruit/open-fonts/issues/27).
+
+
+## Other Math fonts
+
+* [**STIX Two Math**](#stix-two-text-and-stix-two-math). *My favourite!*
+* [**Linus Libertinus Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/README.md#linus-libertinus-and-linus-libertinus-math),
+* [**XITS Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/README.md#xits-and-xits-math).
 
 
 # [MacType](https://github.com/snowie2000/mactype)
