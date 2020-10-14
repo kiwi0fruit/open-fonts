@@ -7,7 +7,7 @@ Contents:
 * [Best Sans Serif](#best-sans-serif)
 * [Best Serif](#best-serif)
 * [Best Monospace](#best-monospace)
-* [Math fonts](#math-fonts)
+* [Best Math](#best-math)
 * [Other nice fonts](#other-nice-fonts)
 * [MacType](#mactype)
 * [Stylebot](#stylebot)
@@ -131,7 +131,7 @@ Font fallback chain: `Roboto, 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Be
 Urdu alterantive to Arabic: `'Noto Nastaliq Urdu'`
 
 
-## LGC without fallbacks
+## Flawed but good LGC sans fonts
 
 ### [Lato](http://www.latofonts.com)
 
@@ -241,7 +241,7 @@ Font fallback chain: `Vollkorn, 'STIX Two Text', 'STIX Two Math', 'Noto Serif Ar
 * Color Emoji: `'Twemoji Mozilla'`
 
 
-## LGC without fallbacks
+## Flawed but good LGC serif fonts
 
 ### [Linus Libertinus and Linus Libertinus Math](https://github.com/alerque/libertinus)
 
@@ -352,7 +352,7 @@ Fallback fonts:
 Font fallback chains contain fonts monospacified via [monospacifier.py](https://github.com/cpitclaudel/monospacifier) ([Backup](https://github.com/kiwi0fruit/monospacifier)). If you don't like Consolas, Roboto Mono,  Source Code Pro or Inconsolata that much you can pick [there](https://github.com/cpitclaudel/monospacifier) monospacified fallbacks for other monospace fonts.
 
 
-# Math fonts
+# Best Math
 
 ## [MathJax version of Computer Modern](https://www.mathjax.org/#samples)
 
@@ -361,9 +361,15 @@ Font fallback chains contain fonts monospacified via [monospacifier.py](https://
 MathJax uses emboldened version of Computer Modern (by Donald Knuth). It looks nice both in browser and in PDF. It can only be used with MathJax. [Latin Modern Math](http://www.gust.org.pl/projects/e-foundry/lm-math) is it's closest alternative for OpenType math but it has original hairline serif design that doesn't look very good in browsers. But I guess it can [be ported to OpenType math](https://github.com/kiwi0fruit/open-fonts/issues/27).
 
 
-## Other Math fonts
 
-* [**STIX Two Math**](#stix-two-text-and-stix-two-math). *My favourite!*
+
+## [**STIX Two Math**](#stix-two-text-and-stix-two-math).
+
+*My favourite!*
+
+
+## Flawed but good Math fonts
+
 * [**Linus Libertinus Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/README.md#linus-libertinus-and-linus-libertinus-math),
 * [**XITS Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/README.md#xits-and-xits-math).
 
