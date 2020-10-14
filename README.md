@@ -363,12 +363,12 @@ MathJax uses emboldened version of Computer Modern (by Donald Knuth). It looks n
 
 
 
-## [**STIX Two Math**](#stix-two-text-and-stix-two-math).
+## [**STIX Two Math**](#stix-two-text-and-stix-two-math)
 
-*My favourite!*
+*My favourite!* Follow [the link](#stix-two-text-and-stix-two-math) to the section above.
 
 
-## Flawed but good Math fonts
+## Flawed but good math fonts
 
 * [**Linus Libertinus Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/README.md#linus-libertinus-and-linus-libertinus-math),
 * [**XITS Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/README.md#xits-and-xits-math).
