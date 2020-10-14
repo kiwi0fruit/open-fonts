@@ -146,7 +146,7 @@ First of all OTF and TTF versions of **every** font have different display weigh
 
 Serif fonts used for main fonts and fallbacks have the following support of the top writing systems of the internet:
 
-* LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, ST1X Two Text, Noto Serif, DejaVu Serif, Linus Libertini.
+* LGC (Latin, Greek, Cyrillic): **STIX Two Text, Source Serif Pro, Vollkorn**, XITS Two Text, Noto Serif, DejaVu Serif, Linus Libertinus, Libertinus Serif, XITS, XITS One Text.
   * Cyrillic variants: Source Serif Pro, Vollkorn.
 * CJK variants (Chinese, Japanese, Korean): Source Han Serif.
 * Math: STIX Two Math (XITS Two Math), XITS Math (XITS One Math), Linus Libertinus Math (Libertinus Math), STIX Two Text (XITS Two Text), XITS (XITS One Text), Linus Libertinus (Libertinus Serif), Symbola, Amiri, MathJax version of Computer Modern.
@@ -275,7 +275,7 @@ First of all OTF and TTF versions of **every** font have different display weigh
 
 Monospace fonts used for main fonts and fallbacks have the following support of the top writing systems of the internet:
 
-* LGC (Latin, Greek, Cyrillic): Robotization Mono, Inconsolata Sugar, Sourcing Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
+* LGC (Latin, Greek, Cyrillic): Robotization Mono, Inconsolata Sugar, Source Code Pro, Sourcing Code Pro, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono, Cousine.
 * CJK variants (Chinese, Japanese, Korean): Source Han Sans (Not monospace but of width 1.5. E.g. 2 Source Han Sans == 3 Robotization Mono)
 * Math: ST1X Two Math For Robot0 Mono, Symbola For Robot0 Mono, Noto Sans Mono, IBM Plex Mono, DejaVu Sans Mono.
   * Consolas: DejaVu Sans Mono For Conso1as, ST1X Two Math For Conso1as, Symbola For Conso1as
@@ -315,7 +315,7 @@ Fallback fonts:
 
 #### (designed by Raph Levien and others), [Preview old ver.](https://fontlibrary.org/en/font/inconsolata-lgc), [Preview old ver. 2](https://fonts.google.com/specimen/Inconsolata), [Download Inconsolata Sugar](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true), [Backup](https://github.com/kiwi0fruit/Inconsolata-LGC)
 
-Inconsolata lacks italics, Cyrillic and Greek. Inconsolata LGC lacks some whitespace characters, has off-style backtick, italic Latin a and Cyrillic д are controversial design decisions. For SugarTeX it's recommended to use [**Inconsolata Sugar**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true) fork that is simply a renamed Inconsolata LGC with these issues fixed (backtick was simply removed so one from fallback would be used).
+Inconsolata lacks italics, Cyrillic and Greek. Inconsolata LGC lacks some whitespace characters, has off-style backtick, italic Latin a and Cyrillic д are controversial design decisions. For SugarTeX it's recommended to use [**Inconsolata Sugar**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/InconsolataSugar.zip?raw=true) fork that is simply a renamed Inconsolata LGC with these issues fixed.
 
 Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono', 'IBM Plex Mono', 'Kawkab Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans', monospace`.
 
@@ -324,7 +324,7 @@ Font fallback chain: `'Inconsolata Sugar', 'Robotization Mono', 'Noto Sans Mono'
 
 #### (by Paul D. Hunt and Teo Tuominen), [Preview](https://fonts.google.com/specimen/Source+Code+Pro), [Download Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro), [Download Sourcing Code Pro](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true), [Backup](https://github.com/kiwi0fruit/source-code-pro)
 
-Source Code Pro lacks some whitespace characters and has broken division slash. For SugarTeX it's recommended to use [**Sourcing Code Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true) fork that is simply a renamed Source Code Pro with these issues fixed (slash was simply removed). For other purposes [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) should be OK.
+Source Code Pro lacks some whitespace characters and has broken division slash. For SugarTeX it's recommended to use [**Sourcing Code Pro**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/SourcingCodePro.zip?raw=true) fork that is simply a renamed Source Code Pro with these issues fixed (slash was simply removed). For other purposes original [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) should be OK.
 
 SugarTeX Font fallback chain: `'Sourcing Code Pro', 'Noto Sans Mono', 'IBM Plex Mono', 'Kawkab Mono', 'DejaVu Sans Mono', Cousine, 'ST1X Two Math For Robot0 Mono', 'Symbola For Robot0 Mono', 'Source Han Sans', monospace`.
 
