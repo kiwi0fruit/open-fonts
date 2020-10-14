@@ -261,6 +261,8 @@ Archives above also contain [**Linus Libertinus Math**](https://github.com/kiwi0
 
 Font fallback chain: `'XITS', 'XITS Math', serif`.
 
+I find that XITS **Greek leters are of suboptimal quality** but XITS and XITS Math are the closest alternative to Times New Roman that I know of.
+
 Note that XITS is OTF only font. Hence it would look heavier on Windows than it's original design (that's not necessary a bad thing). But you can use `'XITS One Text'` and `'XITS One Math'` that is simply XITS converted to TTF. [**Download XITS One**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSOne.zip?raw=true) (TTF format).
 
 Archives above also contain [**XITS One Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/Fonts/XITSOne.zip?raw=true) (TTF format) and [**XITS Math**](https://github.com/stipub/stixfonts) (OTF format) font families for OpenType math-capable applications like LuaTeX, XeTeX or MS Word 2007+.
