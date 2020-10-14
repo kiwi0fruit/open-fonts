@@ -24,6 +24,9 @@ Useful [stackoverflow answer](https://stackoverflow.com/questions/14557944/downs
 
 ## Test Serif
 
+Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ ψ ω  
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+
 Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver. Looking down into the dark gulf below, I could see a ruddy light streaming through a rift in the clouds.
 
 (EN) The quick brown fox jumps over the lazy dog. (NL) Op brute wijze ving de schooljuf de quasi-kalme lynx. (CS) Nechť již hříšné saxofony ďáblů rozezvučí síň úděsnými tóny waltzu, tanga a quickstepu. (HU) Jó foxim és don Quijote húszwattos lámpánál ülve egy pár bűvös cipőt készít. (RO) Înjurând pițigăiat, zoofobul comandă vexat whisky și tequila. (RU) Разъяренный чтец эгоистично бьёт пятью жердями шустрого фехтовальщика. (BG) Огньове изгаряха с блуждаещи пламъци любовта човешка на Орфей. (SR) Фијуче ветар у шибљу, леди пасаже и куће иза њих и гунђа у оџацима. (EL) Ταχίστηn your αλώπηξ βαφής ψημuένvη γη, δραaσκελίζει υπέρp νωθρού κkυνός. Type your own text to test the font!
