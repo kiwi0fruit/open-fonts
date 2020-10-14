@@ -8,6 +8,7 @@ Contents:
 * [Best Serif](#best-serif)
 * [Best Monospace](#best-monospace)
 * [Math fonts](#math-fonts)
+* [Other nice fonts](#other-nice-fonts)
 * [MacType](#mactype)
 * [Stylebot](#stylebot)
 * [Build](#build)
@@ -365,6 +366,11 @@ MathJax uses emboldened version of Computer Modern (by Donald Knuth). It looks n
 * [**STIX Two Math**](#stix-two-text-and-stix-two-math). *My favourite!*
 * [**Linus Libertinus Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/README.md#linus-libertinus-and-linus-libertinus-math),
 * [**XITS Math**](https://github.com/kiwi0fruit/open-fonts/blob/master/README.md#xits-and-xits-math).
+
+
+# Other nice fonts
+
+See [**this list**](https://github.com/kiwi0fruit/open-fonts/issues/27).
 
 
 # [MacType](https://github.com/snowie2000/mactype)
